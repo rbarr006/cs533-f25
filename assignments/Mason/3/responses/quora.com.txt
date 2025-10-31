@@ -1,0 +1,42 @@
+HTTP/1.1 308 Permanent Redirect
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 21 Oct 2025 21:58:50 GMT
+Location: https://quora.com/
+Server: nginx
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Q-Stat: ,000596d3339950ef2fb299519b7e5739,10.0.0.188,45422,73.99.232.146,,211939600312,1,1761083930.217,0.000,,.,0,0,,,,,,,124,62,10,34729,,,,,,-,
+Connection: keep-alive
+
+HTTP/1.1 308 Permanent Redirect
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 21 Oct 2025 21:58:50 GMT
+Location: https://www.quora.com/
+Server: nginx
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Q-Stat: ,46e4f99037bb44f0af825cbc045cdf62,10.0.0.188,50884,73.99.232.146,,606252763844,1,1761083930.395,0.000,,.,0,0,,,,,,,289,144,10,35796,,,,,,-,
+Connection: keep-alive
+
+HTTP/2 403 
+date: Tue, 21 Oct 2025 21:58:50 GMT
+content-type: text/html; charset=UTF-8
+content-length: 6936
+accept-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+cf-mitigated: challenge
+critical-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+cross-origin-embedder-policy: require-corp
+cross-origin-opener-policy: same-origin
+cross-origin-resource-policy: same-origin
+origin-agent-cluster: ?1
+permissions-policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+referrer-policy: same-origin
+server-timing: chlray;desc="992404c5cf2553c6"
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+server: cloudflare
+cf-ray: 992404c5cf2553c6-ATL
+alt-svc: h3=":443"; ma=86400
+

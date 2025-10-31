@@ -1,0 +1,60 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://theconversation.com/
+Accept-Ranges: bytes
+Date: Tue, 21 Oct 2025 21:59:41 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pdk-kfty8610029-PDK
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1761083981.481352,VS0,VE0
+Cross-Origin-Opener-Policy: same-origin
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+HTTP/2 302 
+server: nginx
+content-type: text/html; charset=utf-8
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-xss-protection: 1; mode=block
+cache-control: max-age=0, private, must-revalidate
+x-refspec: a61bcc4eec6d46a1ecdb0e618728363a3a094cc1
+location: https://theconversation.com/us
+server-timing: queue=0.003; "Queue Time", view=0.000; "View Time", db=0.001; "Database Time", total=0.003; "Total Response Time"
+x-request-id: b2bc5408-a4f0-497e-b09b-34502476f45e
+x-runtime: 0.005824
+via: 1.1 google, 1.1 varnish
+accept-ranges: bytes
+date: Tue, 21 Oct 2025 21:59:41 GMT
+x-served-by: cache-pdk-kfty8610077-PDK
+x-cache: MISS
+x-cache-hits: 0
+vary: Accept-Encoding
+cross-origin-opener-policy: same-origin
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-length: 0
+
+HTTP/2 200 
+server: nginx
+content-type: text/html; charset=utf-8
+x-frame-options: SAMEORIGIN
+cache-control: no-store
+etag: "183lny5m9bbknxn"
+via: 1.1 google, 1.1 varnish
+accept-ranges: bytes
+age: 10933
+date: Tue, 21 Oct 2025 21:59:41 GMT
+x-served-by: cache-pdk-kfty8610077-PDK
+x-cache: HIT
+x-cache-hits: 0
+vary: Accept-Encoding
+cross-origin-opener-policy: same-origin
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-length: 964403
+

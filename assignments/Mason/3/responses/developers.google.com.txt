@@ -1,0 +1,25 @@
+HTTP/1.1 301 Moved Permanently
+location: https://developers.google.com/
+x-cloud-trace-context: c3a729af3a32a3e9734c59dae4c6b979
+date: Tue, 21 Oct 2025 21:58:27 GMT
+content-type: text/html
+server: Google Frontend
+Transfer-Encoding: chunked
+
+HTTP/2 200 
+last-modified: Fri, 17 Oct 2025 20:54:55 GMT
+content-type: text/html; charset=utf-8
+vary: Cookie
+content-security-policy: base-uri 'self'; object-src 'none'; script-src 'strict-dynamic' 'unsafe-inline' https: http: 'nonce-t5UhaMhj4SY4PhE7C4fBsaBw+4MLRB' 'unsafe-eval'; frame-ancestors 'self' https://codeassist.google.com https://code-assist-free-tier.corp.google.com; report-uri https://csp.withgoogle.com/csp/devsite/v2
+strict-transport-security: max-age=63072000; includeSubdomains; preload
+x-xss-protection: 0
+x-content-type-options: nosniff
+cache-control: no-cache, must-revalidate
+expires: 0
+pragma: no-cache
+x-cloud-trace-context: a032632e71e57b34b6e3c23c0a2442df
+content-length: 184726
+date: Tue, 21 Oct 2025 21:58:27 GMT
+server: Google Frontend
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

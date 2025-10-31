@@ -1,0 +1,40 @@
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Tue, 21 Oct 2025 21:59:39 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Location: https://nicovideo.jp/
+X-Cache: Redirect from cloudfront
+Via: 1.1 4cde0553fc0884edc4253387bab1fc6c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: JFK52-P9
+X-Amz-Cf-Id: a7dEzP-PffE3p-pygNAlQjWsDCf__mL_603FrNWIyG_TMvJAX1ujKA==
+
+HTTP/2 301 
+content-type: text/html; charset=iso-8859-1
+location: https://www.nicovideo.jp/
+date: Tue, 21 Oct 2025 21:59:39 GMT
+server: Apache
+x-cache: Miss from cloudfront
+via: 1.1 8e18b19926181877065f139a46f95f7e.cloudfront.net (CloudFront)
+x-amz-cf-pop: JFK52-P9
+x-amz-cf-id: dUfTg20-X3P4rxCH7A5JpwbXccRaf1L1qOK2fp8sbwi1uk4hoTpAKA==
+
+HTTP/2 200 
+content-type: text/html; charset=UTF-8
+date: Tue, 21 Oct 2025 21:59:41 GMT
+content-language: ja
+server: Apache
+x-niconico-authflag: 0
+set-cookie: nicosid=1761083981.71290423; expires=Fri, 19 Oct 2035 21:59:41 GMT; Max-Age=315360000; path=/; domain=.nicovideo.jp
+x-niconico-sid: 1761083981.71290423
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-security-policy: frame-ancestors 'none'
+x-frame-options: SAMEORIGIN
+access-control-allow-credentials: true
+x-cache: Miss from cloudfront
+via: 1.1 8e18b19926181877065f139a46f95f7e.cloudfront.net (CloudFront)
+x-amz-cf-pop: JFK52-P9
+x-amz-cf-id: -mzb40p-nQrmP2geKpVv6XqwBPezC_WgaUyb8nF2mU-uWo4JMjbkGw==
+

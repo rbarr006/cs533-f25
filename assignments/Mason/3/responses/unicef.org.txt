@@ -1,0 +1,29 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Fri, 17 Oct 2025 07:46:51 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 231
+X-Content-Type-Options: nosniff
+Location: https://www.unicef.org/
+Cache-Control: max-age=1209600
+Expires: Fri, 31 Oct 2025 07:46:51 GMT
+X-Request-ID: v-71434dec-ab2d-11f0-abfb-476b802d41de
+Age: 396700
+Via: varnish
+X-Cache: HIT
+X-Cache-Hits: 8994
+Connection: keep-alive
+
+HTTP/2 403 
+date: Tue, 21 Oct 2025 21:58:31 GMT
+content-type: text/html; charset=UTF-8
+x-frame-options: SAMEORIGIN
+referrer-policy: same-origin
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-content-type-options: nosniff
+server: cloudflare
+cf-ray: 99240450dee0b001-ATL
+alt-svc: h3=":443"; ma=86400
+

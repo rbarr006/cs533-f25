@@ -1,0 +1,21 @@
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 21 Oct 2025 21:59:11 GMT
+Content-Length: 0
+Connection: keep-alive
+location: https://www.reverbnation.com/
+
+HTTP/2 200 
+date: Tue, 21 Oct 2025 21:59:11 GMT
+content-type: text/html; charset=utf-8
+server: Apache
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-digits-of-pi: 
+etag: W/"c12495571aa502a244906c79df699365"
+cache-control: max-age=0, private, must-revalidate
+x-request-id: 53edf0a0-88d4-48b2-b988-05a0d3da1e89
+x-runtime: 0.078825
+set-cookie: _reverbnation_session=c86eeb790a30a33a80583f74a4759dca; domain=.reverbnation.com; path=/; expires=Wed, 22 Oct 2025 09:59:11 GMT; secure; HttpOnly; SameSite=None
+x-ua-compatible: IE=Edge,chrome=1
+p3p: CP="DSP ALL COR OUR SAMi UNRi CUR ADM TAI IVA IVD CONo BUS DEM UNI STA LOC NAV COM INT", policyref="/w3c/p3p.xml"
+

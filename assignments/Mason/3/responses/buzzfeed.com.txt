@@ -1,0 +1,45 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://www.buzzfeed.com/
+Accept-Ranges: bytes
+Date: Tue, 21 Oct 2025 21:58:15 GMT
+Via: 1.1 varnish
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: bf-geo-country=US; expires=Wed, 22 Oct 2025 21:58:15 GMT; path=/; domain=.buzzfeed.com;
+Set-Cookie: ccpa=true; expires=Tue, 04 Nov 2025 21:58:15 GMT; path=/; domain=buzzfeed.com;
+Timing-Allow-Origin: *
+X-Served-By: cache-pdk-katl1840060-PDK
+X-Cache: HIT
+X-Cache-Hits: 0
+
+HTTP/2 200 
+expires: 0
+cache-control: no-cache, no-store, must-revalidate
+set-cookie: next-i18next=en; path=/; expires=Wed, 21 Oct 2026 21:57:57 GMT
+content-language: en
+content-type: text/html; charset=utf-8
+etag: "1fc245-mrQ07nwJyjvy4QL/UHiE1Vfz0OY"
+server: nginx
+document-policy: js-profiling
+x-request-id: 76ed62f12b6bf631e00b0a93827d187e
+pragma: no-cache
+accept-ranges: bytes
+date: Tue, 21 Oct 2025 21:58:15 GMT
+via: 1.1 varnish
+age: 18
+x-frame-options: SAMEORIGIN
+set-cookie: dsl25_frhf=control;expires=Tue, 18 Nov 2025 21:58:15 GMT;
+set-cookie: bf-geo-country=US; expires=Wed, 22 Oct 2025 21:58:15 GMT; path=/; domain=.buzzfeed.com;
+set-cookie: ccpa=true; expires=Tue, 04 Nov 2025 21:58:15 GMT; path=/; domain=www.buzzfeed.com;
+content-security-policy: upgrade-insecure-requests
+strict-transport-security: max-age=31536000; preload
+timing-allow-origin: *
+x-served-by: cache-iad-kcgs7200150-IAD, cache-iad-kiad7000027-IAD
+x-cache: MISS, HIT
+x-cache-hits: 0, 1
+vary: X-BF-User-Edition, Accept-Encoding, X-BF-Canary, X-BF-Canary-Site-Router, X-BF-Canary-Perimeter, X-BF-Canary-Feed-UI, X-BFMem-Type
+content-length: 2081349
+

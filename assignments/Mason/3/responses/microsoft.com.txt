@@ -1,0 +1,28 @@
+HTTP/1.1 307 Temporary Redirect
+Date: Tue, 21 Oct 2025 21:58:20 GMT
+Content-Type: text/html
+Content-Length: 0
+Connection: keep-alive
+Location: https://microsoft.com/
+x-azure-ref: 20251021T215820Z-r1947df646bmbw5chC1ATL1e1n0000000u1g00000000nt0m
+X-Cache: CONFIG_NOCACHE
+
+HTTP/2 301 
+date: Tue, 21 Oct 2025 21:58:21 GMT
+content-type: text/html
+content-length: 0
+location: https://www.microsoft.com/
+x-azure-ref: 20251021T215821Z-r1947df646b22j75hC1ATLyw4c0000000mqg0000000073nx
+strict-transport-security: max-age=31536000
+x-cache: CONFIG_NOCACHE
+
+HTTP/2 200 
+server: AkamaiGHost
+mime-version: 1.0
+content-type: text/html
+content-length: 421
+expires: Tue, 21 Oct 2025 21:58:21 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Tue, 21 Oct 2025 21:58:21 GMT
+

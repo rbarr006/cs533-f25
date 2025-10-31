@@ -1,0 +1,37 @@
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://foxnews.com/
+Date: Tue, 21 Oct 2025 21:59:21 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.foxnews.com/
+Date: Tue, 21 Oct 2025 21:59:21 GMT
+Connection: keep-alive
+Strict-Transport-Security: max-age=86400 ; preload
+
+HTTP/2 200 
+etag: "93344f6176d98c1218c09b5ecd93a2b7"
+last-modified: Tue, 21 Oct 2025 21:59:05 GMT
+content-type: text/html; charset=UTF-8
+x-amz-server-side-encryption: AES256
+x-debug-backend: prod_fn_hp_foxnews
+x-debug-url: /index.html
+accept-ch: Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness
+permissions-policy: ch-ua-model=*,ch-ua-platform-version=*,ch-ua=*,ch-ua-mobile=*,ch-ua-platform=*,ch-ua-full-version-list=*,ch-ua-arch=*,ch-ua-bitness=*,ch-ua-model=*
+x-served-by: cache-iad-kiad7000104-IAD, cache-iad-kjyo7100120-IAD
+x-cache-hits: 0, 1
+x-timer: S1761083956.297547,VS0,VE4
+cache-control: public, max-age=73
+date: Tue, 21 Oct 2025 21:59:21 GMT
+access-control-allow-credentials: false
+access-control-max-age: 86400
+access-control-allow-headers: *
+access-control-allow-methods: GET,HEAD,OPTIONS
+access-control-allow-origin: *
+strict-transport-security: max-age=7884000 ; preload
+akamai-grn: 0.17deda17.1761083961.64f8d811
+

@@ -1,0 +1,13 @@
+HTTP/1.1 403 Forbidden
+Date: Tue, 21 Oct 2025 21:58:14 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+X-Frame-Options: SAMEORIGIN
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=W4OzoDTacLShPKu4WBHF0HHpN4n1wj9IUOaTtK3RYqAtGmfRQ4mb6ClN7IzaUtC3aiuYAqmEr%2BxWgxcsmmAYr4l%2Fk4SCNErTANHhyQ%3D%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: 992403e66b3564e3-ATL
+

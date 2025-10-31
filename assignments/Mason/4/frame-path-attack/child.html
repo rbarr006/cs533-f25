@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <head><meta charset="utf-8"><title>Child (iframes)</title></head>
+  <body>
+    <h3>Child page — sets cookie with Path=/</h3>
+    <div id="childcookie"></div>
+    <script>
+      // set cookie with path=/ so parent can read it
+      document.cookie = "secret_token=abc123; path=/; max-age=600";
+      document.getElementById('childcookie').textContent =
+        'Cookie set: ' + document.cookie + '; Path=/';
+    </script>
+  </body>
+</html>
+
+

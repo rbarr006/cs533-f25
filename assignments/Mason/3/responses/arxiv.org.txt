@@ -1,0 +1,28 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://arxiv.org/
+Accept-Ranges: bytes
+Date: Tue, 21 Oct 2025 21:59:13 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pdk-katl1840065-PDK
+X-Cache: HIT
+X-Timer: S1761083953.197946,VS0,VE0
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+content-security-policy: frame-ancestors 'none'
+x-frame-options: SAMEORIGIN
+x-cloud-trace-context: cbb6c9c63cb04ee1e76d367c02505307
+server: Google Frontend
+via: 1.1 google, 1.1 varnish, 1.1 varnish
+accept-ranges: bytes
+date: Tue, 21 Oct 2025 21:59:13 GMT
+age: 97
+x-served-by: cache-lga21980-LGA, cache-pdk-katl1840082-PDK
+x-cache: HIT, HIT
+x-timer: S1761083953.288078,VS0,VE2
+content-length: 46532
+

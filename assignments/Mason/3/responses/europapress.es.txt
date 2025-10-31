@@ -1,0 +1,27 @@
+HTTP/1.1 302 Found
+Date: Tue, 21 Oct 2025 21:58:42 GMT
+Server: Varnish
+X-Varnish: 21208265
+TP-Cache: hit
+client-id: 103
+reason: TCDN-RPE-752:21208265
+Location: https://www.europapress.es/
+Content-Length: 0
+Connection: keep-alive
+
+HTTP/2 200 
+date: Tue, 21 Oct 2025 21:58:42 GMT
+content-type: text/html; charset=utf-8
+content-language: es
+last-modified: Tue, 21 Oct 2025 21:58:42 GMT
+x-backend-server: swushosting15
+request-context: appId=cid-v1:c6dd25c4-8cab-457e-97ea-4f13ecc13849
+access-control-expose-headers: Request-Context
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+age: 0
+surrogate-keys: 
+cache-control: public, max-age=60, s-maxage=60, stale-while-revalidate=60, stale-if-error=7200
+tp-cache: miss
+vary: Accept-Encoding,X-Device
+accept-ranges: bytes
+

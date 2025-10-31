@@ -1,0 +1,180 @@
+https://creativecommons.org
+https://buzzfeed.com
+https://google.fr
+https://doubleclick.net
+https://hubspot.com
+https://line.me
+https://softonic.com
+https://google.co.uk
+https://bbc.com
+https://microsoft.com
+https://office.com
+https://ru.wikipedia.org
+https://cnet.com
+https://scmp.com
+https://ovh.com
+https://developers.google.com
+https://webnode.page
+https://freepik.com
+https://unicef.org
+https://afternic.com
+https://www.wix.com
+https://id.wikipedia.org
+https://tvtropes.org
+https://nature.com
+https://springer.com
+https://techradar.com
+https://4shared.com
+https://brandbucket.com
+https://europapress.es
+https://amzn.to
+https://linkedin.com
+https://spotify.com
+https://amazonaws.com
+https://sciencedaily.com
+https://www.blogger.com
+https://gizmodo.com
+https://rapidshare.com
+https://dan.com
+https://walmart.com
+https://quora.com
+https://archives.gov
+https://stores.jp
+https://google.pl
+https://fifa.com
+https://latimes.com
+https://news.com.au
+https://wiley.com
+https://admin.ch
+https://mystrikingly.com
+https://nydailynews.com
+https://express.co.uk
+https://foursquare.com
+https://intel.com
+https://ea.com
+https://harvard.edu
+https://theatlantic.com
+https://unesco.org
+https://reverbnation.com
+https://googleblog.com
+https://sciencedirect.com
+https://arxiv.org
+https://google.ru
+https://pbs.org
+https://thesun.co.uk
+https://googleusercontent.com
+https://outlook.com
+https://hindustantimes.com
+https://addtoany.com
+https://vk.com
+https://twitch.tv
+https://foxnews.com
+https://tools.google.com
+https://target.com
+https://fr.wikipedia.org
+https://istockphoto.com
+https://amazon.es
+https://wa.me
+https://dropcatch.com
+https://forms.gle
+https://google.co.th
+https://vice.com
+https://thenai.org
+https://francetvinfo.fr
+https://fandom.com
+https://gstatic.com
+https://clarin.com
+https://myaccount.google.com
+https://reddit.com
+https://ft.com
+https://policies.google.com
+https://photos1.blogger.com
+https://wikihow.com
+https://guardian.co.uk
+https://kakao.com
+https://howstuffworks.com
+https://nicovideo.jp
+https://theconversation.com
+https://britannica.com
+https://zoom.us
+https://bloglovin.com
+// scan-headers.js
+// Usage: node scan-headers.js urls.txt > framability_results.csv
+// Node built-in modules only. Follows simple redirects and falls back to GET if HEAD fails.
+
+const fs = require('fs');
+const http = require('http');
+const https = require('https');
+const urlModule = require('url');
+
+const inputFile = process.argv[2] || 'urls.txt';
+const raw = fs.readFileSync(inputFile, 'utf8')
+  .split(/\r?\n/)
+  .map(s => s.trim())
+  .filter(Boolean);
+
+const TIMEOUT = 15000; // ms
+const MAX_REDIRECTS = 6;
+
+function requestHeaders(targetUrl, method = 'HEAD', redirects = 0) {
+  return new Promise((resolve) => {
+    try {
+      const u = urlModule.parse(targetUrl);
+      const lib = u.protocol === 'https:' ? https : http;
+      const opts = {
+        hostname: u.hostname,
+        port: u.port,
+        path: u.path + (u.search || ''),
+        method,
+        headers: { 'User-Agent': 'frametest/1.0' },
+        timeout: TIMEOUT
+      };
+
+      const req = lib.request(opts, (res) => {
+        // follow simple redirects
+        if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location && redirects < MAX_REDIRECTS) {
+          const next = urlModule.resolve(targetUrl, res.headers.location);
+          // close socket and follow
+          res.resume();
+          resolve(requestHeaders(next, method, redirects + 1));
+          return;
+        }
+        const headers = res.headers || {};
+        res.resume();
+        resolve({ headers, status: res.statusCode });
+      });
+
+      req.on('timeout', () => { req.destroy(); resolve({ headers: {}, status: 0, err: 'timeout' }); });
+      req.on('error', () => resolve({ headers: {}, status: 0, err: 'error' }));
+      req.end();
+    } catch (e) {
+      resolve({ headers: {}, status: 0, err: 'exception' });
+    }
+  });
+}
+
+(async () => {
+  // CSV header
+  console.log('url,X-Frame-Options,Content-Security-Policy,verdict,note');
+
+  for (const url of raw) {
+    // Try HEAD first
+    let r = await requestHeaders(url, 'HEAD');
+
+    // Some sites block HEAD — fallback to GET
+    if ((!r.headers || Object.keys(r.headers).length === 0) && (!r.status || r.status === 0)) {
+      r = await requestHeaders(url, 'GET');
+    }
+
+    const headers = r.headers || {};
+    const xfo = headers['x-frame-options'] || '';
+    const csp = headers['content-security-policy'] || headers['content-security-policy-report-only'] || '';
+    // simple detection for frame-ancestors
+    const frameAncestors = /frame-ancestors/i.test(csp);
+    const verdict = (xfo || frameAncestors) ? 'NOT-FRAMABLE' : 'POSSIBLY-FRAMABLE';
+    const note = r.err ? r.err : (r.status ? `status:${r.status}` : '');
+    const safe = s => (`${s||''}`).replace(/"/g,'""');
+    console.log(`"${url}","${safe(xfo)}","${safe(csp)}","${verdict}","${safe(note)}"`);
+  }
+})();
+

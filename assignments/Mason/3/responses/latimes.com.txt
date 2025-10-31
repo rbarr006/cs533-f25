@@ -1,0 +1,26 @@
+HTTP/1.1 301 Moved Permanently
+Server: awselb/2.0
+Date: Tue, 21 Oct 2025 21:58:57 GMT
+Content-Type: text/html
+Content-Length: 134
+Connection: keep-alive
+Location: https://www.latimes.com:443/
+
+HTTP/2 200 
+content-type: text/html;charset=UTF-8
+cache-control: max-age=60, stale-if-error=86400, stale-while-revalidate=15
+content-security-policy: upgrade-insecure-requests
+date: Tue, 21 Oct 2025 21:58:08 GMT
+permissions-policy: unload=()
+server: N/A
+strict-transport-security: max-age=63072000
+x-frame-options: DENY
+x-powered-by: Brightspot
+vary: Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 86a640712a72b4264f1681744fa48612.cloudfront.net (CloudFront)
+x-amz-cf-pop: JFK50-P6
+alt-svc: h3=":443"; ma=86400
+x-amz-cf-id: knmsYicMTGnRLCWMmys_bZzlwGdFgWNjaCHi2BkwOqe2Gzs5iMOnVQ==
+age: 48
+

@@ -1,0 +1,41 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Tue, 21 Oct 2025 21:58:44 GMT
+Content-Type: text/html; charset=utf-8
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+location: http://www.amazon.com/
+pragma: no-cache
+strict-transport-security: max-age=1209600
+x-frame-options: DENY
+Via: 1.1 google, 1.1 google
+Transfer-Encoding: chunked
+
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Tue, 21 Oct 2025 21:58:44 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Location: https://www.amazon.com/
+X-Cache: Redirect from cloudfront
+Via: 1.1 d4b337800b3ac25893c356b9d1f760fa.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: JFK50-P16
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: mBC1ToZHfCh7V7fGExo-_k0kcsIxq0LZf5OnktiY4UNvGJN3BjEa-A==
+
+HTTP/2 503 
+content-type: text/html
+server: Server
+date: Tue, 21 Oct 2025 21:58:44 GMT
+x-amz-rid: 3R4PRF824EW0QF76NYZE
+vary: Content-Type,Accept-Encoding,User-Agent
+last-modified: Fri, 10 Oct 2025 20:27:27 GMT
+etag: "a6f-640d3bf0029c0"
+accept-ranges: bytes
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+x-cache: Error from cloudfront
+via: 1.1 67df7e3c7393ee88f5e3d63dafe38904.cloudfront.net (CloudFront)
+x-amz-cf-pop: JFK50-P16
+alt-svc: h3=":443"; ma=86400
+x-amz-cf-id: jt_byRyRcgr0Ix1INeAgyqjSdoH8P_bAsY2e-DQT8FbJwaA0Z5ctnw==
+

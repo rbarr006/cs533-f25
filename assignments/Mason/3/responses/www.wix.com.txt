@@ -1,0 +1,51 @@
+HTTP/1.1 301 Moved Permanently
+location: https://www.wix.com/
+x-meta-site-is-wix-site: 1
+age: 28706
+x-wix-request-id: 1761083912.71725519208793205088
+set-cookie: _wixAB3=4629498#1; Max-Age=15724800; Expires=Tue, 21 Apr 2026 21:58:32 GMT; Path=/; Domain=.wix.com
+set-cookie: _wixRIDX=ad7e6dc9-b10b-4068-8a21-39553e9b5160; Max-Age=10; Expires=Tue, 21 Oct 2025 21:58:42 GMT; Path=/; Domain=.wix.com
+cache-control: public,max-age=0,must-revalidate
+strict-transport-security: max-age=31536000
+server: Pepyaka
+x-content-type-options: nosniff
+accept-ranges: bytes
+date: Tue, 21 Oct 2025 21:58:32 GMT
+x-served-by: cache-pdk-kfty8610048-PDK
+x-cache: MISS
+server-timing: cache;desc=hit, varnish;desc=hit_miss, dc;desc=fastly_virginia-pub_g
+x-seen-by: yvSunuo/8ld62ehjr5B7kA==,pmHZlB45NPy7b1VBAukQrewfbs+7qUVAqsIx00yI78k=,jKB0KR2wTEE1MYSdxvKSbciHE4dbw+wewoJ5nvKoyjE=,m0j2EEknGIVUW/liY8BLLgROdLIALWAtcYsY7IO6UCAtFZnRrnvyqOEKpetNb+u3,2d58ifebGbosy5xc+FRalpz1GpPcfqp5F+NDn5x13N6LaTXA2QrYvVw5K5jNvoVp1lN3VNHyrxVB2jK2MhbxrViB5QmpRe2J37zq9nDD6cs=,2UNV7KOq4oGjA5+PKsX47M7S1LBvjFf6plYtj52u9Owxwy5Yb789UDkEfaJNWrtQ
+Content-Length: 0
+via: 1.1 google
+glb-x-seen-by: bS8wRlGzu0Hc+WrYuHB8QIg44yfcdCMJRkBoQ1h6Vjc=
+
+HTTP/2 200 
+content-type: text/html; charset=UTF-8
+link: <https://static.parastorage.com/>; rel=preconnect; crossorigin;,<https://static.parastorage.com/>; rel=preconnect;,<https://static.wixstatic.com/>; rel=preconnect; crossorigin;,<https://static.wixstatic.com/>; rel=preconnect;,<https://siteassets.parastorage.com>; rel=preconnect; crossorigin;,
+html-cacheable: true
+etag: W/"05bf8e0e506c8fbff050f629cf9e6851"
+x-meta-site-is-wix-site: 1
+content-language: en
+referrer-policy: no-referrer-when-downgrade
+age: 41503
+accept-ranges: bytes
+x-wix-request-id: 1761083912.883254440937115391530
+set-cookie: _wixAB3=4629498#1; Max-Age=15724800; Expires=Tue, 21 Apr 2026 21:58:32 GMT; Path=/; Domain=.wix.com
+set-cookie: ssr-caching=cache#desc=hit#varnish=hit#dc#desc=virginia-pub_g; Max-Age=20; Expires=Tue, 21 Oct 2025 21:58:52 GMT
+set-cookie: XSRF-TOKEN=1761083912|QvewtI_6vhuh; Path=/; Domain=.wix.com; Secure; SameSite=None
+set-cookie: _wixCIDX=8ba51c8e-d4d4-4dc5-bfe7-1113fdc9ffb7; Max-Age=7776000; Expires=Mon, 19 Jan 2026 21:58:32 GMT; Path=/; Domain=.wix.com; Secure; SameSite=None
+set-cookie: _wixUIDX=null-user-id; Max-Age=7776000; Expires=Mon, 19 Jan 2026 21:58:32 GMT; Path=/; Domain=.wix.com; Secure; SameSite=None
+cache-control: public,max-age=0,must-revalidate
+strict-transport-security: max-age=31536000
+server: Pepyaka
+x-content-type-options: nosniff
+date: Tue, 21 Oct 2025 21:58:32 GMT
+x-served-by: cache-pdk-katl1840086-PDK
+x-cache: MISS
+vary: Accept-Encoding
+server-timing: cache;desc=hit, varnish;desc=hit_miss, dc;desc=fastly_virginia-pub_g
+x-seen-by: yvSunuo/8ld62ehjr5B7kA==,AHc3TXLcXOul+t9LIbGg9ciHE4dbw+wewoJ5nvKoyjE=,vmPhUNXuQemvc7fjBI8NWewfbs+7qUVAqsIx00yI78k=,m0j2EEknGIVUW/liY8BLLhxIdroPpJscVmkUpxBIwCMtFZnRrnvyqOEKpetNb+u3,2d58ifebGbosy5xc+FRalvy22fKEItuNDM4SfOrrwZ6x14UnwgwU2lz/azRojAiMCxsvjRqO6NSTHz8AmfssMFiB5QmpRe2J37zq9nDD6cs=,2UNV7KOq4oGjA5+PKsX47E0aocE5jZ+SHqU8+c6ueiQxwy5Yb789UDkEfaJNWrtQ
+via: 1.1 google
+glb-x-seen-by: bS8wRlGzu0Hc+WrYuHB8QIg44yfcdCMJRkBoQ1h6Vjc=
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

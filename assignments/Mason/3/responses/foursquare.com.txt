@@ -1,0 +1,42 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://foursquare.com/
+Accept-Ranges: bytes
+Date: Tue, 21 Oct 2025 21:59:08 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pdk-katl1840086-PDK
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1761083948.032074,VS0,VE0
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+
+HTTP/2 200 
+server: nginx
+content-type: text/html; charset=UTF-8
+x-hacker: If you're reading this, you should visit https://join.a8c.com/viphacker and apply to join the fun, mention this header.
+x-powered-by: WordPress VIP <https://wpvip.com>
+host-header: a9130478a60e5f9135f765b23f26593b
+link: <https://foursquare.com/wp-json/>; rel="https://api.w.org/"
+link: <https://foursquare.com/wp-json/wp/v2/pages/9>; rel="alternate"; title="JSON"; type="application/json"
+link: <https://foursquare.com/>; rel=shortlink
+cache-control: max-age=300, must-revalidate
+accept-ranges: bytes
+x-rq: atl4 0 30 9980
+log-origin: name=F_foursquare_com_landing
+date: Tue, 21 Oct 2025 21:59:08 GMT
+via: 1.1 varnish
+x-served-by: cache-pdk-katl1840058-PDK
+x-cache: STALE, MISS
+x-cache-hits: 0
+vary: Accept-Encoding
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+

@@ -1,0 +1,34 @@
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Tue, 21 Oct 2025 21:59:02 GMT
+Content-Length: 0
+Connection: keep-alive
+Location: https://www.strikingly.com
+X-Cache: FunctionGeneratedResponse from cloudfront
+Via: 1.1 cd691f5232ad8151e816e4693db0dfac.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: JFK52-P1
+X-Amz-Cf-Id: mDB9sQSoXvjhsgWFwiQT6ez0uKPToC43bq8FOJiNFYFnNslnYXlW7g==
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+content-length: 122929
+date: Tue, 21 Oct 2025 03:46:52 GMT
+strict-transport-security: max-age=31536000; includeSubDomains
+status: 200 OK
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+set-cookie: __strk_viewer_country=US
+set-cookie: __strk_cookie_eu_visitor=false; domain=.strikingly.com; path=/
+set-cookie: __strk_viewer_country=US
+set-cookie: XSRF-TOKEN=Sr%2BwmSN84JgyNQE6jcOtdLSzxL8eCEIyg4wXVbpYXnjBCxBnA8kzyDX6ji5n1sWRTyq7kPH7YQXv%2BAEJcNtiIw%3D%3D; path=/
+etag: W/"ea0f728a5e4651a2b47c9316a323d72f"
+cache-control: max-age=0, private, must-revalidate
+x-request-id: 2e4767ab054faf72ea2bc3c9ad1fd538
+x-runtime: 0.689206
+x-cache: Hit from cloudfront
+via: 1.1 d3a2886dcf7e47b1e56baf628c69dc24.cloudfront.net (CloudFront)
+x-amz-cf-pop: JFK50-P2
+x-amz-cf-id: IUKYxg1-xA8-xqkAxlTbt8_AgrNP0653J31ZDcV9rJPcPJeLTdacIQ==
+age: 65531
+

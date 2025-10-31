@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head><meta charset="utf-8"><title>Parent page</title></head>
+  <body>
+    <h2>Parent page — reads child iframe cookie</h2>
+    <iframe id="childframe" src="child.html" width="800" height="300"></iframe>
+    <div id="cookies">Cookies visible to parent: (checking...)</div>
+
+    <script>
+      const frame = document.getElementById('childframe');
+      frame.addEventListener('load', () => {
+        try {
+          // since same-origin, we can read iframe's document.cookie
+          const childCookies = frame.contentWindow.document.cookie;
+          document.getElementById('cookies').innerHTML =
+            '<strong>Cookies visible to parent:</strong><br/>' + (childCookies || '(no cookies visible)');
+        } catch (e) {
+          document.getElementById('cookies').textContent =
+            'Error reading iframe cookies (likely cross-origin): ' + e.message;
+        }
+      });
+    </script>
+  </body>
+</html>
+

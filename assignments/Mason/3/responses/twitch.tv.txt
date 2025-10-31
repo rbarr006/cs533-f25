@@ -1,0 +1,46 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://twitch.tv/
+Accept-Ranges: bytes
+Date: Tue, 21 Oct 2025 21:59:20 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pdk-katl1840083-PDK
+X-Cache: HIT
+X-Cache-Hits: 0
+Strict-Transport-Security: max-age=31557600
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://www.twitch.tv/
+Accept-Ranges: bytes
+Date: Tue, 21 Oct 2025 21:59:20 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pdk-kfty8610054-PDK
+X-Cache: HIT
+X-Cache-Hits: 0
+Strict-Transport-Security: max-age=31557600
+
+HTTP/2 103 
+link: <https://assets.twitch.tv>; rel=preconnect
+link: <https://assets.twitch.tv>; rel=preconnect; crossorigin
+
+HTTP/2 200 
+content-type: text/html
+set-cookie: unique_id=oB4wqvorcXbuVwQLG8PXQXQgsnky0tZV; expires=Sat, 21 Nov 2026 21:59:20 GMT; domain=.twitch.tv; path=/; secure; samesite=none
+set-cookie: unique_id_durable=oB4wqvorcXbuVwQLG8PXQXQgsnky0tZV; expires=Sat, 21 Nov 2026 21:59:20 GMT; domain=.twitch.tv; path=/; secure; samesite=none; httponly
+set-cookie: server_session_id=c3ce25a9aa9143d79ee2902c1493a4a2; domain=.twitch.tv; path=/; secure; samesite=none
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+strict-transport-security: max-age=31536000
+cache-control: private, max-age=0
+date: Tue, 21 Oct 2025 21:59:20 GMT
+set-cookie: twitch.lohp.countryCode=US; domain=.twitch.tv; path=/; expires=Sun, 15 Nov 2026 21:59:20 GMT;
+vary: Accept-Encoding
+

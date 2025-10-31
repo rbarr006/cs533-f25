@@ -1,0 +1,44 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Retry-After: 0
+Debug-Error-Response: Redirect to www.ft.com
+Location: https://ft.com
+Accept-Ranges: bytes
+Date: Tue, 21 Oct 2025 21:59:31 GMT
+X-Content-Type-Options: nosniff
+Content-Security-Policy: upgrade-insecure-requests; frame-ancestors https://*.ft.com https://*.chromatic.com ; report-uri https://csp-report.ft.com/33C06499-DBAB-4FCB-880F-75B0467895F5
+Content-Security-Policy-Report-Only: default-src https://*.ft.com https: ; font-src https://*.ft.com https: data: ; img-src https://*.ft.com https: data: ; media-src https://*.ft.com https: data: ; script-src 'unsafe-inline' 'unsafe-eval' https://*.ft.com https: ; style-src 'unsafe-inline' https://*.ft.com https: ; worker-src blob: ; connect-src https: wss://ft.coral.coralproject.net ; frame-ancestors https://*.ft.com https://*.chromatic.com ; report-uri https://csp-report.ft.com/33C06499-DBAB-4FCB-880F-75B0467895F5
+
+HTTP/2 301 
+retry-after: 0
+debug-error-response: Redirect to www.ft.com
+location: https://www.ft.com
+accept-ranges: bytes
+date: Tue, 21 Oct 2025 21:59:31 GMT
+strict-transport-security: max-age=63072000; preload
+x-content-type-options: nosniff
+content-security-policy: upgrade-insecure-requests; frame-ancestors https://*.ft.com https://*.chromatic.com ; report-uri https://csp-report.ft.com/33C06499-DBAB-4FCB-880F-75B0467895F5
+content-security-policy-report-only: default-src https://*.ft.com https: ; font-src https://*.ft.com https: data: ; img-src https://*.ft.com https: data: ; media-src https://*.ft.com https: data: ; script-src 'unsafe-inline' 'unsafe-eval' https://*.ft.com https: ; style-src 'unsafe-inline' https://*.ft.com https: ; worker-src blob: ; connect-src https: wss://ft.coral.coralproject.net ; frame-ancestors https://*.ft.com https://*.chromatic.com ; report-uri https://csp-report.ft.com/33C06499-DBAB-4FCB-880F-75B0467895F5
+content-length: 0
+
+HTTP/2 200 
+allow: GET, HEAD
+x-download-options: noopen
+cache-control: max-age=0, no-cache, must-revalidate
+content-type: text/html; charset=utf-8
+x-xss-protection: 1; mode=block
+etag: W/"589c4-MR9Wlbxx3OUrDw1+Ksf0ohLZxBA"
+accept-ranges: bytes
+date: Tue, 21 Oct 2025 21:59:31 GMT
+vary: ft-flags, ft-anonymous-user, ft-edition, et-app, FT-Site, FT-Regional-News, Accept-Encoding
+set-cookie: OriginalReferer=None; Expires=Tue, 21 Oct 2025 22:29:31 GMT; Domain=.ft.com; Path=/
+set-cookie: FtComEntryPoint=/; Expires=Tue, 21 Oct 2025 22:29:31 GMT; Domain=.ft.com; Path=/
+set-cookie: FTClientSessionId=77b53a7a-bd8e-463d-8837-16a06edd7770; Expires=Wed, 25 Nov 2026 21:59:31 GMT; Domain=.ft.com; Path=/
+set-cookie: spoor-id=77b53a7a-bd8e-463d-8837-16a06edd7770; Expires=Wed, 21 Oct 2026 21:59:31 GMT; Domain=.ft.com; Path=/
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+x-content-type-options: nosniff
+content-security-policy: upgrade-insecure-requests; frame-ancestors https://*.ft.com https://*.chromatic.com ; report-uri https://csp-report.ft.com/33C06499-DBAB-4FCB-880F-75B0467895F5
+content-security-policy-report-only: default-src https://*.ft.com https: ; font-src https://*.ft.com https: data: ; img-src https://*.ft.com https: data: ; media-src https://*.ft.com https: data: ; script-src 'unsafe-inline' 'unsafe-eval' https://*.ft.com https: ; style-src 'unsafe-inline' https://*.ft.com https: ; worker-src blob: ; connect-src https: wss://ft.coral.coralproject.net ; frame-ancestors https://*.ft.com https://*.chromatic.com ; report-uri https://csp-report.ft.com/33C06499-DBAB-4FCB-880F-75B0467895F5
+content-length: 362948
+
