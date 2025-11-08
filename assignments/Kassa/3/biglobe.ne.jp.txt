@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Sat, 04 Oct 2025 03:28:18 GMT
+Content-Type: text/html
+Content-Length: 254
+Connection: keep-alive
+Server: Apache
+Strict-Transport-Security: max-age=31536000
+Last-Modified: Thu, 22 May 2025 10:12:49 GMT
+Accept-Ranges: bytes
+

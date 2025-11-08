@@ -1,0 +1,52 @@
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Sat, 04 Oct 2025 03:29:00 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Location: https://eventbrite.com/
+X-Cache: Redirect from cloudfront
+Via: 1.1 b4011ac432e4f034161d5cccc8a4ac80.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD61-P10
+X-Amz-Cf-Id: ILzrjjKA1azdg2-Fz4hg8993CTguN_rQ24QwvPPGBEIREqL-2Rw88A==
+
+HTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Connection: keep-alive
+Server: CloudFront
+Date: Sat, 04 Oct 2025 03:29:00 GMT
+Location: https://www.eventbrite.com
+Via: 1.1 46d3157e794de0cde352e9914da1d37e.cloudfront.net (CloudFront), 1.1 64d4305f6a0418824e90908ac490184e.cloudfront.net (CloudFront)
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Amz-Cf-Pop: IAD55-P10
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: IAD61-P10
+X-Amz-Cf-Id: AeDUQWcMQ4EQAh_gKrfsXyODO_GtJ973aJ_NWOHN0WzPCzdJtaRZfA==
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 139069
+Connection: keep-alive
+Server: CloudFront
+Date: Sat, 04 Oct 2025 03:21:34 GMT
+x-amzn-Remapped-content-length: 139069
+x-amz-apigw-id: R5vdyE3KoAMEL1A=
+Cache-Control: max-age=300, s-maxage=600, stale-while-revalidate=3600, stale-if-error=86400
+X-OpenNext: 1
+ETag: "7ihubrw8uk2zav"
+x-powered-by: Next.js
+eb-homepage-origin: homepage-webapp
+X-Amzn-Trace-Id: Root=1-68e092be-55ba7d840cd334654167a360;Parent=00f45eba321cd586;Sampled=0;Lineage=2:8ec9af90:0
+Vary: Accept-Encoding
+Via: 1.1 312cc2b2351d4d9512783521cd4a9fcc.cloudfront.net (CloudFront), 1.1 05a63efd5ebb043211ccf075f3a8aa68.cloudfront.net (CloudFront)
+Set-Cookie: csrftoken=5e73c776f97a4a368e2edae099fe3fb6; Domain=.eventbrite.com; Max-Age=31449600; Path=/; secure; SameSite=none
+Set-Cookie: stableId=914c0104-4b4e-4769-ad84-5c70a8ca8884; Domain=.eventbrite.com; Max-Age=31449600; Path=/; secure; SameSite=none
+eb-homepage-cf-origin: redirect
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+x-amzn-RequestId: 730039e0-bd7f-4ab9-a304-b04c66176a74
+X-Amz-Cf-Pop: IAD55-P10
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: IAD61-P10
+X-Amz-Cf-Id: O-tnHXZx8cyaIOJ27WwYrpivNDxFQqfWePaywVVN9Ao5QfotK7Rsqw==
+Age: 446
+

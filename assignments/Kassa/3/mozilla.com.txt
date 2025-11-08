@@ -1,0 +1,66 @@
+HTTP/1.1 302 Found
+Cache-Control: private
+Location: https://mozilla.com:443/
+Content-Length: 0
+Date: Sat, 04 Oct 2025 03:27:35 GMT
+Content-Type: text/html; charset=UTF-8
+
+HTTP/1.1 301 Moved Permanently
+Content-Length: 162
+content-type: text/html
+date: Sat, 04 Oct 2025 03:27:36 GMT
+location: https://www.mozilla.org/firefox
+server: nginx
+strict-transport-security: max-age=60; includeSubDomains
+via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 0
+cross-origin-opener-policy: same-origin
+x-backend-server: bedrock-6594f89b97-pl2wb.gcp-us-west1
+strict-transport-security: max-age=31536000
+server: granian
+cache-control: max-age=43200
+expires: Sat, 04 Oct 2025 07:29:58 GMT
+content-type: text/html; charset=utf-8
+referrer-policy: strict-origin-when-cross-origin
+location: https://www.firefox.com/
+via: 1.1 google, 1.1 varnish, 1.1 varnish
+x-content-type-options: nosniff
+Accept-Ranges: bytes
+Date: Sat, 04 Oct 2025 03:27:36 GMT
+Age: 28657
+X-Served-By: cache-iad-kcgs7200020-IAD, cache-iad-kiad7000048-IAD
+X-Cache: MISS, HIT
+X-Cache-Hits: 0, 1
+X-Timer: S1759548456.147287,VS0,VE2
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 45240
+referrer-policy: strict-origin-when-cross-origin
+cross-origin-opener-policy: same-origin
+via: 1.1 google, 1.1 varnish, 1.1 varnish
+x-backend-server: springfield-6897cfdd5b-ncx4c.gcp-us-west1
+strict-transport-security: max-age=31536000
+expires: Sat, 04 Oct 2025 01:11:32 GMT
+etag: "f7a77ddd6f3ee6869b586756de0c56d4"
+x-frame-options: DENY
+x-clacks-overhead: GNU Terry Pratchett
+cache-control: max-age=600
+server: granian
+content-security-policy-report-only: base-uri 'none'; form-action 'self' https://accounts.firefox.com/ https://basket.mozilla.org; script-src 'self' 'unsafe-eval' 'unsafe-inline' s.ytimg.com tagmanager.google.com www.firefox.com www.google-analytics.com www.googletagmanager.com www.youtube.com; upgrade-insecure-requests; media-src 'self' assets.mozilla.net videos.cdn.mozilla.net www.firefox.com www.mozilla.org; default-src 'self' www.firefox.com; frame-ancestors 'none'; frame-src 'self' accounts.firefox.com www.google-analytics.com www.googletagmanager.com www.youtube.com; font-src 'self' www.firefox.com; connect-src 'self' basket.mozilla.org https://accounts.firefox.com/ https://basket.mozilla.org o1069899.ingest.sentry.io o1069899.ingest.us.sentry.io o1069899.sentry.io region1.google-analytics.com www.firefox.com www.google-analytics.com www.googletagmanager.com; object-src 'none'; img-src 'self' data: www.firefox.com www.google-analytics.com www.googletagmanager.com www.mozilla.org; style-src 'self' www.firefox.com
+content-type: text/html; charset=utf-8
+content-security-policy: base-uri 'none'; form-action 'self' https://accounts.firefox.com/ https://basket.mozilla.org; script-src 'self' 'unsafe-eval' 'unsafe-inline' s.ytimg.com tagmanager.google.com www.firefox.com www.google-analytics.com www.googletagmanager.com www.youtube.com; upgrade-insecure-requests; media-src 'self' assets.mozilla.net videos.cdn.mozilla.net www.firefox.com www.mozilla.org; default-src 'self' www.firefox.com; frame-ancestors 'none'; frame-src 'self' accounts.firefox.com www.google-analytics.com www.googletagmanager.com www.youtube.com; font-src 'self' www.firefox.com; connect-src 'self' basket.mozilla.org https://accounts.firefox.com/ https://basket.mozilla.org o1069899.ingest.sentry.io o1069899.ingest.us.sentry.io o1069899.sentry.io region1.google-analytics.com www.firefox.com www.google-analytics.com www.googletagmanager.com; object-src 'none'; img-src 'self' data: www.firefox.com www.google-analytics.com www.googletagmanager.com www.mozilla.org; style-src 'self' www.firefox.com
+x-content-type-options: nosniff
+Accept-Ranges: bytes
+Age: 0
+Date: Sat, 04 Oct 2025 03:27:36 GMT
+X-Served-By: cache-iad-kcgs7200085-IAD, cache-iad-kiad7000078-IAD
+X-Cache: MISS, HIT
+X-Cache-Hits: 0, 0
+X-Timer: S1759548456.234281,VS0,VE126
+Vary: Accept-Language, origin, Accept-Encoding
+

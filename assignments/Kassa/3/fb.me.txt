@@ -1,0 +1,52 @@
+HTTP/1.1 301 Moved Permanently
+Location: https://fb.me/
+Content-Type: text/plain
+Server: proxygen-bolt
+Date: Sat, 04 Oct 2025 03:28:55 GMT
+Connection: keep-alive
+Content-Length: 0
+
+HTTP/1.1 302 Found
+Location: https://www.facebook.com/
+reporting-endpoints: coop_report="https://www.facebook.com/browser_reporting/coop/?minimize=0", coep_report="https://www.facebook.com/browser_reporting/coep/?minimize=0"
+report-to: {"max_age":2592000,"endpoints":[{"url":"https:\/\/www.facebook.com\/browser_reporting\/coop\/?minimize=0"}],"group":"coop_report","include_subdomains":true}, {"max_age":86400,"endpoints":[{"url":"https:\/\/www.facebook.com\/browser_reporting\/coep\/?minimize=0"}],"group":"coep_report"}
+cross-origin-embedder-policy-report-only: require-corp;report-to="coep_report"
+cross-origin-opener-policy: same-origin-allow-popups
+origin-agent-cluster: ?1
+Strict-Transport-Security: max-age=31536000; preload; includeSubDomains
+Content-Type: text/html; charset="utf-8"
+X-FB-Debug: RqN1ewee1Ex4UmY0Y9hcn7iATMOWfrSqpGIdjlSFERZX1wP6P6jIZcswiLcjhwehVciny+QJJC8s+HejmEl6IA==
+Date: Sat, 04 Oct 2025 03:28:55 GMT
+X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=24, rtx=0, c=10, mss=1392, tbw=3701, tp=-1, tpl=-1, uplat=12, ullat=0
+Alt-Svc: h3=":443"; ma=86400
+Connection: keep-alive
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Vary: Accept-Encoding
+Set-Cookie: fr=0AEx8sPgBcoINxt4f..Bo4JR4..AAA.0.0.Bo4JR4.AWcJT6mrF6VddqEjbqAJujoWggQ; expires=Fri, 02-Jan-2026 03:28:56 GMT; Max-Age=7776000; path=/; domain=.facebook.com; secure; httponly
+Set-Cookie: sb=eJTgaFuwsEh8K2eROhCel2ot; expires=Sun, 08-Nov-2026 03:28:56 GMT; Max-Age=34560000; path=/; domain=.facebook.com; secure; httponly
+reporting-endpoints: coop_report="https://www.facebook.com/browser_reporting/coop/?minimize=0", default="https://www.facebook.com/ajax/browser_error_reports/?device_level=unknown&brsid=7557203419188255153&cpp=C3e&cv=1027992815&st=1759548536117", permissions_policy="https://www.facebook.com/ajax/browser_error_reports/"
+report-to: {"max_age":2592000,"endpoints":[{"url":"https:\/\/www.facebook.com\/browser_reporting\/coop\/?minimize=0"}],"group":"coop_report","include_subdomains":true}, {"max_age":259200,"endpoints":[{"url":"https:\/\/www.facebook.com\/ajax\/browser_error_reports\/?device_level=unknown&brsid=7557203419188255153&cpp=C3e&cv=1027992815&st=1759548536117"}]}, {"max_age":21600,"endpoints":[{"url":"https:\/\/www.facebook.com\/ajax\/browser_error_reports\/"}],"group":"permissions_policy"}
+content-security-policy: default-src blob: 'self' https://*.fbsbx.com *.facebook.com *.fbcdn.net;script-src *.facebook.com *.fbcdn.net *.facebook.net 127.0.0.1:* 'nonce-DuSGqJuL' blob: 'self' connect.facebook.net 'unsafe-eval' https://*.google-analytics.com *.google.com;style-src *.fbcdn.net data: *.facebook.com 'unsafe-inline' https://fonts.googleapis.com;connect-src *.facebook.com facebook.com *.fbcdn.net *.facebook.net wss://*.facebook.com:* wss://*.whatsapp.com:* wss://*.fbcdn.net attachment.fbsbx.com ws://localhost:* blob: *.cdninstagram.com 'self' http://localhost:3103 wss://gateway.facebook.com wss://edge-chat.facebook.com wss://snaptu-d.facebook.com wss://kaios-d.facebook.com/ v.whatsapp.net *.fbsbx.com *.fb.com https://*.google-analytics.com;font-src data: *.facebook.com *.fbcdn.net *.fbsbx.com https://fonts.gstatic.com;img-src *.fbcdn.net *.facebook.com data: https://*.fbsbx.com facebook.com *.cdninstagram.com fbsbx.com fbcdn.net connect.facebook.net *.carriersignal.info blob: android-webview-video-poster: *.whatsapp.net *.fb.com *.oculuscdn.com *.tenor.co *.tenor.com *.giphy.com https://trustly.one/ https://*.trustly.one/ https://paywithmybank.com/ https://*.paywithmybank.com/ https://www.googleadservices.com https://googleads.g.doubleclick.net https://*.google-analytics.com;media-src *.cdninstagram.com blob: *.fbcdn.net *.fbsbx.com www.facebook.com *.facebook.com data: *.tenor.co *.tenor.com https://*.giphy.com;child-src data: blob: 'self' https://*.fbsbx.com *.facebook.com *.fbcdn.net;frame-src *.facebook.com *.fbsbx.com fbsbx.com data: www.instagram.com *.fbcdn.net accounts.meta.com *.accounts.meta.com https://trustly.one/ https://*.trustly.one/ https://paywithmybank.com/ https://*.paywithmybank.com/ https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://td.doubleclick.net *.google.com *.doubleclick.net;manifest-src data: blob: 'self' https://*.fbsbx.com *.facebook.com *.fbcdn.net;object-src data: blob: 'self' https://*.fbsbx.com *.facebook.com *.fbcdn.net;worker-src blob: *.facebook.com data:;block-all-mixed-content;upgrade-insecure-requests;
+X-Frame-Options: DENY
+document-policy: force-load-at-top
+document-policy: include-js-call-stacks-in-crash-reports
+permissions-policy: accelerometer=(), attribution-reporting=(self), autoplay=(), bluetooth=(), browsing-topics=(self), camera=(self), ch-device-memory=(), ch-downlink=(), ch-dpr=(), ch-ect=(), ch-rtt=(), ch-save-data=(), ch-ua-arch=(), ch-ua-bitness=(), ch-viewport-height=(), ch-viewport-width=(), ch-width=(), clipboard-read=(self), clipboard-write=(self), compute-pressure=(), display-capture=(self), encrypted-media=(self), fullscreen=(self), gamepad=*, geolocation=(self), gyroscope=(), hid=(), idle-detection=(), interest-cohort=(self), keyboard-map=(), local-fonts=(), magnetometer=(), microphone=(self), midi=(), otp-credentials=(), payment=(), picture-in-picture=(self), private-state-token-issuance=(), publickey-credentials-get=(self), screen-wake-lock=(), serial=(), shared-storage=(), shared-storage-select-url=(), private-state-token-redemption=(), usb=(), unload=(self), window-management=(), xr-spatial-tracking=(self);report-to="permissions_policy"
+cross-origin-resource-policy: same-origin
+cross-origin-opener-policy: unsafe-none
+Pragma: no-cache
+Cache-Control: private, no-cache, no-store, must-revalidate
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+origin-agent-cluster: ?1
+Strict-Transport-Security: max-age=15552000; preload
+Content-Type: text/html; charset="utf-8"
+X-FB-Debug: 5x58sQBsAgR+nuXSX+oYhBxue/o9/FBX0O/RYDNwGd1ElM5LdVjezQQ1um9a5USEie8JE3d5+ekRCI47/SLSMg==
+Date: Sat, 04 Oct 2025 03:28:56 GMT
+Transfer-Encoding: chunked
+X-FB-Connection-Quality: EXCELLENT; q=0.9, rtt=26, rtx=0, c=10, mss=1392, tbw=3481, tp=-1, tpl=-1, uplat=242, ullat=0
+Alt-Svc: h3=":443"; ma=86400
+Connection: keep-alive
+

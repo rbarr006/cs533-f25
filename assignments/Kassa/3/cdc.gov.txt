@@ -1,0 +1,8 @@
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://cdc.gov/
+Date: Sat, 04 Oct 2025 03:51:20 GMT
+Connection: keep-alive
+Set-Cookie: akamai_visit_id=9381321749880a18a127; expires=Mon, 04-Oct-2027 03:51:20 GMT; path=/; domain=.cdc.gov; secure; SameSite=None
+

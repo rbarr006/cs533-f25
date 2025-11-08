@@ -1,0 +1,37 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Location: https://outlook.live.com/owa/
+X-MSEdge-Ref: Ref A: 549C1927855445A79E7103D22E49FD48 Ref B: ASHEDGE1420 Ref C: 2025-10-04T03:28:13Z
+Date: Sat, 04 Oct 2025 03:28:13 GMT
+
+HTTP/1.1 440 
+Content-Length: 154
+Content-Type: text/html; charset=utf-8
+request-id: 1f0c3ff7-2b78-b333-4d59-5f04fc7385b3
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-CalculatedFETarget: MW4PR03CU010.internal.outlook.com
+X-BackEndHttpStatus: 440
+Set-Cookie: RoutingKeyCookie=; expires=Wed, 04-Oct-1995 03:28:13 GMT; path=/;SameSite=None; secure; HttpOnly
+Set-Cookie: HostSwitchPrg=; expires=Wed, 04-Oct-1995 03:28:13 GMT; path=/;SameSite=None; secure; HttpOnly
+Set-Cookie: OptInPrg=; expires=Wed, 04-Oct-1995 03:28:13 GMT; path=/;SameSite=None; secure; HttpOnly
+X-NanoProxy: 1
+X-BackEnd-Begin: 2025-10-04T03:28:13.454
+X-CalculatedBETarget: MW3PR13MB4011.namprd13.prod.outlook.com
+X-BackEnd-End: 2025-10-04T03:28:13.470
+X-BackEndHttpStatus: 440
+X-OWA-DiagnosticsInfo: 3;0;0;
+X-Proxy-BackendServerStatus: 440
+X-Proxy-RoutingCorrectness: 1
+X-ResponseOrigin: OwaAppPool
+X-UA-Compatible: IE=EmulateIE7
+X-FEServer: MW4PR03CA0298
+X-FEEFZInfo: MNZ
+MS-CV: 9z8MH3grM7NNWV8E/HOFsw.1
+Report-To: {"group":"NelOfficeUpload1","max_age":7200,"endpoints":[{"url":"https://exo.nel.measure.office.net/api/report?TenantId=&FrontEnd=Cafe&DestinationEndpoint=MNZ&RemoteIP=2600:8805:1a15::&Environment=MT"}],"include_subdomains":true}
+NEL: {"report_to":"NelOfficeUpload1","max_age":7200,"include_subdomains":true,"failure_fraction":1.0,"success_fraction":0.01}
+Alt-Svc: ":443";ma=2592000,h3-29=":443";ma=2592000
+X-FirstHopCafeEFZ: MNZ
+X-FEProxyInfo: BL1PR13CA0283.NAMPRD13.PROD.OUTLOOK.COM
+X-FEServer: BL1PR13CA0283
+Date: Sat, 04 Oct 2025 03:28:12 GMT
+

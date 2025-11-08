@@ -1,0 +1,32 @@
+HTTP/1.0 308 Permanent Redirect
+Content-Type: text/plain
+Location: https://digg.com/
+Refresh: 0;url=https://digg.com/
+server: Vercel
+
+HTTP/1.0 307 Temporary Redirect
+Cache-Control: public, max-age=0, must-revalidate
+Content-Type: text/plain
+Date: Sat, 04 Oct 2025 03:27:33 GMT
+Location: https://www.digg.com/
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Id: iad1::5r9dd-1759548453867-8205a00dad79
+
+HTTP/1.0 200 OK
+Age: 539
+Cache-Control: public, max-age=0, must-revalidate
+Content-Length: 41677
+Content-Type: text/html; charset=utf-8
+Date: Tue, 19 Aug 2025 11:41:32 GMT
+Etag: "6a81nn658xw5b"
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+X-Matched-Path: /
+X-Nextjs-Prerender: 1
+X-Nextjs-Stale-Time: 300
+X-Powered-By: Next.js
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::iad1::n4vc7-1759548454015-0608d1a89af6
+

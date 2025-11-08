@@ -1,0 +1,40 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sat, 04 Oct 2025 03:27:38 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Location: https://www.sina.com.cn/
+Cache-Control: max-age=120
+X-Via-SSL: ssl.51.sinag1.hj4.lb.sinanode.com
+Edge-Copy-Time: 1759548353931
+Via: http/1.1 ctc.guangzhou.union.444 (ApacheTrafficServer/6.2.1 [cRs f ]), http/1.1 hgc.hk.union.33 (ApacheTrafficServer/6.2.1 [cRs f ])
+X-Via-Edge: 17595484585857779ae462161510a43849789
+Age: 105
+X-Cache: HIT.33
+X-Via-CDN: f=sinaedge,s=hgc.hk.union.33.nb.sinaedge.com,c=70.174.121.119;f=Edge,s=hgc.hk.union.33,c=10.81.97.33
+
+HTTP/1.1 200 OK
+Server: Tengine
+Content-Type: text/html
+Content-Length: 401718
+Connection: keep-alive
+Date: Sat, 04 Oct 2025 03:27:16 GMT
+Vary: Accept-Encoding
+ETag: W/"68e09407-5cfa2"V=5965C31
+X-Powered-By: shci_v1.13
+Expires: Sat, 04 Oct 2025 03:28:08 GMT
+Cache-Control: max-age=60
+X-Via-SSL: ssl.63.sinag1.shx.lb.sinanode.com
+Edge-Copy-Time: 1759548428379
+Via: http/1.1 cmcc.guangzhou.union.39 (ApacheTrafficServer/6.2.1 [cRs f ]), ens-cache6.l2us5[0,0,200-0,H], ens-cache28.l2us5[0,0], ens-cache11.us25[0,0,200-0,H], ens-cache8.us25[4,0]
+X-Via-CDN: f=aliyun,s=ens-cache8.us25,c=70.174.121.119;f=sinaedge,s=cnc.guangzhou.union.24.nb.sinaedge.com,c=155.102.129.154;f=Edge,s=cmcc.guangzhou.union.39,c=172.16.116.24
+X-Via-Edge: 17595484368789a81669b187410ac7068db55
+Age: 22
+Ali-Swift-Global-Savetime: 1759548436
+X-Cache: HIT TCP_MEM_HIT dirn:-2:-2
+X-Swift-SaveTime: Sat, 04 Oct 2025 03:27:25 GMT
+X-Swift-CacheTime: 51
+Timing-Allow-Origin: *
+EagleId: 2ff6149c17595484588513533e
+

@@ -1,0 +1,31 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 04 Oct 2025 03:28:26 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sat, 04 Oct 2025 04:28:26 GMT
+Location: https://allaboutcookies.org/
+Server: cloudflare
+CF-RAY: 989196d3dfffd68b-IAD
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 403 Forbidden
+Date: Sat, 04 Oct 2025 03:28:26 GMT
+Content-Type: text/html;charset=utf-8
+Connection: keep-alive
+CF-RAY: 989196d49cbdd67b-IAD
+Access-Control-Allow-Origin: *
+Cache-Control: max-age=0, private, no-cache, no-store, must-revalidate
+Set-Cookie: datadome=4aJlGWlbKsCCZvFfFQFWCe8LcEOqApCu4p5Kpzbj0SQu7n~HohoK3pnbtJkUZ3C4rbTuA7oDaV1lK3pIq~qtzFUWjZBAsWwWgeUBX~T45alZbqfwF8xR~wMCKwuqJtWI; Max-Age=31536000; Domain=.allaboutcookies.org; Path=/; Secure; SameSite=Lax
+Pragma: no-cache
+Accept-CH: Sec-CH-UA,Sec-CH-UA-Mobile,Sec-CH-UA-Platform,Sec-CH-UA-Arch,Sec-CH-UA-Full-Version-List,Sec-CH-UA-Model,Sec-CH-Device-Memory
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: x-dd-b, x-set-cookie
+Charset: utf-8
+X-DataDome: protected
+X-DataDome-CID: AHrlqAAAAAMAYbzp8zC_1hgA9v2HGA==
+X-DD-B: 2
+Server: cloudflare
+alt-svc: h3=":443"; ma=86400
+

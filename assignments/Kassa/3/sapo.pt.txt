@@ -1,0 +1,28 @@
+HTTP/1.1 308 Permanent Redirect
+Date: Sat, 04 Oct 2025 03:28:07 GMT
+Content-Type: text/html
+Content-Length: 164
+Connection: keep-alive
+Location: https://sapo.pt
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Security-Policy: default-src https: blob: ; script-src https: blob: 'unsafe-inline' 'unsafe-eval'; style-src https: 'unsafe-inline' ; img-src https: data: ; media-src blob: https: ; upgrade-insecure-requests; block-all-mixed-content;  connect-src https: wss://*.insurads.com wss://*.hotjar.com;
+Permissions-Policy: geolocation=(), camera=(), microphone=()
+X-DNS-Prefetch-Control: off
+
+HTTP/1.1 200 OK
+Date: Sat, 04 Oct 2025 03:28:07 GMT
+Connection: keep-alive
+Access-Control-Allow-Headers: Content-Type
+Access-Control-Allow-Methods: GET, OPTIONS
+Strict-Transport-Security: max-age=31536000
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Security-Policy: default-src https: blob: ; script-src https: blob: 'unsafe-inline' 'unsafe-eval'; style-src https: 'unsafe-inline' ; img-src https: data: ; media-src blob: https: ; upgrade-insecure-requests; block-all-mixed-content;  connect-src https: wss://*.insurads.com wss://*.hotjar.com;
+Permissions-Policy: geolocation=(), camera=(), microphone=()
+X-DNS-Prefetch-Control: off
+

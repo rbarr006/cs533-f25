@@ -1,0 +1,34 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 04 Oct 2025 03:28:05 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sat, 04 Oct 2025 04:28:05 GMT
+Location: https://www.mediafire.com/
+Set-Cookie: __cf_bm=wHli5i3YxlXGvC6cgcy1MJzi80GgFuPVdSgeUwYXjqA-1759548485-1.0.1.1-QVESUuBzNwqkCDEEEplwRDPWmtavcT5SmRA76e2cfV4_ta52dqs2ffYOs9nYAn25TX1PEvZT6TcLZL3xe7Sr0AEQvX7zONRpY2yp.Kx3aOk; path=/; expires=Sat, 04-Oct-25 03:58:05 GMT; domain=.mediafire.com; HttpOnly
+Server: cloudflare
+CF-RAY: 98919650fb76706a-IAD
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 200 OK
+Date: Sat, 04 Oct 2025 03:28:05 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Server: cloudflare
+CF-Ray: 989196522dd93210-IAD
+CF-Cache-Status: DYNAMIC
+Access-Control-Allow-Origin: *
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0, post-check=0, pre-check=0
+Expires: 0
+Set-Cookie: ukey=bieztpcyqhonu5dhx0delfw12pcnu04w; expires=Wed, 04-Oct-2045 03:28:05 GMT; Max-Age=631152000; path=/; domain=.mediafire.com; HttpOnly
+Set-Cookie: __cf_bm=tixZuxgn_UgBySnWYACQlD_FZAarn5NYrbt1slnN..Y-1759548485-1.0.1.1-cR0UTVNIrgUsx8Zdo0Fh64yVlVX5M2UCYsWsdCnLRiLlisAI1pKr0k9WGirFNXuHbkqHNB9cQi10uDSbsOoH1_WOEJDHcP.RhLoq.f4qy2w; path=/; expires=Sat, 04-Oct-25 03:58:05 GMT; domain=.mediafire.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=0
+Pragma: no-cache
+access-control-allow-methods: OPTIONS, POST, GET
+alt-svc: h3=":443"; ma=86400
+content-security-policy: frame-ancestors *.mediafire.com
+x-frame-options: SAMEORIGIN
+x-mf-env: liveApi
+x-mf-fe: mf2
+

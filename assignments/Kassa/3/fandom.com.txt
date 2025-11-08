@@ -1,0 +1,41 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://www.fandom.com/
+Accept-Ranges: bytes
+Date: Sat, 04 Oct 2025 03:28:05 GMT
+X-Served-By: cache-iad-kjyo7100124-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1759548486.745873,VS0,VE2
+Vary: Accept-Encoding
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 87144
+x-envoy-upstream-service-time: 663
+cache-control: max-age=60, public
+content-security-policy-report-only: default-src https: 'self' data: blob:; script-src https: 'self' data: 'unsafe-inline' 'unsafe-eval' blob:; style-src https: 'self' 'unsafe-inline' blob:; report-uri https://services.fandom.com/csp-logger/csp/f2
+content-security-policy: upgrade-insecure-requests
+content-type: text/html; charset=UTF-8
+fandom.f2.datacenter: sjc
+x-frame-options: SAMEORIGIN
+server: envoy
+link: <https://www.fandom.com/f2/assets/common.css?v=58944a135b27f03eac48928c6436a4521519d60c>; rel="preload"; as="style", <https://www.fandom.com/f2/assets/news-and-stories.css?v=58944a135b27f03eac48928c6436a4521519d60c>; rel="preload"; as="style", <https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,hebrew,latin-ext>; rel="preload"; as="style", <https://www.fandom.com/f2/assets/common.en.js?v=58944a135b27f03eac48928c6436a4521519d60c>; rel="preload"; as="script", <https://www.fandom.com/f2/assets/news-and-stories.en.js?v=58944a135b27f03eac48928c6436a4521519d60c>; rel="preload"; as="script"
+Via: 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Date: Sat, 04 Oct 2025 03:28:05 GMT
+Age: 38
+X-Served-By: cache-sjc1000124-SJC, cache-sjc1000124-SJC, cache-iad-kjyo7100179-IAD
+X-Cache: MISS, HIT, HIT
+X-Cache-Hits: 0, 12, 1
+X-Timer: S1759548486.894177,VS0,VE2
+Vary: X-Vary-String, Fastly-SSL, X-Vary-String, Fastly-SSL, Geo-Region,Accept-Encoding,Accept-Language
+Set-Cookie: wikia_beacon_id=bSpGf9fBmh; domain=.fandom.com; path=/; expires=Thu, 02 Apr 2026 03:28:05 GMT; SameSite=None; Secure;
+Set-Cookie: _b2=BCY0KLy--g.1759548485894; domain=.fandom.com; path=/; expires=Mon, 04 Oct 2027 03:28:05 GMT; SameSite=None; Secure;
+Set-Cookie: exp_bucket=v6-40; domain=.fandom.com; path=/; expires=Mon, 04 Oct 2027 03:28:05 GMT;
+Set-Cookie: exp_bucket_2=v5-56; domain=.fandom.com; path=/; expires=Mon, 04 Oct 2027 03:28:05 GMT;
+Set-Cookie: Geo={%22region%22:%22VA%22%2C%22city%22:%22norfolk%22%2C%22country_name%22:%22united states%22%2C%22country%22:%22US%22%2C%22continent%22:%22NA%22}; path=/; domain=.fandom.com; SameSite=None; Secure;
+

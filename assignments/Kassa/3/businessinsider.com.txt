@@ -1,0 +1,41 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 718
+Server: Varnish
+Retry-After: 0
+Content-Type: text/html; charset=utf-8
+Accept-Ranges: bytes
+Date: Sat, 04 Oct 2025 03:28:15 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kjyo7100074-IAD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1759548496.719310,VS0,VE0
+Strict-Transport-Security: max-age=31536000
+Location: https://www.businessinsider.com/
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 524859
+Content-Type: text/html; charset=utf-8
+Set-Cookie: AWSALBTG=QZPDWORxbO6qTzug+n4CdRTl+JdW49CEgSg5ucY3ZQfcRhpCfxHdNjaJYDo73DrLndQyNf6iG+oGgPsbjsXd9kOLf7KLyI+oo6kDIIekL4g2R9zIiFbjNu+mUaDeOxoDRhDal9c5yO6iC27aNOUsBtxqqWGC1ykmfau8aOTQLobT; Expires=Sat, 11 Oct 2025 03:20:25 GMT; Path=/
+Set-Cookie: AWSALBTGCORS=QZPDWORxbO6qTzug+n4CdRTl+JdW49CEgSg5ucY3ZQfcRhpCfxHdNjaJYDo73DrLndQyNf6iG+oGgPsbjsXd9kOLf7KLyI+oo6kDIIekL4g2R9zIiFbjNu+mUaDeOxoDRhDal9c5yO6iC27aNOUsBtxqqWGC1ykmfau8aOTQLobT; Expires=Sat, 11 Oct 2025 03:20:25 GMT; Path=/; SameSite=None; Secure
+X-Powered-By: Fenrir
+Last-Modified: Sat, 04 Oct 2025 03:20:25 GMT
+Cache-Control: public, max-age=120
+X-Origin-Version: 251003.966
+X-Frame-Options: sameorigin
+Link: </styles/v1-landing-page.71eac0e30338e001c116.css>; rel=preload; as=style; nopush, </scripts/main.981cfe60e6ebf82a3308.js>; rel=preload; as=script; fetchpriority=low; nopush, </scripts/vendors.efd24a1a783de80d26a0.js>; rel=preload; as=script; fetchpriority=low; nopush, </scripts/utilities.8a1f5fff494480f3d9c3.js>; rel=preload; as=script; fetchpriority=low; nopush, </public/fonts/Garnett-VF-Subset-Web.woff2>; rel=preload; as=font; type=font/woff2; crossorigin; fetchpriority=low; nopush
+ETag: W/"8023b-U0aRI3gfWLpEVjNTB61LYX5YHSo"
+X-Country-Code: US
+Accept-Ranges: bytes
+Age: 470
+Date: Sat, 04 Oct 2025 03:28:15 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000065-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1759548496.841550,VS0,VE3
+Vary: Accept-Encoding, Authorization, Fastly-SSL, X-Device, X-Continent-Code, X-User-Status, X-User-Has-Access, X-Is-Sponsored-Country, X-Privacy-Api, X-Is-Bot, X-ABTest-vvhp, X-ABTest-pjw
+Strict-Transport-Security: max-age=31536000
+

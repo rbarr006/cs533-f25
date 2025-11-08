@@ -1,0 +1,45 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Retry-After: 0
+Server: Pantheon
+Location: https://www.upenn.edu/
+X-Pantheon-Redirect: primary-domain-policy-doc
+Date: Sat, 04 Oct 2025 03:29:09 GMT
+X-Served-By: cache-iad-kiad7000146-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1759548550.801958,VS0,VE3
+Age: 0
+Accept-Ranges: bytes
+Via: 1.1 varnish
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 135214
+Access-Control-Allow-Origin: *
+Cache-Control: max-age=3600, public
+Content-Language: en
+Content-Type: text/html; charset=UTF-8
+Etag: W/"1759517675"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Fri, 03 Oct 2025 18:54:35 GMT
+Server: nginx
+Strict-Transport-Security: max-age=300
+X-Content-Type-Options: nosniff
+X-Drupal-Cache: HIT
+X-Drupal-Dynamic-Cache: MISS
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 10 (https://www.drupal.org)
+X-Pantheon-Styx-Hostname: styx-fe4-b-567cb9f56f-6bpdp
+X-Styx-Req-Id: 88912526-a0cd-11f0-a351-36cf789f3637
+Age: 2042
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish, 1.1 varnish, 1.1 varnish
+Date: Sat, 04 Oct 2025 03:29:09 GMT
+X-Served-By: cache-chi-klot8100101-CHI, cache-iad-kiad7000061-IAD, cache-iad-kjyo7100098-IAD, cache-iad-kjyo7100098-IAD
+X-Cache: HIT, HIT, MISS, MISS
+X-Cache-Hits: 26, 4, 0, 0
+X-Timer: S1759548550.911432,VS0,VE9
+Vary: Accept-Encoding, Cookie, Cookie, Cookie
+

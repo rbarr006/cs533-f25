@@ -1,0 +1,84 @@
+HTTP/1.1 301 
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://guardian.co.uk/
+Accept-Ranges: bytes
+Date: Sat, 04 Oct 2025 03:27:41 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kjyo7100071-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1759548461.139931,VS0,VE0
+
+HTTP/1.1 301 
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://www.theguardian.com/
+Accept-Ranges: bytes
+Date: Sat, 04 Oct 2025 03:27:41 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000133-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1759548461.217542,VS0,VE0
+Strict-Transport-Security: max-age=31536000
+
+HTTP/1.1 302 
+Connection: close
+Content-Length: 0
+Retry-After: 0
+Location: /us
+Accept-Ranges: bytes
+Date: Sat, 04 Oct 2025 03:27:41 GMT
+Set-Cookie: GU_mvt_id=35193; expires=Fri, 02 Jan 2026 03:27:41 GMT; path=/; domain=.theguardian.com; Secure
+Set-Cookie: gu_client_ab_tests=; path=/; max-age=2592000
+Set-Cookie: gu_v2_mvt_id=98; path=/; max-age=2592000
+X-Timer: S1759548461.325386,VS0,VS0,VE0
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy: upgrade-insecure-requests; default-src https:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; frame-src https: data:; style-src https: 'unsafe-inline'; img-src https: data: blob:; media-src https: data: blob:; font-src 'self' https://assets.guim.co.uk https://pasteup.guim.co.uk https://interactive.guim.co.uk https://dashboard.ophan.co.uk data:; connect-src https: wss: blob:; child-src https: blob:; object-src 'none'; base-uri 'none'
+Referrer-Policy: no-referrer-when-downgrade
+Feature-Policy: camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'
+Permissions-Policy: camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=(), clipboard-read=(), unload=()
+X-GU-Edition: us
+Age: 0
+Cache-Control: max-age=0,no-transform
+Set-Cookie: GU_geo_country=US; path=/; Secure
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 1165367
+x-gu-frontend-git-commit-id: 29999cae32786d35cccd60ea63165177c2169312
+etag: W/"hash-881106909827625708"
+link: <https://assets.guim.co.uk/polyfill.io/v3/polyfill.min.js?rum=0&features=es6%2Ces7%2Ces2017%2Ces2018%2Ces2019%2Cdefault-3.6%2CHTMLPictureElement%2CIntersectionObserver%2CIntersectionObserverEntry%2CURLSearchParams%2Cfetch%2CNodeList.prototype.forEach%2Cnavigator.sendBeacon%2Cperformance.now%2CPromise.allSettled&flags=gated&callback=guardianPolyfilled&unknown=polyfill&cacheClear=1>; rel=prefetch,<https://assets.guim.co.uk/assets/frameworks.client.web.6b5647f09664a1f0b5f4.js>; rel=prefetch,<https://assets.guim.co.uk/assets/index.client.web.b951e9cd37def3460e83.js>; rel=prefetch,<https://assets.guim.co.uk/commercial/64e2212ea0dfddf4a1b4/graun.standalone.commercial.js>; rel=prefetch,,<https://assets.guim.co.uk/>; rel=preconnect,<https://i.guim.co.uk>; rel=preconnect,<https://j.ophan.co.uk>; rel=preconnect,<https://ophan.theguardian.com>; rel=preconnect,<https://api.nextgen.guardianapps.co.uk>; rel=preconnect,<https://hits-secure.theguardian.com>; rel=preconnect,<https://interactive.guim.co.uk>; rel=preconnect,<https://phar.gu-web.net>; rel=preconnect,<https://static.theguardian.com>; rel=preconnect,<https://support.theguardian.com>; rel=preconnect
+content-type: text/html; charset=UTF-8
+onion-location: https://www.guardian2zotagl6tmjucg3lrhxdk4dw3lhbqnkvvkywawy3oqfoprid.onion/us
+x-gu-dotcomponents: true
+Accept-Ranges: bytes
+Date: Sat, 04 Oct 2025 03:27:41 GMT
+Set-Cookie: GU_mvt_id=101115; expires=Fri, 02 Jan 2026 03:27:41 GMT; path=/; domain=.theguardian.com; Secure
+Set-Cookie: gu_client_ab_tests=; path=/; max-age=2592000
+Set-Cookie: gu_v2_mvt_id=836; path=/; max-age=2592000
+X-Timer: S1759548461.405657,VS0,VS0,VE4
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy: upgrade-insecure-requests; default-src https:; script-src https: 'unsafe-inline' 'unsafe-eval' blob: 'unsafe-inline'; frame-src https: data:; style-src https: 'unsafe-inline'; img-src https: data: blob:; media-src https: data: blob:; font-src 'self' https://assets.guim.co.uk https://pasteup.guim.co.uk https://interactive.guim.co.uk https://dashboard.ophan.co.uk data:; connect-src https: wss: blob:; child-src https: blob:; object-src 'none'; base-uri 'none'
+Referrer-Policy: no-referrer-when-downgrade
+Feature-Policy: camera 'none'; microphone 'none'; midi 'none'; geolocation 'none'
+Permissions-Policy: camera=(), microphone=(), midi=(), geolocation=(), interest-cohort=(), clipboard-read=(), unload=()
+X-GU-Edition: us
+Age: 0
+Cache-Control: max-age=60, stale-while-revalidate=6, stale-if-error=864000, private,no-transform
+Vary: Accept-Encoding,User-Agent
+Set-Cookie: GU_geo_country=US; path=/; Secure
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+

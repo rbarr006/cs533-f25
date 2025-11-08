@@ -1,0 +1,66 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Retry-After: 0
+Location: https://wikihow.com/
+Accept-Ranges: bytes
+Date: Sat, 04 Oct 2025 03:28:58 GMT
+X-Timer: S1759548539.729336,VS0,VE0
+Vary: Cookie, Accept-Encoding, User-Agent
+x-c: cache-iad-kiad7000131-IAD,M
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Retry-After: 0
+Location: https://www.wikihow.com/
+Accept-Ranges: bytes
+Date: Sat, 04 Oct 2025 03:28:58 GMT
+X-Timer: S1759548539.809764,VS0,VE0
+Vary: Cookie, Accept-Encoding, User-Agent
+x-c: cache-iad-kjyo7100033-IAD,M
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Retry-After: 0
+Location: https://www.wikihow.com/Main-Page
+Accept-Ranges: bytes
+Date: Sat, 04 Oct 2025 03:28:58 GMT
+X-Timer: S1759548539.928569,VS0,VE0
+Vary: Cookie, Accept-Encoding, User-Agent
+x-c: cache-iad-kiad7000027-IAD,M
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 342566
+Content-Type: text/html; charset=UTF-8
+Content-language: en
+X-Frame-Options: SAMEORIGIN
+Cache-Control: s-maxage=3600, must-revalidate, max-age=0
+Last-Modified: Sat, 04 Oct 2025 02:59:06 GMT
+Accept-Ranges: bytes
+Date: Sat, 04 Oct 2025 03:28:59 GMT
+Age: 148
+X-Timer: S1759548539.025858,VS0,VE4
+x-c: cache-iad-kiad7000143-IAD,H,148
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Set-Cookie: whv=2k6AHzB8ZtfSdGuuhkiU; expires=Tue, 02 Oct 2035 03:28:59 GMT; domain=.wikihow.com; path=/; secure
+Set-Cookie: vr=US-VA; domain=.wikihow.com; path=/; secure
+Set-Cookie: vi=NA; domain=.wikihow.com; path=/; secure
+Vary: Cookie, Accept-Encoding
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+

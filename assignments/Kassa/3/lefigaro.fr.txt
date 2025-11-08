@@ -1,0 +1,33 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Location: https://lefigaro.fr/
+Date: Sat, 04 Oct 2025 03:28:10 GMT
+Connection: keep-alive
+X-Left-TTL: -1759548491
+
+HTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Location: https://www.lefigaro.fr/
+Date: Sat, 04 Oct 2025 03:28:10 GMT
+Connection: keep-alive
+X-Left-TTL: -1759548491
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+x-premium: 0
+x-xss-protection: 1; mode=block
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+Content-Security-Policy: upgrade-insecure-requests
+x-frame-options: sameorigin
+Link: <https://static.lefigaro.fr/figconsent/figconsent-v2-short-ttl.js>; rel="preload"; as="script",</build/modern/js/initial-vendors.fcf1817b80dd0490.js>; rel="preload"; integrity="sha384-51ewmauCBpnxDVproIqF9ZOzWNRn4JUiTisy36QrQuhL+ptBJ8H8cDejQWS63K2x"; as="script"; crossorigin="anonymous",</build/modern/js/initial-helpers.442572eee278bd05.js>; rel="preload"; integrity="sha384-sYQfVQuh/25Uc5K8QV+fXFZYXum5kNT0ES869D8ZdxCwmbftZf/z/u0wKt8BsMRO"; as="script"; crossorigin="anonymous",</build/modern/js/globals/handleFiganalytics.2a99ba870726a4fa.js>; rel="preload"; integrity="sha384-Xp54brcS0Y8cD5rbi4CCdb911XxYVCZp/MmwTkdHJiVDMqHBzBk7SNe42PMjv99/"; as="script"; crossorigin="anonymous",<https://static.lefigaro.fr/figanalytics/figanalytics-short-ttl.js>; rel="preload"; as="script",<https://static.lefigaro.fr/common/fonts/SourceSansPro/sourcesanspro-semibold.woff2>; rel="preload"; as="font"; crossorigin="anonymous",<https://static.lefigaro.fr/common/fonts/SourceSansPro/sourcesanspro-regular.woff2>; rel="preload"; as="font"; crossorigin="anonymous",<https://static.lefigaro.fr/common/fonts/NotoSerif/notoserif-bold.woff2>; rel="preload"; as="font"; crossorigin="anonymous",<https://static.lefigaro.fr>; rel="preconnect",<https://i.f1g.fr>; rel="preconnect",<https://collector.appconsent.io>; rel="preconnect",<https://cdn.appconsent.io/tcf2-clear/current/core.bundle.js>; rel="preload"; as="script",<https://www.googletagmanager.com>; rel="dns-prefetch",<https://cdn.appconsent.io>; rel="dns-prefetch",<https://static.lefigaro.fr/header/js/figh-index.6f517ba.js>; rel="preload"; as="script"
+x-using-nginx-controller: true
+edge-cache-tag-truncated: 1
+x-shard-target: proxy1
+x-real-age: 166
+Expires: Sat, 04 Oct 2025 03:28:11 GMT
+Cache-Control: max-age=0, no-cache, private
+Pragma: no-cache
+Date: Sat, 04 Oct 2025 03:28:11 GMT
+Connection: keep-alive
+X-Left-TTL: 7
+

@@ -1,0 +1,44 @@
+HTTP/1.1 302 Found
+Connection: Keep-Alive
+Keep-Alive: timeout=5, max=100
+Date: Sat, 04 Oct 2025 03:29:03 GMT
+Server: LiteSpeed
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+Location: https://cpanel.net/
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Vary: User-Agent,User-Agent
+
+HTTP/1.1 301 Moved Permanently
+Connection: Keep-Alive
+Keep-Alive: timeout=5, max=100
+Date: Sat, 04 Oct 2025 03:29:03 GMT
+Server: LiteSpeed
+Location: https://www.cpanel.net/
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Vary: User-Agent,User-Agent
+Strict-Transport-Security: max-age=31536000
+alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"
+
+HTTP/1.1 200 OK
+Date: Sat, 04 Oct 2025 03:29:03 GMT
+Content-Type: text/html
+Connection: keep-alive
+CF-RAY: 989197bca886fa2f-IAD
+Cache-Control: public, max-age=15552000
+expires: Thu, 02 Apr 2026 03:29:03 GMT
+last-modified: Fri, 03 Oct 2025 11:12:33 GMT
+vary: Accept-Encoding,User-Agent,User-Agent
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000
+alt-svc: h3=":443"; ma=86400
+cf-cache-status: DYNAMIC
+Set-Cookie: __cf_bm=eQEyI6xsYK1uO_dEh5OjjDwk1URCxf3VLCOmvecpfJI-1759548543-1.0.1.1-jpsL36dAnhW3RykuQucSa0I9SRUxQA7CXwosHn3WtBFFFUwaWDPerVAaJgar69XQSm5QSeFQsD9BNzgUhBzvOt9pebOiS_tUyuYOEaS58FI; path=/; expires=Sat, 04-Oct-25 03:59:03 GMT; domain=.cpanel.net; HttpOnly; Secure; SameSite=None
+Set-Cookie: _cfuvid=kQ6y7OUgswrkP9QPeABf2lUCde.w8KW_g172bbDp3FU-1759548543593-0.0.1.1-604800000; path=/; domain=.cpanel.net; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+

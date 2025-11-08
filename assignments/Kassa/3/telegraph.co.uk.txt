@@ -1,0 +1,58 @@
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Sat, 04 Oct 2025 03:28:18 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Location: https://telegraph.co.uk/
+X-Cache: Redirect from cloudfront
+Via: 1.1 82caf3289f68886de3a67a0f5dcf96c8.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD61-P4
+X-Amz-Cf-Id: ddKjE6dgXlAXVAvKexn5-Ua1_6f6ebkErEMfRTD9hP-5LTnlvgu97A==
+
+HTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Connection: keep-alive
+Date: Fri, 03 Oct 2025 15:23:53 GMT
+Location: https://www.telegraph.co.uk/
+Server: AmazonS3
+X-Cache: Hit from cloudfront
+Via: 1.1 178db9f1d5b4200ff26d7b8b2dfb0a0a.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD61-P4
+X-Amz-Cf-Id: hBhR59jmw1a43wVeAZbfvNuK01vEGH0nedmua0mw-7Otgn8z7cnfBQ==
+Age: 43466
+
+HTTP/1.1 302 Moved Temporarily
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.telegraph.co.uk/us/
+Date: Sat, 04 Oct 2025 03:28:18 GMT
+Connection: keep-alive
+Akamai-X-True-Cache-TTL: -1
+X-TMG-Geo-Action: US_ON_UK_HP
+X-Akamai-UserLocation: US
+X-TMG-Pref-Exists: false
+x-esi-exe: true
+
+HTTP/1.1 200 OK
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000; includeSubDomains
+x-vhost: publish
+Content-Security-Policy: frame-ancestors 'self' *.telegraph.co.uk;
+x-vhost: ${SERVER_NAME}
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+X-Served-By: cache-iad-kiad7000032-IAD
+X-Timer: S1759548465.344179,VS0,VS0,VE4048
+Expires: Sat, 04 Oct 2025 03:28:18 GMT
+Cache-Control: max-age=0, no-cache
+Pragma: no-cache
+Date: Sat, 04 Oct 2025 03:28:18 GMT
+Connection: keep-alive
+Akamai-X-True-Cache-TTL: 60
+X-TMG-Geo-Action: US_ON_US_HP
+X-Akamai-UserLocation: US
+X-TMG-Pref-Exists: false
+x-esi-exe: true
+x-app-overriden-by-path: true
+

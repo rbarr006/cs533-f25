@@ -1,0 +1,39 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 04 Oct 2025 03:29:06 GMT
+Server: Apache
+Strict-Transport-Security: max-age=600;
+Location: http://web.blackberry.com/
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.blackberry.com/us/en
+Date: Sat, 04 Oct 2025 03:29:06 GMT
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=utf-8
+Content-Length: 153846
+Connection: keep-alive
+Date: Fri, 03 Oct 2025 07:28:03 GMT
+Content-Security-Policy: frame-ancestors 'self' https://dashboard.weglot.com https://*.translations.weglot.io; base-uri 'self'; upgrade-insecure-requests;
+Set-Cookie: AWSALB=w5+LGH7JqK6Hf2QoSYdvQbG6LvkpbS9GpLPPKn5s3RAH+Lo37USFuWhCOCxPyRCa65nPXmcCuKCq0KkekQcEex68Ri+MwW8LMMyV9SFonBxgim3FIEjxLTw+piaM; Expires=Fri, 10 Oct 2025 07:28:03 GMT; Path=/
+Set-Cookie: AWSALBCORS=w5+LGH7JqK6Hf2QoSYdvQbG6LvkpbS9GpLPPKn5s3RAH+Lo37USFuWhCOCxPyRCa65nPXmcCuKCq0KkekQcEex68Ri+MwW8LMMyV9SFonBxgim3FIEjxLTw+piaM; Expires=Fri, 10 Oct 2025 07:28:03 GMT; Path=/; SameSite=None; Secure
+Server: Apache
+X-Dispatcher: dispatcher3uswest2-28586372
+X-Vhost: publish
+Strict-Transport-Security: max-age=63072000; includeSubdomains;
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Last-Modified: Thu, 02 Oct 2025 18:55:34 GMT
+ETag: "258f6-6403187b00478"
+Accept-Ranges: bytes
+X-Frame-Options: SAMEORIGIN
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+Via: 1.1 495082db97d209f49efad4679b8a6f28.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD55-P2
+X-Amz-Cf-Id: 1Rohcd5D5A4Tex1LaeX8rwcsIvoP1o41tf7mHqV5nk5g8WVaCnwmYw==
+Age: 72063
+

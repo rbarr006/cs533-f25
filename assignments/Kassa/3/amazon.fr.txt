@@ -1,0 +1,35 @@
+HTTP/1.1 301 Moved Permanently
+Server: Server
+Date: Sat, 04 Oct 2025 03:28:57 GMT
+Content-Type: text/html
+Content-Length: 163
+Connection: keep-alive
+Location: https://amazon.fr/
+
+HTTP/1.1 301 Moved Permanently
+Server: Server
+Date: Sat, 04 Oct 2025 03:28:57 GMT
+Content-Type: text/html
+Connection: keep-alive
+Location: https://www.amazon.fr/
+
+HTTP/1.1 405 Method Not Allowed
+Content-Type: text/html;charset=UTF-8
+Content-Length: 0
+Connection: keep-alive
+Date: Sat, 04 Oct 2025 03:28:57 GMT
+x-frame-options: SAMEORIGIN
+server: Server
+x-amz-rid: 7MTDYA3DA9GFZSSR7DHM
+cache-control: no-cache
+pragma: no-cache
+expires: -1
+allow: GET, POST, PUT, DELETE, OPTIONS
+vary: Accept-Encoding,User-Agent,Content-Type,X-Amazon-Wtm-Tag-OPF-FR-ENV-VAR-DP-LRA,X-Amazon-Wtm-Tag-OPF-FR-ENV-VAR-LRA-SEARCH,X-Amazon-Wtm-Tag-OPF-FR-ENV-VAR-LRA,Accept-Encoding,User-Agent
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+X-Cache: Error from cloudfront
+Via: 1.1 2896f6be77233cf3f24b7a1aaae1c6f2.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD55-P4
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: xfWm3I-nXPpnv7KFOo9Mh0vu2NQv7c6XUHhjoLT_qRvhya7iwGUt-A==
+

@@ -1,0 +1,111 @@
+# Cookie Analysis Report
+
+| Site | Status | #Cookies | HttpOnly | Secure | SameSite  (Strict|Lax|None)  | Path (non-|) |
+|------|--------|----------|----------|--------|--------------|--------------|
+| 000webhost.com | 403 | 1 | 1 | 1 | 0/0/1 | 0 |
+| addtoany.com | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| alexa.com | 503 | 2 | 0 | 2 | 0/0/0 | 0 |
+| allaboutcookies.org | 403 | 1 | 0 | 1 | 0/1/0 | 0 |
+| amazon.fr | 405 | 0 | 0 | 0 | 0/0/0 | 0 |
+| amzn.to | 503 | 0 | 0 | 0 | 0/0/0 | 0 |
+| ap.org | 200 | 2 | 2 | 1 | 0/0/1 | 0 |
+| bandcamp.com | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| biglobe.ne.jp | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| blackberry.com | 200 | 2 | 0 | 1 | 0/0/1 | 0 |
+| blog.google | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| bloglovin.com | 403 | 0 | 0 | 0 | 0/0/0 | 0 |
+| books.google.com | 200 | 2 | 2 | 0 | 0/0/0 | 0 |
+| businessinsider.com | 200 | 2 | 0 | 1 | 0/0/1 | 0 |
+| cambridge.org | 403 | 2 | 2 | 1 | 0/0/1 | 0 |
+| cbc.ca | 200 | 1 | 1 | 1 | 0/0/0 | 0 |
+| cbslocal.com | 200 | 2 | 0 | 0 | 0/0/0 | 0 |
+| cbsnews.com | 200 | 2 | 0 | 0 | 0/0/0 | 0 |
+| cdc.gov | 301 | 1 | 0 | 1 | 0/0/1 | 0 |
+| code.google.com | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| cointernet.com.co | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| cpanel.com | 200 | 2 | 2 | 2 | 0/0/2 | 0 |
+| cpanel.net | 200 | 2 | 2 | 2 | 0/0/2 | 0 |
+| dailymail.co.uk | 200 | 1 | 0 | 1 | 0/0/0 | 0 |
+| deezer.com | 200 | 8 | 2 | 8 | 0/0/8 | 0 |
+| developers.google.com | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| digg.com | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| disney.com | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| disqus.com | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| doi.org | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| domainmarket.com | 403 | 0 | 0 | 0 | 0/0/0 | 0 |
+| dropcatch.com | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| dw.com | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| ebay.com | 200 | 10 | 5 | 10 | 0/0/2 | 0 |
+| eventbrite.com | 200 | 2 | 0 | 2 | 0/0/2 | 0 |
+| express.co.uk | 200 | 2 | 0 | 0 | 0/0/0 | 0 |
+| fandom.com | 200 | 5 | 0 | 3 | 0/0/3 | 0 |
+| fb.com | 200 | 2 | 2 | 2 | 0/0/0 | 0 |
+| fb.me | 200 | 2 | 2 | 2 | 0/0/0 | 0 |
+| fifa.com | 200 | 4 | 0 | 1 | 0/0/0 | 0 |
+| finance.yahoo.com | 429 | 0 | 0 | 0 | 0/0/0 | 0 |
+| focus.de | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| fr.wikipedia.org | 200 | 10 | 6 | 10 | 0/0/4 | 0 |
+| francetvinfo.fr | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| gnu.org | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| gsmarena.com | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| guardian.co.uk | 200 | 8 | 0 | 4 | 0/0/0 | 0 |
+| headers | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| hollywoodreporter.com | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| hubspot.com | 200 | 5 | 5 | 3 | 1/0/2 | 0 |
+| hugedomains.com | 403 | 0 | 0 | 0 | 0/0/0 | 0 |
+| id.wikipedia.org | 200 | 11 | 7 | 11 | 0/0/4 | 0 |
+| ietf.org | 200 | 2 | 2 | 1 | 0/0/1 | 0 |
+| indiegogo.com | 200 | 7 | 1 | 2 | 0/0/1 | 0 |
+| justjared.com | 403 | 0 | 0 | 0 | 0/0/0 | 0 |
+| lefigaro.fr | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| lemonde.fr | 200 | 1 | 0 | 0 | 0/0/0 | 0 |
+| live.com | 440 | 3 | 3 | 3 | 0/0/3 | 0 |
+| liveinternet.ru | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| mediafire.com | 200 | 3 | 3 | 1 | 0/0/1 | 0 |
+| mit.edu | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| mozilla.com | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| mozilla.org | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| msn.com | 404 | 7 | 4 | 2 | 0/0/1 | 0 |
+| namecheap.com | 403 | 1 | 1 | 1 | 0/0/1 | 0 |
+| netvibes.com | 200 | 2 | 1 | 2 | 0/0/2 | 0 |
+| newyorker.com | 200 | 10 | 2 | 6 | 0/0/6 | 0 |
+| nydailynews.com | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| nytimes.com | 200 | 10 | 0 | 6 | 0/4/2 | 0 |
+| offset.com | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| pbs.org | 200 | 2 | 0 | 2 | 0/0/2 | 0 |
+| photos1.blogger.com | 404 | 0 | 0 | 0 | 0/0/0 | 0 |
+| play.google.com | 200 | 4 | 4 | 0 | 0/0/0 | 0 |
+| plus.google.com | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| prezi.com | 406 | 0 | 0 | 0 | 0/0/0 | 0 |
+| quora.com | 403 | 0 | 0 | 0 | 0/0/0 | 0 |
+| rt.com | 200 | 11 | 2 | 0 | 0/0/0 | 0 |
+| salesforce.com | 200 | 4 | 0 | 2 | 0/0/1 | 0 |
+| sapo.pt | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| scholastic.com | 200 | 2 | 2 | 1 | 0/0/1 | 0 |
+| sedoparking.com | 405 | 0 | 0 | 0 | 0/0/0 | 0 |
+| sfgate.com | 405 | 4 | 0 | 4 | 1/0/1 | 0 |
+| sina.com.cn | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| soundcloud.com | 200 | 1 | 0 | 0 | 0/0/0 | 0 |
+| support.google.com | 404 | 2 | 2 | 0 | 0/0/0 | 0 |
+| t-online.de | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| techcrunch.com | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| telegraph.co.uk | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| thefreedictionary.com | 403 | 0 | 0 | 0 | 0/0/0 | 0 |
+| trustpilot.com | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| unicef.org | 403 | 0 | 0 | 0 | 0/0/0 | 0 |
+| upenn.edu | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| utexas.edu | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| vkontakte.ru | 418 | 0 | 0 | 0 | 0/0/0 | 0 |
+| washington.edu | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| wikihow.com | 200 | 3 | 0 | 3 | 0/0/0 | 0 |
+| www.over-blog.com | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| yahoo.co.jp | 200 | 0 | 0 | 0 | 0/0/0 | 0 |
+| yelp.com | 200 | 7 | 3 | 5 | 0/0/4 | 0 |
+| youtu.be | 200 | 8 | 8 | 8 | 0/1/5 | 0 |
+| zendesk.com | 403 | 5 | 5 | 3 | 0/0/3 | 0 |
+
+ Summary: 
+- HttpOnly: 84, Secure: 123
+- SameSite Strict|Lax|None : 2/6/70
+- Path != / : 0
+- Min/Max/Mean/Median cookies per site: 0/11/1.91/0
