@@ -1,0 +1,34 @@
+﻿HTTP/1.1 301 Moved Permanently
+Date: Sun, 28 Sep 2025 16:27:28 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Server: cloudflare
+Location: https://www.boston.com/
+CF-Ray: 98649bbd0cabf4ca-IAD
+Cache-Control: max-age=3600
+Expires: Sun, 28 Sep 2025 17:27:28 GMT
+Vary: Accept-Encoding
+
+HTTP/1.1 200 OK
+Date: Sun, 28 Sep 2025 16:27:28 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Server: cloudflare
+CF-Ray: 98649bbe2ea00f07-IAD
+CF-Cache-Status: DYNAMIC
+Age: 81
+Strict-Transport-Security: max-age=300
+Vary: Accept-Encoding, Origin, Accept-Encoding, client-geo-region
+Via: 1.1 varnish, 1.1 varnish
+content-security-policy: upgrade-insecure-requests
+x-boston-geo-country: US
+x-boston-geo-region: VA
+x-boston-true-client-ip: 2600:8805:a07:2400:d841:cf1:9a5e:f7d1
+x-cache: MISS, HIT
+x-cache-hits: 0, 4
+x-distributor: yes
+x-elasticpress-query: true
+x-served-by: cache-bos4671-BOS, cache-iad-kiad7000159-IAD
+x-timer: S1759076848.385720,VS0,VE0
+

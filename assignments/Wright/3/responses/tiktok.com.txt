@@ -1,0 +1,100 @@
+﻿HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: http://www.tiktok.com/
+Expires: Sun, 28 Sep 2025 16:26:14 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sun, 28 Sep 2025 16:26:14 GMT
+X-Cache: TCP_MISS from a23-52-15-74.deploy.akamaitechnologies.com (AkamaiGHost/22.2.4.1-77e9cb6b68636461a89296f1c5d52718) (-)
+Connection: keep-alive
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=0, origin; dur=0
+X-Akamai-Request-ID: 5c179c07
+
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.tiktok.com/
+Expires: Sun, 28 Sep 2025 16:26:14 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sun, 28 Sep 2025 16:26:14 GMT
+X-Cache: TCP_MISS from a23-33-41-26.deploy.akamaitechnologies.com (AkamaiGHost/22.2.4.1-a037218b67efe8ad9050157600b4a630) (-)
+Connection: keep-alive
+x-tt-trace-tag: id=16;cdn-cache=hit;type=dyn
+Server-Timing: cdn-cache; desc=HIT, edge; dur=0, origin; dur=0
+X-Akamai-Request-ID: 661fc3a3
+
+HTTP/1.1 302 Moved Temporarily
+Server: nginx
+Content-Type: text/html; charset=utf-8
+Content-Security-Policy: report-uri https://mon16-normal-useast5.tiktokv.us/monitor_browser/collect/batch/security/?bid=tiktok_pns&ev_type=csp&p=KpZCFgIee2DS8vDgItQS4&v=19; report-to csp-endpoint; upgrade-insecure-requests; default-src 'self' 'unsafe-eval' 'unsafe-inline' blob: bytedance: data: wss://*.tiktok.com wss://*.tiktokv.com wss://*.tiktokv.eu wss://tiktok.com wss://tiktokv.com *.adsintegrity.net *.akamaized.net *.amazonaws.com *.bing.com *.bitssec.com *.braintree-api.com *.braintreegateway.com *.bytedapm.com *.bytedgame.com *.bytehwm-row.com *.byteicdn.com *.byteintl.com *.byteintl.net *.byteintlapi.com *.byteintlstatic.com *.bytelemon.com *.byteoversea.com *.byteoversea.net *.bytevcloudapi.com *.capcut.com *.cloudflare.com *.ctfassets.net *.doubleclick.net *.evbuc.com *.eventim.de *.facebook.com *.facebook.net *.fbsbx.com *.fcdnstatic-intl.com *.fdmstatic.com *.g-p-static.com *.gauthmath.com *.giphy.com *.goofy-cdn.com *.goofy.app *.google.com *.googleadservices.com *.googleapis.com *.googletagmanager.com *.gstatic.com *.hsforms.com *.hsforms.net *.ibytedtos.com *.ibyteimg.com *.isnssdk.com *.jumio.ai *.kakao.com *.lemon8-app.com *.lemon8cdn.com *.licdn.com *.linkedin.com *.midtrans.com *.muscdn.com *.musical.ly *.oecstatic.com *.omise.co *.pangle-ads.com *.paypal.com *.pipopay.com *.pipopayment.us *.redditstatic.com *.resso.me *.sgsnssdk.com *.soundon.global *.tableau.com *.tenor.com *.tiktok-row.net *.tiktok.com *.tiktok.ru *.tiktok.vn *.tiktokapis.com *.tiktokcdn-eu.com *.tiktokcdn-in.com *.tiktokcdn-us.com *.tiktokcdn.com *.tiktokcreativeone.com *.tiktokforbusinessoutbound.com *.tiktokglobalshop.com *.tiktokmusic.me *.tiktokshop.com *.tiktokstaticb.com *.tiktokus.info *.tiktokv.com *.tiktokv.eu *.tiktokv.us *.tiktokw.eu *.tiktokw.us *.topbuzzcdn.com *.ttcdn-us.com *.ttlivecdn.com *.ttlstatic.com *.ttwstatic.com *.vimeo.com *.vodupload.com *.yahoo.co.jp *.yhgfb-static.com *.youtube-nocookie.com *.zhiliaoapp.com api.music.apple.com code.jquery.com facebook.com google.com i.ticketweb.com images.universe.com media.ticketmaster.eu play.itunes.apple.com res.cloudinary.com s1.ticketm.net static-label.frontgatetickets.com static.captchami.com t.co tikitoks.com tiktok.com tiktok.ua tiktok.vn tiktokfollowersfree.com tiktokv.com unpkg.com vimeo.com; connect-src * 'unsafe-inline' blob: data:; frame-src bytedance: *.kakao.com *.tiktok.com access.line.me accounts.google.com api.twitter.com appleid.apple.com assets.braintreegateway.com client-api.arkoselabs.com h.online-metrix.net lf16-web.tiktokcdn.com newassets.hcaptcha.com recaptcha.google.com tx41v.arkoselabs.com www.facebook.com www.google.com; script-src 'inline-speculation-rules' 'report-sample' 'unsafe-eval' *.tiktokcdn-us.com apis.google.com billshark-cdn.s3.amazonaws.com c.paypal.com cdnjs.cloudflare.com client-api.arkoselabs.com connect.facebook.net developers.kakao.com googleads.g.doubleclick.net js-cdn.music.apple.com/musickit/v3/musickit.js js.braintreegateway.com js.hcaptcha.com js.hsforms.net recaptcha.google.com s20.tiktokcdn.com s3.amazonaws.com sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/bric-captcha-ttweb/core-captcha/ static.captchami.com tiktok.captchami.com tx41v.arkoselabs.com unpkg.com vimeo.com www.facebook.net www.google.com www.googleadservices.com www.googleapis.com www.googletagmanager.com www.gstatic.com www.vimeo.com; worker-src www.tiktok.com/business/sw.js www.tiktok.com/embed/sw.js www.tiktok.com/firebase-messaging-sw.js www.tiktok.com/help/sw.js www.tiktok.com/sw.js www.tiktok.com/tiktokstudio/static/worker/ www.tiktok.com/tiktokstudio/sw.js www.tiktok.com/web-static-js/ www.tiktok.com/webapp-desktop/static/worker/; frame-ancestors tea-va.bytedance.net www.tiktok.com
+Feature-Policy: microphone 'none'; geolocation 'none'
+Location: /explore
+Referrer-Policy: strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+X-Bytefaas-Execution-Duration: 104.69
+X-Bytefaas-Request-Id: 202509281626144F2A40304CDB890EE34B
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Gw-Dst-Psm: serverless.tiktok.desktop
+X-Powered-By: Goofy Node
+X-Tt-Logid: 202509281626144F2A40304CDB890EE34B
+X-Xss-Protection: 1; mode=block
+Access-Control-Expose-Headers: x-tt-traceflag,x-tt-logid
+Server-Timing: inner; dur=107
+x-tt-trace-host: 01f04366a3d6b0e87677db727859435e8c3cd5afd08a8bb7aecd827355319c8520c2565482ee24b853d610d5c83dab1ab5a52b4a3fceed3c5f052ef7d85358ebeb38c8a3ed9455a502df217dd80a0235efed0e46a30511933e2119bbe214700296
+x-tt-trace-id: 00-2509281626144F2A40304CDB890EE34B-0DE196456589A577-00
+reporting-endpoints: csp-endpoint="https://mon16-normal-useast5.tiktokv.us/monitor_browser/collect/batch/security/?bid=tiktok_pns"
+Expires: Sun, 28 Sep 2025 16:26:14 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sun, 28 Sep 2025 16:26:14 GMT
+X-Cache: TCP_MISS from a23-33-41-26.deploy.akamaitechnologies.com (AkamaiGHost/22.2.4.1-a037218b67efe8ad9050157600b4a630) (-)
+Connection: keep-alive
+Set-Cookie: tt_csrf_token=a7XAa4st-uknF5Vg34MSUyNY6qh3N-h3IDqw; path=/; domain=.tiktok.com; samesite=lax; secure; httponly
+Set-Cookie: ttwid=1%7CtAnbcSbbP_pJyvHB_jNsg8WSMBkH7MzArS1GWIXMXmE%7C1759076774%7Ca063418975c797a1d7ac7e6031b40af3557c7b759c56164abb21ce16a40dd775; Domain=.tiktok.com; Path=/; Expires=Wed, 23 Sep 2026 16:26:14 GMT; HttpOnly; Secure
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=2, origin; dur=141
+X-Origin-Response-Time: 142,23.33.41.26
+X-Akamai-Request-ID: 661fc6b9
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: text/html; charset=utf-8
+Content-Security-Policy: report-uri https://mon16-normal-useast5.tiktokv.us/monitor_browser/collect/batch/security/?bid=tiktok_pns&ev_type=csp&p=_pH5SjQDVfKbITX-PQbrq&v=9; report-to csp-endpoint; upgrade-insecure-requests; default-src 'self' 'unsafe-eval' 'unsafe-inline' blob: bytedance: data: wss://*.tiktok.com wss://*.tiktokv.com wss://*.tiktokv.eu wss://tiktok.com wss://tiktokv.com *.adsintegrity.net *.akamaized.net *.amazonaws.com *.arkoselabs.com *.billetlugen.dk *.bing.com *.bitssec.com *.braintree-api.com *.braintreegateway.com *.bytedapm.com *.bytedgame.com *.bytehwm-row.com *.byteicdn.com *.byteintl.com *.byteintl.net *.byteintlapi.com *.byteintlstatic.com *.bytelemon.com *.byteoversea.com *.byteoversea.net *.bytevcloudapi.com *.capcut.com *.cloudflare.com *.ctfassets.net *.doubleclick.net *.entradas.com *.evbuc.com *.eventim.de *.facebook.com *.facebook.net *.fbsbx.com *.fcdnstatic-intl.com *.fdmstatic.com *.g-p-static.com *.gauthmath.com *.giphy.com *.goofy-cdn.com *.goofy.app *.google.com *.googleadservices.com *.googleapis.com *.googletagmanager.com *.gstatic.com *.hsforms.com *.hsforms.net *.ibytedtos.com *.ibyteimg.com *.isnssdk.com *.jumio.ai *.kakao.com *.lemon8-app.com *.lemon8cdn.com *.licdn.com *.linkedin.com *.midtrans.com *.muscdn.com *.musical.ly *.oecstatic.com *.omise.co *.pangle-ads.com *.paypal.com *.pipopay.com *.pipopay.eu *.pipopayment.com *.pipopayment.eu *.pipopayment.us *.redditstatic.com *.resso.me *.sgsnssdk.com *.soundon.global *.tableau.com *.tenor.com *.tiktok-row.net *.tiktok-usts.com *.tiktok.com *.tiktok.ru *.tiktok.vn *.tiktokapis.com *.tiktokcdn-eu.com *.tiktokcdn-in.com *.tiktokcdn-us.com *.tiktokcdn.com *.tiktokcreativeone.com *.tiktokforbusinessoutbound.com *.tiktokglobalshop.com *.tiktokglobalshop.us *.tiktokmusic.me *.tiktokshop.com *.tiktokshops.us *.tiktokstaticb.com *.tiktokus.info *.tiktokv.com *.tiktokv.eu *.tiktokv.us *.tiktokw.eu *.tiktokw.us *.topbuzzcdn.com *.ttcdn-us.com *.ttlivecdn.com *.ttlstatic.com *.ttwstatic.com *.vimeo.com *.vodupload.com *.yahoo.co.jp *.yhgfb-static.com *.youtube-nocookie.com *.zhiliaoapp.com api.music.apple.com code.jquery.com facebook.com google.com i.ticketweb.com images.universe.com interactives.ap.org media.ticketmaster.eu newassets.hcaptcha.com play.itunes.apple.com res.cloudinary.com s1.ticketm.net static-label.frontgatetickets.com static.captchami.com t.co tikitoks.com tiktok.com tiktok.ua tiktok.vn tiktokfollowersfree.com tiktokv.com tx41v.arkoselabs.com unpkg.com vimeo.com; connect-src 'self' 'unsafe-eval' 'unsafe-inline' blob: bytedance: data: http://localhost:* https://localhost:* wss://im-ws.tiktok.com *.adsintegrity.net *.akamaized.net *.amazonaws.com *.arkoselabs.com *.billetlugen.dk *.bing.com *.bitssec.com *.braintree-api.com *.braintreegateway.com *.bytedapm.com *.bytedgame.com *.bytehwm-row.com *.byteicdn.com *.byteintl.com *.byteintl.net *.byteintlapi.com *.byteintlstatic.com *.bytelemon.com *.byteoversea.com *.byteoversea.net *.bytevcloudapi.com *.capcut.com *.cloudflare.com *.ctfassets.net *.doubleclick.net *.entradas.com *.evbuc.com *.eventim.de *.facebook.com *.facebook.net *.fbsbx.com *.fcdnstatic-intl.com *.fdmstatic.com *.g-p-static.com *.gauthmath.com *.giphy.com *.goofy-cdn.com *.goofy.app *.google.com *.googleadservices.com *.googleapis.com *.googletagmanager.com *.gstatic.com *.hsforms.com *.hsforms.net *.ibytedtos.com *.ibyteimg.com *.isnssdk.com *.jumio.ai *.kakao.com *.lemon8-app.com *.lemon8cdn.com *.licdn.com *.linkedin.com *.midtrans.com *.muscdn.com *.musical.ly *.oecstatic.com *.omise.co *.pangle-ads.com *.paypal.com *.pipopay.com *.pipopay.eu *.pipopayment.com *.pipopayment.eu *.pipopayment.us *.redditstatic.com *.resso.me *.sgsnssdk.com *.soundon.global *.tableau.com *.tenor.com *.tiktok-usts.com *.tiktok.com/passport/ *.tiktokcdn-eu.com *.tiktokcdn-in.com *.tiktokcdn-us.com *.tiktokcdn.com *.tiktokcreativeone.com *.tiktokforbusinessoutbound.com *.tiktokglobalshop.us *.tiktokglobalshopv.us *.tiktokmusic.me *.tiktokshops.us *.tiktokstaticb.com *.tiktokus.info *.tiktokv-us.com *.tiktokv.us *.tiktokw.eu/passport/ *.tiktokw.us *.topbuzzcdn.com *.ttlivecdn.com *.ttlstatic.com *.ttwstatic.com *.us.tiktok.com *.us.tiktokv.com *.vimeo.com *.vodupload.com *.yahoo.co.jp *.yhgfb-static.com *.youtube-nocookie.com *.zhiliaoapp.com affiliate-us.tiktok.com analytics.tiktok.com api.music.apple.com code.jquery.com effecthouse.tiktok.com facebook.com google.com i.ticketweb.com im-api.tiktok.com im-image.tiktokv.com im-ws.tiktok.com image-va.tiktok.com images.universe.com interactives.ap.org livecenter.tiktok.com login-eu.www.tiktok.com login-no1a.www.tiktok.com login-row.www.tiktok.com login-us.www.tiktok.com media.ticketmaster.eu newassets.hcaptcha.com newsroom.tiktok.com p0-pu-private-useast8.tiktok.com play.itunes.apple.com res.cloudinary.com s1.ticketm.net scm-us.tiktok.com seller-us.tiktok.com shop.tiktok.com starling-i18n.tiktokv.com/check_and_get_text/ starling-sg.tiktokv.com/check_and_get_text/ starling-va.tiktokv.com/check_and_get_text/ static-label.frontgatetickets.com static.captchami.com support.tiktok.com t.co t.tiktok.com tikitoks.com tiktok.captchami.com tiktokfollowersfree.com tv.tiktok.com tx41v.arkoselabs.com unpkg.com us.tiktok.com v16-webapp-prime.tiktok.com v16-webapp.tiktok.com v19-webapp-prime.tiktok.com vas-alisg16.tiktokv.com vas-maliva16.tiktokv.com vas-useast2a.tiktokv.com vas-va.tiktokv.com vcs-sg.tiktokv.com vcs-va.byteoversea.com vcs-va.tiktokv.com verification-i18n.tiktok.com verification-sg.tiktok.com verification-va.byteoversea.com verification-va.tiktok.com verification.tiktokw.eu verification16-normal-no1a.tiktokw.eu verify-sg.byteoversea.com vimeo.com web-i18n.tiktok.com/passport/ web-sg.tiktok.com/passport/ web-va.tiktok.com/passport/ webapp-sg.tiktok.com webapp-va.tiktok.com www.tiktok.com; script-src 'inline-speculation-rules' 'report-sample' 'unsafe-eval' *.tiktokcdn-us.com apis.google.com billshark-cdn.s3.amazonaws.com c.paypal.com cdn.ampproject.org cdnjs.cloudflare.com client-api.arkoselabs.com connect.facebook.net developers.kakao.com googleads.g.doubleclick.net interactives.ap.org js-cdn.music.apple.com/musickit/v3/musickit.js js.braintreegateway.com js.hcaptcha.com js.hsforms.net recaptcha.google.com s20.tiktokcdn.com s3.amazonaws.com sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/bric-captcha-ttweb/core-captcha/ static.captchami.com tiktok.captchami.com tx41v.arkoselabs.com unpkg.com vimeo.com www.facebook.net www.google.com www.googleadservices.com www.googleapis.com www.googletagmanager.com www.gstatic.com www.vimeo.com; worker-src www.tiktok.com/business/sw.js www.tiktok.com/creator/worker/ www.tiktok.com/embed/sw.js www.tiktok.com/firebase-messaging-sw.js www.tiktok.com/help/sw.js www.tiktok.com/legal/report/verification/uploader-oversea-crc32.js www.tiktok.com/live/creator-networks/pdf.worker.min.js www.tiktok.com/live/static/player-worker/ www.tiktok.com/risk-appeal-ocr/BlinkCardWasmSDK.worker.min.js www.tiktok.com/series/worker/ www.tiktok.com/sw.js www.tiktok.com/tiktokstudio/static/worker/ www.tiktok.com/tiktokstudio/sw.js www.tiktok.com/web-static-js/ www.tiktok.com/webapp-desktop/static/worker/
+Feature-Policy: microphone 'none'; geolocation 'none'
+Referrer-Policy: strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=31536000; includeSubdomains
+X-Bytefaas-Enable-Stream: true
+X-Bytefaas-Execution-Duration: 141.68
+X-Bytefaas-Request-Id: 202509281626144A3AC3CD795AC50EB586
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Gw-Dst-Psm: serverless.tiktok.desktop
+X-Powered-By: Goofy Node
+X-Pumbaa-Web-Avail: 1
+X-Tt-Logid: 202509281626144A3AC3CD795AC50EB586
+X-Xss-Protection: 1; mode=block
+Access-Control-Expose-Headers: x-tt-traceflag,x-tt-logid
+Server-Timing: inner; dur=144
+x-tt-trace-host: 01f04366a3d6b0e87677db727859435e8c3940f9abc4b621951a1a87f3584dc389aef0a75b1baf89b40a8635d48c6c2262308bce926e6e6c95de7a93620956c5482573103415b5335227522e21c6870abc97e2364d30333c44a2a3d5341788ae40
+x-tt-trace-id: 00-2509281626144A3AC3CD795AC50EB586-7957B56F152B9B46-00
+reporting-endpoints: csp-endpoint="https://mon16-normal-useast5.tiktokv.us/monitor_browser/collect/batch/security/?bid=tiktok_pns"
+Expires: Sun, 28 Sep 2025 16:26:15 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sun, 28 Sep 2025 16:26:15 GMT
+X-Cache: TCP_MISS from a23-33-41-13.deploy.akamaitechnologies.com (AkamaiGHost/22.2.4.1-a037218b67efe8ad9050157600b4a630) (-)
+Connection: keep-alive
+Set-Cookie: ttwid=1%7CjOEQNL-cU4RuROUoVd3_N7XzICw4sjpPkXmuz38PkE8%7C1759076774%7C7b9efee9ae110aca6dabef50021675e444f8d15735ee211db827b4da788aa2db; Domain=.tiktok.com; Path=/; Expires=Wed, 23 Sep 2026 16:26:15 GMT; HttpOnly; Secure
+Set-Cookie: tt_csrf_token=s8nDq23Y-4HOy5kI1oMDnDzYtg5O5oo_eGXM; path=/; domain=.tiktok.com; samesite=lax; secure; httponly
+Set-Cookie: tt_chain_token=ELLAokOXeIlxqVVm2asVUg==; path=/; expires=Fri, 27 Mar 2026 16:26:15 GMT; domain=.tiktok.com; secure; httponly
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=1, origin; dur=168
+X-Origin-Response-Time: 168,23.33.41.13
+X-Akamai-Request-ID: 30083b45
+

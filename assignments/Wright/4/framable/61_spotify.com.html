@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Frame test — spotify.com</title>
+    <style>body{font-family:system-ui,Segoe UI,Arial;margin:20px} iframe{width:100%;height:70vh;border:1px solid #aaa}</style>
+  </head>
+  <body>
+    <h1>Frame test — spotify.com</h1>
+    <p>Predicted framable: NO</p>
+    <p>Block reason: CSP frame-ancestors: script-src 'self' 'unsafe-eval' blob: open.spotifycdn.com open-exp.spotifycdn.com open-review.spotifycdn.com open-exp-review.spotifycdn.com quicksilver.scdn.co www.google-analytics.com www.googletagmanager.com static.ads-twitter.com analytics.twitter.com s.pinimg.com sc-static.net https://www.google.com/recaptcha/ cdn.ravenjs.com connect.facebook.net www.gstatic.com sb.scorecardresearch.com pixel-static.spotify.com cdn.cookielaw.org geolocation.onetrust.com www.googleoptimize.com www.fastly-insights.com static.hotjar.com script.hotjar.com https://www.googleadservices.com/pagead/conversion_async.js https://www.googleadservices.com/pagead/conversion/ https://analytics.tiktok.com/i18n/pixel/sdk.js https://analytics.tiktok.com/i18n/pixel/identify.js https://analytics.tiktok.com/i18n/pixel/config.js https://www.redditstatic.com/ads/pixel.js https://t.contentsquare.net/uxa/22f14577e19f3.js https://get.microsoft.com/badge/ms-store-badge.bundled.js 'sha256-wfsti7ovogdf9vq5d14s2birjvcglqwf842fyhhzonw=' 'sha256-krzjhxcdt8icnadoqpbdy0alkiih5f8r4bnbe1pqwss=' 'sha256-z5wh7xxsbr1+mtxlspfhywczjt77+up1gikagpisu2s='; frame-ancestors 'self' https://adgen-dev.spotify.com/account/*/ad/*/details https://adgen-dev.spotify.com/preview/* https://local.spotify.net/account/*/ad/*/details https://local.spotify.net/preview/* https://app.smartly.io/*;; CSP frame-ancestors: frame-ancestors 'self' https://adgen-dev.spotify.com/account/*/ad/*/details https://adgen-dev.spotify.com/preview/* https://local.spotify.net/account/*/ad/*/details https://local.spotify.net/preview/* https://app.smartly.io/*; </p>
+    <p>Below is an iframe that points at the target site. If the site blocks framing, the iframe may show nothing or an error.</p>
+
+    <iframe id="testFrame" src="https://spotify.com" ></iframe>
+
+    <script>
+      const iframe = document.getElementById('testFrame');
+      let loaded = false;
+      iframe.addEventListener('load', () => { loaded = true; });
+      setTimeout(() => {
+        const status = loaded ? 'load event fired (resource loaded)' : 'no load event within timeout (possibly blocked)';
+        document.body.insertAdjacentHTML('beforeend', '<p><strong>Heuristic detection:</strong> ' + status + '</p>');
+      }, 3000);
+    </script>
+  </body>
+</html>

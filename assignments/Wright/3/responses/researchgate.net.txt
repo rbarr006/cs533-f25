@@ -1,0 +1,43 @@
+﻿HTTP/1.1 301 Moved Permanently
+Date: Sun, 28 Sep 2025 16:26:21 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sun, 28 Sep 2025 17:26:21 GMT
+Location: https://researchgate.net/
+Cross-Origin-Opener-Policy: same-origin
+Server: cloudflare
+CF-RAY: 98649a1a4d940947-IAD
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 28 Sep 2025 16:26:21 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sun, 28 Sep 2025 17:26:21 GMT
+Location: https://www.researchgate.net/
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Cross-Origin-Opener-Policy: same-origin
+Server: cloudflare
+CF-RAY: 98649a1afcf38847-IAD
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 403 Forbidden
+Date: Sun, 28 Sep 2025 16:26:21 GMT
+Content-Type: text/plain; charset=UTF-8
+Content-Length: 16
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: same-origin
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: __cf_bm=_ZApisXGiawVgzYhB4nDvrN8_GVcjVr5jG4cNZuNPrg-1759076781-1.0.1.1-0S6SrbQjUInXW0BijpvecCuSxQRvbAjDzbW5P0HZfNfiDvJ1KHIds8r4PlBHTv3cs9A1zYgiQnLiCOWjsipoLh.5WBaL2JX1ISj7KNgyVmQ; path=/; expires=Sun, 28-Sep-25 16:56:21 GMT; domain=.researchgate.net; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Cross-Origin-Opener-Policy: same-origin
+Server: cloudflare
+CF-RAY: 98649a1baaf27f86-IAD
+alt-svc: h3=":443"; ma=86400
+

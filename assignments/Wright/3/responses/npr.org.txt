@@ -1,0 +1,44 @@
+﻿HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Sun, 28 Sep 2025 16:26:15 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Location: https://npr.org/
+X-Cache: Redirect from cloudfront
+Via: 1.1 6057ee56438e208609fccc94cdceb78c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD55-P3
+X-Amz-Cf-Id: 2zelFRoG6N9l2NSnj8yvBJrZITmpnm8cVM_nPDPN2TMp6tr7l_yhHQ==
+
+HTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Connection: keep-alive
+Date: Sat, 27 Sep 2025 23:47:46 GMT
+Location: https://www.npr.org/
+Server: AmazonS3
+X-Cache: Hit from cloudfront
+Via: 1.1 3b2c32f90b8e4193dda6d9be63628ab2.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD55-P3
+X-Amz-Cf-Id: Q_I6JSTOP43ZWxT6erC_m9wG5mMOonXY0k8Ztm8IqGb51dNMnBVPVw==
+Age: 59910
+
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=UTF-8
+X-Cache-NPR: MISS
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+X-NPR-Trace-ID: renA8ObRrBe
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Served-By: pod-www-render-nginx-6bdd4fccd5-qzwfd
+Referrer-Policy: no-referrer-when-downgrade
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+Access-Control-Allow-Methods: GET, PUT, POST, DELETE, PATCH, OPTIONS
+Access-Control-Allow-Headers: DNT,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Range,Authorization
+Access-Control-Max-Age: 1728000
+Cache-Control: no-cache
+Expires: Sun, 28 Sep 2025 16:26:15 GMT
+Date: Sun, 28 Sep 2025 16:26:15 GMT
+Connection: keep-alive
+Server-Timing: ak_p; desc="1759076775434_389185932_2045296243_350_14191_22_22_-";dur=1
+

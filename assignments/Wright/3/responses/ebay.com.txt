@@ -1,0 +1,686 @@
+﻿HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://ebay.com/
+Expires: Sun, 28 Sep 2025 16:27:39 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sun, 28 Sep 2025 16:27:39 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 301 Moved Permanently
+Location: https://www.ebay.com/
+x-ebay-pop-id: SLBSLCAZ03
+Server: ebay-proxy-server
+Expires: Sun, 28 Sep 2025 16:27:39 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sun, 28 Sep 2025 16:27:39 GMT
+Connection: keep-alive
+x-CDN: Akamai
+Strict-Transport-Security: max-age=31536000
+
+HTTP/1.1 302 Moved Temporarily
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Accept-CH: sec-ch-ua-model,sec-ch-ua-full-version,sec-ch-ua-platform-version
+Location: https://www.ebay.com/n/error
+Content-Length: 0
+rlogid: t6qjssfcjb%7B7%3C%3Dqjssfcjb%7B7%2Bc%60f1%3F6%3C%3F%3E.qctp42%3F.o3lou-1999126c0e6-0x1908
+x-envoy-upstream-service-time: 113
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:40 GMT
+Connection: keep-alive
+Set-Cookie: dp1=bbl/US6c9bc8fc^; Domain=.ebay.com; Path=/; Expires=Tue, 28 Sep 2027 16:27:40 GMT; Secure
+Set-Cookie: nonsession=BAQAAAZhdx0gSAAaAADMABWq6lXwyMzYwMQDKACBsm8j8OTEyNmMwZjYxOTkwYTY3Yjc4YTgzMTkwZmZkMGFhOWQAywABaNlpBDFMQzqT08QOcmkxVzJbCJqGAD3TIg**; Domain=.ebay.com; Path=/; Expires=Tue, 28 Sep 2027 16:27:40 GMT; HttpOnly; Secure
+Set-Cookie: s=CgAD4ACBo2rN8OTEyNmMwZjYxOTkwYTY3Yjc4YTgzMTkwZmZkMGFhOWQBEgCX; Domain=.ebay.com; Path=/; HttpOnly; Secure
+Set-Cookie: ds2=amsg/9126c0f61990a67b78a83190ffd0aa9d^; Domain=.ebay.com; Path=/; SameSite=None; Secure
+Set-Cookie: __deba=EjLeJ4qsvJ4PQvTmYbA7eVcKm6g-ZjxZZ1wo8PA-2iF7gYmPg09DOwXWnqWk9RyLXR8UW1J2_XMwSXzXGqPFGHm4rFRp8vbhyBXp4PJZGZDLwn1-ivgW3Ku5T6igLXT9_8O02VbtnlE_ds3ayLp9uw==; HttpOnly; Secure; Path=/; Domain=.ebay.com; Expires=Fri, 27 Mar 2026 16:27:40 UTC
+
+HTTP/1.1 303 See Other
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Location: http://pages.ebay.com/messages/page_not_responding.html
+Content-Length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 85
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:40 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+Location: https://pages.ebay.com/messages/page_not_responding.html
+x-ebay-pop-id: SLBLVSAZ01
+Server: ebay-proxy-server
+Content-Length: 0
+Date: Sun, 28 Sep 2025 16:27:40 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 301 Moved Permanently
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.0ee41e1a%3C2*w%60ut222*rfti%60-19991003c8d-0x493b6
+Content-Security-Policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com *.tcgplayer.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+Last-Modified: Sun, 28 Sep 2025 14:49:40 GMT
+Location: https://www.ebay.com/n/error?statuscode=500
+Content-Length: 0
+x-envoy-upstream-service-time: 32
+Server: ebay-proxy-server
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBLVSAZ01
+Date: Sun, 28 Sep 2025 16:27:40 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 303 See Other
+traceid: ddfeb40c520f1aac7760d1f1fc8899b3
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Location: http://pages.ebay.com/messages/page_not_responding.html
+Content-Length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 107
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:40 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.0ee41e1a%3C2*w%60ut222*rfti%60-19991003c8d-0x493b6
+Content-Security-Policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com *.tcgplayer.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+Last-Modified: Sun, 28 Sep 2025 14:49:40 GMT
+Location: https://www.ebay.com/n/error?statuscode=500
+Content-Length: 0
+x-envoy-upstream-service-time: 32
+Server: ebay-proxy-server
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBLVSAZ01
+Date: Sun, 28 Sep 2025 16:27:40 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 303 See Other
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Location: http://pages.ebay.com/messages/page_not_responding.html
+Content-Length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 83
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:40 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.0ee41e1a%3C2*w%60ut222*rfti%60-19991003c8d-0x493b6
+Content-Security-Policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com *.tcgplayer.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+Last-Modified: Sun, 28 Sep 2025 14:49:40 GMT
+Location: https://www.ebay.com/n/error?statuscode=500
+Content-Length: 0
+x-envoy-upstream-service-time: 32
+Server: ebay-proxy-server
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBLVSAZ01
+Date: Sun, 28 Sep 2025 16:27:40 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 303 See Other
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Location: http://pages.ebay.com/messages/page_not_responding.html
+Content-Length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 57
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:41 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.0ee41e1a%3C2*w%60ut222*rfti%60-19991003c8d-0x493b6
+Content-Security-Policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com *.tcgplayer.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+Last-Modified: Sun, 28 Sep 2025 14:49:40 GMT
+Location: https://www.ebay.com/n/error?statuscode=500
+Content-Length: 0
+x-envoy-upstream-service-time: 32
+Server: ebay-proxy-server
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBLVSAZ01
+Date: Sun, 28 Sep 2025 16:27:41 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 303 See Other
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Location: http://pages.ebay.com/messages/page_not_responding.html
+Content-Length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 65
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:41 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.0ee41e1a%3C2*w%60ut222*rfti%60-19991003c8d-0x493b6
+Content-Security-Policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com *.tcgplayer.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+Last-Modified: Sun, 28 Sep 2025 14:49:40 GMT
+Location: https://www.ebay.com/n/error?statuscode=500
+Content-Length: 0
+x-envoy-upstream-service-time: 32
+Server: ebay-proxy-server
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBLVSAZ01
+Date: Sun, 28 Sep 2025 16:27:41 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 303 See Other
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Location: http://pages.ebay.com/messages/page_not_responding.html
+Content-Length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 77
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:41 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.0ee41e1a%3C2*w%60ut222*rfti%60-19991003c8d-0x493b6
+Content-Security-Policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com *.tcgplayer.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+Last-Modified: Sun, 28 Sep 2025 14:49:40 GMT
+Location: https://www.ebay.com/n/error?statuscode=500
+Content-Length: 0
+x-envoy-upstream-service-time: 32
+Server: ebay-proxy-server
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBLVSAZ01
+Date: Sun, 28 Sep 2025 16:27:41 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 303 See Other
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Location: http://pages.ebay.com/messages/page_not_responding.html
+Content-Length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 78
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:41 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.0ee41e1a%3C2*w%60ut222*rfti%60-19991003c8d-0x493b6
+Content-Security-Policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com *.tcgplayer.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+Last-Modified: Sun, 28 Sep 2025 14:49:40 GMT
+Location: https://www.ebay.com/n/error?statuscode=500
+Content-Length: 0
+x-envoy-upstream-service-time: 32
+Server: ebay-proxy-server
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBLVSAZ01
+Date: Sun, 28 Sep 2025 16:27:41 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 303 See Other
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Location: http://pages.ebay.com/messages/page_not_responding.html
+Content-Length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 80
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:41 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.0ee41e1a%3C2*w%60ut222*rfti%60-19991003c8d-0x493b6
+Content-Security-Policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com *.tcgplayer.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+Last-Modified: Sun, 28 Sep 2025 14:49:40 GMT
+Location: https://www.ebay.com/n/error?statuscode=500
+Content-Length: 0
+x-envoy-upstream-service-time: 32
+Server: ebay-proxy-server
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBLVSAZ01
+Date: Sun, 28 Sep 2025 16:27:41 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 303 See Other
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Location: http://pages.ebay.com/messages/page_not_responding.html
+Content-Length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 71
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:41 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.0ee41e1a%3C2*w%60ut222*rfti%60-19991003c8d-0x493b6
+Content-Security-Policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com *.tcgplayer.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+Last-Modified: Sun, 28 Sep 2025 14:49:40 GMT
+Location: https://www.ebay.com/n/error?statuscode=500
+Content-Length: 0
+x-envoy-upstream-service-time: 32
+Server: ebay-proxy-server
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBLVSAZ01
+Date: Sun, 28 Sep 2025 16:27:41 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 303 See Other
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Location: http://pages.ebay.com/messages/page_not_responding.html
+Content-Length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 64
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:41 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.0ee41e1a%3C2*w%60ut222*rfti%60-19991003c8d-0x493b6
+Content-Security-Policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com *.tcgplayer.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+Last-Modified: Sun, 28 Sep 2025 14:49:40 GMT
+Location: https://www.ebay.com/n/error?statuscode=500
+Content-Length: 0
+x-envoy-upstream-service-time: 32
+Server: ebay-proxy-server
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBLVSAZ01
+Date: Sun, 28 Sep 2025 16:27:42 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 303 See Other
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Location: http://pages.ebay.com/messages/page_not_responding.html
+Content-Length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 65
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:42 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.0ee41e1a%3C2*w%60ut222*rfti%60-19991003c8d-0x493b6
+Content-Security-Policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com *.tcgplayer.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+Last-Modified: Sun, 28 Sep 2025 14:49:40 GMT
+Location: https://www.ebay.com/n/error?statuscode=500
+Content-Length: 0
+x-envoy-upstream-service-time: 32
+Server: ebay-proxy-server
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBLVSAZ01
+Date: Sun, 28 Sep 2025 16:27:42 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 303 See Other
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Location: http://pages.ebay.com/messages/page_not_responding.html
+Content-Length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 84
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:42 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.0ee41e1a%3C2*w%60ut222*rfti%60-19991003c8d-0x493b6
+Content-Security-Policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com *.tcgplayer.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+Last-Modified: Sun, 28 Sep 2025 14:49:40 GMT
+Location: https://www.ebay.com/n/error?statuscode=500
+Content-Length: 0
+x-envoy-upstream-service-time: 32
+Server: ebay-proxy-server
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBLVSAZ01
+Date: Sun, 28 Sep 2025 16:27:42 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 303 See Other
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Location: http://pages.ebay.com/messages/page_not_responding.html
+Content-Length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 78
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:42 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.0ee41e1a%3C2*w%60ut222*rfti%60-19991003c8d-0x493b6
+Content-Security-Policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com *.tcgplayer.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+Last-Modified: Sun, 28 Sep 2025 14:49:40 GMT
+Location: https://www.ebay.com/n/error?statuscode=500
+Content-Length: 0
+x-envoy-upstream-service-time: 32
+Server: ebay-proxy-server
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBLVSAZ01
+Date: Sun, 28 Sep 2025 16:27:42 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 303 See Other
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Location: http://pages.ebay.com/messages/page_not_responding.html
+Content-Length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 81
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:42 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.0ee41e1a%3C2*w%60ut222*rfti%60-19991003c8d-0x493b6
+Content-Security-Policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com *.tcgplayer.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+Last-Modified: Sun, 28 Sep 2025 14:49:40 GMT
+Location: https://www.ebay.com/n/error?statuscode=500
+Content-Length: 0
+x-envoy-upstream-service-time: 32
+Server: ebay-proxy-server
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBLVSAZ01
+Date: Sun, 28 Sep 2025 16:27:42 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 303 See Other
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Location: http://pages.ebay.com/messages/page_not_responding.html
+Content-Length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 90
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:43 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.0ee41e1a%3C2*w%60ut222*rfti%60-19991003c8d-0x493b6
+Content-Security-Policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com *.tcgplayer.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+Last-Modified: Sun, 28 Sep 2025 14:49:40 GMT
+Location: https://www.ebay.com/n/error?statuscode=500
+Content-Length: 0
+x-envoy-upstream-service-time: 32
+Server: ebay-proxy-server
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBLVSAZ01
+Date: Sun, 28 Sep 2025 16:27:43 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 303 See Other
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Location: http://pages.ebay.com/messages/page_not_responding.html
+Content-Length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 79
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:43 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.0ee41e1a%3C2*w%60ut222*rfti%60-19991003c8d-0x493b6
+Content-Security-Policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com *.tcgplayer.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+Last-Modified: Sun, 28 Sep 2025 14:49:40 GMT
+Location: https://www.ebay.com/n/error?statuscode=500
+Content-Length: 0
+x-envoy-upstream-service-time: 32
+Server: ebay-proxy-server
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBLVSAZ01
+Date: Sun, 28 Sep 2025 16:27:43 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 303 See Other
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Location: http://pages.ebay.com/messages/page_not_responding.html
+Content-Length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 70
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:43 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.0ee41e1a%3C2*w%60ut222*rfti%60-19991003c8d-0x493b6
+Content-Security-Policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com *.tcgplayer.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+Last-Modified: Sun, 28 Sep 2025 14:49:40 GMT
+Location: https://www.ebay.com/n/error?statuscode=500
+Content-Length: 0
+x-envoy-upstream-service-time: 32
+Server: ebay-proxy-server
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBLVSAZ01
+Date: Sun, 28 Sep 2025 16:27:43 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 303 See Other
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Location: http://pages.ebay.com/messages/page_not_responding.html
+Content-Length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 71
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:43 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.0ee41e1a%3C2*w%60ut222*rfti%60-19991003c8d-0x493b6
+Content-Security-Policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com *.tcgplayer.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+Last-Modified: Sun, 28 Sep 2025 14:49:40 GMT
+Location: https://www.ebay.com/n/error?statuscode=500
+Content-Length: 0
+x-envoy-upstream-service-time: 32
+Server: ebay-proxy-server
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBLVSAZ01
+Date: Sun, 28 Sep 2025 16:27:43 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 303 See Other
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Location: http://pages.ebay.com/messages/page_not_responding.html
+Content-Length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 66
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:43 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.0ee41e1a%3C2*w%60ut222*rfti%60-19991003c8d-0x493b6
+Content-Security-Policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com *.tcgplayer.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+Last-Modified: Sun, 28 Sep 2025 14:49:40 GMT
+Location: https://www.ebay.com/n/error?statuscode=500
+Content-Length: 0
+x-envoy-upstream-service-time: 32
+Server: ebay-proxy-server
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBLVSAZ01
+Date: Sun, 28 Sep 2025 16:27:43 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 303 See Other
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Location: http://pages.ebay.com/messages/page_not_responding.html
+Content-Length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 67
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:44 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.0ee41e1a%3C2*w%60ut222*rfti%60-19991003c8d-0x493b6
+Content-Security-Policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com *.tcgplayer.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+Last-Modified: Sun, 28 Sep 2025 14:49:40 GMT
+Location: https://www.ebay.com/n/error?statuscode=500
+Content-Length: 0
+x-envoy-upstream-service-time: 32
+Server: ebay-proxy-server
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBLVSAZ01
+Date: Sun, 28 Sep 2025 16:27:44 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 303 See Other
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Location: http://pages.ebay.com/messages/page_not_responding.html
+Content-Length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 65
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:44 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.0ee41e1a%3C2*w%60ut222*rfti%60-19991003c8d-0x493b6
+Content-Security-Policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com *.tcgplayer.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+Last-Modified: Sun, 28 Sep 2025 14:49:40 GMT
+Location: https://www.ebay.com/n/error?statuscode=500
+Content-Length: 0
+x-envoy-upstream-service-time: 32
+Server: ebay-proxy-server
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBLVSAZ01
+Date: Sun, 28 Sep 2025 16:27:44 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 303 See Other
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Location: http://pages.ebay.com/messages/page_not_responding.html
+Content-Length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 81
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:44 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.0ee41e1a%3C2*w%60ut222*rfti%60-19991003c8d-0x493b6
+Content-Security-Policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com *.tcgplayer.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+Last-Modified: Sun, 28 Sep 2025 14:49:40 GMT
+Location: https://www.ebay.com/n/error?statuscode=500
+Content-Length: 0
+x-envoy-upstream-service-time: 32
+Server: ebay-proxy-server
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBLVSAZ01
+Date: Sun, 28 Sep 2025 16:27:44 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 303 See Other
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Location: http://pages.ebay.com/messages/page_not_responding.html
+Content-Length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 80
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:44 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+rlogid: t6fug%60ffiiw%3F%3Cbsdab%60jhs.0ee41e1a%3C2*w%60ut222*rfti%60-19991003c8d-0x493b6
+Content-Security-Policy: frame-ancestors 'self' *.ebay.com *.ebay.ca *.ebay.co.uk *.ebay.ie *.ebay.com.au *.ebay.fr *.ebay.de *.ebay.at *.ebay.ch *.ebay.it *.ebay.nl *.ebay.es *.ebay.com.hk *.ebay.com.my *.ebay.ph *.ebay.pl *.ebay.com.sg *.ebay.be *.ebay.in e-bay.com *.tcgplayer.com; report-uri https://monitor.ebay.com/csp-report/epage/?id=local
+Last-Modified: Sun, 28 Sep 2025 14:49:40 GMT
+Location: https://www.ebay.com/n/error?statuscode=500
+Content-Length: 0
+x-envoy-upstream-service-time: 32
+Server: ebay-proxy-server
+strict-transport-security: max-age=600
+x-ebay-pop-id: SLBLVSAZ01
+Date: Sun, 28 Sep 2025 16:27:44 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 303 See Other
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Location: http://pages.ebay.com/messages/page_not_responding.html
+Content-Length: 0
+rlogid: undefined
+x-envoy-upstream-service-time: 92
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sun, 28 Sep 2025 16:27:44 GMT
+Connection: keep-alive
+

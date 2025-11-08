@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Frame test — archive.org</title>
+    <style>body{font-family:system-ui,Segoe UI,Arial;margin:20px} iframe{width:100%;height:70vh;border:1px solid #aaa}</style>
+  </head>
+  <body>
+    <h1>Frame test — archive.org</h1>
+    <p>Predicted framable: YES</p>
+    <p>Block reason: none detected</p>
+    <p>Below is an iframe that points at the target site. If the site blocks framing, the iframe may show nothing or an error.</p>
+
+    <iframe id="testFrame" src="https://archive.org" ></iframe>
+
+    <script>
+      const iframe = document.getElementById('testFrame');
+      let loaded = false;
+      iframe.addEventListener('load', () => { loaded = true; });
+      setTimeout(() => {
+        const status = loaded ? 'load event fired (resource loaded)' : 'no load event within timeout (possibly blocked)';
+        document.body.insertAdjacentHTML('beforeend', '<p><strong>Heuristic detection:</strong> ' + status + '</p>');
+      }, 3000);
+    </script>
+  </body>
+</html>

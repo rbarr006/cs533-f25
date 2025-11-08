@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Framable test — m.me</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  body{font-family:system-ui,Segoe UI,Arial;margin:18px;color:#111}
+  .meta{margin-bottom:10px;padding:8px;background:#f6f8fa;border:1px solid #e1e4e8;border-radius:6px}
+  iframe{width:100%;height:420px;border:1px solid #444;border-radius:6px}
+  pre{background:#111;color:#eee;padding:12px;white-space:pre-wrap;overflow:auto;max-height:360px;border-radius:6px}
+</style>
+</head>
+<body>
+  <h1>m.me</h1>
+  <div class="meta">
+    <strong>Index:</strong> 27<br>
+    <strong>Iframe src:</strong> <a href="https://m.me" target="_blank" rel="noopener">https://m.me</a><br>
+    <strong>X-Frame-Options:</strong> ---<br>
+    <strong>Content-Security-Policy:</strong> ---<br>
+    <strong>frame-ancestors:</strong> ---
+  </div>
+
+  <h2>Live attempt to render (original)</h2>
+  <p>Below iframe points to <code>https://m.me</code>. If the site blocks framing, the iframe may show nothing or an error.</p>
+  <iframe src="https://m.me" sandbox="" title="iframe for m.me"></iframe>
+
+  <h2>Bypass using local proxy</h2>
+  <p>This iframe points to the local <code>/proxy</code> route which fetches and re-serves the target without upstream framing headers:</p>
+  <iframe src="/proxy?url=https%3A%2F%2Fm.me" title="proxy-bypass-m.me"></iframe>
+
+  <h2>Saved HTTP response (evidence)</h2>
+  <pre>(no saved response found for this site in responses directory)</pre>
+
+  <p><a href="index.html">Back to index</a></p>
+</body>
+</html>

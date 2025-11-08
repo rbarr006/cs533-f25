@@ -1,0 +1,44 @@
+﻿HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Retry-After: 0
+Server: Pantheon
+Location: https://www.utexas.edu/
+X-Pantheon-Redirect: primary-domain-policy-doc
+Accept-Ranges: bytes
+Date: Sun, 28 Sep 2025 16:27:33 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000052-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1759076854.645956,VS0,VE4
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 99677
+Cache-Control: max-age=900, public
+Content-Language: en
+Content-Type: text/html; charset=UTF-8
+Etag: W/"1758987798"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sat, 27 Sep 2025 15:43:18 GMT
+Server: nginx
+Strict-Transport-Security: max-age=31622400
+X-Content-Type-Options: nosniff
+X-Drupal-Cache: MISS
+X-Drupal-Dynamic-Cache: HIT
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 10 (https://www.drupal.org)
+X-Pantheon-Styx-Hostname: styx-fe4-b-b844f8455-lqz9f
+X-Styx-Req-Id: b08a17ef-9bb8-11f0-a2e8-f6a43a1ab391
+X-Utexas-Drupal-Kit: 3
+Age: 33
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish, 1.1 varnish, 1.1 varnish
+Date: Sun, 28 Sep 2025 16:27:33 GMT
+X-Served-By: cache-chi-klot8100133-CHI, cache-iad-kiad7000068-IAD, cache-iad-kjyo7100081-IAD, cache-iad-kjyo7100081-IAD
+X-Cache: HIT, HIT, MISS, MISS
+X-Cache-Hits: 8, 0, 0, 0
+X-Timer: S1759076854.775919,VS0,VE35
+Vary: Accept-Encoding, Cookie, Cookie, Cookie
+

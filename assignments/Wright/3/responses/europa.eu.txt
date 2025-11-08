@@ -1,0 +1,39 @@
+﻿HTTP/1.1 307 Temporary Redirect
+Location: https://europa.eu/
+Cache-Control: no-cache
+X-XSS-Protection: 1
+Connection: close
+Content-Type: text/html; charset=utf-8
+Content-Length: 683
+Pragma: no-cache
+
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 28 Sep 2025 16:26:22 GMT
+Content-Length: 40616
+X-FPFIS: 237360684
+Location: https://european-union.europa.eu/select-language?destination=/node/1
+Retry-After: 5
+Server: Europa
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Content-Length: 17982
+Connection: keep-alive
+Date: Sun, 28 Sep 2025 16:23:39 GMT
+X-Age: 344280
+Content-Language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Accept-Ranges: bytes
+X-FPFIS: 20207650 2750265
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;
+Cache-Control: public, max-age=300, s-maxage=300
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+Via: 1.1 7da46316f14c93c894dc0b0f9fcad800.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD55-P7
+X-Amz-Cf-Id: sNRAvOpKMeniPS1tBp7ku5hWJRXK1_2qiDDKr_L5Zyuw0j258WtGeQ==
+Age: 163
+

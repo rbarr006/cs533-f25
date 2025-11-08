@@ -1,0 +1,38 @@
+﻿HTTP/1.1 301 Moved Permanently
+Date: Sun, 28 Sep 2025 16:24:54 GMT
+Connection: keep-alive
+Location: https://bestfreecams.club/
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=36cmatxPsgoOEo7QA3NI%2BDyBfRdEqJiBsPAk2eiDfvhPGljC9af7lApLdfXjqTeR0twwSBpuyG6X0O94sQWp2%2FSvVd27obgWoOAGC6uZC%2FFLk1UG1mjYH6HCgjuT"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: 986497fc9c350674-IAD
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 28 Sep 2025 16:24:54 GMT
+Content-Length: 0
+Connection: keep-alive
+x-amz-id-2: afIFnqpU/l6h4xExSz3vfIvOBwCNQ5BdXdbljPpwKPBCaCoGL+mhwCP9viefu3Wm1ANNXsUcvtwfhpHnHB0/JCF1RPdi+RVnLTDcD3j402w=
+x-amz-request-id: 6PS5D7NFTQWH54GF
+Location: https://www.bestfreecams.club/
+Server: cloudflare
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=g4uYYNXM%2Fn7jqUAxc2GDx1n%2BrscqetUvqx%2FKccr3iEcL30oVuvX%2Fg9nU%2Bk82ASsaYosmE2K0FBQO7mSxCf4vTrVttxpFsY5lj0CH4mmSZiX9JlrPs9Q5HeU4IWB6"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+CF-RAY: 986497fd6de1d703-IAD
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 200 OK
+Date: Sun, 28 Sep 2025 16:24:54 GMT
+Content-Type: text/html
+Connection: keep-alive
+x-amz-id-2: fNxYk/lUvQZo8SFoOLkhTLaqUtcO+MWgSCg6NNZ08LFx6KW+/FzzaysTe2h2qNVYliu+qyIXCoTytBf9nh02ZX+5nt6YKAkQ
+x-amz-request-id: 6PSCDMX6ZEJ9PPAD
+Last-Modified: Sun, 17 Jan 2021 11:50:09 GMT
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=OYYQSQg6kzs8am1he2%2Fy6awqxcZk1f3aSyLuoN9UsclTyPGUjjtEaOhSnXWZIqt4OD2WoyEGPlnxlSLEpDKjaf6ecMi4Z5xTp1b%2BoyZuES7rTtU5WN3Jb6nAAANU6lBqug%3D%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+cf-cache-status: DYNAMIC
+CF-RAY: 986497fe8ceb39b8-IAD
+alt-svc: h3=":443"; ma=86400
+

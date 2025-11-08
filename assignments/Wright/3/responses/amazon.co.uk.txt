@@ -1,0 +1,35 @@
+﻿HTTP/1.1 301 Moved Permanently
+Server: Server
+Date: Sun, 28 Sep 2025 16:27:30 GMT
+Content-Type: text/html
+Content-Length: 163
+Connection: keep-alive
+Location: https://amazon.co.uk/
+
+HTTP/1.1 301 Moved Permanently
+Server: Server
+Date: Sun, 28 Sep 2025 16:27:30 GMT
+Content-Type: text/html
+Connection: keep-alive
+Location: https://www.amazon.co.uk/
+
+HTTP/1.1 405 Method Not Allowed
+Content-Type: text/html;charset=UTF-8
+Content-Length: 0
+Connection: keep-alive
+Date: Sun, 28 Sep 2025 16:27:31 GMT
+x-frame-options: SAMEORIGIN
+server: Server
+x-amz-rid: 40GHGMZ3K2GWBQKPHRT4
+cache-control: no-cache
+pragma: no-cache
+expires: -1
+allow: GET, POST, PUT, DELETE, OPTIONS
+vary: Accept-Encoding,User-Agent,Content-Type,X-Amazon-Wtm-Tag-OPF-UK-ENV-VAR-LRA-SEARCH,X-Amazon-Wtm-Tag-OPF-UK-ENV-VAR-LRA,X-Amazon-Wtm-Tag-OPF-UK-ENV-VAR-DP-LRA,Accept-Encoding,User-Agent
+strict-transport-security: max-age=47474747; includeSubDomains; preload
+X-Cache: Error from cloudfront
+Via: 1.1 98a9803ad4ba04ad4a024a89540b887e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD61-P5
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: Xb4NKo0c6wBrkdh8goZYnjDBmShmY-60jb4rVCCjESr8rr110zWPrg==
+

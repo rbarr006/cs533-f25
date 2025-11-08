@@ -1,0 +1,13 @@
+{
+  "name": "4",
+  "version": "1.0.0",
+  "description": "- **framable** — HTML files that attempt to iframe the assigned public sites (index + 100 test pages).\r - **frame-path-attack** — Demo code showing how `Path` is not sufficient to protect cookies.",
+  "main": "generate_framables.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

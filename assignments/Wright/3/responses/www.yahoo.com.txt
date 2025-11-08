@@ -1,0 +1,9 @@
+﻿HTTP/1.1 429 Too Many Requests
+Date: Sun, 28 Sep 2025 16:27:34 GMT
+Connection: close
+Server: ATS
+X-Content-Type-Options: nosniff
+Referrer-Policy: no-referrer-when-downgrade
+Content-Length: 23
+Content-Type: text/html
+

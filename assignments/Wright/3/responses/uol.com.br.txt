@@ -1,0 +1,27 @@
+﻿HTTP/1.0 301 Moved Permanently
+Location: https://www.uol.com.br/
+Cache-Control: max-age=60
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=UTF-8
+Content-Length: 759949
+Connection: close
+Date: Sun, 28 Sep 2025 16:21:26 GMT
+Server: marrakesh 1.25.0
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: frame-ancestors 'self' *.intranet *.uolinc.com;
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Cache-Control: no-transform, max-age=10, must-revalidate, proxy-revalidate
+Last-Modified: Sun, 28 Sep 2025 16:21:15 GMT
+ETag: "7d8a7df9a805dcc8292b1d5ec4cc38c9"
+Expires: Sun, 28 Sep 2025 16:21:36 GMT
+Vary: Accept-Encoding,User-Agent
+X-Cache: Hit from cloudfront
+Via: 1.1 7061970d093e4cb5d937970a2a5dcce0.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD61-P8
+X-Amz-Cf-Id: NbMEQ3TdLegjAof7LiwT8N4e03tI34EekGming-227CWr-5OkrxxWw==
+Age: 2
+

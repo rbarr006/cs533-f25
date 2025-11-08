@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Protected page (path = /protected)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { font-family: system-ui, "Segoe UI", Arial; margin:18px; color:#111; }
+    h1 { font-size:32px; margin:0 0 10px 0; }
+    pre { background:#f6f6f6; padding:12px; white-space:pre-wrap; }
+  </style>
+</head>
+<body>
+  <h1>Protected page (path = /protected)</h1>
+  <p>This page is served at <code>location.pathname</code>. The server sets a cookie when you load this page.</p>
+
+  <p><strong>document.cookie on this page (what JS on this page can read):</strong></p>
+  <pre id="cookieDisplay">(loading)</pre>
+
+<script>
+  function showAndPostCookie() {
+    // If this page was loaded at /protected_safe, cookie is HttpOnly -> not visible here
+    const dc = document.cookie || '(no cookies)';
+    document.getElementById('cookieDisplay').textContent = dc;
+
+    // Demo-only: send whatever we can see back to parent
+    try {
+      window.parent.postMessage({ type:'cookies', cookies: dc }, '*');
+    } catch (e) {
+      console.warn('postMessage failed', e);
+    }
+  }
+  document.addEventListener('DOMContentLoaded', showAndPostCookie);
+</script>
+</body>
+</html>

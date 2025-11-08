@@ -1,0 +1,29 @@
+﻿HTTP/1.1 302 Found
+Date: Sun, 28 Sep 2025 16:26:20 GMT
+Server: Apache
+Location: https://www.stanford.edu/
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 143578
+Cache-Control: public, max-age=604800
+Content-Type: text/html; charset=UTF-8
+Link: <https://www.stanford.edu/wp-json/>; rel="https://api.w.org/"
+Link: <https://www.stanford.edu/wp-json/wp/v2/pages/64>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://www.stanford.edu/>; rel=shortlink
+Server: nginx
+Strict-Transport-Security: max-age=300
+X-Frame-Options: SAMEORIGIN
+X-Pantheon-Styx-Hostname: styx-fe1-b-b46cccdc8-45fmh
+X-Styx-Req-Id: cf8e4e41-9a66-11f0-ae97-96b20f544fcb
+Age: 234099
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish, 1.1 varnish
+Date: Sun, 28 Sep 2025 16:26:20 GMT
+X-Served-By: cache-chi-kigq8000175-CHI, cache-iad-kcgs7200148-IAD, cache-iad-kiad7000162-IAD
+X-Cache: HIT, HIT, MISS
+X-Cache-Hits: 6, 5790, 0
+X-Timer: S1759076780.347282,VS0,VE6
+Vary: Accept-Encoding, Cookie, Cookie
+

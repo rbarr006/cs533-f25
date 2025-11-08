@@ -1,0 +1,16 @@
+﻿HTTP/1.1 302 Moved Temporarily
+Server: stgw
+Date: Sun, 28 Sep 2025 16:24:57 GMT
+Content-Type: text/html
+Content-Length: 137
+Connection: keep-alive
+Location: https://www.qq.com/
+
+HTTP/1.1 501 Method Not Implemented
+Server: stgw
+Content-Length: 326
+Connection: keep-alive
+Date: Sun, 28 Sep 2025 16:24:58 GMT
+EO-LOG-UUID: 8535538603872573163
+EO-Cache-Status: MISS
+
