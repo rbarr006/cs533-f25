@@ -1,0 +1,41 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://ea.com
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.ea.com/
+Cache-Control: max-age=0
+Expires: Sun, 05 Oct 2025 05:12:11 GMT
+Date: Sun, 05 Oct 2025 05:12:11 GMT
+Alt-Svc: h3=":443"; ma=93600
+Connection: keep-alive
+Set-Cookie: EDGESCAPE_COUNTRY=US; path=/
+Set-Cookie: EDGESCAPE_REGION=GA; path=/
+Set-Cookie: EDGESCAPE_TIMEZONE=EST; path=/
+Set-Cookie: ealocale=en-us; expires=Mon, 05-Oct-2026 05:12:11 GMT; path=/; domain=.ea.com; secure
+X-L-Path: inert
+X-Environment-Context: prod
+X-Application-Context: eacom
+Content-Security-Policy: frame-ancestors 'self'
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15768000
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Last-Modified: Sun, 05 Oct 2025 05:04:26 UTC
+Cache-Control: max-age=415
+Expires: Sun, 05 Oct 2025 05:19:06 GMT
+Date: Sun, 05 Oct 2025 05:12:11 GMT
+Connection: keep-alive
+Set-Cookie: EDGESCAPE_COUNTRY=US; path=/
+Set-Cookie: EDGESCAPE_REGION=GA; path=/
+Set-Cookie: EDGESCAPE_TIMEZONE=EST; path=/
+Vary: Accept-Encoding
+Alt-Svc: h3=":443"; ma=93600
+X-LDNR-IS-EN-US: yes
+X-LDNR-ROOT-HL-SET: yes
+X-L-Path: inert
+X-Environment-Context: prod
+X-Application-Context: eacom
+Content-Security-Policy: frame-ancestors 'self'
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=15768000

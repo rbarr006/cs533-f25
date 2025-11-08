@@ -1,0 +1,28 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://pcmag.com
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 05 Oct 2025 05:09:13 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sun, 05 Oct 2025 06:09:13 GMT
+Location: https://www.pcmag.com/
+Referrer-Policy: no-referrer-when-downgrade
+Server: cloudflare
+CF-RAY: 989a67d71c438bbc-ATL
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 200 OK
+Date: Sun, 05 Oct 2025 05:09:13 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+CF-RAY: 989a67d83d90a404-ATL
+Cache-Control: public, max-age=1800
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Last-Modified: Sun, 05 Oct 2025 05:01:55 GMT
+CF-Cache-Status: HIT
+Age: 241
+Expires: Sun, 05 Oct 2025 05:39:13 GMT
+Referrer-Policy: no-referrer-when-downgrade
+Server: cloudflare
+alt-svc: h3=":443"; ma=86400

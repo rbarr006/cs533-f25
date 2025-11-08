@@ -1,0 +1,36 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://nps.gov
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 05 Oct 2025 05:16:23 GMT
+Server: Apache
+Strict-Transport-Security: max-age=31536000; preload
+Location: https://www.nps.gov/
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 302 Found
+Server: CloudFront
+Date: Sun, 05 Oct 2025 05:16:23 GMT
+Content-Length: 0
+Connection: keep-alive
+Location: /index.htm
+X-Cache: FunctionGeneratedResponse from cloudfront
+Via: 1.1 f68d6913e175a24976f9b7dc4f9c880a.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: ATL58-P11
+X-Amz-Cf-Id: MokHEKKON9FX9Gt6W8CkvS4PNKYPj03USfuAoxHG97LILczRsdjWMg==
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=UTF-8
+Content-Length: 67534
+Connection: keep-alive
+Date: Wed, 01 Oct 2025 15:18:14 GMT
+P3P: policyref="https://www.nps.gov/w3c/p3p.xml", CP="ALL DSP COR OTP PUB BUS OTC"
+Server: Apache
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Pragma: no-cache
+Access-Control-Allow-Origin: *
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+Via: 1.1 f68d6913e175a24976f9b7dc4f9c880a.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: ATL58-P11
+X-Amz-Cf-Id: o6FMv-HBfthweXavbNPJwbtM2TJjoBwNTcKQajWM8IFhubJX6ykUAQ==
+Age: 309489

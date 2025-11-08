@@ -1,0 +1,36 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://unesco.org
+HTTP/1.0 302 Moved Temporarily
+Location: https://www.unesco.org/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.0 302 Moved Temporarily
+Location: https://www.unesco.org/en
+Server: BigIP
+Connection: close
+Content-Length: 0
+
+HTTP/1.1 200 OK
+date: Sun, 05 Oct 2025 03:56:39 GMT
+cache-control: max-age=14400, public
+content-language: en
+x-content-type-options: nosniff
+expires: Sun, 19 Nov 1978 05:00:00 GMT
+x-frame-options: SAMEORIGIN
+last-modified: Sun, 05 Oct 2025 03:56:38 GMT
+content-type: text/html; charset=UTF-8
+x-cacheable: YES
+x-storage: memoire
+x-cache: ZIP
+etag: W/"1759636598"
+vary: Cookie, Accept-Encoding
+age: 4695
+accept-ranges: bytes
+x-cache-hits: 71367
+content-length: 141440
+connection: close
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+Set-Cookie: TS0121e8f2=015207929598a8fd281811f7f211b77b0874296022a804f6b6c7ea39b42b6d3f78d3f552c929c420592a4b880aeed90d8f0083dddd; Path=/; Domain=.www.unesco.org; samesite=None; Secure;

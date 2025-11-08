@@ -1,0 +1,32 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://globo.com
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 05 Oct 2025 06:02:38 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Cache-Control: max-age=600
+Location: https://www.globo.com/
+X-Request-ID: 62380fec-84ad-41f4-96b1-f74c5d34c62b
+X-Thanos: 0AB0C024
+
+HTTP/1.1 200 OK
+Date: Sun, 05 Oct 2025 06:02:40 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 2318998
+Connection: keep-alive
+cache-control: max-age=10
+show-page-version: 0
+x-request-id: 8ee82737-da53-46c7-87e9-1a3588ad434e
+x-mobile: desktop
+x-served-from: Router Home PROD, BS Show Services
+content-security-policy: upgrade-insecure-requests;
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+expires: Sun, 05 Oct 2025 06:02:41 GMT
+x-location-rule: location-barra
+link: <https://s2-home-globo.glbimg.com>; rel="preconnect", <https://s3.glbimg.com>; rel="preconnect"
+age: 8
+vary: X-Forwarded-Proto, User-Agent, Accept-Encoding
+x-bip: 786574157 home-kubecache-oci-prd-int-varnish-server-667964dcbd-scvm9
+via: KubeCache 2.0
+accept-ranges: bytes

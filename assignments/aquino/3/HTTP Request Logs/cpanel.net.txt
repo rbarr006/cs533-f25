@@ -1,0 +1,32 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://cpanel.net
+HTTP/1.1 301 Moved Permanently
+Connection: Keep-Alive
+Keep-Alive: timeout=5, max=100
+date: Sun, 05 Oct 2025 03:16:47 GMT
+server: LiteSpeed
+location: https://www.cpanel.net/
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+vary: User-Agent,User-Agent
+strict-transport-security: max-age=31536000
+alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"
+
+HTTP/1.1 200 OK
+Date: Sun, 05 Oct 2025 03:16:47 GMT
+Content-Type: text/html
+Connection: keep-alive
+CF-RAY: 9899c324fee4c07e-IAD
+Cache-Control: public, max-age=15552000
+expires: Fri, 03 Apr 2026 03:16:47 GMT
+last-modified: Fri, 03 Oct 2025 11:12:33 GMT
+vary: Accept-Encoding,User-Agent,User-Agent
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000
+alt-svc: h3=":443"; ma=86400
+cf-cache-status: DYNAMIC
+Set-Cookie: __cf_bm=b.Edj8XAl0eYDaL3D1uBhbK5.KHxw.NbXwhqd6ZoNV8-1759634207-1.0.1.1-IX7uzFRnkhyvAQovNRk.Gh4j_VYDFoSA5I81IgSC_qxfAMJrZ_bAC4oji.JY_CpAPzdjxAmIn6yjfP3hyYcuhshzKuUOTLzRHNPvs3aBOgg; path=/; expires=Sun, 05-Oct-25 03:46:47 GMT; domain=.cpanel.net; HttpOnly; Secure; SameSite=None
+Set-Cookie: _cfuvid=161fw_LbNeYId0wfr_VMR5Xq9TOiQ2IxrEZqghorPw0-1759634207696-0.0.1.1-604800000; path=/; domain=.cpanel.net; HttpOnly; Secure; SameSite=None
+Server: cloudflare

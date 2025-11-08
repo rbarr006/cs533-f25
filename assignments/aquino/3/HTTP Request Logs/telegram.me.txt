@@ -1,0 +1,24 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://telegram.me
+HTTP/1.1 302 Found
+Server: nginx/1.18.0
+Date: Sun, 05 Oct 2025 04:00:45 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 0
+Connection: keep-alive
+Set-Cookie: stel_ssid=20b517e5e6c5a0d3b0_12128029362421847250; expires=Mon, 06 Oct 2025 04:00:45 GMT; path=/; samesite=None; secure; HttpOnly
+Pragma: no-cache
+Cache-control: no-store
+Location: //telegram.org/
+Strict-Transport-Security: max-age=35768000
+
+HTTP/1.1 200 OK
+Server: nginx/1.18.0
+Date: Sun, 05 Oct 2025 04:00:45 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 19558
+Connection: keep-alive
+Set-Cookie: stel_ssid=d535e14fd5fb9ae241_8471639065382912115; expires=Sun, 05 Oct 2025 15:07:25 GMT; path=/; samesite=None; secure; HttpOnly
+Pragma: no-cache
+Cache-control: no-store
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload

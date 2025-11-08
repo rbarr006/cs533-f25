@@ -1,0 +1,13 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://bloglovin.com
+HTTP/1.1 403 Forbidden
+Date: Sun, 05 Oct 2025 03:58:45 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+X-Frame-Options: SAMEORIGIN
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=bAZXuO7mD9RHdZCit%2BSelyu%2BDg3gldcm9XU%2BidUB7Pw6Y1QlpJkYgNlA0c9MnyyyBhOnGDsYSHqFW7fyGScF5t8bhpNeHzbYMdMySA%3D%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: 989a009e5cfde5e9-IAD

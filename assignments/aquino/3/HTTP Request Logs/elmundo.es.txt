@@ -1,0 +1,24 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://elmundo.es
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 05 Oct 2025 02:47:49 GMT
+Server: Varnish
+X-Varnish: 740100033
+Location: https://www.elmundo.es/
+Content-Length: 0
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 455895
+Content-Type: text/html; charset=iso-8859-15
+Referrer-Policy: unsafe-url
+Cache-Control: s-maxage=60
+x-backend: CONTENT
+Accept-Ranges: bytes
+Age: 0
+Date: Sun, 05 Oct 2025 02:47:50 GMT
+X-Served-By: cache-ams2100138-AMS, cache-ewr-kewr1740033-EWR
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1759632470.058930,VS0,VE100
+Vary: Accept-Encoding, User-Agent

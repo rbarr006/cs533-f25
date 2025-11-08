@@ -1,0 +1,29 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://kakao.com
+HTTP/1.1 302
+Date: Sun, 05 Oct 2025 04:46:11 GMT
+Connection: keep-alive
+Set-Cookie: JSESSIONID=AFC271BC2D61F57CC73C0FD8093B3867; Path=/; HttpOnly
+Location: //www.kakaocorp.com
+Content-Language: ko
+Strict-Transport-Security: max-age=31536000
+Cache-Control: no-cache,must-revalidate
+
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 05 Oct 2025 04:46:12 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://www.kakaocorp.com/page/
+Strict-Transport-Security: max-age=15724800
+X-Frame-Options: DENY
+
+HTTP/1.1 200 OK
+Date: Sun, 05 Oct 2025 04:46:12 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 166183
+Connection: keep-alive
+Set-Cookie: isEnglish=false; Path=/
+ETag: "28927-/3ZTVfp4Nes4JXpONlGsMR4Yhdw"
+Accept-Ranges: none
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=15724800

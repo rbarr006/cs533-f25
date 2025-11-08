@@ -1,0 +1,11 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://depositfiles.com
+HTTP/1.1 200 OK
+Cache-Control: no-store, no-cache, must-revalidate
+Content-Security-Policy: frame-ancestors depositfiles.com *.depositfiles.com depositfiles.org *.depositfiles.org dfiles.eu *.dfiles.eu dfiles.com *.dfiles.com
+Content-Type: text/html; charset=UTF-8
+Date: Sun, 05 Oct 2025 05:19:41 GMT
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Pragma: no-cache
+Server: nginx
+Set-Cookie: uprand=40e1628c0bcf1894e1911855b4e31131; path=/; domain=.depositfiles.com
+X-Frame-Options: SAMEORIGIN

@@ -1,0 +1,41 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://canva.com
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 05 Oct 2025 05:54:56 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sun, 05 Oct 2025 06:54:56 GMT
+Location: https://www.canva.com/
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=utnNMVFWmooDvMgMPXsEa9MmpURx%2By1EKIKbV5O8vv8oZcKmsFzwFADWnC3GVNR8fFDOWpIWVsnPA0Zvm1J0ha1QW5Ldo16RZYGXcPVkINXXLmqNyjwkDNdzvg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Server: cloudflare
+CF-RAY: 989aaad1fa58d845-ATL
+
+HTTP/1.1 403 Forbidden
+Date: Sun, 05 Oct 2025 05:54:57 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 7042
+Connection: close
+accept-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+cf-mitigated: challenge
+critical-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+cross-origin-embedder-policy: require-corp
+cross-origin-opener-policy: same-origin
+cross-origin-resource-policy: same-origin
+origin-agent-cluster: ?1
+permissions-policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+referrer-policy: same-origin
+server-timing: chlray;desc="989aaad38d3a6471"
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: __cf_bm=UuPJWYmF4ZvktUlpQObe.i736_i2ZNmzkx8Te5kq_w4-1759643697-1.0.1.1-CG31Kh8hRzDQDLn33yQqZAm58qlmUtLGnGTbvb6PJ33qQqaOsAzdfWB1W2JpFPOff49yoFRKD82Fwysam0xB8O.sqgZKfKZW7_mYTwZpR6Q; path=/; expires=Sun, 05-Oct-25 06:24:57 GMT; domain=.canva.com; HttpOnly; Secure; SameSite=None
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Pf%2FFJy0%2Bo3LL13zW42aLXVYGmGpCVB2Fqzyjxd8Gj6eFwrpvdyxzDmXzRlb9yEiAbNji9tZ26uXclfOf2br9JOIHgvmDPZwvCOy%2B%2F9GrQ7%2F63RvS3IjVqeBAz1kKvrg%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Server: cloudflare
+CF-RAY: 989aaad38d3a6471-ATL

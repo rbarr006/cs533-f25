@@ -1,0 +1,67 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://outlook.com
+HTTP/1.1 301 Moved Permanently
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Length: 0
+Location: https://www.outlook.com/owa/
+Server: Microsoft-IIS/10.0
+request-id: f2af9860-5eef-e91d-6155-3ecdb64a1c38
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-FEServer: DS7PR03CA0307
+X-RequestId: bcaea575-71e9-4927-b3a7-583b1c09dcb2
+Alt-Svc: ":443";ma=2592000,h3-29=":443";ma=2592000
+X-FEProxyInfo: DS7PR03CA0307.NAMPRD03.PROD.OUTLOOK.COM
+X-FEEFZInfo: DSM
+MS-CV: YJiv8u9eHelhVT7NtkocOA.0
+X-Powered-By: ASP.NET
+X-FEServer: DS7PR03CA0307
+Date: Sun, 05 Oct 2025 03:10:38 GMT
+Connection: close
+
+HTTP/1.1 301 Moved Permanently
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Length: 0
+Location: https://outlook.live.com/owa/
+Server: Microsoft-IIS/10.0
+request-id: 2e086641-b40c-914c-a2f9-a384ae61d0ad
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-FEServer: BN0PR04CA0091
+X-RequestId: 7fb630a2-1efb-410f-a9fd-26505cd2edcc
+Alt-Svc: ":443";ma=2592000,h3-29=":443";ma=2592000
+X-FEProxyInfo: BN0PR04CA0091.NAMPRD04.PROD.OUTLOOK.COM
+X-FEEFZInfo: LYH
+X-FEServer: BN0PR04CA0091
+Date: Sun, 05 Oct 2025 03:10:38 GMT
+Connection: close
+
+HTTP/1.1 440
+Content-Length: 154
+Content-Type: text/html; charset=utf-8
+request-id: fe729f62-e20b-f717-ca37-867fb42c23f9
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-CalculatedFETarget: DS7PR06CU002.internal.outlook.com
+X-BackEndHttpStatus: 440
+Set-Cookie: RoutingKeyCookie=; expires=Thu, 05-Oct-1995 03:10:39 GMT; path=/;SameSite=None; secure; HttpOnly
+Set-Cookie: HostSwitchPrg=; expires=Thu, 05-Oct-1995 03:10:39 GMT; path=/;SameSite=None; secure; HttpOnly
+Set-Cookie: OptInPrg=; expires=Thu, 05-Oct-1995 03:10:39 GMT; path=/;SameSite=None; secure; HttpOnly
+X-NanoProxy: 1
+X-BackEnd-Begin: 2025-10-05T03:10:39.082
+X-CalculatedBETarget: DM6PR04MB4508.namprd04.PROD.OUTLOOK.COM
+X-BackEnd-End: 2025-10-05T03:10:39.082
+X-BackEndHttpStatus: 440
+X-OWA-DiagnosticsInfo: 3;0;0;
+X-Proxy-BackendServerStatus: 440
+X-Proxy-RoutingCorrectness: 1
+X-ResponseOrigin: OwaAppPool
+X-UA-Compatible: IE=EmulateIE7
+X-FEServer: DS7PR06CA0053
+X-FEEFZInfo: LYH
+MS-CV: Yp9y/gviF/fKN4Z/tCwj+Q.1
+Report-To: {"group":"NelOfficeUpload1","max_age":7200,"endpoints":[{"url":"https://exo.nel.measure.office.net/api/report?TenantId=&FrontEnd=Cafe&DestinationEndpoint=LYH&RemoteIP=185.98.170.0&Environment=MT"}],"include_subdomains":true}
+NEL: {"report_to":"NelOfficeUpload1","max_age":7200,"include_subdomains":true,"failure_fraction":1.0,"success_fraction":0.01}
+Alt-Svc: ":443";ma=2592000,h3-29=":443";ma=2592000
+X-FirstHopCafeEFZ: LYH
+X-FEProxyInfo: BN0PR04CA0098.NAMPRD04.PROD.OUTLOOK.COM
+X-FEServer: BN0PR04CA0098
+Date: Sun, 05 Oct 2025 03:10:38 GMT

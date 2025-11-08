@@ -1,0 +1,24 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://howstuffworks.com
+HTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Connection: keep-alive
+Date: Sun, 05 Oct 2025 00:03:06 GMT
+Location: https://www.howstuffworks.com/
+Server: AmazonS3
+X-Cache: Hit from cloudfront
+Via: 1.1 abb30e60652cb8b69da0a3be4fc54b68.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: ATL58-P6
+X-Amz-Cf-Id: nq1jnc_FXrT0tck3Vblt7yfIZwcDTWipZVqvOCnTqCrVkwv6ueCGrw==
+Age: 17750
+
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=UTF-8
+Connection: keep-alive
+Date: Sun, 05 Oct 2025 04:50:59 GMT
+Server: nginx
+Expires: Sun, 05 Oct 2025 01:00:58 -0400
+X-Cache: Hit from cloudfront
+Via: 1.1 1be3870a2c527bc34b0713125a7ef434.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: ATL58-P6
+X-Amz-Cf-Id: gN3EuDrRT-zRQGw6xYfzlZRdVnCTHPuGNyVN0nOU-o7fsYo_OO0E7A==
+Age: 476

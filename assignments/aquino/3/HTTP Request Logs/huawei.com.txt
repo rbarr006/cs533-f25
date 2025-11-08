@@ -1,0 +1,49 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://huawei.com
+HTTP/1.1 301 Moved Permanently
+Server: PAAS-WEB
+Date: Sun, 05 Oct 2025 03:08:57 GMT
+Content-Type: text/html
+Content-Length: 165
+Connection: keep-alive
+Location: https://www.huawei.com/
+processtime: 0.000
+
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.huawei.com/en/?ic_medium=direct&ic_source=surlent
+Date: Sun, 05 Oct 2025 03:15:21 GMT
+Connection: keep-alive
+Server-Timing: ak_p; desc="1759634121033_386075800_913318641_8_4012_5_46_-";dur=1
+
+HTTP/1.1 301 Moved Permanently
+Server: PAAS-WEB
+Content-Type: text/html
+Content-Length: 165
+Location: https://www.huawei.com/en/
+processtime: 0.000
+Expires: Sun, 05 Oct 2025 03:15:21 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sun, 05 Oct 2025 03:15:21 GMT
+Connection: keep-alive
+Server-Timing: ak_p; desc="1759634121134_386075800_913318645_15_5302_8_0_-";dur=1
+
+HTTP/1.1 200 OK
+Server: PAAS-WEB
+Content-Type: text/html; charset=utf-8
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-download-options: noopen
+x-readtime: 1
+X-Server-Process-Time: 0.023
+X-Upstream-Process-Time: 0.018
+X-ALB-SERVER: ALB
+processtime: 0.054
+Expires: Sun, 05 Oct 2025 03:15:21 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sun, 05 Oct 2025 03:15:21 GMT
+Connection: keep-alive
+Server-Timing: ak_p; desc="1759634121170_386075800_913318686_14_3653_11_0_-";dur=1

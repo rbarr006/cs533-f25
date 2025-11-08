@@ -1,0 +1,39 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://surveymonkey.com
+HTTP/1.1 301 Found
+Server: CloudFront
+Date: Sun, 05 Oct 2025 04:52:31 GMT
+Content-Length: 0
+Connection: keep-alive
+Location: https://www.surveymonkey.com/
+X-Cache: LambdaGeneratedResponse from cloudfront
+Via: 1.1 ec088df9bde2f31789483558823c5a1c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: ATL58-P5
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: GtPnGvtVgQ9HKkH0qlXYSrvIMBULKcTYwqqp9cL2uWW0DVKMc1xi-A==
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 1145952
+Connection: keep-alive
+Date: Fri, 03 Oct 2025 17:15:05 GMT
+Server: nginx
+sm-request-id: sx7BLT7klEqHfm3r5Qhqkgmvon5K_lEP0Nkop5KkCneWv_j2jMojYg==
+X-SM-Key: sm1p129058_ sm1p129242_ sm1p48056_
+Referrer-Policy: strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-XSS-Protection: 1;mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src https: data: 'unsafe-eval' 'unsafe-inline' https://*.smassets.net https://www.google.com https://www.gstatic.com https://www.recaptcha.net https://api.amplitude.com wss://*.hotjar.com wss://*.qualified.com https://api2.amplitude.com https://*.crazyegg.com; upgrade-insecure-requests; connect-src https: wss: https://rum-ingest.us1.signalfx.com/ https://ws.zoominfo.com https://api.schedule.zoominfo.com 'self'; script-src https: blob: 'unsafe-eval' 'unsafe-inline' https://js.zi-scripts.com https://ws-assets.zoominfo.com https://schedule.zoominfo.com 'self'; worker-src https: blob: 'self'; media-src https: blob: 'self'; frame-ancestors 'self' https://*.zendesk.com https://*.myshopify.com https://teams.microsoft.com https://*.eloqua.com https://*.surveymonkey.com https://*.sharepoint.com https://*.worldpay.com https://*.cardinalcommerce.com https://*.office.com https://*.office365.com https://*.microsoft365.com https://*.cloud.microsoft
+Cache-Control: public, no-cache="Set-Cookie", max-age=21600, s-maxage=259200, must-revalidate, stale-while-revalidate=300, stale-if-error=21600
+Vary: Accept-Encoding,Accept-Encoding
+Via: 1.1 5584a67adae1a4ad6dd53bc55e0a9b30.cloudfront.net (CloudFront)
+Alt-Svc: h3=":443"; ma=86400
+Age: 128246
+set-cookie: attr_multitouch="FqNTEe3WrE0AflHmZB8r8SKqSwA="; Domain=.surveymonkey.com; expires=Mon, 05 Oct 2026 04:52:31 GMT; Path=/; SameSite=none; Secure
+set-cookie: cdp_seg="VCI8FNL99RSpy0FRbOIzelOOs84="; Domain=.surveymonkey.com; expires=Sat, 03 Jan 2026 04:52:31 GMT; Path=/; SameSite=none; Secure
+set-cookie: ep201="MdLmhmfBnJJDneQY0udOsRvC4jY="; Domain=.surveymonkey.com; expires=Sun, 05 Oct 2025 05:22:31 GMT; Path=/; SameSite=none; Secure
+set-cookie: ep202="lQtrC2x5s6ytxgw5etw/80BAoLs="; Domain=.surveymonkey.com; expires=Sat, 03 Jan 2026 04:52:31 GMT; Path=/; SameSite=none; Secure
+set-cookie: ep203="9lB2VBI9mEb51LqziQvacVGYaQY="; Domain=.surveymonkey.com; expires=Sat, 03 Jan 2026 04:52:31 GMT; HttpOnly; Path=/; SameSite=none; Secure
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Pop: ATL58-P5
+X-Amz-Cf-Id: GxatOZhavte0W6_AGGXDvASEmtj9yVVME-KV06O0-BuOEXR6FgxVvA==

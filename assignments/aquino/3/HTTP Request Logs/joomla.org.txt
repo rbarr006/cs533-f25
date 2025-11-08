@@ -1,0 +1,44 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://joomla.org
+HTTP/1.1 302 Found
+Date: Sun, 05 Oct 2025 06:04:32 GMT
+Connection: keep-alive
+Server: cloudflare
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+location: https://www.joomla.org/
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+referrer-policy: no-referrer-when-downgrade
+strict-transport-security: max-age=31536000; includeSubDomains
+cross-origin-opener-policy: same-origin
+permissions-policy: interest-cohort=()
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://hcaptcha.com https://*.hcaptcha.com https://*.google-analytics.com https://*.googletagmanager.com https://*.googleapis.com https://*.gstatic.com https://*.google.com https://*.joomla.org https://*.pingdom.net https://*.googleapis.com https://*.doubleclick.net https://*.amazon-adsystem.com https://completion.amazon.com; style-src 'self' 'unsafe-inline' https://*.joomla.org https://hcaptcha.com https://*.hcaptcha.com https://fonts.googleapis.com; connect-src 'self' https://*.joomla.org https://hcaptcha.com https://*.hcaptcha.com https://*.pingdom.net https://*.doubleclick.net https://*.google-analytics.com; frame-src 'self' https://hcaptcha.com https://*.hcaptcha.com https://*.google.com https://www.googletagmanager.com https://www.youtube.com https://www.youtube-nocookie.com https://www.slideshare.net; font-src 'self' https://fonts.gstatic.com https://*.joomla.org; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com https://*.joomla.org https://*.pingdom.net https://*.doubleclick.net https://*.gstatic.com https://*.google.com https://*.googleapis.com https://img.youtube.com  https://i1.ytimg.com https://i.ytimg.com https://i9.ytimg.com https://s.ytimg.com https://*.amazon-adsystem.com https://*.ssl-images-amazon.com https://*.assoc-amazon.com https://m.media-amazon.com https://opensourcematters.org https://*.opensourcematters.org; media-src 'self' https://*.googlevideo.com; report-uri https://wwwjorg.report-uri.com/r/t/csp/enforce
+x-turbo-charged-by: LiteSpeed
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=7c%2B7w9a8Y9PwBgv5y32UVuxIwLm6Ep85cr1%2FkR%2B9lWEabRhSosKFyWotK3qbGbt1oMcFgg0QDS2w2HEH3HwCpQlZi4fevDa1bg%3D%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+CF-RAY: 989ab8dc492eafae-ATL
+
+HTTP/1.1 200 OK
+Date: Sun, 05 Oct 2025 06:04:32 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+expires: Wed, 17 Aug 2005 00:00:00 GMT
+last-modified: Sun, 05 Oct 2025 06:00:52 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+pragma: no-cache
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+x-litespeed-cache: hit
+Server: cloudflare
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+referrer-policy: no-referrer-when-downgrade
+strict-transport-security: max-age=31536000; includeSubDomains
+cross-origin-opener-policy: same-origin
+permissions-policy: interest-cohort=()
+content-security-policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://hcaptcha.com https://*.hcaptcha.com https://*.google-analytics.com https://*.googletagmanager.com https://*.googleapis.com https://*.gstatic.com https://*.google.com https://*.joomla.org https://*.pingdom.net https://*.googleapis.com https://*.doubleclick.net https://*.amazon-adsystem.com https://completion.amazon.com; style-src 'self' 'unsafe-inline' https://*.joomla.org https://hcaptcha.com https://*.hcaptcha.com https://fonts.googleapis.com; connect-src 'self' https://*.joomla.org https://hcaptcha.com https://*.hcaptcha.com https://*.pingdom.net https://*.doubleclick.net https://*.google-analytics.com; frame-src 'self' https://hcaptcha.com https://*.hcaptcha.com https://*.google.com https://www.googletagmanager.com https://www.youtube.com https://www.youtube-nocookie.com https://www.slideshare.net; font-src 'self' https://fonts.gstatic.com https://*.joomla.org; img-src 'self' data: https://*.google-analytics.com https://*.googletagmanager.com https://*.joomla.org https://*.pingdom.net https://*.doubleclick.net https://*.gstatic.com https://*.google.com https://*.googleapis.com https://img.youtube.com  https://i1.ytimg.com https://i.ytimg.com https://i9.ytimg.com https://s.ytimg.com https://*.amazon-adsystem.com https://*.ssl-images-amazon.com https://*.assoc-amazon.com https://m.media-amazon.com https://opensourcematters.org https://*.opensourcematters.org; media-src 'self' https://*.googlevideo.com; report-uri https://wwwjorg.report-uri.com/r/t/csp/enforce
+x-turbo-charged-by: LiteSpeed
+cf-cache-status: DYNAMIC
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=2LbYXQcp3wXgIYXWz7hxpdGxz1q4qfwr6pygqNAzZxGsVbCnbMAHncYrdXgJTlvEUoDC3lebXFLqnGonzY5VlO5PNErwB8i3I5U%2Fy%2Bc%3D"}]}
+CF-RAY: 989ab8de2ba144ea-ATL

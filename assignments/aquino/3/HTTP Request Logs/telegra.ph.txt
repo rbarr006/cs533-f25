@@ -1,0 +1,11 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://telegra.ph
+HTTP/1.1 200 OK
+Server: nginx/1.20.1
+Date: Sun, 05 Oct 2025 03:52:00 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 4576
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+Pragma: no-cache
+Cache-control: no-store
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload

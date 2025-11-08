@@ -1,0 +1,62 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://yelp.com
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 218
+content-type: text/html; charset=UTF-8
+location: https://www.yelp.com/
+x-zipkin-id: d4d60a2885130b92fe822ba59ecec1f8
+x-tracing-auth: bp_6EdvgVjN-mtNzqsrbzEQAeWve1fjVS3V9P6MDS83vm9r6imiL3XAiIj3hvs1g
+x-routing-service: routing-canary--useast1-7989bc8449-mlrvb; site=www
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+set-cookie: bsi=1%7C2d6f1378-980f-5f31-92b6-86c2b597e366%7C1759638356240%7C1759638356240%7C1%7Cce111d56e06d716c; Domain=.yelp.com; Path=/; Max-Age=604800; Expires=Sun, 12 Oct 2025 04:25:56 GMT; Secure; SameSite=None
+set-cookie: wdi=2|F9C0236388F247BA|0x1.a387cd50f5dccp+30|068698f09b5f037d; Domain=.yelp.com; Path=/; Max-Age=31536000; Expires=Mon, 05 Oct 2026 04:25:56 GMT; HttpOnly; Secure; SameSite=None
+x-content-type-options: nosniff
+x-node: www_all
+x-node: yelp-main-main--useast1-79b49dcb7d-vwqb7
+server: envoy
+x-mode: ro
+x-proxied: 10-65-113-97-useast1aprod
+x-extlb: 10-65-113-97-useast1aprod
+Accept-Ranges: bytes
+Date: Sun, 05 Oct 2025 04:25:56 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pdk-kpdk1780067-PDK
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1759638356.230195,VS0,VE34
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 203769
+content-type: text/html; charset=UTF-8
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+pragma: no-cache
+content-security-policy-report-only: report-uri https://www.yelp.com/csp_report_only?id=9ff203677001b017&page=csp_report_frame_directives%2Cfull_site_ssl_csp_report_directives&policy_hash=41d0c45536d2a082f11d1cd0e00fde7f&site=www&timestamp=1759638357; frame-ancestors 'self' https://*.yelp.com; default-src https:; img-src https: data: blob:; script-src https: data: 'unsafe-inline' 'unsafe-eval' blob:; style-src https: 'unsafe-inline' data:; font-src data: https:; child-src https: yelp-webview://* yelp://* data:; object-src 'none'; worker-src blob: https:; base-uri 'self'; form-action https:
+x-zipkin-id: 8559b00606aefd044f2dfccefcd315f6
+x-b3-sampled: 0
+x-routing-service: routing-main--useast1-7c678c78d4-95cn7; site=www
+x-tracing-auth: zWgGImoZbWyTr4954qBv_KUm-I9eobM3fnOotAe67Ze1WBYQfYyTwVfljaNGC6u6
+server: envoy
+link: https://s3-media0.fl.yelpcdn.com; rel=preconnect
+link: https://www.google-analytics.com; rel=preconnect
+x-node: www_all
+x-node: yelp-main-main--useast1-79b49dcb7d-8gmnf
+x-content-type-options: nosniff
+content-security-policy: report-uri https://www.yelp.com/csp_block?id=9ff203677001b017&page=enforced_by_default_directives&policy_hash=4a31667603ab2e38c60aeeb09daa5097&site=www&timestamp=1759638357; object-src 'self'; base-uri 'self' https://*.yelpcdn.com https://*.adsrvr.org https://6372968.fls.doubleclick.net; font-src 'self' data: https:
+set-cookie: bse=1dc08daa3827475fb1bdad81f0b11bfb; Domain=.yelp.com; Path=/; secure; HttpOnly
+set-cookie: location=%7B%22city%22%3A+%22San+Francisco%22%2C+%22state%22%3A+%22CA%22%2C+%22country%22%3A+%22US%22%2C+%22latitude%22%3A+37.775123%2C+%22longitude%22%3A+-122.41932%2C+%22max_latitude%22%3A+37.81602226140252%2C+%22min_latitude%22%3A+37.706368356809776%2C+%22max_longitude%22%3A+-122.3550796508789%2C+%22min_longitude%22%3A+-122.51781463623047%2C+%22zip%22%3A+%22%22%2C+%22address1%22%3A+%22%22%2C+%22address2%22%3A+%22%22%2C+%22address3%22%3A+null%2C+%22neighborhood%22%3A+null%2C+%22borough%22%3A+null%2C+%22provenance%22%3A+%22YELP_GEOCODING_ENGINE%22%2C+%22display%22%3A+%22San+Francisco%2C+CA%22%2C+%22unformatted%22%3A+%22San+Francisco%2C+CA%22%2C+%22isGoogleHood%22%3A+null%2C+%22usingDefaultZip%22%3A+null%2C+%22accuracy%22%3A+4.0%2C+%22language%22%3A+null%7D; Domain=.yelp.com; Max-Age=31536000; Path=/; expires=Mon, 05-Oct-2026 04:25:57 GMT
+set-cookie: hl=en_US; Domain=.yelp.com; Max-Age=31536000; Path=/; expires=Mon, 05-Oct-2026 04:25:57 GMT
+set-cookie: wdi=2|F9C0236388F247BA|0x1.a387cd50f5dccp+30|068698f09b5f037d; Domain=.yelp.com; Path=/; Max-Age=31536000; Expires=Mon, 05 Oct 2026 04:25:57 GMT; HttpOnly; Secure; SameSite=None
+x-mode: ro
+x-proxied: 10-65-180-135-useast1bprod
+x-extlb: 10-65-180-135-useast1bprod
+cache-control: max-age=0, no-store, private, no-transform
+Accept-Ranges: bytes
+Date: Sun, 05 Oct 2025 04:25:57 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pdk-kfty8610046-PDK
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1759638357.235622,VS0,VE457
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400

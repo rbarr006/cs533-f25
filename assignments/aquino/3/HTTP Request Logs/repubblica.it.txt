@@ -1,0 +1,46 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://repubblica.it
+HTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Connection: keep-alive
+Cache-Control: private, no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+Date: Sun, 05 Oct 2025 03:19:52 GMT
+Expires: Tue, 31 Mar 1981 05:00:00 GMT
+Location: https://www.repubblica.it/
+Server: Varnish
+X-Varnish: 26445292
+X-Cache: Miss from cloudfront
+Via: 1.1 359b6b96f5bc39c3c18c245a5430d31c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD61-P2
+X-Amz-Cf-Id: Tn_pqpbKC7DcEnFN1miF80hcAei33GR1_8Pu_c00joT2vsREuqRL1A==
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+X-GUploader-UploadID: AAwnv3IJD2bEWHebYXmSGTHlNWq1Vwkr_GpIb4XPkm7vUE9Qqmbn4FlxEXYyEyAHsSBZ3pIS7E6U-Sg
+Expires: Sun, 05 Oct 2025 03:19:53 GMT
+x-goog-generation: 1759634216431562
+x-goog-metageneration: 1
+x-goog-stored-content-encoding: identity
+x-goog-stored-content-length: 266362
+x-goog-meta-mtime: 2025-10-05T05:16:56.159965606+02:00
+x-goog-hash: crc32c=W5ZKDA==
+x-goog-hash: md5=7Y4YFK5U4K8wIms/Ik9p4w==
+x-goog-storage-class: REGIONAL
+X-Cacheable: YES
+referrer-policy: unsafe-url
+Content-Security-Policy: upgrade-insecure-requests; default-src https: wss: data: blob: 'unsafe-inline' 'unsafe-eval'
+X-Robots-Tag: noarchive, max-image-preview:large
+x-kw-date: Sun, 05 Oct 2025 03:19:53 GMT
+x-kw-expires: Sun, 05 Oct 2025 03:19:53 GMT
+Cache-Control: max-age=61, s-maxage=61
+smaxagedone: yup
+x-kw-cache-control: max-age=61, s-maxage=61
+Accept-Ranges: bytes
+Date: Sun, 05 Oct 2025 03:19:53 GMT
+Via: 1.1 google, 1.1 a41d734044cac7cfe09820f04854befc.cloudfront.net (CloudFront)
+Vary: Accept-Encoding,gd-facet-webview,gd-facet2025-webview
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: IAD61-P10
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: rYL2efl3URcVFQ4S9-XMKkixfNPVM-ePbRO0hyva5rFdNC5QlzZPEQ==
+Age: 0

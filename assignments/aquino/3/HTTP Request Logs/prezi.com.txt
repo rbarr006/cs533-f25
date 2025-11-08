@@ -1,0 +1,10 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://prezi.com
+HTTP/1.1 406 Not Acceptable
+Date: Sun, 05 Oct 2025 04:16:54 GMT
+Content-Type: text/html
+Content-Length: 160
+Connection: keep-alive
+X-Frame-Options: DENY
+Referrer-Policy: strict-origin-when-cross-origin
+Permissions-Policy: usb=(), xr-spatial-tracking=()
+Strict-Transport-Security: max-age=31536000; includeSubDomains

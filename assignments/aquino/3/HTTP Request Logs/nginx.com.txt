@@ -1,0 +1,53 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://nginx.com
+HTTP/1.1 301 Moved Permanently
+location: https://www.nginx.com/
+strict-transport-security: max-age=31536000
+set-cookie: e9ee03=W8Sz4UtK/gxt1/Yob/bpcVN6qcbHD7WkGTCQYCIjlZdvK0zusVwKJbP/SW2lI1ty9/9tDiAWuIsRl41O6hBhkSoeRZhfiuI55EDAwhwp2LYQtH6t9nftBijpGtnJYoT4+wOCW5BXyoA8MopigFjOGRkX80w4/y/tNlzEDmNCYtBCz8ay; path=/
+x-volterra-location: c-dc12-ash
+date: Sun, 05 Oct 2025 03:27:28 GMT
+server: volt-adc
+transfer-encoding: chunked
+
+HTTP/1.1 301 Moved Permanently
+date: Sun, 05 Oct 2025 03:27:28 GMT
+content-type: text/html; charset=iso-8859-1
+location: https://www.f5.com/go/product/welcome-to-nginx
+set-cookie: AWSALB=+IdxhZc2vkD8tAGQLa9EprzbSHwboZc0S2Cs6CBr/6hQYFeN4jQjCu9nh9VObq3Upscifsa9QYaNn3wESVJ6A7RxLS8pFNSqhHiBj/mjXdxwTIodp45eeWB229FC; Expires=Sun, 12 Oct 2025 03:27:28 GMT; Path=/
+set-cookie: AWSALBCORS=+IdxhZc2vkD8tAGQLa9EprzbSHwboZc0S2Cs6CBr/6hQYFeN4jQjCu9nh9VObq3Upscifsa9QYaNn3wESVJ6A7RxLS8pFNSqhHiBj/mjXdxwTIodp45eeWB229FC; Expires=Sun, 12 Oct 2025 03:27:28 GMT; Path=/; SameSite=None; Secure
+x-dispatcher: dispatcher1uswest2-b80
+x-vhost: publish
+referrer-policy: no-referrer-when-downgrade
+x-envoy-upstream-service-time: 319
+strict-transport-security: max-age=31536000
+set-cookie: e9ee03=n53kso4Dd5NRUJQHiuv/b2c/UTCR4NA6BPypNiJ1H8V1BtzAE9gXZ19/r3AOoP1PqPK1hX8HBVAf+3soBI8JgE37j+z7lPbCIzrgI7nXFCfnz7GrL79CU2EkoA1HUQMK8zABrYy8VWl/679bt8w/q2G6IQU6mxVtJ6RZDzcAGxhyANHO; path=/
+set-cookie: TS01dc4fc6=01a8c3f7db7138525f6165d489e6d0445d6d18e5f02d6d2e31e837db8f0eac72d343683c2b84cb141955b116262e003acf3fc8bf0a; Path=/; Secure; HttpOnly; SameSite=Strict;
+x-volterra-location: dc12-ash
+server: volt-adc
+transfer-encoding: chunked
+
+HTTP/1.1 200 OK
+date: Sun, 05 Oct 2025 03:27:29 GMT
+content-type: text/html;charset=utf-8
+content-length: 287654
+set-cookie: AWSALB=MbzNpaD2uMHjcwIY2a413EWERJIFnLvU2RkJIzSSmMmCeq+9qM0kXe/q7MRzJjOQSfMMekUrjMAD4hJAx4ae+ZwddbI2X3L40SiBBdG+uKr6CWO3PQarwByaaHBr; Expires=Sun, 12 Oct 2025 03:27:29 GMT; Path=/
+set-cookie: AWSALBCORS=MbzNpaD2uMHjcwIY2a413EWERJIFnLvU2RkJIzSSmMmCeq+9qM0kXe/q7MRzJjOQSfMMekUrjMAD4hJAx4ae+ZwddbI2X3L40SiBBdG+uKr6CWO3PQarwByaaHBr; Expires=Sun, 12 Oct 2025 03:27:29 GMT; Path=/; SameSite=None; Secure
+x-dispatcher: dispatcher2uswest2-b80
+x-vhost: publish
+referrer-policy: no-referrer-when-downgrade
+x-frame-options: SAMEORIGIN
+cache-control: max-age=300
+last-modified: Sun, 05 Oct 2025 03:26:33 GMT
+x-content-type-options: nosniff
+age: 56
+etag: "463a6-64060e6c6d313"
+accept-ranges: bytes
+vary: Accept-Encoding,User-Agent
+content-security-policy: frame-ancestors 'self' *.cybersource.com *.salesforce.com *.force.com *.salesforce-sites.com ; form-action *.cybersource.com *.salesforce.com *.force.com 'self' *.salesforce-sites.com
+x-envoy-upstream-service-time: 82
+x-xss-protection: 1; mode=block
+permissions-policy: Permissions-Policy: geolocation=(), microphone=(), camera=(), gyroscope=(), magnetometer=(), payment=(), fullscreen=(self), autoplay=(self)
+strict-transport-security: max-age=31536000
+set-cookie: 50cd03=N2tH2W8sEKKgta7kSkrCZwKoh6g3lxp/InP4qdkPosKudoKAfidFazFLZekhmh/bABWnMb1rVR5vB6K0EQuPvixMyKNGVYByhlejl/e6UXoyUftC6f4bA1rSHysY3VqoMU7hGoBtMuN5DuVhOLzJRw0/LbWQiENAfztkYQZZ8HrCk1C7; path=/
+set-cookie: TS01dc4fc6=01a8c3f7db19ac97ba2297bba01a2fb4e2cea583fec50a1da8eab0b0b44ace1cd86cbe557aa46ca55b8ffd70178dff534015fbd6fc; Path=/; Secure; HttpOnly; SameSite=Strict;
+x-volterra-location: dc12-ash
+server: volt-adc

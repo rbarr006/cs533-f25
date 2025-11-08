@@ -1,0 +1,12 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://nginx.org
+HTTP/1.1 200 OK
+Server: nginx/1.29.0
+Date: Sun, 05 Oct 2025 06:09:10 GMT
+Content-Type: text/html; charset=utf-8
+Content-Length: 7144
+Last-Modified: Wed, 24 Sep 2025 16:33:31 GMT
+Connection: keep-alive
+Keep-Alive: timeout=15
+ETag: "68d41d5b-1be8"
+Strict-Transport-Security: max-age=31536000
+Accept-Ranges: bytes

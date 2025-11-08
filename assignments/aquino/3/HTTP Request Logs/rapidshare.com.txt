@@ -1,0 +1,2 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://rapidshare.com
+curl: (6) Could not resolve host: rapidshare.com

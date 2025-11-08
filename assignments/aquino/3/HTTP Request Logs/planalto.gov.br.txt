@@ -1,0 +1,2 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://planalto.gov.br
+curl: (56) Recv failure: Connection was reset

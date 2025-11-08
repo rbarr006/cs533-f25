@@ -1,0 +1,18 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://disney.com
+HTTP/1.1 301 Moved Permanently
+content-length: 0
+location: https://www.disney.com/
+
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=utf-8
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-ua-compatible: IE=edge,chrome=1
+ETag: W/"49beb7f2cb63fd70ccda72cbf6926b33"
+x-server: px-mh-ha-f
+Cache-Control: public, max-age=763
+Expires: Sun, 05 Oct 2025 06:20:04 GMT
+Date: Sun, 05 Oct 2025 06:07:21 GMT
+Connection: keep-alive
+Alt-Svc: h3=":443"; ma=93600
+X-Origin: Matterhorn_TLS

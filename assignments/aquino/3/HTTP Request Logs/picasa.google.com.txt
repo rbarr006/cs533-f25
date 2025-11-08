@@ -1,0 +1,19 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://picasa.google.com
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Type: text/html
+Content-Length: 5315
+Content-Security-Policy-Report-Only: script-src 'nonce-tczOSHl7H31lZj6ALQNa0w' 'report-sample' 'strict-dynamic' 'unsafe-eval' 'unsafe-inline' http: https:; object-src 'none'; report-uri https://csp.withgoogle.com/csp/static-on-bigtable; base-uri 'none'
+Cross-Origin-Resource-Policy: cross-origin
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="static-on-bigtable"
+Report-To: {"group":"static-on-bigtable","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/static-on-bigtable"}]}
+Date: Sun, 05 Oct 2025 04:37:14 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Last-Modified: Tue, 17 Sep 2024 06:00:00 GMT
+X-Content-Type-Options: nosniff
+Server: sffe
+X-XSS-Protection: 0
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000

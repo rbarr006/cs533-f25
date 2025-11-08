@@ -1,0 +1,53 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://huffpost.com
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://www.huffpost.com/
+Accept-Ranges: bytes
+Date: Sun, 05 Oct 2025 05:43:06 GMT
+Via: 1.1 varnish
+content-security-policy: sandbox allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation; frame-ancestors 'self' *.huffpost.com *.huffingtonpost.com *.huffpost.net *.buzzfeed.com clients.opinary.com compass.pressekompass.net *.newsbreak.com *.newsbreakapp.com *.upday-content.com *.upday.com *.samsung-news.com; report-uri https://huffpost.report-uri.com/r/d/csp/enforce;
+Set-Cookie: bf-geo-country=US; expires=Mon, 06 Oct 2025 05:43:06 GMT; path=/; domain=huffpost.com;
+Set-Cookie: bf-geo-region=GA; expires=Mon, 06 Oct 2025 05:43:06 GMT; path=/;  domain=huffpost.com;
+Set-Cookie: ccpa=true; expires=Sun, 19 Oct 2025 05:43:06 GMT; path=/; domain=huffpost.com;
+Timing-Allow-Origin: *
+X-Served-By: cache-pdk-kfty8610035-PDK
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+Referrer-Policy: no-referrer-when-downgrade
+X-XSS-Protection: 1; mode=block
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 885625
+content-type: text/html; charset=utf-8
+server: nginx
+x-hp-page-version: 315653
+expires: 0
+x-hp-webp: false
+document-policy: js-profiling
+cache-control: no-store, no-cache, must-revalidate
+x-powered-by: Express
+x-varnish-cambria-ttl: 5s
+x-request-id: cf8ae357fafafc58056587e71e51a5e7
+Via: 1.1 varnish, 1.1 varnish
+content-security-policy: sandbox allow-forms allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox allow-presentation allow-top-navigation-by-user-activation; frame-ancestors 'self' *.huffpost.com *.huffingtonpost.com *.huffpost.net *.buzzfeed.com clients.opinary.com compass.pressekompass.net *.newsbreak.com *.newsbreakapp.com *.upday-content.com *.upday.com *.samsung-news.com; report-uri https://huffpost.report-uri.com/r/d/csp/enforce;
+Accept-Ranges: bytes
+Age: 152
+Date: Sun, 05 Oct 2025 05:43:06 GMT
+Set-Cookie: bf-geo-country=US; expires=Mon, 06 Oct 2025 05:43:06 GMT; path=/; domain=www.huffpost.com;
+Set-Cookie: bf-geo-region=GA; expires=Mon, 06 Oct 2025 05:43:06 GMT; path=/;  domain=www.huffpost.com;
+Timing-Allow-Origin: *
+X-Served-By: cache-iad-kiad7000025-IAD, cache-iad-kiad7000176-IAD, cache-pdk-kfty8610056-PDK
+X-Cache: MISS, HIT, HIT
+X-Cache-Hits: 0, 20, 0
+X-Timer: S1759642987.764144,VS0,VE4
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000
+Referrer-Policy: no-referrer-when-downgrade
+X-XSS-Protection: 1; mode=block

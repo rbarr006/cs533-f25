@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vulnerable Site</title>
+</head>
+<body>
+    <h1>Vulnerable Site</h1>
+    <p>This page sets an important cookie with a path.</p>
+    <script>
+        let name = "importantCookie";
+        let value = "=importantValue;";
+        let expires = "expires=90";
+        let path = "path=/";
+        setCookie(name, value, expires, path);
+
+        function setCookie(name, value, expires, path){
+            document.cookie = name + value + expires + path;
+        }
+
+    </script>
+</body>
+</html>

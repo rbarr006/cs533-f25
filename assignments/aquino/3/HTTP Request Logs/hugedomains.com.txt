@@ -1,0 +1,14 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://hugedomains.com
+HTTP/1.1 403 Forbidden
+Date: Sun, 05 Oct 2025 03:59:30 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: same-origin
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=vo6p%2BM3f%2Fyxi1MO2nVNDccw5vMI0dBsVFYCWwVUioCqGYQNLptiPnLeUS8NEzOHBTWp4JEx5gwOCYPPVlK7XNk1qsalQze6HGgPndPdHDJcqSpOogIc1w2id8%2FHbUqZSxg%3D%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 989a01ba286d584e-IAD
+server-timing: cfL4;desc="?proto=TCP&rtt=5463&min_rtt=5455&rtt_var=2052&sent=5&recv=6&lost=0&retrans=0&sent_bytes=2852&recv_bytes=648&delivery_rate=530889&cwnd=251&unsent_bytes=0&cid=f208fc21d8fb09d4&ts=144&x=0"

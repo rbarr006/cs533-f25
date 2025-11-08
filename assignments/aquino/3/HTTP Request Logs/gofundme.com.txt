@@ -1,0 +1,33 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://gofundme.com
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Date: Sun, 05 Oct 2025 05:58:12 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Server: nginx
+Location: https://www.gofundme.com/
+Content-Security-Policy-Report-Only: frame-ancestors gofundme.com *.gofundme.com *.hopin.com pillar.io *.pillar.io takethemameal.com *.takethemameal.com kudoboard.com *.kudoboard.com werememberdev.com *.werememberdev.com weremember.com *.weremember.com forevermissed.com *.forevermissed.com fm-stage.com *.fm-stage.com fm-qa.com *.fm-qa.com;
+Via: 1.1 d854dce146fb0417466ec72ac223c004.cloudfront.net (CloudFront)
+Set-Cookie: gdid=99c110b5-e297-4ecf-9523-cabc485962f1; max-age=315360000; path=/; domain=gofundme.com
+X-Cache: Miss from cloudfront
+X-Amz-Cf-Pop: ATL58-P10
+X-Amz-Cf-Id: saRRnBFmimkI_qjOgo5ELwoC4ysMUTFR9wQnNmPZj7DUSdavZ2zJDw==
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 1230248
+Connection: keep-alive
+Date: Sun, 05 Oct 2025 05:53:29 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Server: nginx
+Set-Cookie: visitor={"locale":"en_US","shimLocale":"en_US","country":"US"}; path=/; domain=.gofundme.com
+Cache-Control: max-age=120, s-maxage=120, stale-while-revalidate=3600, stale-if-error=86400
+ETag: "7qby9mirv2qcbh"
+Content-Security-Policy-Report-Only: frame-ancestors gofundme.com *.gofundme.com *.hopin.com pillar.io *.pillar.io takethemameal.com *.takethemameal.com kudoboard.com *.kudoboard.com werememberdev.com *.werememberdev.com weremember.com *.weremember.com forevermissed.com *.forevermissed.com fm-stage.com *.fm-stage.com fm-qa.com *.fm-qa.com;
+Vary: Accept-Encoding
+Via: 1.1 7ac15df3e9ea5aed81772dea73c7ae48.cloudfront.net (CloudFront)
+Age: 284
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Pop: ATL58-P10
+X-Amz-Cf-Id: V0zQWVcrPSYo5-uf1mlepwgz1Xt38q6alKkEvzZ2MAU3n5oGYUAcEg==
