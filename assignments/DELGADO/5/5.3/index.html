@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5.3</title>
+    </head>
+    <body>
+        <h1>Embedding Content!</h1>
+
+        <p>WebMD Working Embed</p>
+        <iframe id="iframeEmbed" src="https://www.webmd.com"></iframe>
+        <p>Local Server Embedding (Succeed)</p>
+        <iframe id="iframeWindow" src="http://localhost:3000/show-iframe"></iframe>
+        <p>Local Server Embedding (X-FRAME-OPTIONS: DENY)</p>
+        <iframe src="http://localhost:3000/hide-iframe"></iframe>
+    </body>
+<script>
+    const serverUrl = 'http://localhost:3000/client.html';
+
+    fetch(serverUrl)
+    .then(response => {
+        // Check if the response was successful
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        const ele = document.getElementById("iframeWindow")
+        ele.src=serverUrl;
+        return response.json();
+    })
+    .then(data => {
+        // This runs only AFTER the CORS block is resolved
+        console.log(data);
+    })
+    .catch(error => {
+        // This is where the initial CORS error will show up in the browser console
+        console.error('CORS', error);
+    });
+</script>
+
+</html>

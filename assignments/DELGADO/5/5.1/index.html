@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 5.1</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1 id="statusHeader">Status Updates Here</h1>
+        <p id="statusDescription">Default Text Here</p>
+        <div>
+            <button type="button" class="btn btn-danger" onclick=failButton()>Fail</button>
+        </div>
+
+        <div>
+            <button type="button" class="btn btn-success" onclick=succeedButton()>Succeed</button>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+    <script>
+        // Clicking the failButton will access localhost:3000/fail, which tries
+        // to send the jsonFile response without the Access-Control-Allow-Origin
+        // HTTP header. The error will be displayed in the console.
+        function failButton() {
+            const serverUrl = 'http://localhost:3000/fail';
+            fetch(serverUrl)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                console.log(data);
+            })
+            .catch(error => {
+                const status = document.getElementById("statusHeader");
+                const description = document.getElementById("statusDescription");
+                status.innerHTML = "Failed"
+                description.innerHTML = "Access-Control-Allow-Origin was not set."
+                console.error('CORS', error);
+            });
+        }
+        // Clicking the succeedButton will access localhost:3000/succeed, which tries
+        // to send the jsonFile response WITH the Access-Control-Allow-Origin
+        // HTTP header set. The data will be displayed in the console.
+        function succeedButton() {
+        const serverUrl = 'http://localhost:3000/succeed';
+        fetch(serverUrl)
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Network response was not ok');
+            }
+            const status = document.getElementById("statusHeader");
+            const description = document.getElementById("statusDescription");
+            status.innerHTML = "Succeeded"
+            description.innerHTML = "Access-Control-Allow-Origin was set properly!."
+            return response.json();
+        })
+        .then(data => {
+            console.log(data);
+        })
+        .catch(error => {
+            console.error('CORS', error);
+        });
+        }
+
+    </script>
+</html>
