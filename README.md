@@ -145,3 +145,6 @@ The design and inspiration for this course also draw from **[CS 253: Web Securit
 
 * Assignment 5: Same-origin Policy, CORS, CSP
    * [Due: November 9](/assignments/assignment-5.md)
+
+* Assignment 6: Fingerprinting
+   * [Due: November 23](/assignments/assignment-6.md)
