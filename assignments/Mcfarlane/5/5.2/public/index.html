@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head><title>CORS Headers Demo 5.2</title></head>
+<body>
+  <h1>Custom Header Demo</h1>
+  <button id="fetchHeaders">Fetch Headers</button>
+  <pre id="output"></pre>
+
+  <script>
+    document.getElementById("fetchHeaders").onclick = async () => {
+      try {
+        const res = await fetch("http://localhost:4000/favorites");
+        const headers = [
+          "X-CS533f25-Personality",
+          "X-CS533f25-Place",
+          "X-CS533f25-Book",
+          "X-CS533f25-Movie"
+        ];
+        let output = "";
+        headers.forEach(h => {
+          output += `${h}: ${res.headers.get(h)}\n`;
+        });
+        document.getElementById("output").textContent = output;
+      } catch (err) {
+        document.getElementById("output").textContent = "❌ Blocked by CORS";
+      }
+    };
+  </script>
+</body>
+</html>

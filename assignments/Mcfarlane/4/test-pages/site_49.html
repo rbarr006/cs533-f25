@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head><meta charset="utf-8"><title>Test 49</title></head>
+<body>
+<h2>Test 49</h2>
+<p>URL: <a href="https://20minutos.es" target="_blank">https://20minutos.es</a></p>
+<iframe id="f" src="https://20minutos.es" style="width:100%;height:500px;border:1px solid #333"></iframe>
+<p id="status">Loading...</p>
+<script>
+  const f = document.getElementById('f');
+  f.addEventListener('load', () => {
+    try {
+      // try to access iframe's title — will throw for cross-origin
+      const t = f.contentDocument && f.contentDocument.title;
+      document.getElementById('status').textContent = 'Loaded. frame accessible? ' + (t ? 'yes (same-origin)':'no (cross-origin)');
+    } catch (e) {
+      document.getElementById('status').textContent = 'Load event fired but access blocked (cross-origin or sandbox).';
+    }
+  });
+  // fallback: check after 8 seconds whether frame remains blank
+  setTimeout(()=> {
+    const status = document.getElementById('status').textContent;
+    if (status === 'Loading...') document.getElementById('status').textContent = 'No load detected (possibly blocked by X-Frame-Options or CSP).';
+  }, 8000);
+</script>
+</body></html>
