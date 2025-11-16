@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>CORS Response Headers: From Blocked to Allowed</title>
+  <style>
+    body { font-family: system-ui, Segoe UI, Arial; margin: 2rem; }
+    h1 { font-size: 1.8rem; }
+    pre { background:#111; color:#eee; padding:1rem; border-radius:8px; white-space:pre-wrap; }
+    button { margin-right:.5rem; }
+  </style>
+</head>
+<body>
+  <h1>CORS Response Headers: From Blocked to Allowed</h1>
+  <p>Click the button to test CORS behavior.</p>
+  <button id="btnFetch">Fetch Headers</button>
+  <pre id="out"></pre>
+
+  <script>
+    const out = document.getElementById("out");
+    const showInPre = [
+      "X-CS533f25-Personality",
+      "X-CS533f25-Place",
+      "X-CS533f25-BookOrSong",
+      "X-CS533f25-MovieOrTV"
+    ];
+
+    document.getElementById("btnFetch").onclick = async () => {
+      out.textContent = "Requesting http://localhost:4001/api/headers ...";
+      try {
+        const res = await fetch("http://localhost:4001/api/headers?ts=" + Date.now(), {
+          cache: "no-store"
+        });
+
+        const vals = showInPre.map(h => res.headers.get(h));
+
+        if (vals.some(v => v === null)) {
+          out.textContent = "Blocked: custom headers are not exposed by CORS.";
+          console.warn("Custom headers not readable; got:", vals);
+          return;
+        }
+
+        out.textContent = vals.join("\n");
+        console.log("Response headers:", [...res.headers.entries()]);
+      } catch (e) {
+        out.textContent = "Blocked by CORS: " + e;
+        console.error(e);
+      }
+    };
+  </script>
+</body>
+</html>

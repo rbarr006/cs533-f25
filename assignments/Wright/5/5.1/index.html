@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>CORS JSON: From Blocked to Allowed Responses</title>
+  <style>
+    body { font-family: system-ui, Segoe UI, Arial; margin: 2rem; }
+    h1 { font-size: 1.8rem; }
+    pre { background:#111; color:#eee; padding:1rem; border-radius:8px; white-space:pre-wrap; }
+    button { margin-right:.5rem; }
+  </style>
+</head>
+<body>
+  <h1>CORS JSON: From Blocked to Allowed Responses</h1>
+  <button id="btn">Fetch Favorites</button>
+  <pre id="out"></pre>
+
+<script>
+  const out = document.getElementById("out");
+
+  document.getElementById("btn").onclick = async () => {
+    out.textContent = "Requesting http://localhost:4001/api/favorites ...";
+    try {
+      const url = "http://localhost:4001/api/favorites?ts=" + Date.now();
+      console.log("→ Fetching:", url);
+
+      const res = await fetch(url, { cache: "no-store" });
+      console.log("← Response status:", res.status, res.statusText);
+
+      // log response headers (useful for CORS demos)
+      console.log("Response headers:", [...res.headers.entries()]);
+
+      const data = await res.json();
+      console.log("Parsed JSON:", data);
+
+      out.textContent = JSON.stringify(data, null, 2);
+    } catch (e) {
+      // This is what you'll see when CORS is OFF (ENABLE_CORS="false")
+      console.error("Blocked by CORS:", e);
+      out.textContent = "Blocked by CORS: " + e;
+    }
+  };
+</script>
+</body>
+</html>
