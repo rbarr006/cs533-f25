@@ -1,0 +1,9 @@
+{
+    "message": "This is a response message",
+    "favorites": [
+        {"game":"Darkest Dungeon"},
+        {"song":"Marriage D'Amour"},
+        {"food":"Chicken Parmesan"},
+        {"joke":"The Game"}
+    ]
+}
