@@ -6,7 +6,7 @@ Points available: 15 + 15 Extra credits
 
 For this assignment, you will construct a phishing site that collects login information. 
 
-Note: This content is intended solely for educational purposes to enhance understanding of phishing techniques and defensive strategies.  Under no circumstances should this information be used to engage in unauthorized access or any form of malicious activity. All users are expected to act responsibly and adhere to all applicable laws and ethical guidelines in cybersecurity. 
+Note: This is intended solely for educational purposes to enhance understanding of phishing techniques and defensive strategies.  Under no circumstances should this information be used to engage in unauthorized access or any form of malicious activity. All users are expected to act responsibly and adhere to all applicable laws and ethical guidelines in cybersecurity. 
 
 Relevant resources:
 
