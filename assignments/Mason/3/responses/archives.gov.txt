@@ -1,0 +1,46 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Tue, 21 Oct 2025 21:58:50 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://archives.gov/
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src ‘self’ ‘unsafe-inline’ ‘unsafe-eval’ https: data:
+
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Tue, 21 Oct 2025 21:58:50 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://www.archives.gov/
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src ‘self’ ‘unsafe-inline’ ‘unsafe-eval’ https: data:
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+content-length: 26590
+date: Tue, 21 Oct 2025 01:12:20 GMT
+accept-ranges: bytes
+content-language: en
+last-modified: Tue, 21 Oct 2025 01:00:36 GMT
+x-content-type-options: nosniff
+etag: W/"1761008436-0-gzip"
+cache-control: public, max-age=60, s-maxage=85699
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-frame-options: SAMEORIGIN
+vary: Cookie,Accept-Encoding
+x-cache: Hit from cloudfront
+via: 1.1 694f0c51ec6e4c7f413de59a8f819960.cloudfront.net (CloudFront)
+x-amz-cf-pop: JFK52-P4
+x-amz-cf-id: ivmEGw7RTdzaP9wCX4G6AE3Ip1jaO-BlnNOnFWBNyfUiN8ZBuj0KsA==
+age: 74791
+

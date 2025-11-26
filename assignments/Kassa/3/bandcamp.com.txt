@@ -1,0 +1,33 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://bandcamp.com/
+Accept-Ranges: bytes
+Date: Sat, 04 Oct 2025 03:29:05 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kjyo7100103-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1759548546.968108,VS0,VE0
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 101791
+server: nginx
+content-type: text/html; charset=UTF-8
+x-bc-app-id: 3357960
+via: 1.1 varnish, 1.1 varnish
+referrer-policy: no-referrer-when-downgrade
+accept-ranges: bytes
+content-security-policy: base-uri 'none'; object-src 'none'; report-uri https://bandcamp.com/api/cspreport/1/violation; script-src http: https: 'nonce-H+yaWJSgUiReuenAMP/Qtw==' 'report-sample' 'strict-dynamic'
+x-bc-app-description: lindacentral08-homepage1
+Date: Sat, 04 Oct 2025 03:29:06 GMT
+X-Served-By: cache-iad-kcgs7200125-IAD, cache-iad-kiad7000078-IAD
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1759548546.047280,VS0,VE144
+Vary: Accept-Encoding, Accept-Encoding
+Strict-Transport-Security: max-age=63072000
+

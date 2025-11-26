@@ -1,0 +1,35 @@
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 21 Oct 2025 21:58:55 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Server: nginx
+Location: https://stores.jp/
+Strict-Transport-Security: max-age=2592000
+X-Frame-Options: SAMEORIGIN
+
+HTTP/2 301 
+date: Tue, 21 Oct 2025 21:58:55 GMT
+content-type: text/html
+content-length: 162
+location: https://stores.fun/
+server: nginx
+strict-transport-security: max-age=2592000
+x-frame-options: SAMEORIGIN
+
+HTTP/2 200 
+date: Tue, 21 Oct 2025 21:58:55 GMT
+content-type: text/html
+server: cloudflare
+cf-ray: 992404e6e9c01824-RIC
+cf-cache-status: HIT
+last-modified: Tue, 21 Oct 2025 06:45:15 GMT
+content-security-policy: frame-ancestors 'self'
+surrogate-control: max-age=432000
+surrogate-key: stores.fun 66ea61badc444882b5088b9b pageId:6826ebe0609ecb2e14bced1b 670334d0e24c2ee00d081e35 684fe204acd0d59a30f69496 67bd444a16a21705165b0a15
+x-frame-options: SAMEORIGIN
+x-lambda-id: 0bf0e047-dead-4677-b76e-23240acc4cef
+vary: Accept-Encoding
+set-cookie: _cfuvid=ajNmiPKmPumMrmhlCmOZHD9rZFHR0SW6AsihpeCUrKA-1761083935961-0.0.1.1-604800000; path=/; domain=.stores.fun; HttpOnly; Secure; SameSite=None
+alt-svc: h3=":443"; ma=86400
+

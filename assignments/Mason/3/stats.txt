@@ -1,0 +1,4 @@
+Min cookies/site: 0
+Max cookies/site: 24
+Mean cookies/site: 2.87
+Median cookies/site: 2.0

@@ -1,0 +1,30 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://www.gov.uk
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 85706
+Content-Type: text/html; charset=utf-8
+Server: nginx
+Content-Security-Policy: default-src 'self'; base-uri 'none'; img-src 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk www.google-analytics.com ssl.google-analytics.com stats.g.doubleclick.net www.googletagmanager.com www.region1.google-analytics.com region1.google-analytics.com lux.speedcurve.com assets.digital.cabinet-office.gov.uk https://img.youtube.com https://i.ytimg.com; script-src 'self' www.google-analytics.com ssl.google-analytics.com stats.g.doubleclick.net www.googletagmanager.com www.region1.google-analytics.com region1.google-analytics.com www.gstatic.com *.ytimg.com www.youtube.com www.youtube-nocookie.com 'nonce-mOIcu0G7xR6rolN5R1nReQ=='; style-src 'self' www.gstatic.com; font-src 'self'; connect-src 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk www.google-analytics.com ssl.google-analytics.com stats.g.doubleclick.net www.googletagmanager.com www.region1.google-analytics.com region1.google-analytics.com lux.speedcurve.com gds-single-consent-staging.app gds-single-consent.app; object-src 'none'; frame-src 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk www.youtube.com www.youtube-nocookie.com; frame-ancestors 'self' *.publishing.service.gov.uk www.gov.uk *.dev.gov.uk; report-uri https://csp-reporter.publishing.service.gov.uk/report
+Etag: W/"87ba629ae7fdba6f7d525e11243a332a"
+Link: </assets/frontend/application-0740e22decaab2f97e98211c3caf7d084a3e6097edbc0cd821607911292dece7.css>; rel=preload; as=style; nopush,</assets/frontend/views/_homepage-2280972fbd8ffceb65ecf352886913ca454c23dd272d3822672d5728929c6af0.css>; rel=preload; as=style; nopush,</assets/frontend/views/_homepage_header-33d8858e1b1e8aab9f2e5643396ed447803fa1696063f99baceaaa602d34698e.css>; rel=preload; as=style; nopush,</assets/frontend/views/_popular_links-661a1c721e3cfdee8395ff5749f7ff88ea1d9cdd55640ea2c197e7652ed2b3f6.css>; rel=preload; as=style; nopush,</assets/frontend/govuk_publishing_components/components/_action-link-c3fbe99af7d832a77860e9f8982bf3cf71499f019c6ff1f9df67da9eb6ed1fed.css>; rel=preload; as=style; nopush,</assets/frontend/govuk_publishing_components/components/_cards-e8ebfa5a9585adec676a2602012a8336175448362c4fe0540d77fe6e26f84691.css>; rel=preload; as=style; nopush
+Permissions-Policy: interest-cohort=()
+Via: 1.1 router, 1.1 varnish
+X-Content-Type-Options: nosniff
+X-Frame-Options: ALLOWALL
+X-Request-Id: 6b92eec9-c9e3-4bfc-9867-9ae7b659f060
+X-Runtime: 0.031289
+Permissions-Policy: interest-cohort=()
+X-Content-Type-Options: nosniff
+Fastly-Backend-Name: origin
+Accept-Ranges: bytes
+Age: 114
+Date: Sun, 05 Oct 2025 04:40:11 GMT
+Strict-Transport-Security: max-age=31536000; preload
+Server-Timing: cacheHit
+Cache-Control: max-age=300, public,private
+X-Served-By: cache-pdk-kfty8610064-PDK
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1759639211.079438,VS0,VE2
+Vary: Accept-Encoding,Cookie
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400

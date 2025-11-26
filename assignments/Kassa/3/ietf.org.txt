@@ -1,0 +1,32 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 04 Oct 2025 03:29:00 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sat, 04 Oct 2025 04:29:00 GMT
+Location: https://www.ietf.org/
+Set-Cookie: __cf_bm=x2OVJqJCnVFM1cbLR0jk9QPi481qnJyjsro3ijgmhnQ-1759548540-1.0.1.1-bhp6Krjw0dbSp591ljIJiysQoNmfi3PfwqEUV1iqrg7UIhVmfBOlMmcR7R9LFG8UzcvD07IANjibTGHzfhhMo5OSgYDoguI9sCIhes5uFtQ; path=/; expires=Sat, 04-Oct-25 03:59:00 GMT; domain=.ietf.org; HttpOnly
+Server: cloudflare
+CF-RAY: 989197a7cf6dd699-IAD
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 200 OK
+Date: Sat, 04 Oct 2025 03:29:00 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+CF-RAY: 989197a8bbe13f0b-IAD
+Cache-Control: public, max-age=14400
+cross-origin-opener-policy: same-origin
+expires: Sat, 04 Oct 2025 07:29:00 GMT
+referrer-policy: same-origin
+vary: Cookie
+x-content-type-options: nosniff
+x-frame-options: DENY
+Last-Modified: Sat, 04 Oct 2025 01:55:23 GMT
+CF-Cache-Status: HIT
+Age: 2811
+Set-Cookie: __cf_bm=92Uq5vSYvllfDJY803qSB3qqXwDvPt1PTcl.fKaAq5k-1759548540-1.0.1.1-40dHoGBHjiHTSnsAnlmt0BM12SB5Z9G2fRqz1daCAh07HteJhocg39z_zh81QPtHmvtNTO9YJ6FQotA4m6vNbEUbLvSMMmY0ORLU.uCwIKA; path=/; expires=Sat, 04-Oct-25 03:59:00 GMT; domain=.ietf.org; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+alt-svc: h3=":443"; ma=86400
+

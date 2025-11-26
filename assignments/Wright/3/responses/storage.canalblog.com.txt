@@ -1,0 +1,16 @@
+﻿HTTP/1.1 200 OK
+date: Sun, 28 Sep 2025 10:22:32 GMT
+last-modified: Tue, 21 Apr 2020 14:09:01 GMT
+expires: Mon, 29 Sep 2025 10:22:32 GMT
+cache-control: max-age=86400, public
+content-type: text/html
+vary: Accept-Encoding
+age: 21906
+x-cache: HIT
+accept-ranges: bytes
+x-frame-options: DENY
+x-xss-protection: 1;mode=block
+x-content-type-options: nosniff
+strict-transport-security: max-age=31536000;preload
+referrer-policy: no-referrer-when-downgrade
+

@@ -1,0 +1,20 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://tinyurl.com
+HTTP/1.1 200 OK
+Date: Sun, 05 Oct 2025 03:56:22 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+CF-RAY: 9899fd207f38d46f-IAD
+Cache-Control: max-age=900, private
+content-language: en
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+Set-Cookie: XSRF-TOKEN=eyJpdiI6Ik1aY1hZM2N3WmhLQnFDM2QwMS9aL2c9PSIsInZhbHVlIjoiMGozS0p2blBNSGxlK0Y1TktXS1R4MHNWcTVLQk5aZEQ4N2JaWE4vbWV3cWlRWjBJN08zSHF3Rkw2Wll1S05JUjQ3RWNRSFludWt6dkRCQ1VtdWk1SFhnbW9QeEp5ODBvU2NDY1VBaGtWYmdOcGp5OGZYVlE3QU9WNkUzbU4wdlAiLCJtYWMiOiI2YjVkZTA2N2I4ODNhYzU4ODZhZTg0MTQzZjljOWUxN2RmOWIyOTg0MDk1OThhNzhkOWE3NTJjMWJlMjBjZDMxIiwidGFnIjoiIn0%3D; expires=Sun, 05 Oct 2025 05:56:22 GMT; Max-Age=7200; path=/; domain=.tinyurl.com; secure; samesite=lax
+Set-Cookie: tinyurl-session=eyJpdiI6Inc2RDZyTDJwcjhENjM0QjhzdGpCalE9PSIsInZhbHVlIjoiYUIvc1piNE1Ld2VZQlFOSW9rb0Jxc1BPSXl5SG5VaE9BaWprdDhkWEZFd2gyYW1JU2NHemtVMWUxS2w1bTJVeWNPU2Jhc1BXZUJCcU45akQ4b2VFRWp6anFyaWVYZ2xvVms0RnA0Rk5ROTdDTU1WbVltUmNDeEpmUW12ZU5KY0giLCJtYWMiOiI5MmJmOTFmMDg0NDVmYzAxMWY1NTk5ODU2NGJlODgxZWQ0ODEyYjI4NDI0NzE3NTIwN2IyY2EwZTdlYjlkYjZhIiwidGFnIjoiIn0%3D; expires=Sun, 05 Oct 2025 05:56:22 GMT; Max-Age=7200; path=/; domain=.tinyurl.com; secure; httponly; samesite=lax
+Set-Cookie: tinyUUID=eyJpdiI6IlYxQ3lGVUVLZHdUZ1IrR1gvMmdCTFE9PSIsInZhbHVlIjoiLzlULytzY3dneHI0UVpTUTY4NDNWMVNqMnA0L2l5U1VDNzcyd2VTQS9kbjBwRURIbW9tQ1k5dkNWVVZ4L1VoV0YwQTlheVlHeWZXNWFOc1VOcExuQ3R1R3VadGkwdXdVWkkrdTJQL0k3VWc9IiwibWFjIjoiMzc3ZDYwN2QzM2M4ZDQ1ZDM1OGRmYzE1ZmE3NTI2ODUyMGFiMjZhOWNhMWVhZWFlNTEwOWIyMDRmYzRiODkxOCIsInRhZyI6IiJ9; expires=Mon, 09 Nov 2026 03:56:22 GMT; Max-Age=34560000; path=/; domain=.tinyurl.com; secure; httponly; samesite=lax
+Set-Cookie: early-access=eyJpdiI6ImlzMGNhVjNGNys2aXEwODhGWDJ0b1E9PSIsInZhbHVlIjoiek1Gd0tJUDF4ZGhybXp1ajVGTy8yTFQ1Tkg2TDJsc0tHK0xjdndoN3lsc21UcEZUODJBVEk0d1B5SVZQR1dHdnV0Q1Boa25RSUdscFowcG1KcG9sSnJCdjB6SG5ZdzgxT01GRG1tNGZkRG89IiwibWFjIjoiMjhiOTk5YWU2MDJiZGZjMGU5OTY2Yjg1YTg0ZjdmYmJkNmMxOGUyYjY3MjAzYWJkNTY3ZGNhZGE0MjA0MTFhYSIsInRhZyI6IiJ9; expires=Mon, 09 Nov 2026 03:56:22 GMT; Max-Age=34560000; path=/; domain=.tinyurl.com; secure; httponly; samesite=lax
+Set-Cookie: __cf_bm=kF4ZUB_yAiI2E2dVc04Iu5UTc5o0xAvKzKX.84DRvbs-1759636582-1.0.1.1-PRQMgK9QlrQj6b.plZeHEUg3E_E4RYXX1pdVxmXOVh79KT5R8FvoBKeTGRjiY9IqFaQbWjS_DwromcpdtOWoNLYtza2YXhT_hjp5dO8O2GY; path=/; expires=Sun, 05-Oct-25 04:26:22 GMT; domain=.tinyurl.com; HttpOnly; Secure; SameSite=None
+cf-cache-status: DYNAMIC
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Server: cloudflare
+alt-svc: h3=":443"; ma=86400

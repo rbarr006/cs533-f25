@@ -1,0 +1,527 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Framability Test Index</title>
+<style>
+  body { font-family: system-ui, sans-serif; background: #f5f7fa; color: #222; padding: 2rem; }
+  h1 { color: #007acc; }
+  table { border-collapse: collapse; width: 100%; margin-top: 1rem; }
+  th, td { border: 1px solid #ccc; padding: 0.5rem 1rem; text-align: left; }
+  th { background: #007acc; color: white; }
+  tr:nth-child(even) { background: #f0f4f8; }
+  a { color: #007acc; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  
+</style>
+</head>
+<body>
+<h1>Framability Test Index</h1>
+<table>
+  <tr><th>URL</th><th>Framable?</th><th>Notes</th><th>View Test</th></tr>
+<tr>
+            <td>amazon.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="amazon.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>huawei.com</td>
+            <td>No</td>
+            <td>Dead site or network error</td>
+            <td><a href="huawei.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>news.google.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="news.google.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>biblegateway.com</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: nginx)</td>
+            <td><a href="biblegateway.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>oup.com</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: cloudflare)</td>
+            <td><a href="oup.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>whatsapp.com</td>
+            <td>No</td>
+            <td>HTTP error 400 Bad Request | X-Frame-Options: DENY</td>
+            <td><a href="whatsapp.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>buydomains.com</td>
+            <td>No</td>
+            <td>HTTP error 403 Forbidden | X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="buydomains.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>estadao.com.br</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: openresty)</td>
+            <td><a href="estadao.com.br.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>berkeley.edu</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="berkeley.edu.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>pinterest.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="pinterest.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>ietf.org</td>
+            <td>No</td>
+            <td>X-Frame-Options: DENY</td>
+            <td><a href="ietf.org.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>theguardian.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="theguardian.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>joomla.org</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="joomla.org.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>dan.com</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: envoy)</td>
+            <td><a href="dan.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>java.com</td>
+            <td>Unknown</td>
+            <td>HTTP error 403 Forbidden</td>
+            <td><a href="java.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>sina.com.cn</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: Tengine)</td>
+            <td><a href="sina.com.cn.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>ads.google.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="ads.google.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>www.over-blog.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: DENY</td>
+            <td><a href="www.over-blog.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>code.google.com</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: sffe)</td>
+            <td><a href="code.google.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>google.com.tw</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="google.com.tw.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>public-api.wordpress.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="public-api.wordpress.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>narod.ru</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: ddos-guard)</td>
+            <td><a href="narod.ru.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>bigcommerce.com</td>
+            <td>No</td>
+            <td>Content-Security-Policy frame-ancestors: 'self' app.makeswift.com</td>
+            <td><a href="bigcommerce.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>howstuffworks.com</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: nginx)</td>
+            <td><a href="howstuffworks.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>justgiving.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="justgiving.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>www.livejournal.com</td>
+            <td>No</td>
+            <td>Content-Security-Policy frame-ancestors: 'self'</td>
+            <td><a href="www.livejournal.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>weather.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="weather.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>themeforest.net</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="themeforest.net.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>bestfreecams.club</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: cloudflare)</td>
+            <td><a href="bestfreecams.club.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>scmp.com</td>
+            <td>No</td>
+            <td>Content-Security-Policy frame-ancestors: 'none'</td>
+            <td><a href="scmp.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>techcrunch.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="techcrunch.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>gizmodo.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="gizmodo.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>metro.co.uk</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: nginx)</td>
+            <td><a href="metro.co.uk.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>indiatimes.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="indiatimes.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>tinyurl.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="tinyurl.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>amazon.es</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="amazon.es.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>smh.com.au</td>
+            <td>No</td>
+            <td>X-Frame-Options: sameorigin</td>
+            <td><a href="smh.com.au.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>zendesk.com</td>
+            <td>No</td>
+            <td>Content-Security-Policy frame-ancestors: 'self' app.optimizely.com *.zendesk.com *.zendesk.co.jp *.zendesk.co.uk *.zendesk.com.br *.zendesk.com.mx *.zendesk.de *.zendesk.es *.zendesk.fr *.zendesk.kr *.zendesk.nl *.zendesk.tw *.zendesk.hk</td>
+            <td><a href="zendesk.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>gravatar.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="gravatar.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>googleblog.com</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: Google Frontend)</td>
+            <td><a href="googleblog.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>uol.com.br</td>
+            <td>No</td>
+            <td>Content-Security-Policy frame-ancestors: 'self' *.intranet *.uolinc.com</td>
+            <td><a href="uol.com.br.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>disney.com</td>
+            <td>Unknown</td>
+            <td>HTTP error 403 Forbidden</td>
+            <td><a href="disney.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>taringa.net</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: AmazonS3)</td>
+            <td><a href="taringa.net.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>sky.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="sky.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>newyorker.com</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: CloudFront)</td>
+            <td><a href="newyorker.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>depositfiles.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="depositfiles.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>intel.com</td>
+            <td>No</td>
+            <td>HTTP error 403 Forbidden | X-Frame-Options: SAMEORIGIN | CSP frame-ancestors: 'self' https://premiersupport.intel.com https://c0.avaamo.com *.intel.com</td>
+            <td><a href="intel.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>thenai.org</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: cloudflare)</td>
+            <td><a href="thenai.org.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>sciencemag.org</td>
+            <td>No</td>
+            <td>HTTP error 403 Forbidden | X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="sciencemag.org.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>tmz.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="tmz.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>draft.blogger.com</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: sffe)</td>
+            <td><a href="draft.blogger.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>policies.google.com</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: ESF)</td>
+            <td><a href="policies.google.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>reverbnation.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="reverbnation.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>independent.co.uk</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="independent.co.uk.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>bp0.blogger.com</td>
+            <td>Unknown</td>
+            <td>HTTP error 400 Bad Request</td>
+            <td><a href="bp0.blogger.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>mega.nz</td>
+            <td>No</td>
+            <td>X-Frame-Options: DENY</td>
+            <td><a href="mega.nz.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>box.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="box.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>ovh.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: ORIGIN</td>
+            <td><a href="ovh.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>nps.gov</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: Apache)</td>
+            <td><a href="nps.gov.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>google.it</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="google.it.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>tvtropes.org</td>
+            <td>No</td>
+            <td>X-Frame-Options: DENY</td>
+            <td><a href="tvtropes.org.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>ok.ru</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="ok.ru.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>google.co.jp</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="google.co.jp.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>doi.org</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: AmazonS3)</td>
+            <td><a href="doi.org.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>tiktok.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="tiktok.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>wp.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="wp.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>biglobe.ne.jp</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: Apache)</td>
+            <td><a href="biglobe.ne.jp.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>akamaihd.net</td>
+            <td>No</td>
+            <td>Dead site or network error</td>
+            <td><a href="akamaihd.net.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>standard.co.uk</td>
+            <td>No</td>
+            <td>Content-Security-Policy frame-ancestors: 'self' https://*.brightsites.co.uk</td>
+            <td><a href="standard.co.uk.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>un.org</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="un.org.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>theverge.com</td>
+            <td>No</td>
+            <td>Content-Security-Policy frame-ancestors: https://platform.theverge.com https://*.theverge.com https://platform.theverge.com https://*.theverge.com 'self'</td>
+            <td><a href="theverge.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>gsmarena.com</td>
+            <td>No</td>
+            <td>Content-Security-Policy frame-ancestors: 'self' *.gsmarena.com</td>
+            <td><a href="gsmarena.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>amzn.to</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="amzn.to.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>canva.com</td>
+            <td>No</td>
+            <td>HTTP error 403 Forbidden | X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="canva.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>spiegel.de</td>
+            <td>No</td>
+            <td>Content-Security-Policy frame-ancestors: 'self'</td>
+            <td><a href="spiegel.de.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>ziddu.com</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: LiteSpeed)</td>
+            <td><a href="ziddu.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>vice.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="vice.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>get.google.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="get.google.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>microsoft.com</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: AkamaiNetStorage)</td>
+            <td><a href="microsoft.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>ibm.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="ibm.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>target.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="target.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>justice.gov</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="justice.gov.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>alexa.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="alexa.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>aliexpress.com</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: Tengine/Aserver)</td>
+            <td><a href="aliexpress.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>forms.gle</td>
+            <td>Unknown</td>
+            <td>HTTP error 400 Bad Request</td>
+            <td><a href="forms.gle.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>hollywoodreporter.com</td>
+            <td>No</td>
+            <td>Content-Security-Policy frame-ancestors: 'none'</td>
+            <td><a href="hollywoodreporter.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>kakao.com</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: unknown)</td>
+            <td><a href="kakao.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>video.google.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="video.google.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>freepik.com</td>
+            <td>Unknown</td>
+            <td>HTTP error 403 Forbidden</td>
+            <td><a href="freepik.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>francetvinfo.fr</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: Microsoft IIS 4.0)</td>
+            <td><a href="francetvinfo.fr.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>interia.pl</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: nginx)</td>
+            <td><a href="interia.pl.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>ggpht.com</td>
+            <td>No</td>
+            <td>Dead site or network error</td>
+            <td><a href="ggpht.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>reddit.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="reddit.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>whitehouse.gov</td>
+            <td>No</td>
+            <td>X-Frame-Options: DENY</td>
+            <td><a href="whitehouse.gov.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>google.es</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="google.es.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>psychologytoday.com</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="psychologytoday.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>ja.wikipedia.org</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: mw-web.eqiad.main-99cbb7fcd-7bwx8)</td>
+            <td><a href="ja.wikipedia.org.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>telegram.me</td>
+            <td>No</td>
+            <td>X-Frame-Options: SAMEORIGIN</td>
+            <td><a href="telegram.me.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>enable-javascript.com</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: nginx)</td>
+            <td><a href="enable-javascript.com.html" target="_blank">Open</a></td>
+        </tr><tr>
+            <td>de.wikipedia.org</td>
+            <td>Yes</td>
+            <td>No X-Frame-Options or frame-ancestors detected (Server: mw-web.eqiad.canary-5686fb55b8-777v8)</td>
+            <td><a href="de.wikipedia.org.html" target="_blank">Open</a></td>
+        </tr>
+</table>
+<p>Total Sites: 100 | Framable: 28 | Not Framable: 64 | Unknown: 5</p>
+</body>
+</html>

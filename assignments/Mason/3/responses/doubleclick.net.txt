@@ -1,0 +1,32 @@
+HTTP/1.1 301 Moved Permanently
+Location: https://marketingplatform.google.com/about/enterprise/
+Cross-Origin-Resource-Policy: cross-origin
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+Date: Tue, 21 Oct 2025 21:58:16 GMT
+Expires: Tue, 21 Oct 2025 22:28:16 GMT
+Cache-Control: public, max-age=1800
+Server: sffe
+Content-Length: 251
+X-XSS-Protection: 0
+
+HTTP/2 200 
+accept-ranges: bytes
+vary: Accept-Encoding
+content-type: text/html
+content-length: 125285
+content-security-policy: script-src  'nonce-h9OmD_7C4-PxH32pws2i7w' 'report-sample' 'strict-dynamic' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' http: https:; object-src 'none'; report-uri https://csp.withgoogle.com/csp/uxe-owners-acl/marketing_platform; base-uri 'self'
+content-security-policy-report-only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/uxe-owners-acl/marketing_platform
+cross-origin-resource-policy: cross-origin
+cross-origin-opener-policy-report-only: same-origin; report-to="uxe-owners-acl/marketing_platform"
+report-to: {"group":"uxe-owners-acl/marketing_platform","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/uxe-owners-acl/marketing_platform"}]}
+date: Tue, 21 Oct 2025 21:58:16 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, must-revalidate
+last-modified: Mon, 25 Aug 2025 05:38:00 GMT
+x-content-type-options: nosniff
+server: sffe
+x-xss-protection: 0
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

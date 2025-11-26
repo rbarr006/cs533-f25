@@ -1,0 +1,13 @@
+C:\Users\joel2>curl -ILk i.ytimg.com
+HTTP/1.1 404 Not Found
+Timing-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Content-Type-Options: nosniff
+Server: sffe
+Content-Length: 1097
+X-XSS-Protection: 0
+Date: Sun, 05 Oct 2025 12:54:56 GMT
+Expires: Sun, 05 Oct 2025 12:55:26 GMT
+Cache-Control: public, max-age=30
+Content-Type: image/jpeg
+Age: 24

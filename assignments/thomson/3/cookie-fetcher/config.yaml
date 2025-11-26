@@ -1,0 +1,12 @@
+
+reporterName: "Ryan Thomson"
+reportTitle: "Assignment 3"
+reportDescription: |
+  This Cookie Fetcher program fetches cookies from a list of websites and generates a report on their attributes. As specified in the assignment, the program counts various cookie attributes such as HttpOnly, Secure, SameSite policies, and Path attributes. 
+  It also tracks the minimum and maximum number of cookies found on any single site. 
+  I wrote this program in go primarly using the http module, with goccy/go-yaml for YAML parsing for a small config to fully generate the README.md.
+  The report as outlined contains a summary of the findings, including total counts and percentages for each attribute, as well as a detailed breakdown of cookies per site. 
+  The program is designed to handle errors gracefully, logging any issues encountered during the fetching process. 
+  Overall, this assignment helped me understand how to work with HTTP requests and responses in Go, as well as how to parse and analyze cookie data effectively.
+reportFilename: "../README.md"
+programUsageReadmePath: "README.md"

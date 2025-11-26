@@ -1,0 +1,45 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://upenn.edu
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Retry-After: 0
+Server: Pantheon
+Location: https://www.upenn.edu/
+X-Pantheon-Redirect: primary-domain-policy-doc
+Date: Sun, 05 Oct 2025 04:44:28 GMT
+X-Served-By: cache-pdk-kfty8610043-PDK
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1759639468.380598,VS0,VE1
+Age: 0
+Accept-Ranges: bytes
+Via: 1.1 varnish
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 135853
+Access-Control-Allow-Origin: *
+Cache-Control: max-age=3600, public
+Content-Language: en
+Content-Type: text/html; charset=UTF-8
+Etag: W/"1759556486"
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Last-Modified: Sat, 04 Oct 2025 05:41:26 GMT
+Server: nginx
+Strict-Transport-Security: max-age=300
+X-Content-Type-Options: nosniff
+X-Drupal-Cache: HIT
+X-Drupal-Dynamic-Cache: HIT
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 10 (https://www.drupal.org)
+X-Pantheon-Styx-Hostname: styx-fe4-a-56bb955c8c-d84c7
+X-Styx-Req-Id: 443b2def-a19d-11f0-a535-563104bc1912
+Age: 138
+Accept-Ranges: bytes
+Via: 1.1 varnish, 1.1 varnish, 1.1 varnish, 1.1 varnish
+Date: Sun, 05 Oct 2025 04:44:28 GMT
+X-Served-By: cache-chi-klot8100101-CHI, cache-pdk-kfty8610083-PDK, cache-pdk-kfty8610052-PDK, cache-pdk-kfty8610052-PDK
+X-Cache: HIT, HIT, MISS, MISS
+X-Cache-Hits: 23, 0, 0, 0
+X-Timer: S1759639469.532336,VS0,VE33
+Vary: Accept-Encoding, Cookie, Cookie, Cookie

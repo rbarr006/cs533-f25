@@ -1,0 +1,59 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://mozilla.com
+HTTP/1.1 301 Moved Permanently
+Content-Length: 162
+content-type: text/html
+date: Sun, 05 Oct 2025 05:36:05 GMT
+location: https://www.mozilla.org/firefox
+server: nginx
+strict-transport-security: max-age=60; includeSubDomains
+via: 1.1 google
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 0
+cross-origin-opener-policy: same-origin
+x-backend-server: bedrock-6594f89b97-pl2wb.gcp-us-west1
+strict-transport-security: max-age=31536000
+server: granian
+cache-control: max-age=43200
+expires: Sun, 05 Oct 2025 14:32:03 GMT
+content-type: text/html; charset=utf-8
+referrer-policy: strict-origin-when-cross-origin
+location: https://www.firefox.com/
+via: 1.1 google, 1.1 varnish, 1.1 varnish
+x-content-type-options: nosniff
+Accept-Ranges: bytes
+Age: 11042
+Date: Sun, 05 Oct 2025 05:36:06 GMT
+X-Served-By: cache-pdk-kpdk1780078-PDK, cache-pdk-kfty8610086-PDK
+X-Cache: MISS, HIT
+X-Cache-Hits: 0, 0
+X-Timer: S1759642566.004521,VS0,VE1
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 45240
+expires: Sun, 05 Oct 2025 05:39:44 GMT
+cross-origin-opener-policy: same-origin
+etag: "f7a77ddd6f3ee6869b586756de0c56d4"
+x-content-type-options: nosniff
+server: granian
+referrer-policy: strict-origin-when-cross-origin
+content-type: text/html; charset=utf-8
+via: 1.1 google, 1.1 varnish, 1.1 varnish
+x-backend-server: springfield-6897cfdd5b-rpxbk.gcp-us-west1
+content-security-policy: base-uri 'none'; style-src 'self' www.firefox.com; img-src 'self' data: www.firefox.com www.google-analytics.com www.googletagmanager.com www.mozilla.org; object-src 'none'; form-action 'self' https://accounts.firefox.com/ https://basket.mozilla.org; connect-src 'self' basket.mozilla.org https://accounts.firefox.com/ https://basket.mozilla.org o1069899.ingest.sentry.io o1069899.ingest.us.sentry.io o1069899.sentry.io region1.google-analytics.com www.firefox.com www.google-analytics.com www.googletagmanager.com; frame-ancestors 'none'; media-src 'self' assets.mozilla.net videos.cdn.mozilla.net www.firefox.com www.mozilla.org; script-src 'self' 'unsafe-eval' 'unsafe-inline' s.ytimg.com tagmanager.google.com www.firefox.com www.google-analytics.com www.googletagmanager.com www.youtube.com; frame-src 'self' accounts.firefox.com www.google-analytics.com www.googletagmanager.com www.youtube.com; font-src 'self' www.firefox.com; default-src 'self' www.firefox.com; upgrade-insecure-requests
+x-clacks-overhead: GNU Terry Pratchett
+x-frame-options: DENY
+strict-transport-security: max-age=31536000
+cache-control: max-age=600
+content-security-policy-report-only: base-uri 'none'; style-src 'self' www.firefox.com; img-src 'self' data: www.firefox.com www.google-analytics.com www.googletagmanager.com www.mozilla.org; object-src 'none'; form-action 'self' https://accounts.firefox.com/ https://basket.mozilla.org; connect-src 'self' basket.mozilla.org https://accounts.firefox.com/ https://basket.mozilla.org o1069899.ingest.sentry.io o1069899.ingest.us.sentry.io o1069899.sentry.io region1.google-analytics.com www.firefox.com www.google-analytics.com www.googletagmanager.com; frame-ancestors 'none'; media-src 'self' assets.mozilla.net videos.cdn.mozilla.net www.firefox.com www.mozilla.org; script-src 'self' 'unsafe-eval' 'unsafe-inline' s.ytimg.com tagmanager.google.com www.firefox.com www.google-analytics.com www.googletagmanager.com www.youtube.com; frame-src 'self' accounts.firefox.com www.google-analytics.com www.googletagmanager.com www.youtube.com; font-src 'self' www.firefox.com; default-src 'self' www.firefox.com; upgrade-insecure-requests
+Accept-Ranges: bytes
+Age: 382
+Date: Sun, 05 Oct 2025 05:36:06 GMT
+X-Served-By: cache-pdk-kfty8610092-PDK, cache-pdk-kfty8610052-PDK
+X-Cache: MISS, HIT
+X-Cache-Hits: 0, 0
+X-Timer: S1759642566.187366,VS0,VE1
+Vary: Accept-Language, origin, Accept-Encoding

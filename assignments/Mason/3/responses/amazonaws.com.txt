@@ -1,0 +1,37 @@
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 21 Oct 2025 21:58:45 GMT
+Server: Server
+Location: http://aws.amazon.com
+nnCoection: close
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Tue, 21 Oct 2025 21:58:45 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Location: https://aws.amazon.com/
+X-Cache: Redirect from cloudfront
+Via: 1.1 cd348454cc72e01992f0a16dc939a8ae.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: JFK50-P14
+X-Amz-Cf-Id: _S09Ly0zjjJjN0nWtxcsB8iGF3z4fYenmqIZV85mX0jlIpt1ZZkB8g==
+
+HTTP/2 200 
+content-type: text/html;charset=utf-8
+date: Tue, 21 Oct 2025 21:58:46 GMT
+x-content-type-options: nosniff
+server: Server
+x-frame-options: SAMEORIGIN
+x-xss-protection: 1; mode=block
+strict-transport-security: max-age=47304000; includeSubDomains
+x-amz-id-1: BA09010688604961861E
+last-modified: Tue, 21 Oct 2025 21:49:24 GMT
+vary: accept-encoding
+set-cookie: aws-priv=eyJ2IjoxLCJldSI6MCwic3QiOjB9; Version=1; Comment="Anonymous cookie for privacy regulations"; Domain=.aws.amazon.com; Max-Age=31536000; Expires=Wed, 21 Oct 2026 21:58:46 GMT; Path=/; Secure
+set-cookie: aws_lang=en; Domain=.amazon.com; Path=/
+x-cache: Miss from cloudfront
+via: 1.1 9f8560aedb0fc234107749f168b9e80c.cloudfront.net (CloudFront)
+x-amz-cf-pop: JFK50-P14
+x-amz-cf-id: fXHTo1BwbhaPZiSVVKWk8V-2XV0e5PwBv49JCLkLS8ClDUanNYH5LQ==
+

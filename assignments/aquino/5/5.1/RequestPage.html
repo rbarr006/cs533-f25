@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request Page</title>
+</head>
+<body>
+    <h1>This is the request page.</h1>
+    <button id="Fetch Favorites (Prevented)">Fetch Favorites (Prevented)</button>
+    <div id="responseText1"></div>
+    <button id="Fetch Favorites (Allowed)">Fetch Favorites</button>
+    <div id="responseText2"></div>
+
+    <script>
+        document.getElementById("Fetch Favorites (Prevented)").addEventListener('click', async () =>{
+            fetch("http://localhost:5000")
+                .then(response => response.json())
+                .then(response => {
+                    document.getElementById('responseText1').innerText = "\n" + "JSON Response: " + response;
+                })
+                .catch(error => {
+                    document.getElementById('responseText1').innerText = 'Error: ' + error.message;
+                });
+        });
+
+        document.getElementById("Fetch Favorites (Allowed)").addEventListener('click', async () =>{
+            fetch("http://localhost:5001")
+                .then(response => response.json())
+                .then(response => {
+                    document.getElementById('responseText2').innerText = "\n" + "JSON Response: " + response;
+                })
+                .catch(error => {
+                    document.getElementById('responseText2').innerText = 'Error: ' + error.message;
+                });
+        });
+    </script>
+</body>
+</html>

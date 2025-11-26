@@ -1,0 +1,17 @@
+﻿HTTP/1.1 301 Moved Permanently
+Server: nginx/1.14.2
+Date: Sun, 28 Sep 2025 16:27:32 GMT
+Content-Type: text/html
+Content-Length: 185
+Connection: keep-alive
+Location: https://www.liveinternet.ru/
+
+HTTP/1.1 200 OK
+Server: nginx/1.14.2
+Date: Sun, 28 Sep 2025 16:27:33 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Expires: Fri, 27 Sep 2024 21:00:00 GMT
+Pragma: no-cache
+Cache-control: no-cache
+

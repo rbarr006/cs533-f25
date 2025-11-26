@@ -1,0 +1,49 @@
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Tue, 21 Oct 2025 21:59:07 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Location: https://express.co.uk/
+X-Cache: Redirect from cloudfront
+Via: 1.1 eb280ea2a94d589604d8c15df0f6730a.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: JFK50-P14
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: 1eZGY7PMquZia5s10cP4L-mV6LkNe4fqOMAjaKUVIiP752GptVY-Ew==
+cache-control: public,max-age=180
+
+HTTP/2 301 
+content-type: text/html
+content-length: 162
+location: https://www.express.co.uk/
+date: Tue, 21 Oct 2025 17:07:29 GMT
+server: nginx
+via: 1.1 50eb2be8740db6be4d626d4aeb4a09ee.cloudfront.net (CloudFront)
+alt-svc: h3=":443"; ma=86400
+age: 17498
+cache-control: public,max-age=180
+experiment-50-50: B
+set-cookie: X-Experiment-50-50=B; Max-Age=8640000
+x-cache: Hit from cloudfront
+x-amz-cf-pop: JFK50-P14
+x-amz-cf-id: 9e626DKmvacBjFTgZriVeBd2C2GHpJdG45vF6Akv6uCcd1Qddx9v2g==
+
+HTTP/2 200 
+content-type: text/html; charset=UTF-8
+content-length: 509544
+date: Tue, 21 Oct 2025 21:59:07 GMT
+content-security-policy: frame-ancestors 'self'
+server: nginx
+cache-control: public,max-age=180
+expires: Tue, 21 Oct 2025 22:02:07 GMT
+strict-transport-security: max-age=180
+x-frame-options: DENY
+vary: User-Agent
+via: 1.1 ec409add38e1a504176fcaa33a762316.cloudfront.net (CloudFront)
+alt-svc: h3=":443"; ma=86400
+experiment-50-50: B
+set-cookie: X-Experiment-50-50=B; Max-Age=8640000
+x-cache: Miss from cloudfront
+x-amz-cf-pop: JFK50-P14
+x-amz-cf-id: MuodIzPp8yRF9DAXfE25OmvdkLZ7MRBDV2gyK7SzNlb0pS-mR7V4cQ==
+

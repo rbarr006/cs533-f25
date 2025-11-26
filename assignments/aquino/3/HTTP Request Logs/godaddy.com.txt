@@ -1,0 +1,26 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://godaddy.com
+Server: ATS/9.2.3
+Cache-Control: no-store
+Location: https://www.godaddy.com/
+Content-Type: text/html
+Content-Language: en
+Content-Length: 306
+
+HTTP/1.1 403 Forbidden
+Server: AkamaiGHost
+Mime-Version: 1.0
+Content-Type: text/html
+Content-Length: 369
+Expires: Sun, 05 Oct 2025 03:48:38 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sun, 05 Oct 2025 03:48:38 GMT
+Connection: close
+Set-Cookie: market=en-US; expires=Mon, 05-Oct-2026 03:48:38 GMT; path=/; domain=.godaddy.com
+Set-Cookie: isc=gdwelcome; expires=Sun, 05-Oct-2025 04:48:38 GMT; path=/; domain=.godaddy.com
+Set-Cookie: currency=USD; expires=Mon, 05-Oct-2026 03:48:38 GMT; path=/; domain=.godaddy.com
+X-Frame-Options: DENY
+X-ORIGIN-TAG: frontdoor
+Set-Cookie: akaas_godaddy-com-wildcard=2147483647~rv=1~id=f38dd877c68386757c14af3e09510307~rn=; path=/; Secure; SameSite=None
+X-ARC: 2
+X-ARC: 6a

@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang=en>
+<head>
+  <meta charset="utf-8">
+  <title>Protected page (path = /protected)</title>
+  <style>
+    body { font-family: Arial, sans-serif; line-height:1.4; padding: 18px; }
+    pre { background:#f6f6f6; padding:12px; border:1px solid #ddd; overflow:auto; }
+    .box { border:1px solid #ddd; padding:12px; margin-bottom:16px; }
+  </style>
+</head>
+<body>
+  <h1>Protected page (path = /protected)</h1>
+  <p>This page is served at <code>location.pathname</code>. The server sets a cookie when you load this page.</p>
+
+  <div class="box">
+    <h3>Sensitive cookie (what JS on this page can read)</h3>
+    <pre id="cookieDisplay">(loading)</pre>
+  </div>
+
+  <script>
+    // Utility: read a single cookie value by name (returns value or null)
+    function getCookie(name) {
+      const pairs = document.cookie.split(';').map(p => p.trim()).filter(Boolean);
+      for (const p of pairs) {
+        const idx = p.indexOf('=');
+        if (idx === -1) continue;
+        const key = p.substring(0, idx);
+        const val = p.substring(idx + 1);
+        if (key === name) return decodeURIComponent(val);
+      }
+      return null;
+    }
+
+    function showAndPostCookie() {
+      const val = getCookie('sensitiveCookie') || '(no sensitiveCookie)';
+      document.getElementById('cookieDisplay').textContent = val;
+
+      // Demo: post only the sensitive cookie to parent (for exfil demonstration).
+      // Keep this so graders can see the short value in logs; remove/comment if undesired.
+      try {
+        window.parent.postMessage({ type: 'cookies', cookie: val }, '*');
+      } catch (e) {
+        console.warn('postMessage failed', e);
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', showAndPostCookie);
+  </script>
+</body>
+</html>

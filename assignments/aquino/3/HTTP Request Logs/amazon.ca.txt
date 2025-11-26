@@ -1,0 +1,19 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://amazon.ca
+HTTP/1.1 301 Moved Permanently
+Server: Server
+Date: Sun, 05 Oct 2025 03:52:45 GMT
+Content-Type: text/html
+Connection: keep-alive
+Location: https://www.amazon.ca/
+
+HTTP/1.1 503 Service Unavailable
+Server: Server
+Content-Type: text/html
+x-amz-rid: D0JTFCE4F3778ZJ7818C
+Vary: Content-Type,Accept-Encoding,User-Agent
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+Date: Sun, 05 Oct 2025 03:52:45 GMT
+Connection: keep-alive
+Alt-Svc: h3=":443"; ma=93600
+X-Amzn-Cdn-Id: ak-0.6dfda17.1759636365.2c9b1a25

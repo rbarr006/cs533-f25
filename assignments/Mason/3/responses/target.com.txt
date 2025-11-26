@@ -1,0 +1,52 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://target.com/
+Accept-Ranges: bytes
+Date: Tue, 21 Oct 2025 21:59:22 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pdk-katl1840066-PDK
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1761083962.177796,VS0,VE0
+
+HTTP/2 301 
+server: Varnish
+retry-after: 0
+location: https://www.target.com/
+accept-ranges: bytes
+date: Tue, 21 Oct 2025 21:59:22 GMT
+via: 1.1 varnish
+x-served-by: cache-pdk-kfty8610020-PDK
+x-cache: HIT
+x-cache-hits: 0
+x-timer: S1761083962.281741,VS0,VE0
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-length: 0
+
+HTTP/2 200 
+x-content-type-options: nosniff
+cache-control: private, no-cache
+etag: "12yyqfzh7h18cxk"
+content-type: text/html; charset=utf-8
+x-frame-options: SAMEORIGIN
+referrer-policy: no-referrer-when-downgrade
+accept-ranges: bytes
+date: Tue, 21 Oct 2025 21:59:23 GMT
+vary: Accept-Encoding
+content-security-policy: frame-ancestors 'self' https://*.target.com;
+strict-transport-security: max-age=31536000; includeSubDomains
+set-cookie: accessToken=eyJraWQiOiJlYXMyIiwiYWxnIjoiUlMyNTYifQ.eyJzdWIiOiIwZGFkY2VkNi1kYTI5LTQ0NzEtYTA2OC1mZmFjZjFkZDQ5ZDYiLCJpc3MiOiJNSTYiLCJleHAiOjE3NjExNzAzNjIsImlhdCI6MTc2MTA4Mzk2MiwianRpIjoiVEdULmVhZWNmZWZhMTJmMjRiZjE4NDliMDVlZDM3NThkMjgwLWwiLCJza3kiOiJlYXMyIiwic3V0IjoiRyIsImRpZCI6IjQ0NTc5NDczZDkwOGY0N2RiYTVlMGRhY2RmNjA5OGMyNjkyMTYxMmQ1OTExNjcyYzBiZDljOWUzMWNlNzJjYTMiLCJzY28iOiJlY29tLm5vbmUsb3BlbmlkIiwiY2xpIjoiZWNvbS13ZWItMS4wLjAiLCJhc2wiOiJMIn0.B6EDZFdTq_RXgWeLKTF5ffhsS0_1bieAmVFUJ-77YkS63O16EsHXxcEvNLGIplpVVSlel1N8onKQkG2KJmNvkyhIJ2gRVOXQnZdUXtnNFgqDeBaz0cO6tyjD4xu0UfWQ6iMytSB6143ImsGg-nM0k_dqd5BfWoJuDcwT0ULybzIcNRBqQ9ro4gK6goPFh5JwxUxK2ARClKY2mY_0eQUTIgTe23vwO0QkZpILmJIzQBpOCyFcWvMMGRyEptK5UVJJ9u3DmvC6JbT5pZkHiQjQJTVA6ExMeLFyu7ulS19VlKztDWMP-DdVlFaz6oz4J8lEEpmzfOhNGN1GllN8rGYFWw; Domain=target.com; Path=/; SameSite=none; Secure; HttpOnly;
+set-cookie: idToken=eyJhbGciOiJub25lIn0.eyJzdWIiOiIwZGFkY2VkNi1kYTI5LTQ0NzEtYTA2OC1mZmFjZjFkZDQ5ZDYiLCJpc3MiOiJNSTYiLCJleHAiOjE3NjExNzAzNjIsImlhdCI6MTc2MTA4Mzk2MiwiYXNzIjoiTCIsInN1dCI6IkciLCJjbGkiOiJlY29tLXdlYi0xLjAuMCIsInBybyI6eyJmbiI6bnVsbCwiZm51IjpudWxsLCJlbSI6bnVsbCwicGgiOmZhbHNlLCJsZWQiOm51bGwsImx0eSI6ZmFsc2UsInN0IjoiVkEiLCJzbiI6bnVsbH19.; Domain=target.com; Path=/; SameSite=none; Secure;
+set-cookie: adScriptData=VA; Domain=target.com; Path=/; SameSite=none; Secure; Max-Age=86400;
+set-cookie: visitorId=019A08C8B4860201987DF82C10D95563; Max-Age=63072000; Expires=Thu, 21 Oct 2027 21:59:22 GMT; Path=/; Domain=.target.com; Secure; SameSite=None
+set-cookie: fiatsCookie=DSI_2337|DSN_Henrico%20Staples%20Mill%20Rd|DSZ_23228|server; Domain=.target.com; Path=/; Secure; SameSite=Lax
+set-cookie: sddStore=DSI_2337|DSN_Henrico%20Staples%20Mill%20Rd|DSZ_23228|server; Domain=.target.com; Path=/
+set-cookie: TealeafAkaSid=0NzYuZdbKg5UKt1YIyaaas9HVgegCw5v; Expires=Thu, 20 Nov 2025 21:59:22 GMT; Path=/; Domain=target.com;
+set-cookie: GuestLocation=23294|37.630|-77.540|VA|US;Path=/; Secure; Max-Age=86400
+set-cookie: sapphire=1; Max-Age=2629746; Expires=Fri, 21 Nov 2025 08:28:28 GMT; Path=/; Domain=.target.com; Secure; SameSite=None
+set-cookie: refreshToken=LqOZSZg0rnc9-INNfZFwbuBW4PbzrvDzEThno-K0r33XGRIYTOnVuaBdSQCMncq9I3tFRLWXa7FNicBvRbxsfA; Domain=target.com; Path=/; SameSite=none; Secure; HttpOnly; Max-Age=15552000;
+set-cookie: egsSessionId=c4aa45cf-3bfb-4a4e-9250-47db4878d582; Domain=target.com; Path=/; SameSite=none; Secure; HttpOnly; Max-Age=3600;
+

@@ -1,0 +1,29 @@
+HTTP/1.1 302 Found
+Location: https://books.google.com/?hl=en
+Cache-Control: private
+Content-Type: text/html; charset=UTF-8
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+X-Content-Type-Options: nosniff
+Date: Sat, 04 Oct 2025 03:28:58 GMT
+Server: OFE/0.1
+Content-Length: 228
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Set-Cookie: NID=525=lMgzBQJ6Nlzr2MzCJSzHXxOuVdpVXZ56YLPpPmr67pWrK3sUmPQW3XBO_vTsE4G4UuXiGvK4hUSZV3UwBs7MKmJGpRjOy5Oj-81lpt0CVY9Q8kl3Aa8cRzJNSYajxGcrH4WVkJEvoQSYQX0XSmK3ZuDHSpE18k1KDchr1fjkOfDcdJTob89tgPd7Rlgm9B5NvnS1jhs; expires=Sun, 05-Apr-2026 03:28:58 GMT; path=/; domain=.google.com; HttpOnly
+
+HTTP/1.1 200 OK
+Date: Sat, 04 Oct 2025 03:28:58 GMT
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+Strict-Transport-Security: max-age=604800
+Pragma: no-cache
+Content-Type: text/html; charset=ISO-8859-1
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+X-Content-Type-Options: nosniff
+Server: OFE/0.1
+Transfer-Encoding: chunked
+Set-Cookie: NID=525=l9Lg3W0h8Q85sdVV-9R2E1C9MRZx8dROTJXe3YJOjd_y1FSvjqGbhsRuqLHIXeQqgal8Xo2ANVwL6ZWJPY4s-AuSVfB-UjuADvdWQqRYii_9bgIMPryCcsmi9w7Hul-BelfUMw5jc-8VJjAaUARLCuHg2i7gdp_K73SigG0RiqiJe865vLbFjqRqRUC1G_puPYG16BI; expires=Sun, 05-Apr-2026 03:28:58 GMT; path=/; domain=.google.com; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

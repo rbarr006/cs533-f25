@@ -1,0 +1,26 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://biblegateway.com
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Date: Sun, 05 Oct 2025 04:12:10 GMT
+Location: https://www.biblegateway.com/
+Server: nginx
+X-Cache: Hit from cloudfront
+Via: 1.1 4f00e77688d92901b5afc8b7b033ed56.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: ATL58-P1
+X-Amz-Cf-Id: 1-MHU2DA15XVXtDgUssqVk5Cr2x26VTbd2gBYQLuBRYwurhRBK7xzg==
+Age: 3297
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Date: Sun, 05 Oct 2025 04:31:38 GMT
+Strict-Transport-Security: max-age=7776000
+Server: nginx
+Vary: Accept-Encoding
+X-Cache: Hit from cloudfront
+Via: 1.1 442817b8ed9905d22aba1f0284647858.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: ATL58-P1
+X-Amz-Cf-Id: VoS-nsYRjftBdgh0N0MBFOX4pgtK1ezaR8FuJ8Oj9uHK0ljnMaS57g==
+Age: 2129

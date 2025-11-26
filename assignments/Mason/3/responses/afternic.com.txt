@@ -1,0 +1,34 @@
+HTTP/1.1 301 Moved Permanently
+content-length: 0
+location: https://www.afternic.com/
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+content-length: 122032
+cross-origin-opener-policy: same-origin
+cross-origin-resource-policy: same-origin
+origin-agent-cluster: ?1
+referrer-policy: no-referrer
+strict-transport-security: max-age=15552000; includeSubDomains
+x-content-type-options: nosniff
+x-dns-prefetch-control: off
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-xss-protection: 0
+x-nextjs-cache: MISS
+cache-control: s-maxage=15, stale-while-revalidate
+etag: "k5uufpws3w2m01"
+x-envoy-upstream-service-time: 45
+server: envoy
+date: Tue, 21 Oct 2025 21:58:32 GMT
+set-cookie: traceid=a9fce9a4da27b445c86b40591ccaed8c; Max-Age=120; Path=/; Expires=Tue, 21 Oct 2025 22:00:32 GMT
+set-cookie: fb_sessiontraffic=S_TOUCH=&pathway=3a08be21-566d-4a9f-9afa-55d50a6e33d5&V_DATE=&pc=0; Path=/; Domain=afternic.com; Expires=Tue, 21 Oct 2025 22:18:32 GMT
+set-cookie: pathway=3a08be21-566d-4a9f-9afa-55d50a6e33d5; Path=/; Domain=afternic.com; Expires=Tue, 21 Oct 2025 22:18:32 GMT
+set-cookie: visitor=vid=3a08be21-566d-4a9f-9afa-55d50a6e33d5; Path=/; Domain=afternic.com; Expires=Tue, 20 Oct 2026 21:58:32 GMT
+set-cookie: _policy={"restricted_market":false,"tracking_market":"none"}; Path=/; Domain=afternic.com; Expires=Wed, 21 Oct 2026 21:58:32 GMT
+set-cookie: market=en-US; expires=Wed, 21-Oct-2026 21:58:32 GMT; path=/; domain=.afternic.com
+x-arc: 2
+set-cookie: _abck=4140715EF7595EAA2DBD20E99C151B35~-1~YAAQUQ80F/zXugCaAQAAZPHHCA7xuI7PRMdF0RBE0luDp70HHtXiP0ifgd8iNaPy++C41PyFe5wOSTTNTJB01o/8eEoC5WJHqv7wg8YdbGGQytj4I7vYLksHzQYyCkpCMMHJu0wrbZbht/OcJVreFF1CHnj78Y4G1CMs9re9YFVOGqXiucImFdLgApBL27IJD9U/S2yu3V2T2dqe2DCzJW8336dwioMpgB+2e6vymVGmaiR/iuMMkt1ldp4Sy7p2n8ef2L5YsAIsCn2X2DTPq+Jd6GRmR2wajDvFl+kGPUBlvlW8UySoMaHGjM2kb2jrQcx7qWJbZAoyavBgrHk6DB9bCINYYGF7KX4gseHw8iDQqM9vSx5YnmBHGoCUSpcykHuFAgOSbp4iDxv4aWcTsw7/f2MqbbJ7QHpBRTqDkrK7HDnmTwG8BQTGrJ58nx9zEeCXsH/vmA==~-1~-1~-1~-1~-1; Domain=.afternic.com; Path=/; Expires=Wed, 21 Oct 2026 21:58:32 GMT; Max-Age=31536000; Secure
+set-cookie: bm_sz=19E1FC1143B9895B5643F48A0F9B467E~YAAQUQ80F/3XugCaAQAAZPHHCB3kKF1YMr3cnEFBNPi1Bf4b/H7GeNNI81JGv4vy0s31Av+x2XBdgOlxTsKCUkxPbGQgIiueFGKDSGHjbnhcoedNQTsDEZEAM4lpq4CSacayiekQKXT3nmXt5RTxW6d3VTwjLWEJ93Z26DlidXGvxXmJrml8g7KYWxTpfG9MFTiewv+ZruyW50QkHeAy/wsOJpmOhnEJc1x5G9pMMjfxfr8zZ7/W0tIRNSk+nsrioIyWXwqRM/aPbAUcLukQE/pbkWvRpGqBUa/5QOzhak0rlfj/0++hfvnkuHfbZ7Cx6GhdkUKMjSSVs5RLGuBqlB6MrXtxQXaTbee5ItVRIqSWt+HqUlZQhbc=~3290691~4272961; Domain=.afternic.com; Path=/; Expires=Wed, 22 Oct 2025 01:58:32 GMT; Max-Age=14400
+

@@ -1,0 +1,16 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://ipv4.google.com
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=ISO-8859-1
+Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-p5j-iQopJQLry_RoD25pJA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+Accept-CH: Sec-CH-Prefers-Color-Scheme
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Date: Sun, 05 Oct 2025 06:01:09 GMT
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Expires: Sun, 05 Oct 2025 06:01:09 GMT
+Cache-Control: private
+Set-Cookie: AEC=AaJma5swNq_noPmJnQclDtXKq4Y831JiO8nliSZzWHM52vligAsC5qvMzU4; expires=Fri, 03-Apr-2026 06:01:09 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+Set-Cookie: NID=525=HTIIvR5j5Oh2C1OI3Sym19b91UPAFvzG9JQmtz4hJeE6DZZydWAZQd5PWXUqGfp0Kay6zYclRPyRu1y7qS3gbrpXe-8IiPnNlmqJfq8Lne6sIRmycpotryuHCgIAAu3maYgRr0uo_uXhNi_2Fm10rWPmB88kZzKBFrK_HOKlOXqYXCATQ0pjP4OsA3v24RQhbdZ5eR4kD7uczi9Pcgs; expires=Mon, 06-Apr-2026 06:01:09 GMT; path=/; domain=.google.com; HttpOnly
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000

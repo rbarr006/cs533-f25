@@ -1,0 +1,12 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://bp1.blogger.com
+HTTP/1.1 400 Bad Request
+Vary: Origin
+Access-Control-Allow-Origin: *
+Timing-Allow-Origin: *
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+Date: Sun, 05 Oct 2025 04:22:03 GMT
+Server: fife
+Content-Length: 1555
+X-XSS-Protection: 0
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000

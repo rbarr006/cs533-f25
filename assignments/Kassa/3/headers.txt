@@ -1,0 +1,41 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sat, 04 Oct 2025 03:44:37 GMT
+Content-Type: text/html; charset=iso-8859-1
+Content-Length: 228
+Connection: keep-alive
+X-Content-Type-Options: nosniff
+Location: https://www.odu.edu/
+Cache-Control: max-age=1209600
+Expires: Sat, 18 Oct 2025 00:00:12 GMT
+X-Request-ID: v-1929e6f2-a0b5-11f0-a924-87afab06d6e5
+Age: 13465
+Via: varnish
+X-Cache: HIT
+X-Cache-Hits: 803
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sat, 04 Oct 2025 03:44:37 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 127213
+Connection: keep-alive
+Cache-Control: max-age=300, public
+X-Drupal-Dynamic-Cache: UNCACHEABLE (poor cacheability)
+Content-language: en
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Cookie,Accept-Encoding
+X-Generator: Drupal 10 (https://www.drupal.org)
+X-Drupal-Cache: HIT
+Last-Modified: Sat, 04 Oct 2025 02:32:38 GMT
+X-Request-ID: v-5343b966-a0d4-11f0-bd4b-f32fbbc78f5c
+X-AH-Environment: prod
+Age: 53
+ETag: W/"1759545158-gzip"
+Via: varnish
+X-Cache: HIT
+X-Cache-Hits: 9
+Accept-Ranges: bytes
+

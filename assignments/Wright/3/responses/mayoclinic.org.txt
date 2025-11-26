@@ -1,0 +1,25 @@
+﻿HTTP/1.0 301 Moved Permanently
+location: https://www.mayoclinic.org/
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.0 200 OK
+x-frame-options: SAMEORIGIN
+x-cloud-trace-context: projects/ml-fpt-cdh-pub-app-p-811d/traces/336ec1ea1e1e226a4d78304973e604f6
+ETag: "l79rgtnk3etwnp"
+Content-Type: text/html; charset=utf-8
+Server: Google Frontend
+Access-Control-Allow-Origin: *
+MPULSE_CDN_CACHE: HIT
+MPULSE_ORIGIN_TIME: 0
+Cache-Control: public, max-age=9926
+Expires: Sun, 28 Sep 2025 19:12:57 GMT
+Date: Sun, 28 Sep 2025 16:27:31 GMT
+Connection: close
+Set-Cookie: MAYO_CLINIC_USER_GEO=US; path=/; secure; SameSite=Strict
+mayo-origin-source: gcp
+Set-Cookie: _abck=62C8E3882862832D5CF4ABBEDE677934~-1~YAAQBt/aF1g8/D2ZAQAASqAmkQ6ZBF9xTnlyWj0xoTaVWZ7c86n7amy3b9IuZpTWOyn0HHY9+51Gmw9zMmXOilx3tzltDiJed8vBXvrE2GmvrAKB5VG/+pZmUzUjes80Kv5fZRN7AvHECnkJ1TBzfzFWVodk3GSyqDg5jIAWfAv5vS36AzgAd9yC1qGwLP0sibezLwGVOYUNX8ZF2k5ktYNhZbe1OVWBh1k7nsNFZGf0qD+v98MmBQ4f2Ei2ayBJ/0W/jgBiFf7nj9dOWYh3rosLbSBMJPn+D0MtIRBUHe4LvYAav0oIkZ5EQdIts0e/7ZLr49uFs7xAbOSUTpgeO7DkMcSYIwyvw3foigoBhh+7QtcmrGxn9p/pFVXDhIu5j+P4bASgL1fywdv4L9Jvf7gzIRrYOvYCOfhGbyaSBqSI1uu8yjrHZji6LdATbfVpIntUrjWV+d4X~-1~-1~-1~-1~-1; Domain=.mayoclinic.org; Path=/; Expires=Mon, 28 Sep 2026 16:27:31 GMT; Max-Age=31536000; Secure
+Set-Cookie: bm_sz=9D530BA865FFA72215E78F098BF629CC~YAAQBt/aF1k8/D2ZAQAASqAmkR3EdruiQrVLVRu+kueYhL//USTPJpM6QfKNUfdZFdTNQULfMMBjW+DADAvHGlfowQSW/SQm4nlKdPVB8sOVAWTi0uJJeslZVpKoizy07KgHszKcKqUD27Y1EaJmCDQ/owmZybe5ge3oEySSiQ4nTaB+QjeFt4RvXGrdaw8ZOW0y8hfyTgQxkEXlTUmlDwjIPOEFzi+ztY8lpxXEYp05P+ptGltXTzIbzJl5GERC66QL9RG61u4kJBhnN296JKiYOyBLwIqlQtKez4HTDB+M78264N+5M0CMrOOWcAt/93i3G7Q75j7+4iHNC6vUa7M9J8yU6tgsqLfCP5JFwt4=~4474169~4605252; Domain=.mayoclinic.org; Path=/; Expires=Sun, 28 Sep 2025 20:27:31 GMT; Max-Age=14400
+Server-Timing: ak_p; desc="1759076851771_400219910_2459019393_8855_13228_26_0_-";dur=1
+

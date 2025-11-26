@@ -1,0 +1,46 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://www.newyorker.com/
+Accept-Ranges: bytes
+Date: Sat, 04 Oct 2025 03:28:15 GMT
+Via: 1.1 varnish
+Set-Cookie: CN_xid=7f12402c-cd70-49d2-8407-080f1bde5940; Expires=Thu, 02 Apr 2026 03:28:15 GMT; Domain=.newyorker.com; path=/; Secure; SameSite=None;
+Set-Cookie: CN_xid_refresh=7f12402c-cd70-49d2-8407-080f1bde5940; Expires=Sun, 04 Oct 2026 03:28:15 GMT; Domain=.newyorker.com; path=/; Secure; httponly; SameSite=None;
+Set-Cookie: xid1=1; Expires=Sat, 04 Oct 2025 03:28:30 GMT; Domain=.newyorker.com; path=/;
+Set-Cookie: CN_segments=co.w2540; Expires=Thu, 02 Apr 2026 03:28:15 GMT; Domain=.newyorker.com; path=/;
+Content-Security-Policy: default-src https: data: 'unsafe-inline' 'unsafe-eval'; child-src https: data: blob:; connect-src https: data: blob: wss://*.hotjar.com wss://*.conde.digital; font-src https: data:; img-src https: blob: data: android-webview-video-poster:; media-src blob: data: https:; object-src https:; script-src https: data: blob: 'unsafe-inline' 'unsafe-eval'; style-src https: 'unsafe-inline'; block-all-mixed-content; upgrade-insecure-requests
+X-Served-By: cache-iad-kjyo7100125-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+Vary: 
+Set-Cookie: CN_geo_country_code=US; Expires=Thu, 02 Apr 2026 03:28:15 GMT; Path=/; Domain=newyorker.com; Samesite=None; Secure
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 2028296
+Connection: keep-alive
+Server: CloudFront
+Date: Sat, 04 Oct 2025 03:13:04 GMT
+modified-at: 1759539191
+Cache-Control: stale-while-revalidate=60, stale-if-error=86400, s-maxage=900
+Accept-Ranges: bytes
+back-lae-origin-response-start: 1759547584051
+X-Organization-Slug: the-new-yorker
+X-Content-Type-Options: nosniff
+X-UA-Device: desktop
+Vary: accept-encoding
+Via: 1.1 6ae27853e1d5d9f5ac45bdd63df3f096.cloudfront.net (CloudFront)
+Alt-Svc: h3=":443"; ma=86400
+Age: 911
+Set-Cookie: xid1=1; Expires=Sat, 04 Oct 2025 03:28:30 GMT; Domain=.newyorker.com; path=/;
+Set-Cookie: CN_segments=co.w2540; Expires=Thu, 02 Apr 2026 03:28:15 GMT; Domain=.newyorker.com; path=/;
+Set-Cookie: CN_xid_refresh=cb7edf19-28e5-4816-ca39-7348864f06eb; Expires=Sun, 04 Oct 2026 03:28:15 GMT; Domain=.newyorker.com; path=/; Secure; httponly; SameSite=None;
+Set-Cookie: CN_xid=cb7edf19-28e5-4816-ca39-7348864f06eb; Expires=Thu, 02 Apr 2026 03:28:15 GMT; Domain=.newyorker.com; path=/; Secure; SameSite=None;
+Set-Cookie: CN_geo_country_code=US; Expires=Thu, 02 Apr 2026 03:28:15 GMT; path=/; Domain=.newyorker.com;  Secure; SameSite=None;
+X-Cache: Hit from cloudfront
+X-Amz-Cf-Pop: IAD55-P6
+X-Amz-Cf-Id: O1P_kggeoLmnYpZ_tTd5qdXCVajUIAHDwTkc9T6SRls1eCfRl6ShNg==
+

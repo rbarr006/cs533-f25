@@ -1,0 +1,76 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Accept-Ranges: bytes
+Date: Tue, 21 Oct 2025 21:58:20 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pdk-katl1840023-PDK
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1761083900.420537,VS0,VE0
+Location: https://bbc.com/
+nel: {'report_to':'default','max_age': 2592000,'include_subdomains':true,'failure_fraction':0.05}
+report-to: {'group':'default','max_age':2592000,'endpoints':[ {'url':'https://default.bbc-reporting-api.app/report-endpoint','priority':1} ],'include_subdomains':true}
+req-svc-chain: FASTLY
+Cache-Control: public,max-age=604800,stale-while-revalidate=3600,stale-if-error=3600
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+
+HTTP/2 301 
+server: Varnish
+retry-after: 0
+accept-ranges: bytes
+date: Tue, 21 Oct 2025 21:58:20 GMT
+via: 1.1 varnish
+x-served-by: cache-pdk-kfty8610055-PDK
+x-cache: HIT
+x-cache-hits: 0
+x-timer: S1761083901.544907,VS0,VE0
+location: https://www.bbc.com/
+nel: {'report_to':'default','max_age': 2592000,'include_subdomains':true,'failure_fraction':0.05}
+report-to: {'group':'default','max_age':2592000,'endpoints':[ {'url':'https://default.bbc-reporting-api.app/report-endpoint','priority':1} ],'include_subdomains':true}
+req-svc-chain: FASTLY
+strict-transport-security: max-age=31536000; preload
+cache-control: public,max-age=604800,stale-while-revalidate=3600,stale-if-error=3600
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+content-length: 0
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+belfrage-cache-status: HIT
+bid: sally
+brequestid: 9d4c324b766d4f2da6c6059a19ff4ccb
+bsig: dd6c607f7f127572020f1095728d0b29
+cache-control: public, stale-if-error=90, stale-while-revalidate=30, max-age=30
+etag: "2esrxefyd2av61"
+referrer-policy: no-referrer-when-downgrade
+req-svc-chain: FASTLY,GTM,BELFRAGE,BBCX
+via: 1.1 BBC-GTM, 1.1 Belfrage, 1.1 varnish
+x-content-type-options: nosniff
+x-correlation-id: c4a8bbc7-663b-4a00-8220-40a26ad239aa
+x-envoy-upstream-service-time: 128
+x-frame-options: SAMEORIGIN
+origin-agent-cluster: ?0
+nel: {"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.25}
+x-bbc-edge-cache-status: HIT
+report-to: {"group":"default","max_age":2592000,"endpoints":[{"url":"https://default.bbc-reporting-api.app/report-endpoint","priority":1}],"include_subdomains":true}
+server: BBC-GTM
+strict-transport-security: max-age=31536000; preload
+x-robots-tag: bingbot: noarchive
+fastly-restarts: 1
+accept-ranges: bytes
+date: Tue, 21 Oct 2025 21:58:20 GMT
+x-fastly-cache-status: HIT-CLUSTER
+x-served-by: cache-iad-kiad7000122-IAD
+x-cache: HIT
+x-cache-hits: 1
+x-timer: S1761083901.762616,VS0,VE38
+x-fastly-pre-flight-cache: MISS, MISS
+x-fastly-pre-flight-cache-status: MISS-CLUSTER
+x-cache-age: 3
+x-lb-nocache: true
+vary: X-BBC-Edge-Scheme,Accept-Encoding
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+content-length: 507341
+

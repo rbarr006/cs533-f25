@@ -1,0 +1,26 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://sendspace.com
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sun, 05 Oct 2025 04:03:59 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: keep-alive
+Keep-Alive: timeout=20
+Location: https://www.sendspace.com/
+
+HTTP/1.1 200 OK
+Server: nginx
+Date: Sun, 05 Oct 2025 04:03:59 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+Keep-Alive: timeout=20
+Vary: Accept-Encoding
+Set-Cookie: SID=cpo7f9etlbr5mrvd65a5aiah97; path=/; domain=.sendspace.com
+Set-Cookie: ssui=61018a3708d49cb45fe72ff6a0398c65; expires=Fri, 04-Oct-2030 04:03:59 GMT; Max-Age=157680000; path=/; domain=.sendspace.com
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Expires: 0
+Pragma: no-cache
+Last-Modified: Sun, 05 Oct 2025 04:03:59 GMT
+Cache-Control: no-cache,no-store,max-age=0,s-maxage=0,must-revalidate

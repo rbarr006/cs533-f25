@@ -1,0 +1,43 @@
+HTTP/1.1 308 Permanent Redirect
+Content-Length: 164
+Content-Type: text/html
+Date: Sat, 04 Oct 2025 03:28:26 GMT
+Location: https://quora.com/
+Server: nginx
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Q-Stat: ,e79a8d99df3fdfd9472a55ab5edfc6b9,10.0.0.26,55724,70.174.121.119,,1275607444265,1,1759548506.577,0.000,,.,0,0,,,,,,,159,79,10,35796,,,,,,-,
+Connection: keep-alive
+
+HTTP/1.1 308 Permanent Redirect
+Content-Length: 164
+Content-Type: text/html
+Date: Sat, 04 Oct 2025 03:28:26 GMT
+Location: https://www.quora.com/
+Server: nginx
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+X-Q-Stat: ,44fd6ce2b899dac84eb1e682ff25f395,10.0.0.26,11438,70.174.121.119,,592823874220,1,1759548506.705,0.000,,.,0,0,,,,,,,117,58,10,35796,,,,,,-,
+Connection: keep-alive
+
+HTTP/1.1 403 Forbidden
+Date: Sat, 04 Oct 2025 03:28:26 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 7021
+Connection: close
+accept-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+cf-mitigated: challenge
+critical-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+cross-origin-embedder-policy: require-corp
+cross-origin-opener-policy: same-origin
+cross-origin-resource-policy: same-origin
+origin-agent-cluster: ?1
+permissions-policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+referrer-policy: same-origin
+server-timing: chlray;desc="989196d79e2e204b"
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Server: cloudflare
+CF-RAY: 989196d79e2e204b-IAD
+alt-svc: h3=":443"; ma=86400
+

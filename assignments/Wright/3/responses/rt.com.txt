@@ -1,0 +1,45 @@
+﻿HTTP/1.1 301 Moved Permanently
+Server: ddos-guard
+Date: Sun, 28 Sep 2025 16:21:31 GMT
+Connection: keep-alive
+Keep-Alive: timeout=60
+Set-Cookie: __ddg8_=It2WsXg7CvGPO6Cg; Domain=.rt.com; Path=/; Expires=Sun, 28-Sep-2025 16:41:31 GMT
+Set-Cookie: __ddg10_=1759076491; Domain=.rt.com; Path=/; Expires=Sun, 28-Sep-2025 16:41:31 GMT
+Set-Cookie: __ddg9_=68.10.180.55; Domain=.rt.com; Path=/; Expires=Sun, 28-Sep-2025 16:41:31 GMT
+Location: https://rt.com/
+
+HTTP/1.1 301 Moved Permanently
+Server: ddos-guard
+Connection: keep-alive
+Keep-Alive: timeout=60
+Set-Cookie: __ddg8_=aLiJtwsAmEf9osoH; Domain=.rt.com; Path=/; Expires=Sun, 28-Sep-2025 16:41:31 GMT
+Set-Cookie: __ddg10_=1759076491; Domain=.rt.com; Path=/; Expires=Sun, 28-Sep-2025 16:41:31 GMT
+Set-Cookie: __ddg9_=68.10.180.55; Domain=.rt.com; Path=/; Expires=Sun, 28-Sep-2025 16:41:31 GMT
+Content-Security-Policy: upgrade-insecure-requests;
+Set-Cookie: __ddg1_=IpQR6P8Y0Qo16cZzgdoQ; Domain=.rt.com; HttpOnly; Path=/; Expires=Mon, 28-Sep-2026 16:21:31 GMT
+Date: Sun, 28 Sep 2025 16:21:31 GMT
+Content-Type: text/html
+Location: https://www.rt.com/
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Content-Security-Policy: upgrade-insecure-requests
+
+HTTP/1.1 200 OK
+Server: ddos-guard
+Connection: keep-alive
+Keep-Alive: timeout=60
+Set-Cookie: __ddg8_=GJIYpwUF2tLGN4Hj; Domain=.rt.com; Path=/; Expires=Sun, 28-Sep-2025 16:41:31 GMT
+Set-Cookie: __ddg10_=1759076491; Domain=.rt.com; Path=/; Expires=Sun, 28-Sep-2025 16:41:31 GMT
+Set-Cookie: __ddg9_=68.10.180.55; Domain=.rt.com; Path=/; Expires=Sun, 28-Sep-2025 16:41:31 GMT
+Content-Security-Policy: upgrade-insecure-requests;
+Set-Cookie: __ddg1_=lCDDcMo0t5SiNcIpo2A9; Domain=.rt.com; HttpOnly; Path=/; Expires=Mon, 28-Sep-2026 16:21:31 GMT
+Date: Sun, 28 Sep 2025 16:21:31 GMT
+Content-Type: text/html; charset=UTF-8
+x-4fna: 7brfna
+X-4vcta: H2344R
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Content-Security-Policy: upgrade-insecure-requests
+

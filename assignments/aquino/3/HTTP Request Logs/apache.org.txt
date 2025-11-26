@@ -1,0 +1,23 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://apache.org
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 48828
+Server: Apache
+Last-Modified: Sun, 05 Oct 2025 01:23:19 GMT
+ETag: W/"bebc-6405f2e11c2ba"
+Cache-Control: max-age=3600
+Expires: Sun, 05 Oct 2025 02:23:19 GMT
+Access-Control-Allow-Origin: *
+Content-Security-Policy: default-src 'self' data: 'unsafe-inline' https://www.apachecon.com/ https://analytics.apache.org/ http://analytics.apache.org/ https://www.youtube-nocookie.com https://www.youtube.com; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.apachecon.com/ https://analytics.apache.org/ http://analytics.apache.org/ https://www.youtube-nocookie.com https://www.youtube.com; style-src 'self' 'unsafe-inline'; frame-ancestors 'none'; img-src 'self' data: https://www.apache.org/ https://www.apachecon.com/;
+Access-Control-Expose-Headers: Content-Security-Policy
+Content-Type: text/html
+Via: 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Age: 1896
+Date: Sun, 05 Oct 2025 04:55:01 GMT
+X-Served-By: cache-hel1410020-HEL, cache-pdk-kfty8610028-PDK
+X-Cache: HIT, HIT
+X-Cache-Hits: 74, 0
+X-Timer: S1759640101.082106,VS0,VE1
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload

@@ -1,0 +1,22 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://justgiving.com
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 3763
+Connection: keep-alive
+Last-Modified: Thu, 04 Sep 2025 07:03:10 GMT
+x-amz-server-side-encryption: AES256
+x-amz-version-id: HLLUDBb4iNLpM_1V1IFtjp93EceKHkHM
+Accept-Ranges: bytes
+Server: AmazonS3
+Date: Sun, 05 Oct 2025 05:47:25 GMT
+Cache-Control: public, max-age=60
+ETag: "5ccfba8338195771d8c30ecc05a80b05"
+X-Cache: RefreshHit from cloudfront
+Via: 1.1 b45a3bbec3b042d362da33fdd6a539b4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: ATL59-P12
+X-Amz-Cf-Id: CupnIS9mfn4rHFnFh03b9wcMolLNwbb-DVJDPiUmqbW0uWO04m5KNw==
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: same-origin
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload

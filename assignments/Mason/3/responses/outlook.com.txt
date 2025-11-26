@@ -1,0 +1,76 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: no-cache
+Pragma: no-cache
+Content-Length: 0
+Location: https://outlook.com/
+Server: Microsoft-IIS/10.0
+request-id: f92b2c32-6b9c-5319-2001-56b0a92306f1
+X-FEServer: SJ0P220CA0010
+X-RequestId: d67558ea-0e07-4c5d-a1c4-23cc5b19ba12
+X-FEProxyInfo: SJ0P220CA0010.NAMP220.PROD.OUTLOOK.COM
+X-FEEFZInfo: SJC
+MS-CV: Miwr+ZxrGVMgAVawqSMG8Q.0
+X-Powered-By: ASP.NET
+X-FEServer: SJ0P220CA0010
+Date: Tue, 21 Oct 2025 21:59:17 GMT
+Connection: close
+
+HTTP/2 301 
+cache-control: no-cache
+pragma: no-cache
+content-length: 0
+location: https://www.outlook.com/owa/
+server: Microsoft-IIS/10.0
+request-id: 65e24dde-8776-3662-1d82-0229ea4c624c
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-feserver: SJ0P220CA0030
+x-requestid: ef0fd3bc-13e5-44d4-872b-7ced61d0d04e
+alt-svc: ":443";ma=2592000,h3-29=":443";ma=2592000
+x-feproxyinfo: SJ0P220CA0030.NAMP220.PROD.OUTLOOK.COM
+x-feefzinfo: SJC
+ms-cv: 3k3iZXaHYjYdggIp6kxiTA.0
+x-powered-by: ASP.NET
+x-feserver: SJ0P220CA0030
+date: Tue, 21 Oct 2025 21:59:18 GMT
+
+HTTP/2 301 
+cache-control: no-cache
+pragma: no-cache
+content-length: 0
+location: https://outlook.live.com/owa/
+server: Microsoft-IIS/10.0
+request-id: 3e95d77d-96aa-cab6-ce6d-1f712ab54308
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-feserver: BL1PR13CA0066
+x-requestid: d1f9691d-22f5-4a9f-916a-b8f956cf7778
+alt-svc: ":443";ma=2592000,h3-29=":443";ma=2592000
+x-feproxyinfo: BL1PR13CA0066.NAMPRD13.PROD.OUTLOOK.COM
+x-feefzinfo: MNZ
+x-feserver: BL1PR13CA0066
+date: Tue, 21 Oct 2025 21:59:18 GMT
+
+HTTP/2 440 
+content-length: 154
+content-type: text/html; charset=utf-8
+request-id: 67d62641-3da7-924d-a0ff-ef0a5587d145
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+x-calculatedbetarget: SJ2PR11MB7453.namprd11.prod.outlook.com
+x-backendhttpstatus: 440
+set-cookie: HostSwitchPrg=; expires=Sat, 21-Oct-1995 21:59:19 GMT; path=/;SameSite=None; secure; HttpOnly
+set-cookie: OptInPrg=; expires=Sat, 21-Oct-1995 21:59:19 GMT; path=/;SameSite=None; secure; HttpOnly
+x-owa-diagnosticsinfo: 3;0;0;
+x-backend-begin: 2025-10-21T21:59:19.229
+x-backend-end: 2025-10-21T21:59:19.229
+x-ua-compatible: IE=EmulateIE7
+x-responseorigin: OwaAppPool
+x-proxy-routingcorrectness: 1
+report-to: {"group":"NelOfficeUpload1","max_age":7200,"endpoints":[{"url":"https://exo.nel.measure.office.net/api/report?TenantId=&FrontEnd=Cafe&DestinationEndpoint=SJC&RemoteIP=73.99.232.0&Environment=MT"}],"include_subdomains":true}
+nel: {"report_to":"NelOfficeUpload1","max_age":7200,"include_subdomains":true,"failure_fraction":1.0,"success_fraction":0.01}
+alt-svc: ":443";ma=2592000,h3-29=":443";ma=2592000
+x-proxy-backendserverstatus: 440
+x-firsthopcafeefz: SJC
+x-feproxyinfo: BYAPR11CA0054.NAMPRD11.PROD.OUTLOOK.COM
+x-feefzinfo: SJC
+x-feserver: BYAPR11CA0054
+date: Tue, 21 Oct 2025 21:59:18 GMT
+

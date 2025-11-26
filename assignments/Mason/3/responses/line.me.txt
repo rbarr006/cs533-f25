@@ -1,0 +1,36 @@
+HTTP/1.1 301 Moved Permanently
+Server: openresty
+Date: Tue, 21 Oct 2025 21:58:17 GMT
+Content-Type: text/html
+Content-Length: 166
+Connection: keep-alive
+Location: https://www.line.me/
+
+HTTP/2 302 
+server: CloudFront
+date: Tue, 21 Oct 2025 21:58:19 GMT
+content-length: 0
+location: https://www.line.me/en/
+x-cache: FunctionGeneratedResponse from cloudfront
+via: 1.1 ac80986150818f9f0ab3b6abae9b03e0.cloudfront.net (CloudFront)
+x-amz-cf-pop: JFK52-P4
+x-amz-cf-id: jpHixYjjLfmkJkeBN6AEPqlNHdlaJrZ-iBXIKt0v1DpztbBu7F_vhw==
+
+HTTP/2 200 
+content-type: text/html
+content-length: 36224
+server: VOS
+date: Tue, 21 Oct 2025 21:56:33 GMT
+accept-ranges: bytes
+last-modified: Tue, 26 Aug 2025 04:39:14 GMT
+x-rgw-object-type: Normal
+cache-control: public,max-age=300
+strict-transport-security: max-age=15768000
+etag: "68a301114dc39dafa7a0d9ababb6ac22"
+vary: Accept-Encoding,Origin
+x-cache: Hit from cloudfront
+via: 1.1 ac80986150818f9f0ab3b6abae9b03e0.cloudfront.net (CloudFront)
+x-amz-cf-pop: JFK52-P4
+x-amz-cf-id: GZLOzLYotY0EC5iyJwkSvsHUQ_3cSJUSgy0UOaS6eGQyI6-7MbTszA==
+age: 106
+

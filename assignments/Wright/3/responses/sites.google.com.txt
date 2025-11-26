@@ -1,0 +1,104 @@
+﻿HTTP/1.1 301 Moved Permanently
+Content-Type: text/html; charset=UTF-8
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Sun, 28 Sep 2025 16:26:18 GMT
+Location: https://sites.google.com/
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self'
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Set-Cookie: NID=525=DHV06ElwlG-a88oBxcbV_5sFyfFo2t56PPN1j2BeNqRRM5CL9HjXKvM1-82yjSjHy2myeTlIqKEM61cwMXsEIOM6iYq1K_D9t5cvxHX_e7RIKwP-5MjHwCmUn-ijJdJ4fXcm2k6rGdy2z1rE8lRviLPZ4FOdrEROVxwWyPwu7BbeOhTkDHjkVEAX8aJFVWIU8WePth4; expires=Mon, 30-Mar-2026 16:26:18 GMT; path=/; domain=.google.com; HttpOnly
+Transfer-Encoding: chunked
+Accept-Ranges: none
+Vary: Accept-Encoding
+
+HTTP/1.1 302 Moved Temporarily
+Content-Type: text/html; charset=UTF-8
+X-Frame-Options: DENY
+Location: https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://sites.google.com/&followup=https://sites.google.com/
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Content-Security-Policy: require-trusted-types-for 'script';report-uri https://csp.withgoogle.com/csp/docs-tt
+Date: Sun, 28 Sep 2025 16:26:19 GMT
+Expires: Sun, 28 Sep 2025 16:26:19 GMT
+Cache-Control: private, max-age=0
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Set-Cookie: NID=525=mVLa2xADWMKD08MDcbbi5-S7IwSY3FTJxSKAF8a_wn6LdhhOt-FJyC9tfcPqoqtz90A1F3_f-j9SuIIfFWjqoPi4tM4nVzmTzEa97eWOS_X6XzPcCnQBJfxkuRHQEdxcLb2CStbZz8qe4F47cOYh-QMY8WEs9QA24YY4p8bZc9ltAsYDxDhT5vpmn0muxsPPxL4so5g; expires=Mon, 30-Mar-2026 16:26:18 GMT; path=/; domain=.google.com; HttpOnly
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Accept-Ranges: none
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding
+
+HTTP/1.1 302 Found
+Content-Type: application/binary
+Set-Cookie: __Host-GAPS=1:TKhP7yCtBoKaeFZNmlN7qv9YheN5pQ:B-TfZ7eNQHMhPt5Q; Expires=Tue, 28-Sep-2027 16:26:19 GMT; Path=/; Secure; HttpOnly; Priority=HIGH
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Sun, 28 Sep 2025 16:26:19 GMT
+Location: https://accounts.google.com/InteractiveLogin?continue=https://sites.google.com/&followup=https://sites.google.com/&osid=1&passive=1209600&service=wise&dsh=S1127495659:1759076779130944&ifkv=AfYwgwXcJot00p-K9CaPYjPN1HdU4Xd1LyCZA_bHBzt7neBkYR2g71bejdjsxzaMzTU82wUgrqg2
+Content-Length: 0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Cross-Origin-Resource-Policy: cross-origin
+Content-Security-Policy: script-src 'nonce-Z2Yzo4LSIeijR8PQmlr4Ag' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/AccountsSigninPassiveLoginHttp/cspreport;worker-src 'self'
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/AccountsSigninPassiveLoginHttp/cspreport
+Cross-Origin-Opener-Policy: unsafe-none
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+Server: ESF
+X-XSS-Protection: 0
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+HTTP/1.1 302 Moved Temporarily
+Content-Type: text/html; charset=UTF-8
+Set-Cookie: __Host-GAPS=1:584Dmt0Wi4lQJKIpBrNnRtCGA4vd9A:ettfpOO2xmDLl_cu;Path=/;Expires=Tue, 28-Sep-2027 16:26:19 GMT;Secure;HttpOnly;Priority=HIGH
+X-Frame-Options: DENY
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Sun, 28 Sep 2025 16:26:19 GMT
+Location: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fsites.google.com%2F&dsh=S1127495659%3A1759076779130944&followup=https%3A%2F%2Fsites.google.com%2F&ifkv=AfYwgwUMNOHt3cwetUdQHHURmufebUs3vgskMI2gF5WmW8put6HdBc0Ly6qdeG4kvYYRKfZ_vsVC&osid=1&passive=1209600&service=wise&flowName=WebLiteSignIn&flowEntry=ServiceLogin
+Content-Length: 574
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Report-To: {"group":"coop_gse_qebhlk","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/gse_qebhlk"}]}
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /cspreport
+Content-Security-Policy: script-src 'nonce-vzvzFwb-2d9byQlcuNNrHw' 'unsafe-inline' 'unsafe-eval';object-src 'none';base-uri 'self';report-uri /cspreport
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="coop_gse_qebhlk"
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Server: GSE
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: DENY
+Vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+Set-Cookie: __Host-GAPS=1:w6vOfPokmbW-_rZ28rza2NqOU0Q8sQ:YmqwFo3PfnjJWHfG; Expires=Tue, 28-Sep-2027 16:26:19 GMT; Path=/; Secure; HttpOnly; Priority=HIGH
+x-auto-login: realm=com.google&args=service%3Dwise%26continue%3Dhttps://sites.google.com/
+Link: <https://www.google.com/intl/en-US/drive/>; rel="canonical"
+x-ua-compatible: IE=edge
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Sun, 28 Sep 2025 16:26:19 GMT
+Content-Length: 0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /v3/signin/_/AccountsSignInUi/cspreport
+Content-Security-Policy: script-src 'nonce-CY-2MEVGER-fuNFvis5ONg' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /v3/signin/_/AccountsSignInUi/cspreport;worker-src 'self'
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+Report-To: {"group":"AccountsSignInUi","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/AccountsSignInUi"}]}
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="AccountsSignInUi"
+Cross-Origin-Resource-Policy: same-site
+reporting-endpoints: default="/v3/signin/_/AccountsSignInUi/web-reports?context=eJwNwz1IAnEYB2A7fP-JOIRIhFO4mIX5EVIRDRYimEFLREOY4olCqF1nUNESRHORQoJgNCTl0hS0SVJWFPkR3NkFDUZIm4PQVL8HHm2ZG9YaVTNDRlXJdMO5V1qcBzO6NpfF8nWbq-C-_EJpnL54JTdGV6u0hp1klbroGKyRGxPZGm2gf6lOC3h2XKdzPDQ0KI3CQIP20DLRICuG8m8UwbJFogp2tiXS70g025XIi6FemQQ8CcuUQ8e9TC7cTDVpG12lJnkwg1n8fmrSD_Y338mI6imFNBhMKcTjQ0OhZ1SZP0iNOfmPTvHKZmYlXDT42DKOeH3MhtKjjym4dTTHdrFg9bMiBn_9jMfP4jxroV6nubz9umN9-YJy0GOyhRLrgViYj4sxcSsiJOIiHw8HU2I0FdvghU1eCDjtTpd90jk2ah8PJO3_wmKfpQ"
+Server: ESF
+X-XSS-Protection: 0
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

@@ -1,0 +1,54 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Location: https://dan.com/
+Expires: Tue, 21 Oct 2025 21:58:48 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 21 Oct 2025 21:58:48 GMT
+Connection: keep-alive
+Server-Timing: ak_p; desc="1761083928943_389287763_3267786547_9_5934_40_0_-";dur=1
+
+HTTP/2 301 
+location: https://afternic.com/?origin=dancom
+x-envoy-upstream-service-time: 0
+expires: Tue, 21 Oct 2025 21:58:49 GMT
+cache-control: max-age=0, no-cache, no-store
+pragma: no-cache
+date: Tue, 21 Oct 2025 21:58:49 GMT
+strict-transport-security: max-age=86400 ; includeSubDomains ; preload
+server-timing: ak_p; desc="1761083929029_389287763_3267787430_10501_5471_39_95_15";dur=1
+
+HTTP/2 301 
+content-length: 0
+location: https://www.afternic.com/?origin=dancom
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+content-length: 122027
+cross-origin-opener-policy: same-origin
+cross-origin-resource-policy: same-origin
+origin-agent-cluster: ?1
+referrer-policy: no-referrer
+strict-transport-security: max-age=15552000; includeSubDomains
+x-content-type-options: nosniff
+x-dns-prefetch-control: off
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-xss-protection: 0
+x-nextjs-cache: MISS
+cache-control: s-maxage=15, stale-while-revalidate
+etag: "4urqt6vnaj2lzw"
+x-envoy-upstream-service-time: 45
+server: envoy
+date: Tue, 21 Oct 2025 21:58:49 GMT
+set-cookie: traceid=28fc47ce395607a9bfc3133b292b9eed; Max-Age=120; Path=/; Expires=Tue, 21 Oct 2025 22:00:49 GMT
+set-cookie: fb_sessiontraffic=S_TOUCH=&pathway=48180ef0-15b0-4a59-a82e-acd439705f15&V_DATE=&pc=0; Path=/; Domain=afternic.com; Expires=Tue, 21 Oct 2025 22:18:49 GMT
+set-cookie: pathway=48180ef0-15b0-4a59-a82e-acd439705f15; Path=/; Domain=afternic.com; Expires=Tue, 21 Oct 2025 22:18:49 GMT
+set-cookie: visitor=vid=48180ef0-15b0-4a59-a82e-acd439705f15; Path=/; Domain=afternic.com; Expires=Tue, 20 Oct 2026 21:58:49 GMT
+set-cookie: _policy={"restricted_market":false,"tracking_market":"none"}; Path=/; Domain=afternic.com; Expires=Wed, 21 Oct 2026 21:58:49 GMT
+set-cookie: market=en-US; expires=Wed, 21-Oct-2026 21:58:49 GMT; path=/; domain=.afternic.com
+x-arc: 2
+set-cookie: _abck=A2ABB8C12F0617940732EE78674C6638~-1~YAAQUQ80F8c4uwCaAQAAWzTICA4xpSSZ2+I6nT3szOETUNkq9L+B4DMjDEB2KVzP6BYwjBSftaOwV74OwSOvDkXSPwoYPMMkYRV2qrCrr5M0q4WAXx4IrG4Lh/okzgiLMTgzU/2Z45/314foi26QvUIA35gbtA1Y26jIpTMWyLhoo9If6zMRQXCGjEmnZybz4llXjYM5Vvkp0kY56LYHmdE+6HIz0liZt51E44ZThPUMGGVu7n8xVxitvJmTPenzMN+YZhDIoxJFPgOwtFIuaVWLmO/V3RG7spaGWY/jP4ElmWXYA5IO0W+uiRtsHFb0EoJ9egt8CgZX5LbWeLIcZKq7BOFrqkodtduem0e2rMRQhiCba7UH0LbYZYyDUX65bq3p7hk5GACfd0yDKEhdSXU8t8uOMQSnpnSGPRgDA5ycXbjyROyPhytMyh+QHzoQjYa6D980Rw==~-1~-1~-1~-1~-1; Domain=.afternic.com; Path=/; Expires=Wed, 21 Oct 2026 21:58:49 GMT; Max-Age=31536000; Secure
+set-cookie: bm_sz=9BFBB8DC0DAEA1D23AABAD033FE4A238~YAAQUQ80F8g4uwCaAQAAWzTICB1GdJ0kWutZl/yzrfEgjqEzAWydCns/S7RFvL03j8sIzTKkTblVtz0zehPlKummqQFzb3O+IBnjKFFaE7MfN6sBIjcZM1HHE5SJF+TtfcG0doPM+lSU1J8a8br7NzDGWdWuDIRe2h0ygn5E+T+25Vbt34PwewQcF+eykzB80ny+6hpBAvQ0wiwBERJDXzb6vxvqFGhPKMmTd7YrPN2lWpO4h676TMq6k6ZxcdEyibgaX8k015gjcMTRAze3ZeZ8YC/ofIuSxGNrDsFbkEBATNjmNSPzc/al0jBaOdCw2EgJ71NkCGIzQvhr+ZTRUeEsIiRIvEmBQ9dV0bh+uM0JJtMPjF4/m3M=~4474433~3425606; Domain=.afternic.com; Path=/; Expires=Wed, 22 Oct 2025 01:58:49 GMT; Max-Age=14400
+

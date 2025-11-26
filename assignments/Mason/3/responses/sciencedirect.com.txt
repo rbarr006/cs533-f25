@@ -1,0 +1,31 @@
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 21 Oct 2025 21:59:12 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Tue, 21 Oct 2025 22:59:12 GMT
+Location: https://www.sciencedirect.com/
+Set-Cookie: __cf_bm=3bfIhOTTaM3kzJAK6eGbubbRhPynnwnc881XbAMB9RY-1761083952-1.0.1.1-c3.lEJiqo4AhkVMgcuaUvSD_BquxYeYTiBzleTGmMWuyN3zxtE7goMkEoQ9L4bP2kzJdrdAZ0x1twY8PgLi8Lj4EJv6G37mLrN5fi4NfXys; path=/; expires=Tue, 21-Oct-25 22:29:12 GMT; domain=.sciencedirect.com; HttpOnly
+Set-Cookie: _cfuvid=F.4Xr8nyX5JzB7mm2GEtKi3YjMIT5XRHoqLY_vG3OZc-1761083952849-0.0.1.1-604800000; path=/; domain=.sciencedirect.com; HttpOnly
+X-Content-Type-Options: nosniff
+tdm-policy: https://www.elsevier.com/tdm/tdmrep-policy.json
+tdm-reservation: 1
+Server: cloudflare
+CF-RAY: 9924055139d41514-RIC
+
+HTTP/2 403 
+date: Tue, 21 Oct 2025 21:59:13 GMT
+content-type: text/html; charset=UTF-8
+x-frame-options: SAMEORIGIN
+referrer-policy: same-origin
+cache-control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+expires: Thu, 01 Jan 1970 00:00:01 GMT
+set-cookie: __cf_bm=eY0FwiehO0sZ8szqsgK.JC2buSiY84dVVhUvJP0SCQw-1761083952-1.0.1.1-cgvcwCOUfkaBWBNVMcIF9dJkaqOa7Oyasneu1LXtN1OV_rf8sFtnJ7x8lCdu802X.AKpZobTYSi1pIaU78_5e6BHEiXXOOcvE2vFgB61AiM; path=/; expires=Tue, 21-Oct-25 22:29:12 GMT; domain=.sciencedirect.com; HttpOnly; Secure; SameSite=None
+strict-transport-security: max-age=2678400; preload
+x-content-type-options: nosniff
+tdm-policy: https://www.elsevier.com/tdm/tdmrep-policy.json
+tdm-reservation: 1
+server: cloudflare
+cf-ray: 99240551fcce181e-RIC
+

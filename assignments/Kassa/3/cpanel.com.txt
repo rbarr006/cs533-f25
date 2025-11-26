@@ -1,0 +1,58 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 04 Oct 2025 03:28:28 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sat, 04 Oct 2025 04:28:28 GMT
+Location: https://cpanel.com/
+X-Content-Type-Options: nosniff
+Server: cloudflare
+CF-RAY: 989196e3a94907d0-IAD
+
+HTTP/1.1 302 Found
+Date: Sat, 04 Oct 2025 03:28:28 GMT
+Connection: keep-alive
+CF-RAY: 989196e4783ed635-IAD
+Cache-Control: no-cache, no-store, must-revalidate, max-age=0
+location: https://cpanel.net/
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+x-turbo-charged-by: LiteSpeed
+cf-cache-status: DYNAMIC
+Strict-Transport-Security: max-age=15552000; preload
+Server: cloudflare
+
+HTTP/1.1 301 Moved Permanently
+Connection: Keep-Alive
+Keep-Alive: timeout=5, max=100
+Date: Sat, 04 Oct 2025 03:28:29 GMT
+Server: LiteSpeed
+Location: https://www.cpanel.net/
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Vary: User-Agent,User-Agent
+Strict-Transport-Security: max-age=31536000
+alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"
+
+HTTP/1.1 200 OK
+Date: Sat, 04 Oct 2025 03:28:29 GMT
+Content-Type: text/html
+Connection: keep-alive
+CF-RAY: 989196e76f0ae5ba-IAD
+Cache-Control: public, max-age=15552000
+expires: Thu, 02 Apr 2026 03:28:29 GMT
+last-modified: Fri, 03 Oct 2025 11:12:33 GMT
+vary: Accept-Encoding,User-Agent,User-Agent
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+strict-transport-security: max-age=31536000
+alt-svc: h3=":443"; ma=86400
+cf-cache-status: DYNAMIC
+Set-Cookie: __cf_bm=V8UPMvC8MflLIvxBI6ASMLlG8FSBjSiJHDJTkuXZR54-1759548509-1.0.1.1-tlQO8KSgHzCBltWv3AoVDsi4X3AKMHnLHj7FuQtHB3pbE64PhyXkRGVJnWRvWnriA3XfvKaWWUncDpWrW2xir3kV0E1jzhqUIXkBbwe2Xi8; path=/; expires=Sat, 04-Oct-25 03:58:29 GMT; domain=.cpanel.net; HttpOnly; Secure; SameSite=None
+Set-Cookie: _cfuvid=Wy8H0a1.UUZcm3Gm4GYr8a42EgaiUwCSSkIXk_Hh4Yk-1759548509469-0.0.1.1-604800000; path=/; domain=.cpanel.net; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+

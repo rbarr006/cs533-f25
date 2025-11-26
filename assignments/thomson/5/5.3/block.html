@@ -1,0 +1,21 @@
+<!-- 5.3/block-embed.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blocked Embedding Demo</title>
+</head>
+<body>
+  <h1>Local Embedding Example (Prohibited)</h1>
+  <p>The iframe below tries to embed <code>http://192.168.8.242:8080/blocked</code>, which should fail due to security headers.</p>
+
+  <iframe
+    src="http://192.168.8.242:8080/blocked"
+    width="100%"
+    height="300"
+    style="border: 2px solid red;">
+  </iframe>
+
+  <p>If the iframe is blank or shows a console error, embedding is successfully blocked.</p>
+</body>
+</html>

@@ -1,0 +1,33 @@
+﻿HTTP/1.1 301 Moved Permanently
+Date: Sun, 28 Sep 2025 16:27:31 GMT
+Connection: keep-alive
+Location: https://gizmodo.com/
+X-Content-Type-Options: nosniff
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=v2fmvXXSefIMjNZIyRLLT6y5zRE%2B4hcFp7aV%2BjxitWkV00HcWswfvmt1rWlUAxY5nIioJeqQ9b23WVqDInX%2BSlON4woxxWtK%2FUra6ZD82BHlaZ8nUPY%3D"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: 98649bd45a34db3c-IAD
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 200 OK
+Date: Sun, 28 Sep 2025 16:27:32 GMT
+Content-Type: text/html
+Connection: keep-alive
+Server: cloudflare
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+last-modified: Sun, 28 Sep 2025 16:16:22 GMT
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=oImQfFuBKg8rBSzny7yY0yMCi30e47f9g0jBgGhwsDUrRp4OZIeROAlTeWOFFlI4vC%2F93bqjx0U5eJ7oTGYyxpRdhzD9I2RbxosF9zt1jN9hXLkvVGk%3D"}]}
+vary: Accept-Encoding, Cookie
+Cache-Control: no-cache, no-store, must-revalidate
+x-rocket-nginx-serving-static: Yes
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+content-security-policy: upgrade-insecure-requests; frame-ancestors 'self'
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: autoplay=(*), fullscreen=(*), accelerometer=(*), geolocation=(*)
+accept-ranges: bytes
+cf-cache-status: DYNAMIC
+CF-RAY: 98649bd52a98d6e5-IAD
+alt-svc: h3=":443"; ma=86400
+

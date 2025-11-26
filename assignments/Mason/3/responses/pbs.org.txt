@@ -1,0 +1,38 @@
+HTTP/1.1 301 Moved Permanently
+Server: openresty
+Date: Tue, 21 Oct 2025 21:59:13 GMT
+Content-Type: text/html
+Content-Length: 166
+Connection: keep-alive
+Location: http://www.pbs.org/
+X-PBS-fwsrvname: ip-10-193-60-90.ec2.internal
+X-KIDS-Map: nousername
+
+HTTP/1.1 301 Moved Permanently
+Server: CloudFront
+Date: Tue, 21 Oct 2025 21:59:13 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Location: https://www.pbs.org/
+X-Cache: Redirect from cloudfront
+Via: 1.1 4810d74d0025d8ce3dbab6cb71a901d2.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: JFK50-P8
+X-Amz-Cf-Id: QZBoPTUd9EiXzQ0wNEfqYKbTzGKij6cqD7eKR_3IFomIkTmit6v3ww==
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+server: CloudFront
+date: Tue, 21 Oct 2025 21:59:15 GMT
+content-security-policy: default-src 'self' *.pbs.org; script-src 'self' 'unsafe-eval' 'unsafe-inline' *.pbs.org *.googlesyndication.com *.adtrafficquality.google adservice.google.com adservice.google.co.in connect.facebook.net fundingchoicesmessages.google.com *.2mdn.net *.nr-data.net sb.scorecardresearch.com securepubads.g.doubleclick.net www.google-analytics.com analytics.google.com www.googletagmanager.com *.googletagservices.com 'unsafe-inline' 'unsafe-eval' *.cookielaw.org www.redditstatic.com alb.reddit.com analytics.tiktok.com s.pinimg.com *.ketchcdn.com *.ketchjs.com static.cloudflareinsights.com; style-src 'self' 'unsafe-inline' *.pbs.org *.ketchcdn.com *.ketchjs.com; img-src 'self' blob: data: *.pbs.org *.doubleclick.net *.cookielaw.org *.googlesyndication.com *.adtrafficquality.google sb.scorecardresearch.com www.googletagmanager.com www.facebook.com graph.facebook.com platform-lookaside.fbsbx.com *.2mdn.net *.agkn.com *.fbsbx.com *.fbcdn.net www.google-analytics.com www.google.com *.googleusercontent.com tags.w55c.net www.redditstatic.com alb.reddit.com analytics.tiktok.com ct.pinterest.com impressions.onelink.me *.ketchcdn.com *.ketchjs.com; connect-src 'self' *.pbs.org *.pbs.org:7000 *.pbs.org:3000 *.localhost:3010 *.localhost:3020 *.localhost:3030 *.doubleclick.net *.googlesyndication.com *.adtrafficquality.google *.2mdn.net *.nr-data.net *.eloqua.com *.cookielaw.org *.onetrust.com csi.gstatic.com fundingchoicesmessages.google.com www.google-analytics.com analytics.google.com www.redditstatic.com alb.reddit.com analytics.tiktok.com ct.pinterest.com *.sentry.io *.ketchcdn.com *.ketchjs.com; frame-src 'self' *.pbs.org *.doubleclick.net *.2mdn.net *.googlesyndication.com *.googleadservices.com *.adtrafficquality.google www.facebook.com www.google.com *.googletagservices.com *.youtube.com ct.pinterest.com *.ketchcdn.com *.ketchjs.com; upgrade-insecure-requests;
+set-cookie: pbsol.station=WCVE; Path=/; Expires=Sat, 10 Oct 2026 21:59:14 GMT; Max-Age=30585600; Domain=.pbs.org; Secure; SameSite=none
+set-cookie: pbsol.station_id=86532025-6a98-4ed7-87ef-cce5615bfcf0; Path=/; Expires=Sat, 10 Oct 2026 21:59:14 GMT; Max-Age=30585600; Domain=.pbs.org; Secure; SameSite=none
+link: </_next/static/css/6e035228304f5463.css>; rel=preload; as="style", </_next/static/css/c7224c9c287a664d.css>; rel=preload; as="style", </_next/static/css/ca67e9615935d68a.css>; rel=preload; as="style", </_next/static/css/85bed453812487d5.css>; rel=preload; as="style", </_next/static/css/70e57e6603582792.css>; rel=preload; as="style", </_next/static/css/fecf553972b30453.css>; rel=preload; as="style", </_next/static/css/580afb461843aa1e.css>; rel=preload; as="style"
+x-powered-by: Next.js
+cache-control: private, no-cache, no-store, max-age=0, must-revalidate
+vary: RSC,Next-Router-Prefetch,Accept-Encoding
+x-cache: Miss from cloudfront
+via: 1.1 c23bc76444fad08250d9cd740d061b4a.cloudfront.net (CloudFront)
+x-amz-cf-pop: JFK50-P8
+x-amz-cf-id: coy2MN8uoaVEd-zlGNWazQtwSQK-T7ZrtMbMMcQLnRXlgcvA_rheGQ==
+

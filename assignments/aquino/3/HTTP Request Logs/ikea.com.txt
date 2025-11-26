@@ -1,0 +1,25 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://ikea.com
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 05 Oct 2025 04:24:41 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sun, 05 Oct 2025 05:24:41 GMT
+Location: https://www.ikea.com/
+Server: cloudflare
+CF-RAY: 989a269c89104517-ATL
+
+HTTP/1.1 403 Forbidden
+Date: Sun, 05 Oct 2025 04:24:42 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 4516
+Connection: keep-alive
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: same-origin
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: __cf_bm=jxi8yPoruCU11wsRSibhNMwIwnrj9xYpwSx3kHTRNLw-1759638282-1.0.1.1-UvyH97Fhm_O262j9UA3ipwDjSVJ_1qjrnfxPVhuUzOn3_MjG0CBbqjoXoNPbBRwn97N8noD5miYqHqyBzXgkzksb77AyTQWuY38ny1MZC44; path=/; expires=Sun, 05-Oct-25 04:54:42 GMT; domain=.www.ikea.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Server: cloudflare
+CF-RAY: 989a269f9f4ddd6f-ATL

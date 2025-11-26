@@ -1,0 +1,28 @@
+﻿HTTP/1.1 301 Moved Permanently
+Server: ddos-guard
+Connection: keep-alive
+Keep-Alive: timeout=60
+Set-Cookie: __ddg8_=rZ6kTawbh9i3m3Bl; Domain=.narod.ru; Path=/; Expires=Sun, 28-Sep-2025 16:46:16 GMT
+Set-Cookie: __ddg10_=1759076776; Domain=.narod.ru; Path=/; Expires=Sun, 28-Sep-2025 16:46:16 GMT
+Set-Cookie: __ddg9_=68.10.180.55; Domain=.narod.ru; Path=/; Expires=Sun, 28-Sep-2025 16:46:16 GMT
+Set-Cookie: __ddg1_=4fd6SKZmIAvKbrE70YZX; Domain=.narod.ru; HttpOnly; Path=/; Expires=Mon, 28-Sep-2026 16:26:16 GMT
+Date: Sun, 28 Sep 2025 16:26:16 GMT
+Content-Type: text/html
+Content-Length: 162
+Location: https://narod.ru/
+
+HTTP/1.1 200 OK
+Server: ddos-guard
+Connection: keep-alive
+Keep-Alive: timeout=60
+Set-Cookie: __ddg8_=vqENu64MY4Eqr8Bf; Domain=.narod.ru; Path=/; Expires=Sun, 28-Sep-2025 16:46:17 GMT
+Set-Cookie: __ddg10_=1759076777; Domain=.narod.ru; Path=/; Expires=Sun, 28-Sep-2025 16:46:17 GMT
+Set-Cookie: __ddg9_=68.10.180.55; Domain=.narod.ru; Path=/; Expires=Sun, 28-Sep-2025 16:46:17 GMT
+Set-Cookie: __ddg1_=6LhYylX4s4pccr86hjxR; Domain=.narod.ru; HttpOnly; Path=/; Expires=Mon, 28-Sep-2026 16:26:17 GMT
+Date: Sun, 28 Sep 2025 16:26:17 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Length: 2024
+Last-Modified: Thu, 25 Sep 2025 12:04:04 GMT
+ETag: "68d52fb4-7e8"
+Accept-Ranges: bytes
+

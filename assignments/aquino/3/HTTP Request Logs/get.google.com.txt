@@ -1,0 +1,29 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://get.google.com
+HTTP/1.1 301 Moved Permanently
+Location: https://www.google.com/
+Cross-Origin-Resource-Policy: cross-origin
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+Date: Sun, 05 Oct 2025 05:34:34 GMT
+Expires: Sun, 05 Oct 2025 06:04:34 GMT
+Cache-Control: public, max-age=1800
+Server: sffe
+Content-Length: 220
+X-XSS-Protection: 0
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=ISO-8859-1
+Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-KCr6OgzAW7o7eCiPf4-AyA' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+Accept-CH: Sec-CH-Prefers-Color-Scheme
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Date: Sun, 05 Oct 2025 05:34:34 GMT
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Expires: Sun, 05 Oct 2025 05:34:34 GMT
+Cache-Control: private
+Set-Cookie: AEC=AaJma5sB0QBYI4Fh7__ZFiJ3YQt8R5WFsEuYxLsHQmx9gpRZdKEYs4SPFg; expires=Fri, 03-Apr-2026 05:34:34 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=lax
+Set-Cookie: NID=525=JK3J8KvIsQBt8DlV9Hnp7Dz5wKT_KpIEMer1Fz0Pt7OHgp2_bB8Hiof0O7JpzloMAqfeI9f1BMah9vgSgFM5nAeLFh-MvMSLm_eF3G9Yi0lFxvrIvKu1sVtldX8o6g-fQ-c7_xjroaxl1I4bFWA96wozItLOPs7O12LnF487KLdmQj_ub0LX16LBd3d_7nqxSayWjZKvgL44PY-Bzt9Q; expires=Mon, 06-Apr-2026 05:34:34 GMT; path=/; domain=.google.com; HttpOnly
+Transfer-Encoding: chunked
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000

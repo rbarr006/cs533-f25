@@ -1,0 +1,32 @@
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Content-Length: 166
+Content-Type: text/html
+Location: https://www.cbsnews.com/cbslocal/
+Accept-Ranges: bytes
+Age: 0
+Date: Sat, 04 Oct 2025 03:27:34 GMT
+Via: 1.1 varnish
+Fastly-Restarts: 0
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 445512
+x-content-type-options: nosniff
+link: <https://assets1.cbsnewsstatic.com>; rel="preconnect", <https://assets2.cbsnewsstatic.com>; rel="preconnect", <https://assets3.cbsnewsstatic.com>; rel="preconnect", </fly/bundles/cbsnewscontent/fonts/ProximaNova-Regular/ProximaNova-Regular.woff2>; rel="preload"; as="font"; crossorigin, </fly/bundles/cbsnewscontent/fonts/ProximaNova-Bold/ProximaNova-Bold.woff2>; rel="preload"; as="font"; crossorigin, </fly/bundles/cbsnewscontent/fonts/PublicoHeadline-Bold/PublicoHeadline-Bold.woff2>; rel="preload"; as="font"; crossorigin, </fly/bundles/cbsnewscontent/fonts/PublicoHeadline-Black/PublicoHeadline-Black.woff2>; rel="preload"; as="font"; crossorigin, </fly/bundles/cbsnewscontent/fonts/PublicoText/PublicoText.woff2>; rel="preload"; as="font"; crossorigin, </fly/bundles/cbsnewscontent/css/responsive.min.css?v=ea13dac604aeeed7c537ccac87bd7f08>; rel="preload"; as="style", <https://www.cbsnews.com/fly/bundles/cbsnewscore/js-build/main.js?v=ea13dac604aeeed7c537ccac87bd7f08>; rel="preload"; as="script", <https://www.cbsnews.com/fly/bundles/cbsnewscore/js-build/main.responsive.js?v=ea13dac604aeeed7c537ccac87bd7f08>; rel="preload"; as="script"
+cache-control: max-age=90, public
+last-modified: Sat, 04 Oct 2025 03:22:32 GMT
+content-type: text/html; charset=UTF-8
+core-api-cache-key: 5e755b43-02aa-4440-8267-26e681d5a15f
+x-xss-protection: 1; mode=block
+X-Device: desktop
+X-Edge-Forwarded-Proto: https
+Accept-Ranges: bytes
+Age: 301
+Date: Sat, 04 Oct 2025 03:27:34 GMT
+Via: 1.1 varnish
+Vary: Accept-Encoding, X-Device, X-Edge-Forwarded-Proto
+Set-Cookie: fly_device=desktop; expires=Sat, 04 Oct 2025 03:32:34 GMT; path=/; domain=.cbsnews.com
+Set-Cookie: fly_geo={"countryCode": "US", "region": "VA", "dma": "544", "connection": { "type": "cable"}}; expires=Sat, 04 Oct 2025 03:32:34 GMT; path=/; domain=.cbsnews.com
+Fastly-Restarts: 0
+

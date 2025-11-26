@@ -1,0 +1,33 @@
+﻿HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.redbull.com/
+Date: Sun, 28 Sep 2025 16:27:29 GMT
+Connection: keep-alive
+
+HTTP/1.1 302 Moved Temporarily
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.redbull.com/us-en
+Date: Sun, 28 Sep 2025 16:27:29 GMT
+Connection: keep-alive
+Alt-Svc: h3=":443"; ma=93600
+X-Redirect-Chain: CA_Geo_Redirects
+x-extended-stale-cache-match: true
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: sameorigin
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1;mode=block
+x-akamai-user-cache-control: public, max-age=600
+Application-Name: consumer-app
+ETag: W/"e49f5-SzKdfC1A0NO3MR8PXviEnSBuIQs"
+Date: Sun, 28 Sep 2025 16:27:29 GMT
+Connection: keep-alive
+Set-Cookie: rb_geolocation=us; path=/
+Alt-Svc: h3=":443"; ma=93600
+X-Redirect-Chain: VMGR04
+Cache-Control: public, max-age=600
+x-extended-stale-cache-match: true
+

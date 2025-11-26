@@ -1,0 +1,31 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Retry-After: 0
+Location: https://www.cbsnews.com/
+Accept-Ranges: bytes
+Date: Sat, 04 Oct 2025 03:28:51 GMT
+Via: 1.1 varnish
+Fastly-Restarts: 0
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 659898
+core-api-cache-key: e8074928-8717-4e96-94d3-c57247d92fc5
+cache-control: max-age=90, public
+last-modified: Sat, 04 Oct 2025 03:28:07 GMT
+content-type: text/html; charset=UTF-8
+link: <https://assets1.cbsnewsstatic.com>; rel="preconnect", <https://assets2.cbsnewsstatic.com>; rel="preconnect", <https://assets3.cbsnewsstatic.com>; rel="preconnect", </fly/bundles/cbsnewscontent/fonts/ProximaNova-Regular/ProximaNova-Regular.woff2>; rel="preload"; as="font"; crossorigin, </fly/bundles/cbsnewscontent/fonts/ProximaNova-Bold/ProximaNova-Bold.woff2>; rel="preload"; as="font"; crossorigin, </fly/bundles/cbsnewscontent/fonts/PublicoHeadline-Bold/PublicoHeadline-Bold.woff2>; rel="preload"; as="font"; crossorigin, </fly/bundles/cbsnewscontent/fonts/PublicoHeadline-Black/PublicoHeadline-Black.woff2>; rel="preload"; as="font"; crossorigin, </fly/bundles/cbsnewscontent/fonts/PublicoText/PublicoText.woff2>; rel="preload"; as="font"; crossorigin, </fly/bundles/cbsnewscontent/css/responsive.min.css?v=ea13dac604aeeed7c537ccac87bd7f08>; rel="preload"; as="style", <https://www.cbsnews.com/fly/bundles/cbsnewscore/js-build/main.js?v=ea13dac604aeeed7c537ccac87bd7f08>; rel="preload"; as="script", <https://www.cbsnews.com/fly/bundles/cbsnewscore/js-build/main.responsive.js?v=ea13dac604aeeed7c537ccac87bd7f08>; rel="preload"; as="script", <https://vidtech.cbsinteractive.com>; rel="preconnect"
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+X-Device: desktop
+X-Edge-Forwarded-Proto: https
+Accept-Ranges: bytes
+Date: Sat, 04 Oct 2025 03:28:51 GMT
+Via: 1.1 varnish
+Age: 43
+Vary: Accept-Encoding, X-Geo-GDPR, X-Device, X-Edge-Forwarded-Proto
+Set-Cookie: fly_device=desktop; expires=Sat, 04 Oct 2025 03:33:51 GMT; path=/; domain=.cbsnews.com
+Set-Cookie: fly_geo={"countryCode": "US", "region": "VA", "dma": "544", "connection": { "type": "cable"}}; expires=Sat, 04 Oct 2025 03:33:51 GMT; path=/; domain=.cbsnews.com
+Fastly-Restarts: 0
+

@@ -1,0 +1,33 @@
+﻿HTTP/1.0 302 Redirect
+Connection: Close
+Location: https://usgs.gov/
+
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 28 Sep 2025 16:21:33 GMT
+X-XSS-Protection: 1; mode=block
+Location: https://www.usgs.gov/
+Content-Type: text/html; charset=iso-8859-1
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Connection: close
+Date: Sun, 28 Sep 2025 16:22:40 GMT
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Server: nginx
+Cache-Control: must-revalidate, no-cache, private
+Content-Language: en
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+X-Generator: Drupal 10 (https://www.drupal.org)
+Content-Security-Policy-Report-Only: default-src 'self' *.usgs.gov 'unsafe-inline' *.amazonaws.com *.arcgis.com 'unsafe-eval'  *.arcgisonline.com *.hotjar.io *.google-analytics.com; script-src 'self' *.usgs.gov 'unsafe-inline' *.googletagmanager.com *.addtoany.com *.jsdelivr.net *.hotjar.com *.cfigroup.com *.cloud.gov *.gov *.youtube.com *.ytimg.com www.youtube.com s.ytimg.com  *.google-analytics.com *.google-analytics.com connect.facebook.net *.youtube.com/iframe_api 'unsafe-eval' *.jquery.com *.cloudflare.com *.arcgis.com *.datatables.net *.dashjs.org *.googleapis.com; object-src noop.style; style-src 'self' *.usgs.gov 'unsafe-inline'  *.fontawesome.com *.cloudflare.com *.arcgis.com *.datatables.net *.gstatic.com; img-src 'self' 'unsafe-inline' *.alaska.edu *.amazonaws.com *.arcgis.com *.arcgisonline.com *.cfigroup.com *.cloud.gov *.cloudflare.com *.fontawesome.com *.google-analytics.com *.google.com *.googleapis.com *.googletagmanager.com *.gov *.gstatic.com *.nationalmap.gov *.nationsonline.org *.opengeo.org *.openstreetmap.org *.pixelcaster.com *.staticflickr.com *.ucweb.com *.usgs.gov *.ytimg.com avo.alaska.edu cdnjs.cloudflare.com data: *.openstreetmap.org ; media-src 'self' *.usgs.gov 'unsafe-inline' *.gstatic.com *.google.pn *.amazonaws.com; frame-src 'self' 'unsafe-inline' *.addtoany.com *.googletagmanager.com *.prismaaccess.com *.saasprotection.com *.trendmicro.com *.trendmicro.jp *.usgs.gov safe.menlosecurity.com *.youtube.com www.youtube.com; font-src 'self' 'unsafe-inline' *.alicdn.com *.amazonaws.com *.arcgis.com *.fontawesome.com *.gstatic.com *.jsdelivr.net *.mustcheck.com *.simplycodes.com *.slant.co *.typekit.net *.usgs.gov cdn.goin.cloud cdn.scite.ai data:; connect-src 'self' 'unsafe-inline' *.amazonaws.com *.arcgis.com *.arcgisonline.com *.cloud.gov *.cloudfront.net *.fontawesome.com *.google-analytics.com *.googleapis.com *.googletagmanager.com *.gov *.gstatic.com *.hotjar.com *.hotjar.io *.jsdelivr.net *.usgs.gov cdn.jsdelivr.net wss://ws.hotjar.com
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+Via: 1.1 790dd2637efddd54756eabb102d0e234.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD61-P10
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: SoVFwqqfBAYIa5xilGKzGd1i9ZkWjQWUxmmD4bILu842ZPUgnlGcAg==
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: strict-origin-when-cross-origin
+X-Content-Type-Options: nosniff
+

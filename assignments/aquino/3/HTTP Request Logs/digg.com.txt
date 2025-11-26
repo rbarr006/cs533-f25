@@ -1,0 +1,26 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://digg.com
+HTTP/1.1 307 Temporary Redirect
+Cache-Control: public, max-age=0, must-revalidate
+Content-Type: text/plain
+Date: Sun, 05 Oct 2025 04:30:51 GMT
+Location: https://www.digg.com/
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+X-Vercel-Id: iad1::rznkk-1759638651271-4cc0f32a7395
+
+HTTP/1.1 200 OK
+Age: 668
+Cache-Control: public, max-age=0, must-revalidate
+Content-Length: 41677
+Content-Type: text/html; charset=utf-8
+Date: Tue, 19 Aug 2025 11:41:32 GMT
+Etag: "6a81nn658xw5b"
+Server: Vercel
+Strict-Transport-Security: max-age=63072000
+Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+X-Matched-Path: /
+X-Nextjs-Prerender: 1
+X-Nextjs-Stale-Time: 300
+X-Powered-By: Next.js
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::iad1::285jz-1759638651723-f166b0393f33

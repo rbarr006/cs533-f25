@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>parks-and-rec</title>
+</head>
+    <body>
+        <h1>We're going to try to fetch from seprate site and show the json object!</h1>
+        <p>
+        <p>
+        <script>
+            const url = 'https://rsp-bit.github.io/stat-pages/parks-and-rec.json'
+            
+            fetch(url)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    console.log(data);
+                })
+                .catch(error => {
+                    console.error('Error fetching data:', error);
+                    document.getElementById('data-container').innerText = 'Failed to load data.';
+                });
+        </script>
+        <li><a href="/">Home</a></li> 
+    </body>
+</html>
+        

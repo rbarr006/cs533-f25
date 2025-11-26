@@ -1,0 +1,98 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://draft.blogger.com
+HTTP/1.1 302 Found
+content-type: application/binary
+vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: Mon, 01 Jan 1990 00:00:00 GMT
+date: Sun, 05 Oct 2025 02:34:40 GMT
+location: https://accounts.google.com/ServiceLogin?passive=true&go=true&service=blogger&continue=https://draft.blogger.com/?bpli%3D1
+Content-Length: 0
+p3p: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+content-security-policy: script-src 'nonce-NtKUCWLXtr9H_EY29mU_kg' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/BloggerUi/cspreport;worker-src 'self'
+cross-origin-opener-policy: same-origin-allow-popups
+cross-origin-resource-policy: same-site
+permissions-policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+content-security-policy-report-only: require-trusted-types-for 'script';report-uri /_/BloggerUi/cspreport
+accept-ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+server: ESF
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+Set-Cookie: NID=525=SB5syBjuCOwlULWS2ciG34wp1qzQAIdLVb1Gn8je27E9xwozp8ajZgIAT7WD7jwYnA3mElGGN-NhB_GgogZqaDcFGkcG-fAk4RxwR1htm5GW7zPu_2DJxDUocF1iJAXTjRvluHn3BgITK6yx4SyoSX1di6i_kS8bu8JHl_siPZnNiDSkQ2ebTep00Q; expires=Mon, 06-Apr-2026 02:34:40 GMT; path=/; domain=.blogger.com; Secure; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+HTTP/1.1 302 Found
+Content-Type: application/binary
+Set-Cookie: __Host-GAPS=1:-QwbEgyHWIUF8xtvYOdFIZA35WaVLA:lH0EX5-CWL14DZnh; Expires=Tue, 05-Oct-2027 02:34:40 GMT; Path=/; Secure; HttpOnly; Priority=HIGH
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Sun, 05 Oct 2025 02:34:40 GMT
+Location: https://draft.blogger.com/?bpli=1
+Content-Length: 0
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Permissions-Policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+Cross-Origin-Opener-Policy: unsafe-none
+Cross-Origin-Resource-Policy: cross-origin
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+Content-Security-Policy: require-trusted-types-for 'script';report-uri /_/AccountsSigninPassiveLoginHttp/cspreport
+Content-Security-Policy: script-src 'nonce-yeFGMzfRvtFHSUaIGfpjWw' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/AccountsSigninPassiveLoginHttp/cspreport;worker-src 'self'
+Server: ESF
+X-XSS-Protection: 0
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+HTTP/1.1 302 Found
+content-type: application/binary
+vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: Mon, 01 Jan 1990 00:00:00 GMT
+date: Sun, 05 Oct 2025 02:34:40 GMT
+location: https://draft.blogger.com/about?bpli=1
+Content-Length: 0
+p3p: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+cross-origin-opener-policy: same-origin-allow-popups
+accept-ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+permissions-policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+cross-origin-resource-policy: same-site
+content-security-policy: script-src 'nonce-3LOcmeYiUTs_w2oVoWyMwg' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/BloggerUi/cspreport;worker-src 'self'
+content-security-policy-report-only: require-trusted-types-for 'script';report-uri /_/BloggerUi/cspreport
+server: ESF
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+Set-Cookie: NID=525=X_pCcqJeFXFHieq3lvz5FVUI-yxiVO5CqRqonM8m5j9cHTyHYhfXv4aQ9-Pp-BAbV0IWcVFSRmjdJ0rbVKHyOa2_ih-YXdOov1UFw5Xsx4xXQVvSS8Tz_FcMqGWBQWz4K1Oe5ml1GhNP30MdmQN207wN4p__hU9QevmkOq1SLLaj5nymWSoPKHNQKQ; expires=Mon, 06-Apr-2026 02:34:40 GMT; path=/; domain=.blogger.com; Secure; HttpOnly
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+HTTP/1.1 301 Moved Permanently
+Location: https://draft.blogger.com/about/?bpli=1
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+Date: Sun, 05 Oct 2025 02:34:40 GMT
+Expires: Sun, 05 Oct 2025 03:04:40 GMT
+Cache-Control: public, max-age=1800
+Server: sffe
+Content-Length: 236
+X-XSS-Protection: 0
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Type: text/html
+Content-Length: 168646
+Content-Security-Policy: script-src  'nonce-KbM6csUGs20Ov8mzWGYU4Q' 'report-sample' 'strict-dynamic' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' http: https:; object-src 'none'; report-uri https://csp.withgoogle.com/csp/blogger-tech; base-uri 'self'
+Cross-Origin-Resource-Policy: cross-origin
+Cross-Origin-Opener-Policy-Report-Only: same-origin; report-to="blogger-tech"
+Report-To: {"group":"blogger-tech","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/blogger-tech"}]}
+Date: Sun, 05 Oct 2025 02:34:40 GMT
+Pragma: no-cache
+Expires: Fri, 01 Jan 1990 00:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Last-Modified: Tue, 06 May 2025 06:08:00 GMT
+X-Content-Type-Options: nosniff
+Server: sffe
+X-XSS-Protection: 0
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000

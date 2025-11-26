@@ -1,0 +1,21 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://rambler.ru
+HTTP/1.1 301 Moved Permanently
+location: https://www.rambler.ru/
+date: Sun, 05 Oct 2025 04:59:54 GMT
+server: envoy
+transfer-encoding: chunked
+
+HTTP/1.1 200 OK
+server: envoy
+date: Sun, 05 Oct 2025 04:59:55 GMT
+content-type: text/html; charset=utf-8
+content-length: 421496
+document-policy: no-font-display-late-swap
+x-app-version: 2.141.2
+accept-ch: Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Mobile
+etag: W/"66e78-dSPMAIwqYHZ77U+KeskOKsqu3ek"
+x-srv-addr: 10.132.120.147:8080
+x-frame-options: SAMEORIGIN
+set-cookie: ruid=vAsAAEv74Wirlp+rAfcNAAB=; expires=Thu, 31-Dec-37 23:55:55 GMT; domain=.rambler.ru; path=/; Secure; SameSite=None
+p3p: CP="NON DSP NID ADMa DEVa TAIa PSAa PSDa OUR IND UNI COM NAV"
+x-envoy-upstream-service-time: 253

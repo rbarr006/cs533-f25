@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vulnerable Page</title>
+</head>
+<body>
+    <h1>Welcome to CookieJar!</h1>
+    <p>This site sets a cookie for you. Please don't steal it!</p>
+
+    <script>
+        // vulnerable site sets a cookie
+        document.cookie = "sessionID=abc123; path=/cookiejar/";
+    </script>
+</body>
+</html>

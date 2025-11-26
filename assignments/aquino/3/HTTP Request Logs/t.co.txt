@@ -1,0 +1,17 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://t.co
+HTTP/1.1 200 OK
+Date: Sun, 05 Oct 2025 04:05:21 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+perf: 7402827104
+Server: cloudflare tsa_b
+Cache-Control: no-cache, no-store, max-age=0
+x-transaction-id: 5197d8bd35f6f949
+x-xss-protection: 0
+strict-transport-security: max-age=631138519; includeSubdomains
+origin-cf-ray: 989a0a4a89f7ea42-IAD
+x-served-by: tsa_b
+x-response-time: 5
+x-connection-hash: d41e9e5329358886396ea81a1ea362cce69ee96bd0f676e7838d39d05655518e
+cf-cache-status: DYNAMIC
+CF-RAY: 989a0a4a89f7ea42-IAD

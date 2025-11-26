@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title>CORS Demo 5.1</title></head>
+<body>
+  <h1>CORS Demo</h1>
+  <button id="fetchData">Fetch Favorites</button>
+  <pre id="output"></pre>
+
+  <script>
+    document.getElementById("fetchData").onclick = async () => {
+      try {
+        const res = await fetch("http://localhost:4000/favorites");
+        const data = await res.json();
+        document.getElementById("output").textContent = JSON.stringify(data, null, 2);
+      } catch (err) {
+        document.getElementById("output").textContent = "❌ Blocked by CORS: " + err;
+      }
+    };
+  </script>
+</body>
+</html>

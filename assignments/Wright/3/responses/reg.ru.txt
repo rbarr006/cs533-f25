@@ -1,0 +1,9 @@
+﻿HTTP/1.1 200 OK
+Server: Angie
+Date: Sun, 28 Sep 2025 16:22:42 GMT
+Content-Length: 13534
+Connection: keep-alive
+Set-Cookie: __js_p_=562,900,0,0,0; Path=/
+Cache-Control: no-cache
+Content-Type: text/html; charset=utf-8
+

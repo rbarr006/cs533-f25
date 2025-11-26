@@ -1,0 +1,30 @@
+HTTP/1.1 308 Permanent Redirect
+Date: Tue, 21 Oct 2025 21:59:26 GMT
+Content-Type: text/html
+Content-Length: 169
+Connection: keep-alive
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://www.dropcatch.com/
+Server: cloudflare
+CF-RAY: 992405a79ee2055a-ATL
+
+HTTP/2 200 
+date: Tue, 21 Oct 2025 21:59:26 GMT
+content-type: text/html
+cf-ray: 992405a8ca96baf2-ATL
+last-modified: Tue, 21 Oct 2025 13:01:36 GMT
+x-amz-server-side-encryption: AES256
+vary: accept-encoding
+vary: Origin
+x-cache: Hit from cloudfront
+via: 1.1 7d38f3897cdb444e56484e816dfbc442.cloudfront.net (CloudFront)
+x-amz-cf-pop: ATL58-P2
+x-amz-cf-id: d4-jFcQ9G7NKgtqERlLMeY2sJ1yPxrU5Atvs9y6asOwD6pO6fQsf4A==
+age: 228
+cache-control: max-age=900, stale-while-revalidate=3600
+cf-cache-status: DYNAMIC
+content-security-policy: frame-ancestors 'self'; frame-src 'self' https://*.google.com https://www.sitecdn.com braintreegateway.com assets.braintreegateway.com googletagmanager.com https://client.dropcatch.com https://*.paypal.com https://*.paypalobjects.com https://ssl.kaptcha.com; script-src 'self' https://*.google.com https://*.gstatic.com https://*.paypal.com https://*.googletagmanager.com https://secure.dropcatch.com https://*.google-analytics.com 'unsafe-inline'; connect-src 'self' https://*.google.com https://*.amazonaws.com https://*.braintreegateway.com https://*.braintree-api.com https://uilogging.tcdevops.com https://logging.dropcatch.com https://*.google-analytics.com https://translate.dropcatch.com https://client.dropcatch.com wss://rt.dropcatch.com https://*.launchdarkly.com
+x-frame-options: SAMEORIGIN
+server: cloudflare
+

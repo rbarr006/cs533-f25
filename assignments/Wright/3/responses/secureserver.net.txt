@@ -1,0 +1,32 @@
+﻿HTTP/1.1 301 Redirect
+Date: Sun, 28 Sep 2025 16:27:36 GMT
+Connection: keep-alive
+Server: ATS/9.2.3
+Cache-Control: no-store
+Location: https://www.secureserver.net/
+Content-Type: text/html
+Content-Language: en
+Content-Length: 311
+
+HTTP/1.1 404 Not Found
+x-powered-by: Slay
+Content-Type: text/html; charset=utf-8
+x-envoy-upstream-service-time: 111
+Server: envoy
+Expires: Sun, 28 Sep 2025 16:27:36 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sun, 28 Sep 2025 16:27:36 GMT
+Content-Length: 1
+Connection: keep-alive
+Set-Cookie: market=en-US; Max-Age=31536000; Domain=.secureserver.net; Path=/; Expires=Mon, 28 Sep 2026 16:27:36 GMT; Secure; SameSite=None
+Set-Cookie: currency=USD; Max-Age=31536000; Domain=.secureserver.net; Path=/; Expires=Mon, 28 Sep 2026 16:27:36 GMT; Secure; SameSite=None
+Set-Cookie: 9bcd9698ffec9a5b4659eec167633246=1c56799ece129231ecc8692c51bea2a2; path=/; HttpOnly; Secure; SameSite=None
+Set-Cookie: fb_sessiontraffic=S_TOUCH=&pathway=90ab0aa6-ac6a-4ca2-b1df-e0b21681bf98&V_DATE=&pc=0; Path=/; Domain=secureserver.net; Expires=Sun, 28 Sep 2025 16:47:36 GMT
+Set-Cookie: pathway=90ab0aa6-ac6a-4ca2-b1df-e0b21681bf98; Path=/; Domain=secureserver.net; Expires=Sun, 28 Sep 2025 16:47:36 GMT
+Set-Cookie: visitor=vid=90ab0aa6-ac6a-4ca2-b1df-e0b21681bf98; Path=/; Domain=secureserver.net; Expires=Sun, 27 Sep 2026 16:27:36 GMT
+Set-Cookie: _policy={"restricted_market":false,"tracking_market":"none"}; Path=/; Domain=secureserver.net; Expires=Mon, 28 Sep 2026 16:27:36 GMT
+X-ARC: 101
+Set-Cookie: _abck=E8D1F0559F2F97454278598C394B973D~-1~YAAQrMgwFyQpX1eZAQAAbLQmkQ5KpeZO8l5RKVFyfYD1lhL8aIi7QTVtVX05ZX8Oy5Y+6GYiFpkCRtLK+0+2xu/kHSAP2fsgsXI1r9uY6lccbxSBODfcnaE1ZhN6F2VGOj80mLn5AaRT3RSHVBmYHj38NYBUKYRqiuMVIx5ueVIVw1iWGKuqFqsFgmx2PkSeZ0Q4WgZJDcAKPeYF5u4MMoeV/W0pthcdkJGNf2T51iKWI3fwGH8dvfv6xHQ3k5Q5erURkAsedR9WqGbtNZNEcZFm5in6gRNOqnMPDk7k/wFnK2hiXj03O8EU2MacuJRF1upPhyCyDwGwz2OZ/N3a7mwUVG2+SnO4rFy7gb+iadiXMcyotQjZ4lN2gpAVl4ShpiN7YUP8Vk9JZQT4CZFDmOOORuGCalANfPGaiHiVsNvbXkS7JBkDL41/nRuIGrqymVdO4ejUp6rJCrc=~-1~-1~-1~-1~-1; Domain=.secureserver.net; Path=/; Expires=Mon, 28 Sep 2026 16:27:36 GMT; Max-Age=31536000; Secure
+Set-Cookie: bm_sz=90B2138C9A4230A3D9F5E953B2FB3EBE~YAAQrMgwFyUpX1eZAQAAbLQmkR3k7qCAPDF2uGso/PJTylS1hsVY8ngsQZOXlp8BVhb/zHKzqMf1AF3BKSt4YkftrxADoVQxcI0z9X5jf2AAbzmw+pHSAhx5nbeWOWvoZrxa2Ru+vntxj4GnC6l+Iv72F/BUvJ+xrhaK7ZynQF5hwh0vDv2vFhCHUd6I6wwni5DjwEAxo6FLmw9OuSKtrQYwSsYcXAo/K2VGP6FiqI5WGV5YWNEOr8P09iFQOtI02SblEFMvUVBkEKCtXl9ANcSBMQic7q1e+t41DiGTGYoHpekMCKsdw/1V+G7nGkwbQJI3yb075t3HnOlTCukfo8GrgYaR411wbprncNf946O+wqCaqZWz5y+otqGUYH9oUSn71zhLn+j98JI=~3552322~3160113; Domain=.secureserver.net; Path=/; Expires=Sun, 28 Sep 2025 20:27:36 GMT; Max-Age=14400
+

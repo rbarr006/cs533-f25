@@ -1,0 +1,49 @@
+HTTP/1.1 302 Found
+Location: https://www.google.com/chrome
+Cache-Control: private
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+Date: Tue, 21 Oct 2025 21:59:21 GMT
+Server: sffe
+Content-Length: 226
+X-XSS-Protection: 0
+
+HTTP/2 301 
+location: https://www.google.com/chrome/
+content-type: text/html; charset=UTF-8
+x-content-type-options: nosniff
+accept-ch: Sec-Ch-Ua-Full-Version-List, Sec-Ch-Ua-Platform, Sec-Ch-Ua-Platform-Version, Sec-CH-Prefers-Reduced-Motion
+critical-ch: Sec-Ch-Ua-Full-Version-List, Sec-Ch-Ua-Platform, Sec-Ch-Ua-Platform-Version, Sec-CH-Prefers-Reduced-Motion
+vary: Accept-Encoding, Sec-Ch-Ua-Full-Version-List, Sec-Ch-Ua-Platform, Sec-Ch-Ua-Platform-Version, Sec-CH-Prefers-Reduced-Motion
+date: Tue, 21 Oct 2025 21:59:21 GMT
+expires: Tue, 21 Oct 2025 22:29:21 GMT
+cache-control: public, max-age=1800
+server: sffe
+content-length: 227
+x-xss-protection: 0
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+HTTP/2 200 
+accept-ranges: bytes
+vary: Accept-Encoding, Sec-Ch-Ua-Full-Version-List, Sec-Ch-Ua-Platform, Sec-Ch-Ua-Platform-Version, Sec-CH-Prefers-Reduced-Motion
+content-type: text/html; charset=UTF-8
+content-length: 419694
+content-security-policy: script-src  'nonce-GcO86uh2G5vBLruHa51J9g' 'report-sample' 'self' 'strict-dynamic' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' http: https: https://analytics.google.com https://ssl.google-analytics.com https://www.google-analytics.com https://www.google.com https://www.googleadservices.com https://www.gstatic.com/; object-src 'none'; img-src * data:; frame-src https://*.doubleclick.net https://feedback-pa.clients6.google.com https://scone-pa.clients6.google.com https://www.googletagmanager.com https://www.youtube.com; connect-src 'self' https://*.analytics.google.com https://*.doubleclick.net https://*.google-analytics.com https://*.google.com https://*.googlesyndication.com/ https://*.gstatic.com https://auditrecording-pa.googleapis.com https://cdn.ampproject.org https://www.googleadservices.com; report-uri https://csp.withgoogle.com/csp/uxe-owners-acl/chrome; base-uri 'self'
+content-security-policy-report-only: require-trusted-types-for 'script'; report-uri https://csp.withgoogle.com/csp/uxe-owners-acl/chrome
+cross-origin-resource-policy: cross-origin
+cross-origin-opener-policy-report-only: same-origin; report-to="uxe-owners-acl/chrome"
+report-to: {"group":"uxe-owners-acl/chrome","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/uxe-owners-acl/chrome"}]}
+p3p: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+date: Tue, 21 Oct 2025 21:59:22 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, must-revalidate
+last-modified: Thu, 16 Oct 2025 12:30:00 GMT
+x-content-type-options: nosniff
+accept-ch: Sec-Ch-Ua-Full-Version-List, Sec-Ch-Ua-Platform, Sec-Ch-Ua-Platform-Version, Sec-CH-Prefers-Reduced-Motion
+critical-ch: Sec-Ch-Ua-Full-Version-List, Sec-Ch-Ua-Platform, Sec-Ch-Ua-Platform-Version, Sec-CH-Prefers-Reduced-Motion
+server: sffe
+x-xss-protection: 0
+set-cookie: NID=525=IgI72S2CAT2tErlsZ29X7wjucF4WdNdHowpwyn-SO55BpgfrHdiRu4zTWA0TA6n_CXRtWczOjHCcTkMgdzb-ENzRKns232wM1B0mJ3YubIm-bT-toOU0EGdctO0Ph8jhUywy4LA71mGCUHfRWxae75kaaVkW9kATaOQEsmuGwiDC5pbmzdd8EBrzf2pTayN9SaEHsWU; expires=Wed, 22-Apr-2026 21:59:22 GMT; path=/; domain=.google.com; HttpOnly
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

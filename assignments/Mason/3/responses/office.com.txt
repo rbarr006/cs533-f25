@@ -1,0 +1,23 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Location: https://www.office.com/
+X-MSEdge-Ref: Ref A: 267CAAE863A1481985262FD977ADF84D Ref B: ATL331000107035 Ref C: 2025-10-21T21:58:21Z
+Date: Tue, 21 Oct 2025 21:58:21 GMT
+
+HTTP/2 405 
+allow: GET
+content-length: 0
+set-cookie: OH.SID=c9214aa5-bb11-4d21-9cca-dbd6b65d9895; path=/; secure; samesite=none; httponly
+set-cookie: OH.FLID=36c61189-2eff-41a0-a684-e394add3d006; expires=Wed, 21 Oct 2026 21:58:21 GMT; path=/; secure; samesite=none; httponly
+strict-transport-security: max-age=31536000; includeSubDomains
+referrer-policy: strict-origin-when-cross-origin
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+x-ua-compatible: IE=edge,chrome=1
+nel: {"report_to":"NelOfficeHubUpload1","max_age":3600,"failure_fraction":1.0,"success_fraction":0.01}
+report-to: {"group":"NelOfficeHubUpload1","max_age":3600,"endpoints":[{"url":"https://officehub.nel.measure.office.net/api/report?tenantId=unknown&destinationEndpoint=eus&frontEnd=AFD"}]}
+x-cache: CONFIG_NOCACHE
+x-msedge-ref: Ref A: 1D5EF25EE1A240D2829C660D7ED83ED4 Ref B: BL2AA2030102019 Ref C: 2025-10-21T21:58:21Z
+date: Tue, 21 Oct 2025 21:58:21 GMT
+

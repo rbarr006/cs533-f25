@@ -1,0 +1,20 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://rakuten.co.jp
+HTTP/1.1 301 Moved Permanently
+date: Sun, 05 Oct 2025 04:32:15 GMT
+server: Apache
+location: https://www.rakuten.co.jp/
+content-type: text/html; charset=iso-8859-1
+connection: close
+
+HTTP/1.1 200 OK
+Server: Apache
+Pragma: no-cache
+Cache-Control: private
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: DENY
+Content-Type: text/html; charset=UTF-8
+Date: Sun, 05 Oct 2025 04:32:21 GMT
+Connection: keep-alive
+Set-Cookie: Apache=e179f2bd.64061d21d9362; path=/; expires=Mon, 05-Oct-26 04:32:21 GMT
+Vary: User-Agent

@@ -1,0 +1,48 @@
+﻿HTTP/1.1 301 Moved Permanently
+Date: Sun, 28 Sep 2025 16:27:28 GMT
+Content-Type: text/html
+Connection: keep-alive
+CF-RAY: 98649bc14fe5a6b3-IAD
+Location: http://www.berkeley.edu/
+cf-cache-status: DYNAMIC
+Set-Cookie: __cf_bm=IQQ4A6N6347XYNAv9KG4qqPfUSKn22rxUKB1dfs9hzQ-1759076848-1.0.1.1-wzY7xZfF1sJJncDr4fLyjHiTOzihVocOKDZbtXDqwPc_9LMgKFHwKSH1ZzMQa6oH4Xb9jBFJhrYAaEqWqsOybSNWMKZ17Pgr9h0DF2SrWb0; path=/; expires=Sun, 28-Sep-25 16:57:28 GMT; domain=.berkeley.edu; HttpOnly
+Server: cloudflare
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 28 Sep 2025 16:27:29 GMT
+Content-Type: text/html
+Connection: keep-alive
+CF-RAY: 98649bc2cc4638e8-IAD
+Location: https://www.berkeley.edu/
+cf-cache-status: DYNAMIC
+Set-Cookie: __cf_bm=brK.gKfy9_DbJeKgU.Qb2rEiYLml6.qpcrU8v7Wq4N0-1759076849-1.0.1.1-AYalwALkSLvBFTbjF8xpwlcoUvWXX8ouypGClM_IlRLRCyXEaiRIgv3MjaZtQ4zMo0VlWw9zH_1tCNdgHwB93ToyKEdI1HmIeF6O871O1TY; path=/; expires=Sun, 28-Sep-25 16:57:29 GMT; domain=.www.berkeley.edu; HttpOnly
+Server: cloudflare
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 200 OK
+Date: Sun, 28 Sep 2025 16:27:29 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+CF-RAY: 98649bc41fb6ef65-IAD
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Vary: Accept-Encoding,Cookie
+X-Frame-Options: SAMEORIGIN
+Access-Control-Allow-Origin: https://www.berkeley.edu
+Link: <https://www.berkeley.edu/wp-json/>; rel="https://api.w.org/"
+Link: <https://www.berkeley.edu/wp-json/wp/v2/pages/6634>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://www.berkeley.edu/>; rel=shortlink
+X-Powered-By: WP Engine
+X-Cacheable: SHORT
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 1657
+X-Cache-Group: normal
+Referrer-Policy: strict-origin-when-cross-origin
+X-Permitted-Cross-Domain-Policies: none
+cf-cache-status: DYNAMIC
+Set-Cookie: __cf_bm=goTkdmd3npTCtn16q3m_KzfbPv1RIBCUCTSffvE0Ky8-1759076849-1.0.1.1-yYcx1CstQEHLNt7iTI0LVv0F6ihA95FoB76j8ef7LD5SuR6KrgmG8JAGgLzrk_UBAlr3lJ0ej5CTKQgHic5Voxrj3o075dRFncKxOwfimWc; path=/; expires=Sun, 28-Sep-25 16:57:29 GMT; domain=.www.berkeley.edu; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+alt-svc: h3=":443"; ma=86400
+

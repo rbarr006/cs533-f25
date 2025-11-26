@@ -1,0 +1,38 @@
+﻿HTTP/1.1 301 Moved Permanently
+Date: Sun, 28 Sep 2025 16:25:03 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Server: nginx
+Location: https://stores.jp/
+Strict-Transport-Security: max-age=2592000
+X-Frame-Options: SAMEORIGIN
+
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 28 Sep 2025 16:25:03 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Server: nginx
+Location: https://stores.fun/
+Strict-Transport-Security: max-age=2592000
+X-Frame-Options: SAMEORIGIN
+
+HTTP/1.1 200 OK
+Date: Sun, 28 Sep 2025 16:25:04 GMT
+Content-Type: text/html
+Connection: keep-alive
+CF-Ray: 98649839ef16d739-IAD
+CF-Cache-Status: HIT
+Age: 282265
+Last-Modified: Thu, 25 Sep 2025 10:00:39 GMT
+content-security-policy: frame-ancestors 'self'
+surrogate-control: max-age=432000
+surrogate-key: stores.fun 66ea61badc444882b5088b9b pageId:6826ebe0609ecb2e14bced1b 670334d0e24c2ee00d081e35 684fe204acd0d59a30f69496 67bd444a16a21705165b0a15
+x-frame-options: SAMEORIGIN
+x-lambda-id: 5ab6b5b0-7644-4512-9b96-99b550aead58
+vary: Accept-Encoding
+Set-Cookie: _cfuvid=n0b7nEOaVEQwdzLwTKkmtQQmVpUkwbgIr7kUTZyB0wc-1759076704333-0.0.1.1-604800000; path=/; domain=.cdn.webflow.com; HttpOnly; Secure; SameSite=None
+alt-svc: h3=":443"; ma=86400
+X-Cluster-Name: us-east-1-prod-hosting-red
+

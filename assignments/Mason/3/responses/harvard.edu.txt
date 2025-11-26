@@ -1,0 +1,30 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Tue, 21 Oct 2025 21:59:09 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://harvard.edu/
+
+HTTP/2 301 
+server: nginx
+date: Tue, 21 Oct 2025 21:59:09 GMT
+content-type: text/html; charset=utf-8
+location: https://www.harvard.edu/
+x-cache: HIT
+x-rq: atl1 0 30 9980
+
+HTTP/2 200 
+server: nginx
+date: Tue, 21 Oct 2025 21:59:09 GMT
+content-type: text/html; charset=UTF-8
+vary: Accept-Encoding
+host-header: a9130478a60e5f9135f765b23f26593b
+link: <https://www.harvard.edu/wp-json/>; rel="https://api.w.org/"
+link: <https://www.harvard.edu/wp-json/wp/v2/pages/6392>; rel="alternate"; title="JSON"; type="application/json"
+link: <https://www.harvard.edu/>; rel=shortlink
+x-rq: atl1 0 30 9980
+cache-control: max-age=300, must-revalidate
+accept-ranges: bytes
+x-cache: STALE
+

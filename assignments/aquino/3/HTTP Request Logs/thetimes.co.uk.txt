@@ -1,0 +1,42 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://thetimes.co.uk
+HTTP/1.1 301 Moved Permanently
+Server: openresty/1.11.2.3
+Date: Sun, 05 Oct 2025 05:37:51 GMT
+Content-Type: text/html
+Content-Length: 191
+Connection: keep-alive
+cache-control: max-age=60
+Location: https://www.thetimes.com
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Content-Length: 1589183
+Connection: keep-alive
+Server: CloudFront
+Date: Sun, 05 Oct 2025 05:36:17 GMT
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 0
+X-Content-Type-Options: nosniff
+Expires: Sun, 05 Oct 2025 05:39:17 GMT
+ETag: "183fbf-TQ/hoQaNLStsrtyp9SMhVC5idBI"
+X-ACS-Version: 2
+Cache-Control: public, max-age=180, stale-if-error=178
+Vary: Accept-Encoding
+x-ni-statuscode: acsaz-307
+x-ni-statusmessage: Teaser pages are enabled for the requested article
+set-cookie: nuk_customer_location_hint=GLOBAL; path=/; domain=.thetimes.com
+set-cookie: nuk_zephr_decisions=eyJuZXctaG90LWNvbGQtcGF5d2FsbCI6IlJFR1dBTEw6SE9UIiwiZnJlZS1hY2Nlc3MtcHV6emxlcy1wcm9tbyI6IkRpc2FibGVfQWNjZXNzIiwiZnJlZS1hY2Nlc3MtYXJ0aWNsZXMiOiJEaXNhYmxlX0FjY2VzcyIsImZwLTExMzAiOiJEaXNhYmxlX0Z1bmN0aW9uYWwiLCJmcC0xMTI5IjoiRGlzYWJsZV9BY2Nlc3MiLCJmcC0xMTI4IjoiRGlzYWJsZV9BY2Nlc3MiLCJmcC0xMTI2IjoiRGlzYWJsZV9BY2Nlc3MiLCJmcC0xMTIzIjoiRGlzYWJsZV9GdW5jdGlvbmFsIiwiZnAtMTExMyI6IkRpc2FibGVfRnVuY3Rpb25hbCIsImZwLTExMTAiOiJEaXNhYmxlX0FjY2VzcyIsImZwLTExMDgiOiJEaXNhYmxlX0FjY2VzcyIsImZwLTExMDIiOiJEaXNhYmxlX1BsYXRmb3JtIiwiZnAtMTEwMSI6IkRpc2FibGVfUGxhdGZvcm0ifQ==; path=/
+set-cookie: access-details=eyJhY3RpdmVQcm9kdWN0cyI6W10sInJlYXNvbiI6Ik5PX0FDQ0VTUyIsInRyaWFsIjpudWxsLCJjb21wYW55QWNjZXNzRGV0YWlscyI6bnVsbH0=; path=/; domain=www.thetimes.com; priority=High
+set-cookie: access-result=UNAUTHORIZED; path=/; domain=www.thetimes.com; priority=High
+set-cookie: vip-go-seg=access-result--UNAUTHORIZED; path=/; domain=www.thetimes.com; priority=High
+set-cookie: access-decisions=eyJmcC0xMTAxIjpmYWxzZSwiZnAtMTEwMiI6ZmFsc2UsImZwLTExMDgiOmZhbHNlLCJmcC0xMTEwIjpmYWxzZSwiZnAtMTExMyI6ZmFsc2UsImZwLTExMjMiOmZhbHNlLCJmcC0xMTI2IjpmYWxzZSwiZnAtMTEyOCI6ZmFsc2UsImZwLTExMjkiOmZhbHNlLCJmcC0xMTMwIjpmYWxzZSwiZnJlZS1hY2Nlc3MtYXJ0aWNsZXMiOmZhbHNlLCJmcmVlLWFjY2Vzcy1wdXp6bGVzLXByb21vIjpmYWxzZSwibmV3LWhvdC1jb2xkLXBheXdhbGwiOmZhbHNlfQ==; path=/; domain=www.thetimes.com; priority=High
+set-cookie: nuk_ni_statuscode=acsaz-307; max-age=120
+set-cookie: nuk_customer_country_code=US; path=/; domain=.thetimes.com; secure
+set-cookie: euconsent-v2=expire; expires=Tue, 01-Jan-2019 00:00:00 GMT; path=/
+set-cookie: _tm_com_p=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2R0NNIn0..vH-Ex2SWlgMOE0_L.n08TQMcDaRa1yLrswmPEPfU9NSPR80b9laZIEdDM5xRezRHQHz5TQmUPaQvAuCS6antVaI2jD2RPx_rEiqKblYWCGh7R_8lrkDjxfzFJIscJsLcIPl72uImSUK7Nnd_4qZC05JrIEsOHQOmJvr-GMIstkhE4F7XsiRJPZXD_V9im3KxpTzPDyLnGIG2EDYt5Oqbn-ib-1Qvi5gPFbhaka7NU2RssXPLtgJH4S7a10NNRfciey7tQNN1i_Ln-9dGIjGTZSJJ9Q4Tlakm--e7fAjwXrD-nmdhD2E54l3ilGJ3z.GvcY-hxRtByYr695l3fr3g; Max-Age=86400; Path=/
+X-Cache: Hit from cloudfront
+Via: 1.1 d6d5c88c40bb2db2c88a5e7d3e64fee8.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: ATL58-P11
+Alt-Svc: h3=":443"; ma=86400
+X-Amz-Cf-Id: eVLNvh-GoB0WBr6NygmNJNYxFwNun12wfJSx8SNXvO9_RGcSss_MjA==
+Age: 95

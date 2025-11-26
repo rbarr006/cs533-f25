@@ -1,0 +1,49 @@
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Accept-Ranges: bytes
+Date: Sat, 04 Oct 2025 03:28:19 GMT
+Via: 1.1 varnish
+X-Served-By: cache-par-lfpb1150061-PAR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1759548499.343212,VS0,VE0
+Location: https://www.lemonde.fr/
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Content-Length: 0
+Retry-After: 0
+Location: https://www.lemonde.fr/en/
+Accept-Ranges: bytes
+Date: Sat, 04 Oct 2025 03:28:19 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kjyo7100023-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1759548500.521581,VS0,VE2
+Strict-Transport-Security: max-age=31557600
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 263364
+via: 1.1 varnish, 1.1 varnish
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-security-policy: default-src data: 'unsafe-inline' 'unsafe-eval' https:; script-src data: 'unsafe-inline' 'unsafe-eval' https: blob:; style-src data: 'unsafe-inline' https:; img-src data: https: blob:; font-src data: https:; connect-src https: wss:; media-src https: blob: data:; object-src https:; child-src https: data: blob:; form-action https:; block-all-mixed-content; frame-ancestors 'self' https://apps.lemonde.fr;
+content-type: text/html;charset=UTF-8
+Accept-Ranges: bytes
+Date: Sat, 04 Oct 2025 03:28:19 GMT
+Age: 90
+X-Served-By: cache-iad-kcgs7200129-IAD, cache-iad-kjyo7100061-IAD
+X-Cache: MISS, HIT
+X-Cache-Hits: 0, 1
+X-Timer: S1759548500.609518,VS0,VE3
+Vary: Accept-Encoding
+Set-Cookie: lmd_a_c=0; Path=/; Domain=.lemonde.fr; Expires=Thu, 01 Jan 1970 00:00:00 GMT
+Cache-Control: private, must-revalidate, max-age=0
+Strict-Transport-Security: max-age=31557600
+

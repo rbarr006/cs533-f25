@@ -1,0 +1,30 @@
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.hindustantimes.com/
+Date: Tue, 21 Oct 2025 21:59:19 GMT
+Connection: keep-alive
+Cache-Control: public, max-age=120
+
+HTTP/2 301 
+server: AkamaiGHost
+content-length: 0
+location: https://www.hindustantimes.com/world-news/us-news
+date: Tue, 21 Oct 2025 21:59:19 GMT
+set-cookie: ht-location=US; path=/; domain=.hindustantimes.com
+set-cookie: Meta-Geo=US--VA--RICHMOND; path=/; domain=.hindustantimes.com
+cachettl: 
+alt-svc: h3=":443"; ma=93600
+x-frame-options: SAMEORIGIN
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+x-powered-by: Next.js
+date: Tue, 21 Oct 2025 21:59:19 GMT
+set-cookie: ht-location=US; path=/; domain=.hindustantimes.com
+set-cookie: Meta-Geo=US--VA--RICHMOND; path=/; domain=.hindustantimes.com
+cachettl: 
+alt-svc: h3=":443"; ma=93600
+cache-control: public,must-revalidate,max-age=30
+x-frame-options: SAMEORIGIN
+

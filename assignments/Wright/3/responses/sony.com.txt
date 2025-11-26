@@ -1,0 +1,22 @@
+﻿HTTP/1.1 301 Moved Permanently
+Server: awselb/2.0
+Date: Sun, 28 Sep 2025 16:26:19 GMT
+Content-Type: text/html
+Content-Length: 134
+Connection: keep-alive
+Location: https://sony.com:443/
+
+HTTP/1.1 301 Moved Permanently
+Server: awselb/2.0
+Date: Sun, 28 Sep 2025 16:26:19 GMT
+Content-Type: text/html
+Content-Length: 134
+Connection: keep-alive
+Location: https://www.sony.com:443/
+
+HTTP/1.1 403 Forbidden
+Content-Type: text/html
+Content-Length: 184
+Date: Sun, 28 Sep 2025 16:26:19 GMT
+Connection: keep-alive
+

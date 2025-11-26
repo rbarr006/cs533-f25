@@ -1,0 +1,38 @@
+﻿HTTP/1.1 301 Moved Permanently
+Date: Sun, 28 Sep 2025 16:26:11 GMT
+Server: Apache
+P3P: policyref="/w3c/p3p.xml",CP="CAO DSP COR CURa ADMa DEVa TAIa PSAa PSDa IVAi IVDi CONo OUR SAMo OTRo IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA HEA PRE LOC"
+X-Content-Type-Options: nosniff
+Location: https://goo.ne.jp/
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 28 Sep 2025 16:26:12 GMT
+Server: Apache
+P3P: policyref="/w3c/p3p.xml",CP="CAO DSP COR CURa ADMa DEVa TAIa PSAa PSDa IVAi IVDi CONo OUR SAMo OTRo IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA HEA PRE LOC"
+X-Content-Type-Options: nosniff
+Location: https://www.goo.ne.jp/
+Connection: close
+Content-Type: text/html; charset=iso-8859-1
+
+HTTP/1.1 200 OK
+Date: Sun, 28 Sep 2025 16:26:13 GMT
+Server: Apache
+P3P: policyref="/w3c/p3p.xml",CP="CAO DSP COR CURa ADMa DEVa TAIa PSAa PSDa IVAi IVDi CONo OUR SAMo OTRo IND PHY ONL UNI PUR FIN COM NAV INT DEM CNT STA HEA PRE LOC"
+X-Content-Type-Options: nosniff
+Cache-Control: no-cache, private
+Set-Cookie: XSRF-TOKEN=eyJpdiI6IlFKL2trQ2ppNUFFSkdGdXlQdk5SYXc9PSIsInZhbHVlIjoidExFNS9QeWNaV3NkTjBIdnZISW9YcFB3TCtMRE9RNEZvTHh4L1c5eXBpU3VQVDVnTkRzTEkxUERYTkRycU8vWklRcFlSSlIybEQ4dHZGK1REbllrS2VISUZXTkpFTGhPSTYrVVRwQW5ISHFybW4xeUV3dDdDUWd2elMzMlF5UXMiLCJtYWMiOiI4MWIyYjQ1YjIxOTYwZDUwNjQyZmZlOThiNjAxOTZiNjRjNTMwYzczOWFkYjljZWRjMTQwMTA0OGM2ZTkwOTJiIiwidGFnIjoiIn0%3D; expires=Sun, 28 Sep 2025 18:26:13 GMT; Max-Age=7200; path=/; samesite=lax
+Set-Cookie: laravel_session=eyJpdiI6ImN0aHJETXBmMWZjeHM4NklTSm8yeHc9PSIsInZhbHVlIjoiY3pqOWdSY3prQ1JQKzFDREw2V2VGQTVaL2o5RTJjQkY3VS9pVUNjNjJWeU1sTXBGSGltbzhyRTZFeE5PVlJxK1pjYTVQTlY1cmZqS0NBL2hWMW03cHNPREYyd2NFTDN0aG44ZjY5ZTkrZTY0NmZEV3RrY3UyNjFYV0wxVndsdEYiLCJtYWMiOiI1YWM2NTlkMDM4Mzc4NzA3YmMxYTBiMTRiMjJmZDlkYTEzOWRlMDFiODY1ODlkZThiNGFjMjAwOGZiMzcyNTNhIiwidGFnIjoiIn0%3D; expires=Sun, 28 Sep 2025 18:26:13 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Set-Cookie: gPores_id=gpores_id_59bb5b97-edab-4afd-9cca-1239f6d597ac; expires=Mon, 12 Apr 5430 18:39:13 GMT; Max-Age=107436766380; path=/; httponly; samesite=lax
+Set-Cookie: select_category=eyJpdiI6ImFqRkpZdHRhM0dTQzVmbHNONWVkdVE9PSIsInZhbHVlIjoiam9XOEpXbzZ2SUpoYWp1ZHNRNGxkZ0RrUnNjWnRPc2cyZDJpTUUzNDkzQm9lcm9zRkVOQjJ3NWJUcFFkQThTayIsIm1hYyI6IjY3YzEyNmYwZWY3YWI0NGNiODkyNTI2M2IwNjRkMWVmYTU0YzJlNGYyODExYjU1YjQwNzQ3NWJjYmMxYWNkN2MiLCJ0YWciOiIifQ%3D%3D; expires=Mon, 12 Apr 5430 18:39:13 GMT; Max-Age=107436766380; path=/; httponly; samesite=lax
+Set-Cookie: Wo4cYRdKQVEqqjEW9bq36ajbHxPi2xp0tANSQrQj=eyJpdiI6ImZmZWIwUm1PellzNlJQQ1hwYWxkZFE9PSIsInZhbHVlIjoiUVJsWWlhQ25IWW5URE1qZUVpOU54bGl5d3c2SFEvSnFTNTQ5MWRub3gyOHFlM0hoZk5tTjA0Y21KVU1JdHNJRko1M0hQOTM3V2NLanE4cG9STEdGeHRDMFIxSDV6YWFEZGV3d3UrNUVrZUhxaWFuNTJWM1paMXNYeTdhN1dzZXYvV2ZvN2w2ZENMZWVxT29WSFNUaEVlSEJnMXhodmhjTlNERWtBc0FaTFlmek93N2VyaU1SUzN0NW9sK2VRdjJrdWJjZUhCck5rWDMzOEprY0V1dVAwbTRtaVNWMjFOa0IxQmhtNS9tOUpYN21pUnBxSHU3MzNxYlV2bVYvSHU3VDZBdnBnN2hYQjhWTG5ISXZJQkhJdlE9PSIsIm1hYyI6IjQxMDkwMzBmMzQ0ZWVhZTRhYjk0ZDU0NjYxN2YyZWFkM2E5N2Y5NjMxMTg2MDQ5ZDExNDI3MDA1YmEwYTE3NzIiLCJ0YWciOiIifQ%3D%3D; expires=Sun, 28 Sep 2025 18:26:13 GMT; Max-Age=7200; path=/; httponly; samesite=lax
+Vary: Accept-Encoding,User-Agent
+X-Robots-Tag: noindex, nofollow
+Accept-CH: Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+X-XSS-Protection: 1; mode=block
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=3600
+Connection: close
+Content-Type: text/html; charset=UTF-8
+

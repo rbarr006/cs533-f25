@@ -1,0 +1,30 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://nih.gov
+HTTP/1.0 301 Moved Permanently
+Location: https://www.nih.gov/
+Strict-Transport-Security: max-age=31557600
+Server: BigIP
+Connection: Keep-Alive
+Content-Length: 0
+
+HTTP/1.0 200 OK
+Content-Language: en
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' *.nih.gov *.googleapis.com *.govdelivery.com *.hatchbuck.com *.youtube.com *.here.com search.usa.gov *.jquery.com *.crazyegg.com *.addthis.com *.addthisedge.com cdn.jsdelivr.net *.google-analytics.com *.moatads.com *.newrelic.com bam.nr-data.net *.feedgrabbr.com *.recaptcha.net *.gstatic.com *.foresee.com *.4seeresults.com *.answerscloud.com *.foreseeresults.com *.googletagmanager.com *.digitalgov.gov code.ctpprojects.com platform.twitter.com connect.facebook.net assets.pinterest.com unpkg.com *.verint-cdn.com; style-src 'self' 'unsafe-inline' *.nih.gov search.usa.gov *.googleapis.com *.here.com cdn.jsdelivr.net *.feedgrabbr.com *.foresee.com style.ctpprojects.com; img-src 'self' *.nih.gov *.google-analytics.com data: *.foresee.com nih.hostexp.com i.vimeocdn.com log.pinterest.com *.verint-cdn.com *.googletagmanager.com; media-src nih.hostexp.com; frame-src 'self' *.nih.gov *.youtube.com *.youtube-nocookie.com *.addthis.com *.recaptcha.net analytics.ctpprojects.com player.vimeo.com *.googletagmanager.com; frame-ancestors 'self' *.nih.gov *.youtube.com *.youtube-nocookie.com *.addthis.com *.recaptcha.net; child-src 'self' blob: *.nih.gov *.youtube.com *.youtube-nocookie.com *.addthis.com *.recaptcha.net; font-src 'self' *.nih.gov *.googleapis.com *.gstatic.com *.feedgrabbr.com *.foresee.com style.ctpprojects.com; connect-src 'self' *.nih.gov *.crazyegg.com *.google-analytics.com *.addthis.com stats.g.doubleclick.net bam.nr-data.net *.foresee.com *.4seeresults.com *.answerscloud.com *.foreseeresults.com maps.googleapis.com nih.hostexp.com vimeo.com *.googletagmanager.com; report-uri /report-csp-violation
+Content-Type: text/html; charset=UTF-8
+ETag: "1759328298-gzip"
+Last-Modified: Wed, 01 Oct 2025 14:18:18 GMT
+X-Age: 180
+X-AH-Environment: prod
+X-Cache-Hits: 380
+X-Content-Type-Options: nosniff
+X-Drupal-Cache: HIT
+X-Drupal-Dynamic-Cache: UNCACHEABLE (poor cacheability)
+X-Frame-Options: SAMEORIGIN
+X-Generator: Drupal 10 (https://www.drupal.org)
+X-Request-ID: v-dc582328-a1a0-11f0-a7f2-8b074fff0b28
+X-XSS-Protection: 1; mode=block
+Expires: Sun, 05 Oct 2025 04:10:52 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sun, 05 Oct 2025 04:10:52 GMT
+Connection: close
+Strict-Transport-Security: max-age=31536000

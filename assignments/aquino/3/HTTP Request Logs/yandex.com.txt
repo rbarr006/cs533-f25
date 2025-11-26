@@ -1,0 +1,31 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://yandex.com
+HTTP/1.1 200 Ok
+Expires: Sun, 05 Oct 2025 04:33:32 GMT
+Content-Type: text/html; charset=UTF-8
+Date: Sun, 05 Oct 2025 04:33:32 GMT
+Content-Security-Policy: img-src https://*.verify.yandex.ru https://*.ya.ru https://*.yandex.ru https://ya.ru https://yabs.yandex.by https://yabs.yandex.com.tr https://yabs.yandex.kz https://yabs.yandex.ru https://yabs.yandex.uz https://yandex.ru https://yandex.com https://favicon.yandex.net https://yastatic.net https://avatars.mds.yandex.net blob: data: 'self' https://mc.admetrica.ru https://mc.yandex.com https://*.mc.yandex.ru https://adstat.yandex.ru https://mc.yandex.ru;script-src 'unsafe-inline' https://mc.yandex.com https://yandex.com https://surveys.yandex.ru https://yastatic.net https://mc.yandex.ru https://*.mc.yandex.ru https://adstat.yandex.ru 'unsafe-eval';frame-src https://*.ya.ru https://*.yandex.ru https://ya.ru https://yandex.ru https://yandex.com https://mc.yandex.ru https://mc.yandex.md https://mc.yandex.com https://*.ya.ru https://*.yandex.ru https://ya.ru https://yandex.ru;style-src 'unsafe-inline' https://yastatic.net;report-uri https://csp.yandex.net/csp?project=morda&from=morda.big.com&showid=1759638812347943-2411235862138956959-balancer-l7leveler-kubr-yp-sas-264-BAL&h=home-mordago-stable-web-backend-42.sas.yp-c.yandex.net&yandexuid=9389569591759638812&&version=2025-10-03-951&adb=0;media-src https://yastatic.net;connect-src https://*.strm.yandex.net https://mc.yandex.com https://yandex.com https://surveys.yandex.ru https://yastatic.net https://yastat.net https://mc.yandex.ru https://*.mc.yandex.ru https://adstat.yandex.ru https://mc.admetrica.ru https://yandexmetrica.com:* https://*.yandex.net https://an.yandex.ru https://yandex.ru;object-src 'none';base-uri 'none';default-src 'self' https://yastatic.net https://yastat.net;font-src https://yastatic.net
+Last-Modified: Sun, 05 Oct 2025 04:33:32 GMT
+Set-Cookie: yandex_gid=86; Path=/; Domain=yandex.com; Expires=Tue, 04 Nov 2025 04:33:32 GMT
+Set-Cookie: yp=1762230812.ygu.1; Path=/; Domain=yandex.com; Expires=Wed, 03 Oct 2035 04:33:32 GMT
+Set-Cookie: is_gdpr=0; Path=/; Domain=.yandex.com; Expires=Tue, 05 Oct 2027 04:33:32 GMT
+Set-Cookie: is_gdpr_b=COXMOBCn2wI=; Path=/; Domain=.yandex.com; Expires=Tue, 05 Oct 2027 04:33:32 GMT
+Set-Cookie: _yasc=wBpFvhCbuDqT7Q2y0XNMXECtevjVsw5nVnLkV7N5WMPmcRVH6IqtIwXSS8OZ9SQu; domain=.yandex.com; path=/; expires=Wed, 03 Oct 2035 04:33:32 GMT; secure
+Set-Cookie: i=ywraI/N5NGJygvLGnPlkUmtT+8gqWj4EiNckSspfOQifI+BbpJ1l8hXv9ps95eu6I/y+b5bpkeUTuHWjhSeIAN2oRok=; Expires=Tue, 05-Oct-2027 04:33:32 GMT; Domain=.yandex.com; Path=/; Secure; HttpOnly
+Set-Cookie: yandexuid=9389569591759638812; Expires=Tue, 05-Oct-2027 04:33:32 GMT; Domain=.yandex.com; Path=/; Secure
+Set-Cookie: yashr=3318040901759638812; Path=/; Domain=.yandex.com; Expires=Mon, 05 Oct 2026 04:33:32 GMT; Secure; HttpOnly; Partitioned
+Set-Cookie: bh=YJzqh8cGagPu3gM=; Path=/; Domain=.yandex.com; Expires=Mon, 09 Nov 2026 04:33:32 GMT
+Link: <//yastatic.net/s3/frontend/yandex-int/mini-suggest/_/ZoL3iMzi.js>;  rel="preload"; as="script"; crossorigin="anonymous";
+Link: <https://yastatic.net/react/19.1.0/react-with-dom.min.js>;  rel="preload"; as="script"; crossorigin="anonymous";
+Link: <https://yastatic.net/s3/home-static/_/nova/a244522937a089173fd17b94c318b31dc090a337c23f7d28de3f0797372e717d.js>;  rel="preload"; as="script"; crossorigin="anonymous";
+Link: <https://yastatic.net/s3/home-static/_/nova/c1f06228e70414bc626212631d55e4e08fbcce738679400962ddd1e647ea1133.js>;  rel="preload"; as="script"; crossorigin="anonymous";
+Link: <https://yastatic.net/s3/home-static/_/nova/6286a49500889eb1a60cfce3675b12e3971cbc6c453d226e9e4e6da376151dc5.js>;  rel="preload"; as="script"; crossorigin="anonymous";
+Report-To: { "group": "network-errors", "max_age": 100, "endpoints": [{"url": "https://dr.yandex.net/nel", "priority": 1}, {"url": "https://dr2.yandex.net/nel", "priority": 2}]}
+NEL: {"report_to": "network-errors", "max_age": 100, "success_fraction": 0.001, "failure_fraction": 0.1}
+P3P: policyref="/w3c/p3p.xml", CP="NON DSP ADM DEV PSD IVDo OUR IND STP PHY PRE NAV UNI"
+X-Yandex-Req-Id: 1759638812347943-2411235862138956959-balancer-l7leveler-kubr-yp-sas-264-BAL
+Vary: Cookie,Accept-Language,Accept-Encoding
+Cache-Control: no-cache,no-store,max-age=0,must-revalidate
+X-Frame-Options: DENY
+Accept-CH: Sec-CH-UA-Platform-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA, Sec-CH-UA-Full-Version-List, Sec-CH-UA-WoW64, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Platform, Sec-CH-UA-Full-Version, Sec-CH-Viewport-Width, Viewport-Width, DPR, Device-Memory, RTT, Downlink, ECT, Width, Sec-Ch-Viewport-Height
+X-Content-Type-Options: nosniff
+Reporting-Endpoints: default="https://yandex.com/portal/front/reports/?slots&region=86&reqid=1759638812347943-2411235862138956959-balancer-l7leveler-kubr-yp-sas-264-BAL&dc=sas&page=desktop.global&enableOtherTypes=0"

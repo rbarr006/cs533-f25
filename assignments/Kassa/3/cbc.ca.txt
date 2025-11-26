@@ -1,0 +1,36 @@
+HTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Location: http://www.cbc.ca/
+Date: Sat, 04 Oct 2025 03:29:08 GMT
+Connection: keep-alive
+Referrer-Policy: no-referrer-when-downgrade
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Security-Policy: upgrade-insecure-requests; default-src data: 'unsafe-inline' 'unsafe-eval' https:; script-src data: 'unsafe-inline' 'unsafe-eval' https: blob:; style-src data: 'unsafe-inline' https:; img-src data: https: blob: android-webview-video-poster:; font-src data: https:; connect-src https: wss: blob:; media-src data: https: blob:; object-src https:; child-src https: data: blob:; form-action https:;
+
+HTTP/1.1 301 Moved Permanently
+Content-Length: 0
+Location: https://www.cbc.ca/
+Date: Sat, 04 Oct 2025 03:29:09 GMT
+Connection: keep-alive
+Referrer-Policy: no-referrer-when-downgrade
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Content-Security-Policy: upgrade-insecure-requests; default-src data: 'unsafe-inline' 'unsafe-eval' https:; script-src data: 'unsafe-inline' 'unsafe-eval' https: blob:; style-src data: 'unsafe-inline' https:; img-src data: https: blob: android-webview-video-poster:; font-src data: https:; connect-src https: wss: blob:; media-src data: https: blob:; object-src https:; child-src https: data: blob:; form-action https:;
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Strict-Transport-Security: max-age=157680000; includeSubDomains
+X-EdgeConnect-MidMile-RTT: 1
+X-EdgeConnect-Origin-MEX-Latency: 22
+Cache-Control: max-age=1
+Date: Sat, 04 Oct 2025 03:29:09 GMT
+Connection: keep-alive
+Set-Cookie: NSC_mcwt-ttm-xfcgbsn.dcd.db=ffffffff0983169745525d5f4f58455e445a4a423660;Version=1;Max-Age=120;path=/;secure;httponly
+Referrer-Policy: no-referrer-when-downgrade
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: upgrade-insecure-requests; default-src data: 'unsafe-inline' 'unsafe-eval' https:; script-src data: 'unsafe-inline' 'unsafe-eval' https: blob:; style-src data: 'unsafe-inline' https:; img-src data: https: blob: android-webview-video-poster:; font-src data: https:; connect-src https: wss: blob:; media-src data: https: blob:; object-src https:; child-src https: data: blob:; form-action https:;
+

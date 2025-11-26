@@ -1,0 +1,19 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://bandcamp.com
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 97126
+server: nginx
+content-type: text/html; charset=UTF-8
+x-bc-app-id: 3357956
+via: 1.1 varnish, 1.1 varnish
+referrer-policy: no-referrer-when-downgrade
+accept-ranges: bytes
+content-security-policy: base-uri 'none'; object-src 'none'; report-uri https://bandcamp.com/api/cspreport/1/violation; script-src http: https: 'nonce-Ag23bgCEQ+lG9lkBI3V5DQ==' 'report-sample' 'strict-dynamic'
+x-bc-app-description: lindacentral04-homepage1
+Date: Sun, 05 Oct 2025 05:14:03 GMT
+X-Served-By: cache-pdk-kfty8610054-PDK, cache-pdk-kfty8610057-PDK
+X-Cache: MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1759641243.945875,VS0,VE168
+Vary: Accept-Encoding, Accept-Encoding
+Strict-Transport-Security: max-age=63072000

@@ -1,0 +1,34 @@
+﻿HTTP/1.1 301 Moved Permanently
+Content-Type: text/html; charset=iso-8859-1
+Date: Sun, 28 Sep 2025 16:27:38 GMT
+Location: https://www.mirror.co.uk/
+Server: Apache
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=UTF-8
+Connection: keep-alive
+Server: CloudFront
+Date: Sun, 28 Sep 2025 16:27:39 GMT
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self' https://*.cdn.ampproject.org/ https://bing-amp.com/ https://*.tm-aws.com/ https://*.tm-awx.com/;
+Access-Control-Allow-Origin: *
+Cache-Control: max-age=60
+Expires: Sun, 28 Sep 2025 16:37:31 GMT
+X-RemovedCookies: YES
+X-ProcessESI: yes
+X-Cacheable: YES
+X-Varnish: 845134631 844752674
+X-Served-By: nat-cache-plus302.tm-aws.com
+X-Cache-Hits: 1
+Accept-Ranges: bytes
+Set-Cookie: GS_GROUP=2; Path=/; Expires=Tue, 28 Oct 2025 16:27:39 GMT
+Set-Cookie: GS_REVENUE_LOC=1; Path=/; Expires=Tue, 28 Oct 2025 16:27:39 GMT
+Set-Cookie: GS_RESTRICT=0; Path=/
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+Via: 1.1 3542174e2d71e2c3dffc0069aa7cbb34.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: IAD12-P2
+X-Amz-Cf-Id: nh7w3CiBwgRa0CIHpsfeZYqhrg_HSoyFcBr_pq-dcsB4QHWMU-a9hg==
+Age: 7
+

@@ -1,0 +1,60 @@
+HTTP/1.1 301 Apex Redirect
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Location: https://www.techradar.com/
+Accept-Ranges: bytes
+Date: Tue, 21 Oct 2025 21:58:38 GMT
+Via: 1.1 varnish
+X-Served-By: cache-pdk-kfty8610096-PDK
+X-Cache-Hits: 0
+X-Timer: S1761083918.342046,VS0,VE0
+Set-Cookie: FTR_Country_Code=(null); path=/; domain=www.techradar.com
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Set-Cookie: FTR_Cache_Status=HIT-SYNTH; path=/; domain=www.techradar.com
+x-cache: HIT-SYNTH
+Cache-Control: no-store,private
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+x-ftr-request-id: 13487b87-4d56-46dd-b4a3-7524a0b8a37d
+x-frame-options: SAMEORIGIN
+content-security-policy: frame-ancestors self
+last-modified: Tue, 21 Oct 2025 21:57:41 GMT
+xkey: techradar-platform-responsive
+xkey: techradar-curatedlist-Z7sFhXyubEuPtpHdTjny3D
+xkey: techradar-page-homepage
+xkey: techradar-page-homepage-non-connected
+xkey: techradar-region-US
+xkey: techradar-flexi-page-guid-techradar_page_layout_home_flexi_v2
+xkey: techradar-flexi-controller-FlexiPageLayout:index
+xkey: techradar-flexi-layout-home
+xkey: techradar-flexi-route-custom_route_1674861438
+xkey: techradar-version-1438435
+xkey: techradar-server-phpfpm-5cccf79bbf-rkh4j
+xkey: techradar-hawkwidgets-HAWK-7952-28708315
+x-ftr-cache-status: HIT MISS
+x-age: 0
+x-ftr-request-id: 00000000000000000000FFFF9D344554:7F40_00000000000000000000FFFFB9711938:01BB_68F801D6_204FBB9:7FA3E
+x-ftr-balancer: vanilla-mochi-http-haproxy-prod-2
+x-ftr-backend: varnish-leopard
+x-ftr-backend-server: leopard2
+via: 1.1 varnish, 1.1 varnish
+accept-ranges: bytes
+date: Tue, 21 Oct 2025 21:58:38 GMT
+age: 56
+x-served-by: cache-lon420084-LON, cache-iad-kiad7000148-IAD
+x-cache-hits: 14, 1
+x-timer: S1761083919.727108,VS0,VE3
+vary: Accept-Encoding, X-FTR-kiosq-user-status, X-FTR-kiosq-server-side-user-status, X-Country-Code, X-FTR-ABTest-Group
+set-cookie: FTR_Country_Code=US; path=/; domain=www.techradar.com
+x-country-code: US
+x-country-code-real: US
+strict-transport-security: max-age=31536000; includeSubDomains
+set-cookie: FTR_Cache_Status=HIT-CLUSTER; path=/; domain=www.techradar.com
+x-cache: HIT-CLUSTER
+cache-control: no-store,private
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+content-length: 1483502
+

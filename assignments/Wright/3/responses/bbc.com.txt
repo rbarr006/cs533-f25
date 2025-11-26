@@ -1,0 +1,78 @@
+﻿HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Accept-Ranges: bytes
+Date: Sun, 28 Sep 2025 16:26:16 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kjyo7100090-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1759076777.567072,VS0,VE0
+Location: https://bbc.com/
+nel: {'report_to':'default','max_age': 2592000,'include_subdomains':true,'failure_fraction':0.05}
+report-to: {'group':'default','max_age':2592000,'endpoints':[ {'url':'https://default.bbc-reporting-api.app/report-endpoint','priority':1} ],'include_subdomains':true}
+req-svc-chain: FASTLY
+Cache-Control: public,max-age=604800,stale-while-revalidate=3600,stale-if-error=3600
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 0
+Server: Varnish
+Retry-After: 0
+Accept-Ranges: bytes
+Date: Sun, 28 Sep 2025 16:26:16 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000120-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1759076777.656807,VS0,VE0
+Location: https://www.bbc.com/
+nel: {'report_to':'default','max_age': 2592000,'include_subdomains':true,'failure_fraction':0.05}
+report-to: {'group':'default','max_age':2592000,'endpoints':[ {'url':'https://default.bbc-reporting-api.app/report-endpoint','priority':1} ],'include_subdomains':true}
+req-svc-chain: FASTLY
+Strict-Transport-Security: max-age=31536000; preload
+cache-control: public,max-age=604800,stale-while-revalidate=3600,stale-if-error=3600
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 530971
+Content-Type: text/html; charset=utf-8
+belfrage-cache-status: HIT
+bid: sally
+brequestid: 938785614796405488f1fcf557e44273
+bsig: dd6c607f7f127572020f1095728d0b29
+cache-control: public, stale-if-error=90, stale-while-revalidate=30, max-age=30
+etag: "hejdo1lrnibdd2"
+referrer-policy: no-referrer-when-downgrade
+req-svc-chain: GTM,BELFRAGE,BBCX
+via: 1.1 BBC-GTM, 1.1 Belfrage, 1.1 varnish
+x-content-type-options: nosniff
+x-correlation-id: 23dea0da-9ea0-42b3-a6cd-a7319382c9d9
+x-envoy-upstream-service-time: 4
+x-frame-options: SAMEORIGIN
+Origin-Agent-Cluster: ?0
+nel: {"report_to":"default","max_age":2592000,"include_subdomains":true,"failure_fraction":0.25}
+X-BBC-Edge-Cache-Status: STALE
+report-to: {"group":"default","max_age":2592000,"endpoints":[{"url":"https://default.bbc-reporting-api.app/report-endpoint","priority":1}],"include_subdomains":true}
+Server: BBC-GTM
+Strict-Transport-Security: max-age=31536000; preload
+X-Robots-Tag: bingbot: noarchive
+Fastly-Restarts: 1
+Accept-Ranges: bytes
+Date: Sun, 28 Sep 2025 16:26:16 GMT
+X-Fastly-Cache-Status: HIT-CLUSTER
+X-Served-By: cache-iad-kjyo7100142-IAD
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1759076777.761336,VS0,VE4
+X-Fastly-Pre-Flight-Cache: MISS, HIT
+X-Fastly-Pre-Flight-Cache-Status: HIT-CLUSTER
+X-cache-age: 21
+X-LB-NoCache: true
+Vary: X-BBC-Edge-Scheme,Accept-Encoding
+alt-svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400
+

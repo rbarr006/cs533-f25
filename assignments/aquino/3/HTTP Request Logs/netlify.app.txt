@@ -1,0 +1,27 @@
+C:\Users\joel2>curl -I -L -c cookies.txt https://netlify.app
+HTTP/1.1 301 Moved Permanently
+Age: 4184
+Cache-Control: public,max-age=0,must-revalidate
+Cache-Status: "Netlify Edge"; hit
+Content-Length: 39
+Content-Type: text/plain; charset=utf-8
+Date: Sun, 05 Oct 2025 04:20:50 GMT
+Location: https://www.netlify.com/
+Server: Netlify
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Nf-Request-Id: 01K6S9KNHQF3062T9H5CP4A7GZ
+
+HTTP/1.1 200 OK
+Accept-Ranges: bytes
+Age: 45740
+Cache-Control: public,max-age=0,must-revalidate
+Cache-Status: "Netlify Edge"; hit
+Content-Length: 219190
+Content-Type: text/html; charset=UTF-8
+Date: Sun, 05 Oct 2025 04:20:50 GMT
+Etag: "8cfb649d9b800793df3c207627504a0f-ssl"
+Permissions-Policy: browsing-topics=()
+Server: Netlify
+Server-Timing: cr;desc="hit-fresh", ds;dur=1, dc;desc="aws-iad", cg;desc="global-production", cl;dur=219190, dist;dur=849, tls;desc="new";dur=243
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Nf-Request-Id: 01K6S9KNZ6521QWQV73CFFSS8E

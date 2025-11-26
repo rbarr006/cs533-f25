@@ -1,0 +1,112 @@
+HTTP/1.1 301 Moved Permanently
+Content-Type: application/binary
+Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+Pragma: no-cache
+Expires: Mon, 01 Jan 1990 00:00:00 GMT
+Date: Tue, 21 Oct 2025 21:58:46 GMT
+Location: https://www.blogger.com/
+Content-Length: 0
+Server: ESF
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+
+HTTP/2 302 
+content-type: application/binary
+vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: Mon, 01 Jan 1990 00:00:00 GMT
+date: Tue, 21 Oct 2025 21:58:46 GMT
+location: https://accounts.google.com/ServiceLogin?passive=true&go=true&service=blogger&continue=https://www.blogger.com/?bpli%3D1
+content-length: 0
+p3p: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+accept-ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+cross-origin-resource-policy: same-site
+content-security-policy: script-src 'nonce-lIfz2eUY35LkVXX-RBOhMA' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/BloggerUi/cspreport;worker-src 'self'
+content-security-policy-report-only: require-trusted-types-for 'script';report-uri /_/BloggerUi/cspreport
+permissions-policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+cross-origin-opener-policy: same-origin-allow-popups
+server: ESF
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+set-cookie: NID=525=P3LgcY3EWRhvye7lrq9UrW8UMPuvoGLhYR4urCXU-tz4H7kalFC8CzCxyJTqahCd_0TOyinuvuYSV4WWjs1uiuOfc5R8I12f2Ze-Ss4YTl2cUrwykHIId0RpvfFsoR0pheu9XAYTshW-cE6d8vJhjlo8z9JTHjl6kFQMBc0BuS7zhnBHfyCqyyBU; expires=Wed, 22-Apr-2026 21:58:46 GMT; path=/; domain=.blogger.com; Secure; HttpOnly
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+HTTP/2 302 
+content-type: application/binary
+set-cookie: __Host-GAPS=1:iIgYqw9tDIwRKgCfMno4L4PkT7yu5g:1jR0SiXErVuUxSJ2; Expires=Thu, 21-Oct-2027 21:58:47 GMT; Path=/; Secure; HttpOnly; Priority=HIGH
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: Mon, 01 Jan 1990 00:00:00 GMT
+date: Tue, 21 Oct 2025 21:58:47 GMT
+location: https://www.blogger.com/?bpli=1
+content-length: 0
+strict-transport-security: max-age=31536000; includeSubDomains
+cross-origin-resource-policy: cross-origin
+cross-origin-opener-policy: unsafe-none
+content-security-policy: script-src 'nonce-jiVBLJ4_YiHnf1nkE1a7Ug' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/AccountsSigninPassiveLoginHttp/cspreport;worker-src 'self'
+content-security-policy: require-trusted-types-for 'script';report-uri /_/AccountsSigninPassiveLoginHttp/cspreport
+permissions-policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+accept-ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+server: ESF
+x-xss-protection: 0
+x-content-type-options: nosniff
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+HTTP/2 302 
+content-type: application/binary
+vary: Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site
+cache-control: no-cache, no-store, max-age=0, must-revalidate
+pragma: no-cache
+expires: Mon, 01 Jan 1990 00:00:00 GMT
+date: Tue, 21 Oct 2025 21:58:47 GMT
+location: https://www.blogger.com/about?bpli=1
+content-length: 0
+p3p: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+accept-ch: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+permissions-policy: ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*
+content-security-policy-report-only: require-trusted-types-for 'script';report-uri /_/BloggerUi/cspreport
+content-security-policy: script-src 'nonce-yF6AST5dVkqCwR0nbkSv-g' 'unsafe-inline';object-src 'none';base-uri 'self';report-uri /_/BloggerUi/cspreport;worker-src 'self'
+cross-origin-resource-policy: same-site
+cross-origin-opener-policy: same-origin-allow-popups
+server: ESF
+x-xss-protection: 0
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+set-cookie: NID=525=Ac1mT6oqZBbyV-ykSmmICCtO-4rHkcd76022gvjMb-22po_6__OY1ThliNZl310MxS-C76-JjgJ-QSAOIBws6-9KqU5PaieYalf1W_zAnc6b8w2WTv-Eu6rFZlssZxMX7QrSEZDOYOn5nGPjWMKgi7qRpA7SIRIJKORSKBldKYta3ewkU-ABMZDX; expires=Wed, 22-Apr-2026 21:58:47 GMT; path=/; domain=.blogger.com; Secure; HttpOnly
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+HTTP/2 301 
+location: https://www.blogger.com/about/?bpli=1
+x-content-type-options: nosniff
+server: sffe
+content-length: 234
+x-xss-protection: 0
+date: Tue, 21 Oct 2025 21:36:34 GMT
+expires: Tue, 21 Oct 2025 22:06:34 GMT
+cache-control: public, max-age=1800
+content-type: text/html; charset=UTF-8
+age: 1333
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+HTTP/2 200 
+accept-ranges: bytes
+vary: Accept-Encoding
+content-type: text/html
+content-length: 168646
+content-security-policy: script-src  'nonce-fONNhtjJivNL1n82Uxi7Ug' 'report-sample' 'strict-dynamic' 'unsafe-eval' 'unsafe-hashes' 'unsafe-inline' http: https:; object-src 'none'; report-uri https://csp.withgoogle.com/csp/blogger-tech; base-uri 'self'
+cross-origin-resource-policy: cross-origin
+cross-origin-opener-policy-report-only: same-origin; report-to="blogger-tech"
+report-to: {"group":"blogger-tech","max_age":2592000,"endpoints":[{"url":"https://csp.withgoogle.com/csp/report-to/blogger-tech"}]}
+date: Tue, 21 Oct 2025 21:58:47 GMT
+pragma: no-cache
+expires: Fri, 01 Jan 1990 00:00:00 GMT
+cache-control: no-cache, must-revalidate
+last-modified: Tue, 06 May 2025 06:08:00 GMT
+x-content-type-options: nosniff
+server: sffe
+x-xss-protection: 0
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+

@@ -1,0 +1,30 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://zoom.us
+HTTP/1.1 301 Moved Permanently
+Date: Sun, 05 Oct 2025 05:31:03 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sun, 05 Oct 2025 06:31:03 GMT
+Location: https://www.zoom.com
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=jqVqD3nm5JM78HwAhHyu2oYRs7n4l0z1mnZaSpnHdqkDbk5Fj0A8FV95NavVqa950boKXE%2BlfF3BoXoCdMRXbqPAclweaYXC%2F1W3W1g2QKwKn39bZgFRV2I%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 989a87d07cd2b20a-ATL
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 200 OK
+Date: Sun, 05 Oct 2025 05:31:03 GMT
+Content-Type: text/html
+Connection: keep-alive
+last-modified: Tue, 30 Sep 2025 23:39:25 GMT
+access-control-allow-origin: *
+Cache-Control: public, max-age=3600
+strict-transport-security: max-age=15552000; includeSubDomains
+access-control-request-method: GET
+cross-origin-resource-policy: cross-origin
+cf-cache-status: DYNAMIC
+Set-Cookie: __cf_bm=tP.bGt5LIQrpg7SxnFq2FINzAxBCogiubkh_h32zQRs-1759642263-1.0.1.1-hbht7jtlyBi2FUawuCt787BdTQxxDY23QjB8nQil1imFwfhCFV0e2gdWnNT4RdNR33NR3rXI4dy5wFf_OvPbhdWrvNheWqXvfAsHfsFzx6M; path=/; expires=Sun, 05-Oct-25 06:01:03 GMT; domain=.zoom.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+CF-RAY: 989a87d4b94fd1b5-ATL
+alt-svc: h3=":443"; ma=86400

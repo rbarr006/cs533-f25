@@ -1,0 +1,13 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://www.over-blog.com
+HTTP/1.1 200 OK
+date: Sun, 05 Oct 2025 04:06:03 GMT
+cache-control: public, s-maxage=3600
+content-type: text/html; charset=UTF-8
+age: 3505
+accept-ranges: bytes
+content-length: 213917
+x-frame-options: DENY
+x-xss-protection: 1;mode=block
+x-content-type-options: nosniff
+strict-transport-security: max-age=31536000;preload
+referrer-policy: no-referrer-when-downgrade

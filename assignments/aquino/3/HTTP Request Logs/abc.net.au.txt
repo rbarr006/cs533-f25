@@ -1,0 +1,27 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://abc.net.au
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.abc.net.au/
+Date: Sun, 05 Oct 2025 04:50:17 GMT
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+X-Download-Options: noopen
+X-DNS-Prefetch-Control: off
+Referrer-Policy: no-referrer-when-downgrade
+ETag: "8nzqgjhhuo7yl3"
+Cache-Control: public, max-age=135
+Expires: Sun, 05 Oct 2025 04:52:33 GMT
+Date: Sun, 05 Oct 2025 04:50:18 GMT
+Connection: keep-alive
+Set-Cookie: ABCGuestID=104.99.56.137.517601759639818276; expires=Mon, 31-Dec-2038 23:59:59 GMT; path=/; domain=.abc.net.au
+Set-Cookie: ABC_LD=int; path=/; domain=.abc.net.au
+Set-Cookie: ABC_FF=desktop; expires=Sun, 05-Oct-2025 06:50:18 GMT; path=/
+Content-Security-Policy: upgrade-insecure-requests;
+Vary: Origin
+Vary: User-Agent

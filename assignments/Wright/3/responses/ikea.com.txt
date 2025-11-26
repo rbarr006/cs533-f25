@@ -1,0 +1,28 @@
+﻿HTTP/1.1 301 Moved Permanently
+Date: Sun, 28 Sep 2025 16:26:19 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sun, 28 Sep 2025 17:26:19 GMT
+Location: https://www.ikea.com/
+Server: cloudflare
+CF-RAY: 98649a0f6a4e3b96-IAD
+
+HTTP/1.1 200 OK
+Date: Sun, 28 Sep 2025 16:26:19 GMT
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Server: cloudflare
+CF-Ray: 98649a10596a0787-IAD
+CF-Cache-Status: HIT
+Accept-Ranges: bytes
+Age: 19369
+Cache-Control: public, max-age=900
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Origin, Accept-Encoding
+Content-MD5: vnykWh0nf+/Rg1c/4SdZ1w==
+x-ms-request-id: 7b41c293-c01e-00a2-5b42-2da72f000000
+x-ms-version: 2018-03-28
+Set-Cookie: __cf_bm=mOYftQB2Ij9.w1KTLa.6w0_UpdknHXk4a1B5guSZB2Y-1759076779-1.0.1.1-3UsZcF._YetIR4bRo8iI.5HhngClIc5M3HgSscVgkc_FVkqpTx4ot4gGZXeDy4gGsJ9A7eOE7IX9K8K4gzwQmibfy_nV2B26ToEBXjqSIpU; path=/; expires=Sun, 28-Sep-25 16:56:19 GMT; domain=.www.ikea.com; HttpOnly; Secure; SameSite=None
+

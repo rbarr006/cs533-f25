@@ -1,0 +1,33 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: private
+Location: https://freepik.com:443/
+Content-Length: 0
+Date: Tue, 21 Oct 2025 21:58:30 GMT
+Content-Type: text/html; charset=UTF-8
+
+HTTP/2 301 
+cache-control: private
+location: https://www.freepik.com/
+content-length: 0
+date: Tue, 21 Oct 2025 21:58:31 GMT
+content-type: text/html; charset=UTF-8
+alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+
+HTTP/2 200 
+content-type: text/html; charset=utf-8
+referrer-policy: no-referrer-when-downgrade
+permissions-policy: accelerometer=(), autoplay=(), camera=(), encrypted-media=(), fullscreen=(self), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), midi=(), payment=(self "https://pay.google.com"), picture-in-picture=(), sync-xhr=(self), usb=()
+x-xss-protection: 1; mode=block
+x-content-type-options: nosniff
+x-permitted-cross-domain-policies: master-only
+content-security-policy: frame-ancestors 'self' *.photopea.com *.freepik.com freepik.com;
+x-frame-options: SAMEORIGIN
+x-nextjs-cache: HIT
+cache-control: s-maxage=3600, stale-while-revalidate
+etag: W/"12d6ved546c8ni8"
+date: Tue, 21 Oct 2025 21:58:31 GMT
+set-cookie: _fc=FC.cf39e424-1f29-1186-4498-f33187579a50; Path=/
+set-cookie: _fcid=FC.cf39e424-1f29-1186-4498-f33187579a50; Max-Age=31536000; Path=/
+alt-svc: h3=":443"; ma=93600
+strict-transport-security: max-age=31536000 ; includeSubDomains ; preload
+

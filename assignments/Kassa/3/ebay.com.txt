@@ -1,0 +1,48 @@
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://ebay.com/
+Expires: Sat, 04 Oct 2025 03:28:25 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sat, 04 Oct 2025 03:28:25 GMT
+Connection: keep-alive
+x-CDN: Akamai
+
+HTTP/1.1 301 Moved Permanently
+Location: https://www.ebay.com/
+x-ebay-pop-id: SLBSLCAZ01
+Server: ebay-proxy-server
+Expires: Sat, 04 Oct 2025 03:28:25 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sat, 04 Oct 2025 03:28:25 GMT
+Connection: keep-alive
+x-CDN: Akamai
+Strict-Transport-Security: max-age=31536000
+
+HTTP/1.1 200 OK
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+x-frame-options: SAMEORIGIN
+Accept-CH: sec-ch-ua-model,sec-ch-ua-full-version,sec-ch-ua-platform-version
+content-security-policy-report-only: style-src 'self' 'unsafe-inline' data: *.ebay.com *.ebaystatic.com *.ebaystatic.cn *.gstatic.com *.fontawesome.com blob: *.googleapis.com; connect-src 'self' *.ebay.com *.ebaystatic.com data: *.google-analytics.com *.doubleclick.net *.avalon.perfdrive.com *.ebayimg.com *.ucweb.com *.akamaihd.net *.ucads.ucweb.com *.analytics.google.com *.g.doubleclick.net *.googletagmanager.com *.pinterest.com *.snapchat.com *.criteo.com *.facebook.com *.googleapis.com *.googleadservices.com blob: analytics.google.com *.us.shoplive.cloud www.facebook.com *.bing.com www.googletagmanager.com google.com *.google.com *.graphitevault.com *.amplitude.com wss://127.0.0.1:* www.redditstatic.com *.reddit.com *.quantummetric.com; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://* blob: data:; frame-ancestors 'self' *.ebay.com *.ebaystatic.com; img-src 'self' data: blob: https://*; default-src 'self' blob: data: wss: mediastream: https://*;  report-uri https://monitor.ebay.com/csp-report/discoveryplatformweb/HomePage?id=2939504940913871808&rid=t6gludlscuzujfwciunrce00%3C%3Dgludlscuzujfwciunrce00%2Bc5211%3Ag%3F%3F.qctp01*%7Brp%7F7-199ad437d40-0x2805#pd
+Content-Type: text/html;charset=UTF-8
+Content-Length: 0
+rlogid: t6qjssfcjb%7B7%3C%3Dqjssfcjb%7B7%2B0%60cec6f0%3E7(rbpv40.ww%3F7%7D-199ad437d20-0x1803
+x-envoy-upstream-service-time: 156
+Server: ebay-proxy-server
+strict-transport-security: max-age=31536000
+Date: Sat, 04 Oct 2025 03:28:25 GMT
+Connection: keep-alive
+Set-Cookie: dp1=bbl/US6ca2fb59^; Domain=.ebay.com; Path=/; Expires=Mon, 04 Oct 2027 03:28:25 GMT; Secure
+Set-Cookie: nonsession=CgADKACBsovtZYWQ0MzdkMzQxOTkwYWM3NTAxYTc1ZDE0ZmZmNWRjMzMAywABaOCbYTEdzUuZ; Domain=.ebay.com; Path=/; Expires=Mon, 04 Oct 2027 03:28:25 GMT; HttpOnly; Secure
+Set-Cookie: s=CgAD4ACBo4eXZYWQ0MzdkMzQxOTkwYWM3NTAxYTc1ZDE0ZmZmNWRjMzOJA9TG; Domain=.ebay.com; Path=/; HttpOnly; Secure
+Set-Cookie: ds2=amsg/ad437d341990ac7501a75d14fff5dc33^; Domain=.ebay.com; Path=/; SameSite=None; Secure
+Set-Cookie: ebay=%5Esbf%3D%23000000%5E; Domain=.ebay.com; Path=/; Secure
+Set-Cookie: dp1=bbl/US6ca2fb59^; Domain=.ebay.com; Path=/; Expires=Mon, 04 Oct 2027 03:28:25 GMT; Secure
+Set-Cookie: nonsession=BAQAAAZhdx0gSAAaAADMABWrBx9kyMzUwOADKACBsovtZYWQ0MzdkMzQxOTkwYWM3NTAxYTc1ZDE0ZmZmNWRjMzMAywABaOCbYTEJMCbxKvo07ztgjiQX++zlDxj73Q**; Domain=.ebay.com; Path=/; Expires=Mon, 04 Oct 2027 03:28:25 GMT; HttpOnly; Secure
+Set-Cookie: s=CgAD4ACBo4eXZYWQ0MzdkMzQxOTkwYWM3NTAxYTc1ZDE0ZmZmNWRjMzOJA9TG; Domain=.ebay.com; Path=/; HttpOnly; Secure
+Set-Cookie: ds2=amsg/ad437d341990ac7501a75d14fff5dc33^; Domain=.ebay.com; Path=/; SameSite=None; Secure
+Set-Cookie: __deba=mIYcS-2PE4D6soYc6BRMmDn6RK3SroWTr4cREvapLwCK5yTi0uQ5hccEWxa7h-GnXR8UW1J2_XMwSXzXGqPFGNV3t4S_ViepjbklzfSFtVenrk8YboM4Nm06wqmhyNfdODxha8noTF2Ech-W_Sarrw==; HttpOnly; Secure; Path=/; Domain=.ebay.com; Expires=Thu, 2 Apr 2026 03:28:25 UTC
+

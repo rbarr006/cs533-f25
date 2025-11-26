@@ -1,0 +1,50 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 04 Oct 2025 03:28:14 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sat, 04 Oct 2025 04:28:14 GMT
+Location: https://scholastic.com/
+Set-Cookie: __cf_bm=GOza0q7IpwoF.mO5jYoStSP4fgv5tbuWzxINtEvgUdc-1759548494-1.0.1.1-uJL7VbR2wC4zPWMCN7noCdl5A2jtLcEgUUnPThXPeSkcFPVJa1ns1ptnIRpmw_Y2T9edC08AV_DVY5kTvlHVG0LeZhwmH0Ij8GG2a6hKIA8; path=/; expires=Sat, 04-Oct-25 03:58:14 GMT; domain=.scholastic.com; HttpOnly
+Server: cloudflare
+CF-RAY: 9891968a791882d4-IAD
+
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 04 Oct 2025 03:28:14 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sat, 04 Oct 2025 04:28:14 GMT
+Location: https://www.scholastic.com/
+Server: cloudflare
+CF-RAY: 9891968b2da5d62f-IAD
+
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 04 Oct 2025 03:28:14 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sat, 04 Oct 2025 04:28:14 GMT
+Location: https://www.scholastic.com/home
+Server: cloudflare
+CF-RAY: 9891968bdea24b11-IAD
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 200 OK
+Date: Sat, 04 Oct 2025 03:28:14 GMT
+Content-Type: text/html
+Connection: keep-alive
+Server: cloudflare
+CF-Ray: 9891968c0f144b11-IAD
+CF-Cache-Status: HIT
+Age: 7137
+Cache-Control: public, max-age=86400
+Expires: Sun, 05 Oct 2025 03:28:14 GMT
+Last-Modified: Fri, 03 Oct 2025 01:29:15 GMT
+Vary: Accept-Encoding
+Set-Cookie: __cf_bm=Fh30SmTP.y4W4FGoejWEC7ktTF68W0GjL7VBF0N8atw-1759548494-1.0.1.1-y.wovPhCy3_Klra_.gTK0vmukIVxXVIzemu80OtMe0PqaRc5ZW25tparEJC5HzcTuOZj8UGrHQ2w2_OzPAfiTrwhd5I0fzueFmfCFh14Tg4; path=/; expires=Sat, 04-Oct-25 03:58:14 GMT; domain=.www.scholastic.com; HttpOnly; Secure; SameSite=None
+alt-svc: h3=":443"; ma=86400
+

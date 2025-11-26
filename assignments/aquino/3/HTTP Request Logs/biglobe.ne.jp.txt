@@ -1,0 +1,10 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://biglobe.ne.jp
+HTTP/1.1 200 OK
+Date: Sun, 05 Oct 2025 05:44:56 GMT
+Content-Type: text/html
+Content-Length: 254
+Connection: keep-alive
+Server: Apache
+Strict-Transport-Security: max-age=31536000
+Last-Modified: Thu, 22 May 2025 10:12:49 GMT
+Accept-Ranges: bytes

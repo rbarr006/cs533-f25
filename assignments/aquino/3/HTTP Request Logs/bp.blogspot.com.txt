@@ -1,0 +1,12 @@
+C:\Users\joel2>curl -ILkc cookies.txt http://bp-b.blogspot.com/
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=UTF-8
+Expires: Sun, 05 Oct 2025 13:02:55 GMT
+Date: Sun, 05 Oct 2025 13:02:55 GMT
+Cache-Control: private, max-age=0
+Last-Modified: Fri, 05 Sep 2025 02:28:06 GMT
+ETag: "89ee5f9c-3001-4ae3-82f6-b999cceeaf75"
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Content-Length: 0
+Server: GSE

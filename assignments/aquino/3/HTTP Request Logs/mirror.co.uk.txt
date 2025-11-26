@@ -1,0 +1,34 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://mirror.co.uk
+HTTP/1.1 301 Moved Permanently
+Content-Type: text/html; charset=iso-8859-1
+Date: Sun, 05 Oct 2025 05:52:19 GMT
+Location: https://www.mirror.co.uk/
+Server: Apache
+Connection: keep-alive
+
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=UTF-8
+Connection: keep-alive
+Server: CloudFront
+Date: Sun, 05 Oct 2025 05:52:20 GMT
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors 'self' https://*.cdn.ampproject.org/ https://bing-amp.com/ https://*.tm-aws.com/ https://*.tm-awx.com/;
+Access-Control-Allow-Origin: *
+Cache-Control: max-age=60
+Expires: Sun, 05 Oct 2025 06:02:03 GMT
+X-RemovedCookies: YES
+X-ProcessESI: yes
+X-Cacheable: YES
+X-Varnish: 172936828 172094517
+X-Served-By: nat-cache-plus301.tm-aws.com
+X-Cache-Hits: 7
+Accept-Ranges: bytes
+Set-Cookie: GS_GROUP=2; Path=/; Expires=Tue, 04 Nov 2025 05:52:20 GMT
+Set-Cookie: GS_REVENUE_LOC=1; Path=/; Expires=Tue, 04 Nov 2025 05:52:20 GMT
+Set-Cookie: GS_RESTRICT=0; Path=/
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+Via: 1.1 4f00e77688d92901b5afc8b7b033ed56.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: ATL58-P1
+X-Amz-Cf-Id: 0PjSodE0zf5pf2lsCNgE-qHUtUMZ3Cyf6rcVDfean_slP7czBtRxSg==
+Age: 16

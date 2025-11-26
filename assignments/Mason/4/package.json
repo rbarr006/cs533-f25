@@ -1,0 +1,11 @@
+{
+  "name": "assignment4-starter",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node server.js",
+    "generate": "node generate.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

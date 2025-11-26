@@ -1,0 +1,11 @@
+Website Name	
+Response Code	
+Total Cookies
+HttpOnly
+Secure
+SameSite
+SameSite Strict
+SameSite Lax
+SameSite None
+Path
+Path (not "/")

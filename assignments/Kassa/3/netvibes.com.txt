@@ -1,0 +1,40 @@
+HTTP/1.1 301 Moved Permanently
+Server: nginx
+Date: Sat, 04 Oct 2025 03:28:23 GMT
+Content-Type: text/html
+Content-Length: 162
+Connection: keep-alive
+Location: https://netvibes.com/
+
+HTTP/1.1 302 Moved Temporarily
+Server: nginx
+Date: Sat, 04 Oct 2025 03:28:23 GMT
+Content-Type: text/html
+Content-Length: 138
+Connection: keep-alive
+Location: https://www.3ds.com/products/netvibes
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+
+HTTP/1.1 200 OK
+Server: nginx
+Content-Type: text/html;charset=utf-8
+Last-Modified: Sat, 04 Oct 2025 03:24:52 GMT
+ETag: W/"tUf6Yj6HwE"
+Cache-Control: s-maxage=3600, stale-while-revalidate
+x-powered-by: Nuxt
+Strict-Transport-Security: max-age=63072000
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+Content-Security-Policy: frame-ancestors https://r1132100004725-eu1-ifwe.3dexperience.3ds.com https://r1132100257819-eu1-ifwe.3dexperience.3ds.com https://dsext001-eu1-215dsi0708-ifwe.3dexperience.3ds.com https://r1132100381839-eu1-academia-ifwe.3dexperience.3ds.com https://dspart004-eu1-partners-ifwe.3dexperience.3ds.com https://dspart011-eu1-partners-ifwe.3dexperience.3ds.com https://my.3dexperience.3ds.com; base-uri 'self'
+Permissions-Policy: accelerometer=(), geolocation=(self), fullscreen=(self "https://www.youtube.com" "https://player.youku.com" "https://*.3ds.com" "https://*.solidworks.com" "https://*.draftsight.com" "https://delmiaworks.com" "https://blog.3dexperienceworks.com" "https://edrawingsviewer.com" "https://3dexperienceworld.com" "https://3dexperienceworks.com"), ambient-light-sensor=(), autoplay=(self), battery=(), camera=(self), display-capture=(), encrypted-media=(), gyroscope=(), layout-animations=(), legacy-image-formats=(), magnetometer=(), microphone=(self), midi=(), oversized-images=(), payment=(self), picture-in-picture=(self), publickey-credentials-get=(), sync-xhr=(), usb=(), wake-lock=(), xr-spatial-tracking=(), notifications=(self), speaker=(self), vibrate=(), push=(self), interest-cohort=()
+Referrer-Policy: strict-origin-when-cross-origin
+X-CDN: Imperva
+X-Iinfo: 3-36877589-36890171 NNNN CT(106 95 0) RT(1759547618739 885092) q(0 0 2 37) r(3 3) U24
+Date: Sat, 04 Oct 2025 03:28:24 GMT
+Content-Length: 0
+Connection: keep-alive
+Set-Cookie: visid_incap_1347125=cwLRGOuTRY22GgUaBWk/mleU4GgAAAAAQUIPAAAAAABSjwsg2Yfva41iZtJ+pRZA; expires=Sat, 03 Oct 2026 07:50:15 GMT; HttpOnly; path=/; Domain=.3ds.com; Secure; SameSite=None
+Set-Cookie: incap_ses_1343_1347125=hswVHi6QK3oih9FIy0ujEleU4GgAAAAAcbeiIwx2S/aQ9Jf3pGoX+w==; path=/; Domain=.3ds.com; Secure; SameSite=None
+Akamai-Request-BC: [a=23.220.106.150,b=573825840,c=g,n=US_VA_ASHBURN,o=20940],[a=223,c=o]
+x-cdn-forward: akamai
+

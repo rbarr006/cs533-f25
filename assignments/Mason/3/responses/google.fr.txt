@@ -1,0 +1,26 @@
+HTTP/1.1 301 Moved Permanently
+Location: http://www.google.fr/
+Content-Type: text/html; charset=UTF-8
+Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-mnLr_haBM2Wj9AHAkkbmrw' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+Date: Tue, 21 Oct 2025 21:58:15 GMT
+Expires: Thu, 20 Nov 2025 21:58:15 GMT
+Cache-Control: public, max-age=2592000
+Server: gws
+Content-Length: 218
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=ISO-8859-1
+Content-Security-Policy-Report-Only: object-src 'none';base-uri 'self';script-src 'nonce-mtcniADz47IzgU5Kh4tOjg' 'strict-dynamic' 'report-sample' 'unsafe-eval' 'unsafe-inline' https: http:;report-uri https://csp.withgoogle.com/csp/gws/other-hp
+P3P: CP="This is not a P3P policy! See g.co/p3phelp for more info."
+Date: Tue, 21 Oct 2025 21:58:15 GMT
+Server: gws
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Expires: Tue, 21 Oct 2025 21:58:15 GMT
+Cache-Control: private
+Set-Cookie: AEC=AaJma5vbQ_mU-kzxbNZPRMSuRPtH-5eH5CC5ZvUnc5LKpi16Pnl0wlHxdQ; expires=Sun, 19-Apr-2026 21:58:15 GMT; path=/; domain=.google.fr; Secure; HttpOnly; SameSite=lax
+Set-Cookie: NID=525=oAZ6NjUcKA1Cz5_EZzlKsPU4mcotfxRRNMKmhGWpK9AxpFY2NgSOqhAX2T_Wh6q_eIXZet9duVNvm2UqO0I6eEgCkUfUFhmykB3Hu_64jhqKJ_5v8hOOgXBlaI5spOqVsltaEZMGHCmVqd7z2SYS7135pmTJuE_BL1odi1xG-U7k72DK_DuBuzFekzV_8-pXvv5y3K8O0cJC4riZzjA; expires=Wed, 22-Apr-2026 21:58:15 GMT; path=/; domain=.google.fr; HttpOnly
+Transfer-Encoding: chunked
+

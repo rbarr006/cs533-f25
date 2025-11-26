@@ -1,0 +1,35 @@
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 04 Oct 2025 03:28:15 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Sat, 04 Oct 2025 04:28:15 GMT
+Location: https://www.hostinger.com/special/000webhost
+Server: cloudflare
+CF-RAY: 989196904ec2aa17-IAD
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 403 Forbidden
+Date: Sat, 04 Oct 2025 03:28:15 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: close
+accept-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+cf-mitigated: challenge
+critical-ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+cross-origin-embedder-policy: require-corp
+cross-origin-opener-policy: same-origin
+cross-origin-resource-policy: same-origin
+origin-agent-cluster: ?1
+permissions-policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+referrer-policy: same-origin
+server-timing: chlray;desc="989196910e6fe5be"
+x-content-type-options: nosniff
+x-frame-options: SAMEORIGIN
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: __cf_bm=7sZfTLhBFidSMu5g01TkAJGPJx9Yze3_QrQStWXvG_g-1759548495-1.0.1.1-bSUVrRZ7CsKq9J.w4n1p4Ln5Xpv.M1qtcYXcaeqgvfLJhoNezdTWrd5xu3WnGeLr.kO7WlMYoN_JnEmtK0z8ed6GjLRrhimAZgYyp6NlV14; path=/; expires=Sat, 04-Oct-25 03:58:15 GMT; domain=.hostinger.com; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+CF-RAY: 989196910e6fe5be-IAD
+alt-svc: h3=":443"; ma=86400
+

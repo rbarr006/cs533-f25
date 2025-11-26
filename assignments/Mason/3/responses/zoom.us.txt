@@ -1,0 +1,29 @@
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 21 Oct 2025 21:59:42 GMT
+Content-Type: text/html
+Content-Length: 167
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Tue, 21 Oct 2025 22:59:42 GMT
+Location: https://www.zoom.com
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=zEZS%2B0cCKvqb75bI3Y%2FOqnaTnaQ%2BzhjPrukh0riJXC0u7Oktx5kWte5FdSzx0cVvEr9pUcJoVeM7UDijHmA%2FiqIslDYEdQo5UWwTKhd9rKfHKUsEZGdLzUA%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 99240608e937454e-ATL
+alt-svc: h3=":443"; ma=86400
+
+HTTP/2 200 
+date: Tue, 21 Oct 2025 21:59:42 GMT
+content-type: text/html
+last-modified: Tue, 30 Sep 2025 23:39:19 GMT
+access-control-allow-origin: *
+cache-control: public, max-age=3600
+strict-transport-security: max-age=15552000; includeSubDomains
+access-control-request-method: GET
+cross-origin-resource-policy: cross-origin
+cf-cache-status: DYNAMIC
+set-cookie: __cf_bm=ylnTuyJuN3zQHhyplfzYZlhVC10Xw73qUTBIiemkl88-1761083982-1.0.1.1-wkeYTQgkOK7AzWzcbahWI8H1NWua7CQMNY6ScLL0o9nNeYAVINxYtxTTSUd.GURr3RELSZ_q1Lw7_7qp2qLO9CFTKAv3qFLOXKoLd9pnx5U; path=/; expires=Tue, 21-Oct-25 22:29:42 GMT; domain=.zoom.com; HttpOnly; Secure; SameSite=None
+server: cloudflare
+cf-ray: 99240609ff6aed88-ATL
+alt-svc: h3=":443"; ma=86400
+

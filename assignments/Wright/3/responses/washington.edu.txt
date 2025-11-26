@@ -1,0 +1,16 @@
+﻿HTTP/1.1 302 Found
+content-length: 0
+location: http://www.washington.edu/
+cache-control: no-cache
+
+HTTP/1.1 200 OK
+date: Sun, 28 Sep 2025 16:24:59 GMT
+server: Apache
+upgrade: h2
+connection: Upgrade
+last-modified: Sun, 28 Sep 2025 00:10:57 GMT
+etag: "13099-63fd15a6adddb"
+accept-ranges: bytes
+content-length: 77977
+content-type: text/html
+

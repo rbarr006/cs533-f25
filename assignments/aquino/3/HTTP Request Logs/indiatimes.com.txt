@@ -1,0 +1,26 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://indiatimes.com
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: https://www.indiatimes.com/
+Cache-Control: max-age=0
+Expires: Sun, 05 Oct 2025 05:45:39 GMT
+Date: Sun, 05 Oct 2025 05:45:39 GMT
+Connection: keep-alive
+GEO-INFO: Country:US;Continent:NA
+Permissions-Policy: ch-ua=(self "https://ase.clmbtech.com" "https://ade.clmbtech.com"), ch-ua-model=(self "https://ase.clmbtech.com" "https://ade.clmbtech.com"), ch-ua-mobile=(self "https://ase.clmbtech.com" "https://ade.clmbtech.com"), ch-ua-platform=(self "https://ase.clmbtech.com" "https://ade.clmbtech.com"), ch-ua-platform-version=(self "https://ase.clmbtech.com" "https://ade.clmbtech.com")
+Accept-CH: Sec-CH-UA, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+
+HTTP/1.1 403 Forbidden
+Server: AkamaiGHost
+Mime-Version: 1.0
+Content-Type: text/html
+Content-Length: 372
+Cache-Control: max-age=0
+Expires: Sun, 05 Oct 2025 05:45:39 GMT
+Date: Sun, 05 Oct 2025 05:45:39 GMT
+Connection: close
+Alt-Svc: h3=":443"; ma=93600
+GEO-INFO: Country:US;Continent:NA
+Permissions-Policy: ch-ua=(self "https://ase.clmbtech.com" "https://ade.clmbtech.com"), ch-ua-model=(self "https://ase.clmbtech.com" "https://ade.clmbtech.com"), ch-ua-mobile=(self "https://ase.clmbtech.com" "https://ade.clmbtech.com"), ch-ua-platform=(self "https://ase.clmbtech.com" "https://ade.clmbtech.com"), ch-ua-platform-version=(self "https://ase.clmbtech.com" "https://ade.clmbtech.com")
+Accept-CH: Sec-CH-UA, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version

@@ -1,0 +1,35 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://goodreads.com
+HTTP/1.1 301 Moved Permanently
+Server: Server
+Date: Sun, 05 Oct 2025 06:09:21 GMT
+Content-Type: text/html
+Connection: keep-alive
+x-amz-rid: E0XT7RDAEZJTA4VYFS4Y
+Location: https://www.goodreads.com/
+X-Content-Type-Options: nosniff
+Vary: Content-Type,Accept-Encoding,User-Agent
+Strict-Transport-Security: max-age=47474747; includeSubDomains; preload
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Connection: keep-alive
+Server: Server
+Date: Sun, 05 Oct 2025 06:09:21 GMT
+x-amz-rid: 8Y49DKF8BQK6SF0P8GE7
+Set-Cookie: ccsid=723-4339078-2318375; path=/; expires=Thu, 05 Oct 2045 06:09:21 -0000
+Set-Cookie: locale=en; path=/
+Set-Cookie: _session_id2=2bdc03185a5f5cd7d8a5edf60f1be58e; path=/; expires=Sun, 05 Oct 2025 12:09:21 -0000; HttpOnly
+X-Frame-Options: SAMEORIGIN
+X-XSS-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+ETag: W/"694b367a757a477dfb660eacf519bde9"
+Cache-Control: max-age=0, private, must-revalidate
+X-Request-Id: 8Y49DKF8BQK6SF0P8GE7
+X-Runtime: 0.086206
+X-Content-Type-Options: nosniff
+Vary: User-Agent,Content-Type,Accept-Encoding,User-Agent
+X-Cache: Miss from cloudfront
+Via: 1.1 d4de91d5c279b27ea4328258b7b129ec.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: ATL58-P1
+X-Amz-Cf-Id: WP0ztopXJrNj7bZU5dIlpzYmQPRL9_YWC6rgmkPYbGiGaBaKNm9LKg==

@@ -1,0 +1,48 @@
+HTTP/1.1 301 Moved Permanently
+Server: AkamaiGHost
+Content-Length: 0
+Location: http://www.ap.org/
+Expires: Sat, 04 Oct 2025 03:29:07 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sat, 04 Oct 2025 03:29:07 GMT
+Connection: keep-alive
+
+HTTP/1.1 301 Moved Permanently
+Date: Sat, 04 Oct 2025 03:29:07 GMT
+Content-Type: text/html
+Connection: keep-alive
+CF-RAY: 989197d6bdf99d90-IAD
+Location: https://www.ap.org/
+cf-cache-status: DYNAMIC
+Set-Cookie: __cf_bm=0iHzIJupsPIUsYNIOk7jgE9QDQpelVSsDCFJsagXPrA-1759548547-1.0.1.1-OZB2p1822RV_Ppj7DtIwa65AsmTVsCO7QdQ_fpzQxPtTEl03uXv3RJUJrcLmahFEe2.aD7E2B_YX6EhiDOuzclAjZ98CHA8acI3q_abxwu8; path=/; expires=Sat, 04-Oct-25 03:59:07 GMT; domain=.www.ap.org; HttpOnly
+Server: cloudflare
+alt-svc: h3=":443"; ma=86400
+
+HTTP/1.1 200 OK
+Date: Sat, 04 Oct 2025 03:29:08 GMT
+Content-Type: text/html; charset=UTF-8
+Connection: keep-alive
+CF-RAY: 989197d87defa629-IAD
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Vary: Accept-Encoding,Cookie
+Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: *.pardot.com *.powr.io *.zi-scripts.com *.crazyegg.com *.stackadapt.com *.twitter.com *.googletagmanager.com *.googleapis.com *.marker.io *.cookielaw.org *.licdn.com *.adnxs.com *.collect.igodigital.com *.igodigital.com *.ap.org *.vimeo.com; style-src 'self' 'unsafe-inline' *.stackadapt.com *.cookielaw.org *.googleapis.com; img-src 'self' data: *.powr.io *.stackadapt.com *.w.org *.cookielaw.org *.adnxs.com *.twitter.com *.x.com *.linkedin.com *.gravatar.com *.cookielaw.org *.collect.igodigital.com *.igodigital.com; connect-src 'self' *.powr.io *.zi-scripts.com *.zoominfo.com *.adnxs.com *.crazyegg.com *.stackadapt.com *.cookielaw.org *.onetrust.com yoast.com *.google-analytics.com *.linkedin.com *.marker.io; font-src data: 'self' *.wp.com *.google.com *.gstatic.com; frame-src 'self' *.powr.io *.ap-mail.org *.ap.org *.soundcloud.com *.vimeo.com *.youtube.com *.marker.io *.twitter.com *.sociablekit.com blob:;
+Link: <https://www.ap.org/wp-json/>; rel="https://api.w.org/"
+Link: <https://www.ap.org/wp-json/wp/v2/pages/326>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://www.ap.org/>; rel=shortlink
+Referrer-Policy: no-referrer-when-downgrade
+Strict-Transport-Security: max-age=31536000; includeSubdomain;
+X-Content-Type-Options: nosniff
+X-Powered-By: WP Engine
+X-Xss-Protection: 0; mode=block
+X-Cacheable: YES:600.000
+Cache-Control: max-age=600, must-revalidate
+X-Cache: HIT: 25
+X-Cache-Group: normal
+cf-cache-status: DYNAMIC
+Set-Cookie: __cf_bm=_pFhB3uOVGnTwLE4Ae7erKUaRBzLyvYurb.s1KfWkGw-1759548548-1.0.1.1-TS3tVUjPN2dlZ4W9B8p4B17R1I23209Kp3h6w5GAOYn0bB87UVHYo08xK_keCGFbY19udzh_EWqX3UlsN1Q3yJcivxmxjWCQIPRRQ4Nl2Zg; path=/; expires=Sat, 04-Oct-25 03:59:08 GMT; domain=.www.ap.org; HttpOnly; Secure; SameSite=None
+Server: cloudflare
+alt-svc: h3=":443"; ma=86400
+

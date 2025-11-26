@@ -1,0 +1,10 @@
+C:\Users\joel2>curl -I -L -k -c cookies.txt https://storage.googleapis.com
+HTTP/1.1 400 Bad Request
+Content-Type: application/xml; charset=UTF-8
+X-GUploader-UploadID: AAwnv3LFroofmmq1sMr1LK646J522b8LfN4b2NWduWUe3LFQx0OD5D0O_ZfpN62IA3JOWYHO
+Content-Length: 181
+Date: Sun, 05 Oct 2025 05:54:10 GMT
+Expires: Sun, 05 Oct 2025 05:54:10 GMT
+Cache-Control: private, max-age=0
+Server: UploadServer
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
